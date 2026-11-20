@@ -1,0 +1,81 @@
+id,text,sprache,gruppe,label_person1
+R001,Können wir mehr Beispiele zur linearen Regression bearbeiten?,de,fixture,content
+R002,Gibt es ein weiteres Beispiel zur linearen Regression?,de,fixture,content
+R003,Ist Kapitel 4 klausurrelevant?,de,fixture,organization
+R004,Müssen wir den vierten Abschnitt für die Prüfung lernen?,de,fixture,organization
+R005,Soll die Anwesenheit verpflichtend sein?,de,fixture,organization
+R006,Sollten wir eine Anwesenheitspflicht einführen?,de,fixture,organization
+R007,Klausur wann?,de,kurz,organization
+R008,WLAN geht nicht,de,kurz,technical
+R009,Folien online?,de,kurz,organization
+R010,Was ist Varianz?,de,kurz,content
+R011,Mikro aus?,de,kurz,technical
+R012,Wird die Vorlesung auch als Video bereitgestellt?,de,paraphrase,organization
+R013,Kann man die Aufzeichnung später nochmal ansehen?,de,paraphrase,organization
+R014,Was unterscheidet Korrelation von Kausalität?,de,paraphrase,content
+R015,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?,de,paraphrase,content
+R016,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?,de,paraphrase,organization
+R017,Wann ist die Deadline für Blatt 3?,de,paraphrase,organization
+R018,"Die Seite lädt bei mir nicht, liegt das am Server?",de,paraphrase,technical
+R019,Wie berechent man den Standradfehler?,de,tippfehler,content
+R020,Gibts die Folein auch als PDF?,de,tippfehler,organization
+R021,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne",de,tippfehler,technical
+R022,Zält die Hausübung zur Endnote?,de,tippfehler,organization
+R023,Wie interpretiert man einen kleinen p-Wert richitg?,de,tippfehler,content
+R024,"Check ich nicht, wieso ist das Intervall so breit?",de,slang,content
+R025,"Mega Lag gerade, bin ich der Einzige?",de,slang,technical
+R026,Kommt das Zeug echt alles dran?,de,slang,organization
+R027,Läuft die App auch aufm Handy oder nur am Laptop?,de,slang,technical
+R028,"Bro, was war nochmal die Formel für die Steigung?",de,slang,content
+R029,Können wir das nochmal machen?,de,mehrdeutig,content
+R030,Gibt es dafür noch einen anderen Weg?,de,mehrdeutig,content
+R031,Ist das wichtig?,de,mehrdeutig,organization
+R032,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?",de,mehrdeutig,technical
+R033,Gibt es zu Kapitel 5 noch Material?,de,mehrdeutig,organization
+R034,Kann man die Übungsaufgaben auch in R statt Python lösen?,de,mehrdeutig,organization
+R035,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?,de,mehrdeutig,organization
+R036,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?",de,mehrdeutig,organization
+R037,Exam date?,en,kurz,organization
+R038,Sound is gone,en,kurz,technical
+R039,Slides uploaded?,en,kurz,organization
+R040,What is a residual?,en,kurz,content
+R041,Break soon?,en,kurz,organization
+R042,Will the recording be available after class?,en,paraphrase,organization
+R043,Can we rewatch today's session later?,en,paraphrase,organization
+R044,What is the difference between mean and median?,en,paraphrase,content
+R045,Why is the median more robust than the mean?,en,paraphrase,content
+R046,Is the deadline for the project still Friday?,en,paraphrase,organization
+R047,When exactly is the project due?,en,paraphrase,organization
+R048,How do I interpert the confidence intervall?,en,tippfehler,content
+R049,The link to the quizz doesn't open on my phone,en,tippfehler,technical
+R050,Is attendence mandatory for the lab sessions?,en,tippfehler,organization
+R051,Can you explian the null hypothesis again?,en,tippfehler,content
+R052,"lowkey lost on the last slide, can you go over it?",en,slang,content
+R053,is the exam gonna be brutal or chill?,en,slang,organization
+R054,app keeps crashing ngl,en,slang,technical
+R055,tbh no clue what a z-score is,en,slang,content
+R056,Could you scroll up a bit?,en,mehrdeutig,organization
+R057,Is this going to be relevant?,en,mehrdeutig,organization
+R058,Why doesn't my code give the same result as on the slide?,en,mehrdeutig,content
+R059,Do we need to know the derivation?,en,mehrdeutig,organization
+R060,Can you upload this?,en,mehrdeutig,organization
+R061,Quand est l'examen ?,fr,kurz,organization
+R062,Le son ne marche pas,fr,kurz,technical
+R063,Est-ce que la séance sera enregistrée ?,fr,paraphrase,organization
+R064,Pourrait-on revoir la vidéo du cours plus tard ?,fr,paraphrase,organization
+R065,Comment obtient-on l'écart-type à partir des données ?,fr,paraphrase,content
+R066,Pourquoi divise-t-on par n-1 pour la variance ?,fr,paraphrase,content
+R067,Je n'arrive pas a me connecter a la plateform,fr,tippfehler,technical
+R068,"C'est quoi la diff entre régression et corrélation, j'ai rien capté",fr,slang,content
+R069,Est-ce que c'est important pour la suite ?,fr,mehrdeutig,organization
+R070,Le devoir compte combien dans la note finale ?,fr,mehrdeutig,organization
+R071,¿Cuándo es el examen?,es,kurz,organization
+R072,No se oye nada,es,kurz,technical
+R073,¿Se va a grabar la clase?,es,paraphrase,organization
+R074,¿Podemos ver la grabación después?,es,paraphrase,organization
+R075,¿Qué significa un intervalo de confianza del 95 %?,es,paraphrase,content
+R076,¿Cómo se interpreta el coeficiente de determinación?,es,paraphrase,content
+R077,La aplicasion no me carga en el movil,es,tippfehler,technical
+R078,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?",es,slang,content
+R079,¿Esto entra?,es,mehrdeutig,organization
+R080,¿Hay que venir obligatoriamente a las prácticas?,es,mehrdeutig,organization

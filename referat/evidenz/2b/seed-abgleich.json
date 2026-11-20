@@ -1,0 +1,32 @@
+{
+ "seedTexte": 186,
+ "naheTreffer": [
+  [
+   "Ist Kapitel 4 klausurrelevant?",
+   0.79,
+   "Ist Aufgabe 3 klausurrelevant?"
+  ]
+ ],
+ "top5": [
+  [
+   0.79,
+   "Ist Kapitel 4 klausurrelevant?"
+  ],
+  [
+   0.74,
+   "Exam date?"
+  ],
+  [
+   0.71,
+   "Quand est l'examen ?"
+  ],
+  [
+   0.69,
+   "What is the difference between mean and median?"
+  ],
+  [
+   0.69,
+   "WLAN geht nicht"
+  ]
+ ]
+}
