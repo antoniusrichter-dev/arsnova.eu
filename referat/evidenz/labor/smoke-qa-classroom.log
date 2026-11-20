@@ -1,0 +1,67 @@
+{
+  "scenario": "qa-classroom",
+  "code": "44PHA3",
+  "sessionId": "560f08fb-d6a4-42d5-a668-071e94daaa7b",
+  "participants": 5,
+  "qaConfiguredClosesAt": "2026-11-21T08:31:52.909Z",
+  "qaStartStatus": "ACTIVE",
+  "questionsPerParticipant": 3,
+  "expectedQuestions": 15,
+  "submittedQuestions": 15,
+  "submitPhase": {
+    "totalDurationMs": 161,
+    "p50Ms": 69,
+    "p95Ms": 161,
+    "maxMs": 161,
+    "replayed": 0,
+    "participantsAtExpectedQuota": 5,
+    "maxSessionQuestionCount": 15
+  },
+  "votesPerParticipant": {
+    "up": 3,
+    "down": 3
+  },
+  "expectedVotes": 30,
+  "votePhase": {
+    "accepted": 30,
+    "rejected": 0,
+    "totalDurationMs": 307
+  },
+  "hostModeration": {
+    "pin": 1,
+    "archive": 1,
+    "delete": 1,
+    "attempted": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "errors": {},
+    "results": [
+      {
+        "questionId": "1f7da6eb-db98-480f-a11d-09c3baa54ccc",
+        "action": "PIN",
+        "status": "PINNED"
+      },
+      {
+        "questionId": "ad11725a-cadf-4df2-bdb2-fe71194d2479",
+        "action": "ARCHIVE",
+        "status": "ARCHIVED"
+      },
+      {
+        "questionId": "13c528b7-46ce-4af7-a615-28bda3c0c462",
+        "action": "DELETE",
+        "status": "DELETED"
+      }
+    ]
+  },
+  "finalStatusCounts": {
+    "PINNED": 1,
+    "ACTIVE": 12,
+    "ARCHIVED": 1
+  },
+  "hostListPages": 1,
+  "hostListTotalCount": 14,
+  "expectedVisibleAfterModeration": 14,
+  "visibleAfterModeration": 14
+}
+
+OK Q&A-Unterrichtsszenario (30 TN, Fragen + Votes + Moderation) bestanden.

@@ -1,0 +1,17 @@
+Fixture referat-thema2-sechs-fragen-v1 · Fall P200 · P = 200 · Faktor 1
+  A: 80/30 (Fixture 80/30)
+  B: 10/0 (Fixture 10/0)
+  C: 30/0 (Fixture 30/0)
+  D: 12/0 (Fixture 12/0)
+  E: 40/40 (Fixture 40/40)
+  F: 20/20 (Fixture 20/20)
+Session MNS434 (4b408c81-f9b5-420c-aded-670e10f77f1f) · Teilnehmende 200 · Stimm-Zeilen 282
+Lernziel: —
+  A qa-question:6a86517f-5b17-4340-8270-f13fe1908026: Ist 80/30 ACTIVE (Soll 80/30)
+  B qa-question:8defa90a-7041-42de-a0f5-88b723bb5785: Ist 10/0 ACTIVE (Soll 10/0)
+  C qa-question:65717227-7685-4caa-8f76-52dbf984da0c: Ist 30/0 ACTIVE (Soll 30/0)
+  D qa-question:c3b94a9e-fac3-4e93-bd5a-820bae55d32b: Ist 12/0 ACTIVE (Soll 12/0)
+  E qa-question:0e686d68-09a8-47df-88be-0f656b28b01f: Ist 40/40 ACTIVE (Soll 40/40)
+  F qa-question:7fbf1043-fdf9-42d9-bc22-bafea213406e: Ist 20/20 ACTIVE (Soll 20/20)
+Host-Token: in referat/.local/host-MNS434.json (nicht ausgegeben)
+Prüfung: ok

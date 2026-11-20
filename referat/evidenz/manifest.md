@@ -105,3 +105,45 @@ Alle Kill-Switches aktivieren nur bei exakt `true`.
 Weitere `QA_NLP_*`/`QA_SUMMARY_*`/`OPEN_WEIGHT_LLM_*`-Bezeichner in `apps/backend/src`
 sind Code-Konstanten (Grenzen, Vertragsversionen), keine Umgebungsvariablen, und
 werden hier nicht als Flags geführt.
+
+## Private LLM-Runtime 2C (Schritt 5.1, erhoben 2026-11-20)
+
+Same-Host-Laborprofil `llm-http` aus `docker-compose.yml`, unverändert. Gebaut aus einem
+LF-Export von `efd71b44` (`git -c core.autocrlf=false archive`), weil der Arbeits-Checkout
+wegen `core.autocrlf=true` CRLF-Skripte enthält. Rohdaten: `referat/evidenz/2c/runtime/`.
+
+| Merkmal | Wert |
+| ------- | ---- |
+| Modell | Qwen3-4B-Instruct-2507, Q4_K_M, Apache-2.0 (`docker/open-weight-llm/model-manifest.json`) |
+| GGUF-Quelle | `unsloth/Qwen3-4B-Instruct-2507-GGUF` @ `a06e946bb6b655725eafa393f4a9745d460374c9` |
+| GGUF-Digest | sha256 `3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597`, 2.497.281.120 B (geprüft mit `verify-model.mjs` und im Entry-Point) |
+| GGUF-Ablage | `~/models/open-weight-llm/` (außerhalb des Repos), per `OPEN_WEIGHT_LLM_MODEL_DIR` read-only nach `/models` |
+| Basis-Image | `ghcr.io/ggml-org/llama.cpp:server-b10524@sha256:57e505f69c3a55fa5dd9c15fced47cff7a899f5b5b504ea93d75b2f401b87830` (`/props` → `build_info` `b10524-9ee9fc04c`) |
+| Lokales Image | `arsnova-open-weight-llm:llama-b10524` = `sha256:cb50fb7fc83f3d795f4fd4e974e28536fbd6ee44161a4008400fdd5b1c3c12ab` (lokal gebaut; ID ändert sich je Build, frühere Builds `6f1957ce…`, `b33d33ac…`) |
+| Serverparameter | `--ctx-size 8192`, `--parallel 1` (`total_slots` 1), `--n-predict 768`, `--threads 4`, `--threads-batch 4`, `--n-gpu-layers 0`, `--reasoning off`, `--jinja`, `--offline` (`docker/open-weight-llm/entrypoint.sh`; ctx und Slots per `/props` bestätigt) |
+| Containerlimits | `mem_limit` 5 GiB (5.368.709.120 B), MemorySwap 10 GiB (Docker-Default 2×, in Compose nicht gesetzt), `cpus` 4.0, `pids_limit` 128, read-only, `cap_drop ALL`, `no-new-privileges`, `init`, tmpfs `/tmp` 128 MiB |
+| Netz | `network_mode: host`, Bind `127.0.0.1:8080` (Docker Desktop „Host networking“ aktiviert). Erreichbar nur über `127.0.0.1`/`localhost`; WSL-eth0 und `[::1]` abgewiesen; Windows-Listener `127.0.0.1:8080`. API mit Bearer-Token (Compose-Default, nicht protokolliert), `/v1/models` ohne Token → 401 |
+| Start bis healthy | 12 s (Image aus Cache; erster Build mit Pull ≈ 45 s) |
+
+**Health-Probe** `health.openWeightLlmProbe` (live, Backend lokal mit `OPEN_WEIGHT_LLM_ENABLED=true`):
+`overall: ok`, HTTP 200, 67,6 s gesamt; `topic_label` ok 5,3 s, `qa_summary` ok 48,3 s,
+`learning_objectives` ok 14,0 s.
+
+**Speicher während der Probe** (Maxima, 1-s-Sampling; Limit 5 GiB):
+
+| Größe | Leerlauf vorher | Probe-Peak | Bedeutung |
+| ----- | --------------: | ---------: | --------- |
+| Prozess `RssAnon` (llama-server) | 2,82 GiB | **3,19 GiB** | tatsächlicher Prozessspeicher (KV-Cache, Puffer) |
+| Prozess `RssFile` | 2,31 GiB | 2,31 GiB | per mmap eingeblendete GGUF-Seiten (Page Cache) |
+| Prozess `VmRSS` (Summe) | 5,13 GiB | 5,50 GiB | übersteigt das Limit, weil die GGUF-Seiten nicht dem Container-cgroup angerechnet werden |
+| cgroup `anon` / `file` / `file_mapped` | 2,83 / 0,24 / 0,21 GiB | 3,20 / 0,24 / 0,21 GiB | dem Limit angerechnet |
+| cgroup `memory.current` / `memory.peak` | 3,08 / 3,13 GiB | 3,45 / **3,46 GiB** | `peak` seit Containerstart |
+| `docker stats` MemUsage | 2,94 GiB | **3,31 GiB** | `current` abzüglich `inactive_file` |
+| Swap (`memory.swap.current`, `VmSwap`) | 0 | **0** | |
+| OOM (`memory.events` oom/oom_kill/max/high) | 0 | **0** | `OOMKilled=false`, 0 Restarts |
+| CPU (`docker stats`) | 6 % | 403 % | Limit 4 CPUs ausgeschöpft |
+
+Hinweis: Im ersten Start (Versuch 2, vor dem Docker-Neustart) waren 2,27 GB `file_mapped`
+dem cgroup angerechnet, `memory.peak` erreichte das Limit (5 GiB) und 11,7 MB lagen im Swap.
+Die Ursache des Unterschieds (Page-Cache-Zuordnung unter Docker Desktop) ist nicht geklärt.
+Für Aussagen zum Limit zählt `RssAnon`/cgroup `anon`.

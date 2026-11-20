@@ -1,0 +1,29 @@
+{
+    "result": {
+        "data": {
+            "enabled": true,
+            "overall": "ok",
+            "checkedAt": "2026-11-20T11:24:02.523Z",
+            "cache": "live",
+            "modelAlias": "qwen3-4b-instruct-2507-q4_k_m",
+            "modelReported": "qwen3-4b-instruct-2507-q4_k_m",
+            "tasks": {
+                "topic_label": {
+                    "status": "ok",
+                    "elapsedMs": 5349,
+                    "reason": null
+                },
+                "qa_summary": {
+                    "status": "ok",
+                    "elapsedMs": 48264,
+                    "reason": null
+                },
+                "learning_objectives": {
+                    "status": "ok",
+                    "elapsedMs": 14009,
+                    "reason": null
+                }
+            }
+        }
+    }
+}

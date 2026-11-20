@@ -1,0 +1,20 @@
+2026-11-20T09:18:17+01:00
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+exec /app/scripts/docker-entrypoint.sh: no such file or directory
+arsnova-v3-app
+arsnova-v3-app Exited (255) 59 seconds ago
+arsnova-v3-postgres Up 8 minutes (healthy)
+arsnova-v3-redis Up 8 minutes (healthy)

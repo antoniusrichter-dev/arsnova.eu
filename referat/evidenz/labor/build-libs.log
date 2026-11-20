@@ -1,0 +1,19 @@
+
+> arsnova-eu@1.3.0 build:libs
+> npm run build -w @arsnova/shared-types && npm run build -w @arsnova/session-export-report
+
+
+> @arsnova/shared-types@1.3.0 build
+> tsc && node scripts/fix-esm-imports.mjs
+
+fix-esm-imports: patched 12 file(s) in libs/shared-types/dist/
+
+> @arsnova/session-export-report@1.3.0 build
+> tsc && node ../../scripts/fix-esm-imports.mjs dist
+
+fix-esm-imports: patched 12 file(s) in libs/session-export-report/dist/
+
+real	0m12.411s
+user	0m7.634s
+sys	0m1.651s
+exit=0

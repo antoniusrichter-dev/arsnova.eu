@@ -1,0 +1,48 @@
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+npm warn deprecated level-errors@2.0.1: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated level-concat-iterator@2.0.1: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated deferred-leveldown@5.3.0: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated encoding-down@6.3.0: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated levelup@4.4.0: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated level-js@5.0.2: Superseded by browser-level (https://github.com/Level/community#faq)
+npm warn deprecated level-codec@9.0.2: Superseded by level-transcoder (https://github.com/Level/community#faq)
+npm warn deprecated level-packager@5.1.1: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated abstract-leveldown@6.2.3: Superseded by abstract-level (https://github.com/Level/community#faq)
+npm warn deprecated @angular/animations@22.2.3: @angular/animations is deprecated. Use `animate.enter` and `animate.leave` instead. For more information see: https://v22.angular.dev/guide/animations.
+npm warn deprecated @ngtools/webpack@22.2.3: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
+npm warn deprecated leveldown@5.6.0: Superseded by classic-level (https://github.com/Level/community#faq)
+npm warn deprecated @angular-devkit/build-angular@22.2.3: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
+
+> arsnova-eu@1.3.0 prepare
+> husky || true
+
+
+added 1858 packages, and audited 1864 packages in 7m
+
+57 vulnerabilities (4 low, 37 moderate, 13 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 10 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   @parcel/watcher@2.6.0 (install: node scripts/build-from-source.js)
+npm warn allow-scripts   @playwright/browser-chromium@1.61.0 (install: node install.js)
+npm warn allow-scripts   @prisma/engines@7.9.1 (postinstall: node scripts/postinstall.js)
+npm warn allow-scripts   esbuild@0.28.2 (postinstall: node install.js)
+npm warn allow-scripts   leveldown@5.6.0 (install: node-gyp-build)
+npm warn allow-scripts   lmdb@3.5.6 (install: node-gyp-build-optional-packages)
+npm warn allow-scripts   msgpackr-extract@3.0.4 (install: node-gyp-build-optional-packages)
+npm warn allow-scripts   prisma@7.9.1 (preinstall: node scripts/preinstall-entry.js)
+npm warn allow-scripts   protobufjs@7.6.5 (postinstall: node scripts/postinstall)
+npm warn allow-scripts   unix-dgram@2.0.7 (install: node-gyp rebuild)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+
+real	7m16.721s
+user	1m36.343s
+sys	2m29.029s
+exit=0

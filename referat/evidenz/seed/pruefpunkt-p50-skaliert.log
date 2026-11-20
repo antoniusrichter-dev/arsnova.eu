@@ -1,0 +1,17 @@
+Fixture referat-thema2-sechs-fragen-v1 · Fall P50-skaliert · P = 50 · Faktor 0.4
+  A: 32/12 (Fixture 80/30)
+  B: 4/0 (Fixture 10/0)
+  C: 12/0 (Fixture 30/0)
+  D: 5/0 (Fixture 12/0)
+  E: 16/16 (Fixture 40/40)
+  F: 8/8 (Fixture 20/20)
+Session 4HP8T2 (37c59f72-0953-44da-b111-727207595c48) · Teilnehmende 50 · Stimm-Zeilen 113
+Lernziel: confirmed – Die Studierenden können lineare Regressionsmodelle anwenden.
+  A qa-question:fe919f9b-fef6-45be-93ea-06b61dda6783: Ist 32/12 ACTIVE (Soll 32/12)
+  B qa-question:1c0b8b2a-405e-4202-9362-7d71950d862d: Ist 4/0 ACTIVE (Soll 4/0)
+  C qa-question:b314683e-a451-49db-93e8-2521a84eace8: Ist 12/0 ACTIVE (Soll 12/0)
+  D qa-question:fab26eda-db95-446a-952b-3ff97959e64b: Ist 5/0 ACTIVE (Soll 5/0)
+  E qa-question:79d73d80-631f-4d4f-9a78-b3a8ed76a892: Ist 16/16 ACTIVE (Soll 16/16)
+  F qa-question:2da48bd2-3337-4f1d-8124-6d184ec2679d: Ist 8/8 ACTIVE (Soll 8/8)
+Host-Token: in referat/.local/host-4HP8T2.json (nicht ausgegeben)
+Prüfung: ok

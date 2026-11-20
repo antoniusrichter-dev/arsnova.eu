@@ -1,0 +1,18 @@
+Fixture referat-thema2-sechs-fragen-v1 · Fall P200 · P = 200 · Faktor 1
+  A: 80/30 (Fixture 80/30)
+  B: 10/0 (Fixture 10/0)
+  C: 30/0 (Fixture 30/0)
+  D: 12/0 (Fixture 12/0)
+  E: 40/40 (Fixture 40/40)
+  F: 20/20 (Fixture 20/20)
+Session 6X3D44 (8b19aac0-596d-403c-8b4d-ae2b989dc0bd) · Teilnehmende 200 · Stimm-Zeilen 282
+Lernziel: —
+  A qa-question:242d30fb-2c9b-4fa8-80ef-97df11aae8c3: Ist 80/30 ACTIVE (Soll 80/30)
+  B qa-question:804e5553-a15f-48c9-a62d-aef3edf12673: Ist 10/0 ACTIVE (Soll 10/0)
+  C qa-question:a2d3bd16-993e-49cd-a4d6-c7214c8f1a2b: Ist 30/0 ACTIVE (Soll 30/0)
+  D qa-question:f4089e95-c630-489a-9d10-612198e8b959: Ist 12/0 ACTIVE (Soll 12/0)
+  E qa-question:8b958a8e-05e6-4522-aa7a-738b1198f80a: Ist 40/40 ACTIVE (Soll 40/40)
+  F qa-question:748a4e51-1086-4b1f-b10d-f928c00d6a49: Ist 20/20 ACTIVE (Soll 20/20)
+Host-Token: in referat/.local/host-6X3D44.json (nicht ausgegeben)
+Prüfung: ok
+Dauer 12.11 s

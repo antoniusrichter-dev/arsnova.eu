@@ -1,0 +1,18 @@
+Fixture referat-thema2-sechs-fragen-v1 · Fall P1000 · P = 1000 · Faktor 1
+  A: 80/30 (Fixture 80/30)
+  B: 10/0 (Fixture 10/0)
+  C: 30/0 (Fixture 30/0)
+  D: 12/0 (Fixture 12/0)
+  E: 40/40 (Fixture 40/40)
+  F: 20/20 (Fixture 20/20)
+Session U3V79P (a775786e-491b-4932-a135-14a0e008ab09) · Teilnehmende 1000 · Stimm-Zeilen 282
+Lernziel: —
+  A qa-question:4a9b10bb-be20-4c21-ac0c-796da8236231: Ist 80/30 ACTIVE (Soll 80/30)
+  B qa-question:ba769b10-7d9c-47ad-8b3c-962f1267eb50: Ist 10/0 ACTIVE (Soll 10/0)
+  C qa-question:17bbbab4-0b5e-47d0-9979-2fd2d6472488: Ist 30/0 ACTIVE (Soll 30/0)
+  D qa-question:d39d02f0-3a61-4c25-aee2-2c1af3fee43b: Ist 12/0 ACTIVE (Soll 12/0)
+  E qa-question:9df7ecf1-c9de-47de-8c08-e6fb728b2b9a: Ist 40/40 ACTIVE (Soll 40/40)
+  F qa-question:565ffb22-06bd-4ea1-be31-fede76addfb7: Ist 20/20 ACTIVE (Soll 20/20)
+Host-Token: in referat/.local/host-U3V79P.json (nicht ausgegeben)
+Prüfung: ok
+Dauer 12.72 s

@@ -1,0 +1,17 @@
+
+> arsnova-eu@1.3.0 prisma:migrate
+> PRISMA_HIDE_UPDATE_MESSAGE=true prisma migrate deploy --schema prisma/schema.prisma
+
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma/schema.prisma.
+Datasource "db": PostgreSQL database "arsnova_v3_dev", schema "public" at "localhost:5432"
+
+Error: P1001: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+
+real	0m12.890s
+user	0m1.185s
+sys	0m0.915s
+exit=1

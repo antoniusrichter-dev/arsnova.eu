@@ -1,0 +1,30 @@
+
+> arsnova-eu@1.3.0 dev:frontend
+> npm run start:de -w @arsnova/frontend
+
+
+> @arsnova/frontend@1.3.0 start:de
+> ng serve --proxy-config proxy.conf.json
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names                                        |  Raw size
+main.js             | main                                         | 299.98 kB | 
+chunk-LQUDVFE2.js   | -                                            | 214.60 kB | 
+styles.css          | styles                                       | 202.83 kB | 
+chunk-SPKHFE6Y.js   | -                                            |  69.80 kB | 
+chunk-XVLTRQMF.js   | -                                            |  57.22 kB | 
+chunk-KUNI36ZW.js   | -                                            |  28.93 kB | 
+chunk-Z5P3UX3B.js   | -                                            |  22.48 kB | 
+chunk-7O6EHOT4.js   | -                                            |  21.95 kB | 
+chunk-OP65W4D4.js   | -                                            |  19.80 kB | 
+chunk-2NDULDCU.js   | -                                            |  14.86 kB | 
+chunk-KYEZJP4X.js   | -                                            |  10.73 kB | 
+chunk-KMMNSTVX.js   | -                                            |   6.58 kB | 
+chunk-ZRARUKFF.js   | -                                            |   6.39 kB | 
+chunk-XUSZ4ZDY.js   | -                                            |   5.15 kB | 
+chunk-Z3UKMSKC.js   | -                                            |   4.49 kB | 
+chunk-5PG56E7L.js   | -                                            |   3.41 kB | 
+chunk-EY5SA772.js   | -                                            |   3.40 kB | 
+chunk-Q2HH72T5.js   | -                                            |   3.39 kB | 
+polyfills.js        | polyfills                                    |   3.05 kB | 

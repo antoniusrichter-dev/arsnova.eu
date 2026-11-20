@@ -1,0 +1,26 @@
+
+> arsnova-eu@1.3.0 dev:backend
+> node scripts/migrate-dev-database.mjs && node scripts/free-dev-ports.mjs --ports=3000,3001,3002 && npm run dev -w @arsnova/backend
+
+Datenbank wird geprüft …
+Loaded Prisma config from prisma.config.ts.
+
+Prisma schema loaded from prisma/schema.prisma.
+✓ Datenbank bereit: 104 vorbereitete Aktualisierungen wurden geprüft; fehlende Aktualisierungen wurden automatisch eingespielt.
+Hinweise für die Startseite werden vorbereitet …
+✓ Startseiten-Hinweise geprüft: Willkommen, Making-of und aktuelle Funktionen.
+Lokale App- und KI-Dienste werden vorbereitet …
+Port 3000 freigegeben – Backend und Schnittstelle zwischen Weboberfläche und Datenbank.
+Port 3001 freigegeben – Live-Aktualisierungen, zum Beispiel neue Fragen und Abstimmungen.
+Port 3002 freigegeben – gemeinsame Quizbearbeitung und Synchronisierung zwischen Geräten.
+✓ Alle benötigten lokalen Anschlüsse sind bereit (3000, 3001, 3002).
+
+> @arsnova/backend@1.3.0 dev
+> tsx watch src/index.ts
+
+◇ injected env (103) from ../../.env // tip: ◈ encrypted .env [www.dotenvx.com]
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002

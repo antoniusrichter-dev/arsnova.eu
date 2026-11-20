@@ -1,0 +1,40 @@
+{
+  "schritt": "5.1",
+  "datum": "2026-11-20",
+  "head": "905250f2",
+  "produktcode": "efd71b44d4fd32d711cd483606ce5eefd1e9af5b",
+  "runtimeQuelle": "LF-Export: git -c core.autocrlf=false archive efd71b44 -> ~/arsnova-llm-runtime",
+  "gguf": {
+    "pfad": "~/models/open-weight-llm/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "sourceRevision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+    "sizeBytes": 2497281120,
+    "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+    "verify": "verify-model.mjs ok; entrypoint.sh prüft beim Start erneut"
+  },
+  "image": {
+    "lokal": "arsnova-open-weight-llm:llama-b10524",
+    "id": "sha256:cb50fb7fc83f3d795f4fd4e974e28536fbd6ee44161a4008400fdd5b1c3c12ab",
+    "basis": "ghcr.io/ggml-org/llama.cpp:server-b10524@sha256:57e505f69c3a55fa5dd9c15fced47cff7a899f5b5b504ea93d75b2f401b87830",
+    "buildInfo": "b10524-9ee9fc04c"
+  },
+  "server": { "ctxSize": 8192, "parallel": 1, "totalSlots": 1, "nPredict": 768, "threads": 4, "threadsBatch": 4, "nGpuLayers": 0, "reasoning": "off", "alias": "qwen3-4b-instruct-2507-q4_k_m" },
+  "containerLimits": { "memLimitBytes": 5368709120, "memSwapLimitBytes": 10737418240, "memSwapHinweis": "Docker-Default 2x mem_limit, in Compose nicht gesetzt", "cpus": 4.0, "pidsLimit": 128, "readOnly": true, "capDrop": ["ALL"], "securityOpt": ["no-new-privileges:true"], "init": true, "tmpfs": "/tmp 128m noexec,nosuid,nodev", "networkMode": "host", "bind": "127.0.0.1:8080" },
+  "erreichbarkeit": { "127.0.0.1:8080/health": 200, "localhost:8080/health": 200, "WSL-eth0:8080": "refused", "[::1]:8080": "refused", "Windows-Listener": "127.0.0.1:8080", "/v1/models ohne Token": 401 },
+  "probe": { "aufruf": "GET http://127.0.0.1:3000/trpc/health.openWeightLlmProbe", "http": 200, "dauerMs": 67643, "overall": "ok", "cache": "live", "topic_label_ms": 5349, "qa_summary_ms": 48264, "learning_objectives_ms": 14009 },
+  "speicherProbe": {
+    "quelle": "mem-probe.csv (1 s, cgroup v2 + /proc/<llama-server>/status), docker-stats-probe.csv (Stream)",
+    "dockerStatsMaxGiB": 3.311,
+    "cgroupCurrentMaxGiB": 3.453,
+    "cgroupPeakGiB_seitContainerstart": 3.456,
+    "cgroupAnonMaxGiB": 3.197,
+    "cgroupFileMaxGiB": 0.242,
+    "cgroupFileMappedMaxGiB": 0.208,
+    "procVmRssMaxGiB": 5.501,
+    "procRssAnonMaxGiB": 3.193,
+    "procRssFileMaxGiB": 2.308,
+    "swapMiB": 0.0,
+    "oom": 0, "oomKill": 0, "memoryEventsMax": 0, "memoryEventsHigh": 0,
+    "cpuMaxProzent": 403.1,
+    "leerlaufVorProbe": { "dockerStatsGiB": 2.942, "procRssAnonGiB": 2.824, "procRssFileGiB": 2.308 }
+  }
+}
