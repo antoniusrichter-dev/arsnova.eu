@@ -1,0 +1,78 @@
+{
+  "$comment": "Sechs-Fragen-Szenario aus Issue #456 §12 (Referat Thema 2, Gruppe 8). Texte wörtlich aus libs/shared-types/src/moderation-prompt-context-fixtures.ts (MODERATION_PROMPT_REFERENCE_TEXT_FIXTURE_V1, Referenz-Commit efd71b44). Abweichend von der Produkt-Fixture (gemischte Status, N=200) sind laut Runbook Schritt 2.2 alle Fragen ACTIVE und P ist ein Parameter.",
+  "fixtureId": "referat-thema2-sechs-fragen-v1",
+  "quelle": {
+    "issue": "#456 §12",
+    "texte": "libs/shared-types/src/moderation-prompt-context-fixtures.ts",
+    "doku": "docs/features/moderation-prompt-context.md §8",
+    "referenzCommit": "efd71b44d4fd32d711cd483606ce5eefd1e9af5b"
+  },
+  "raumgroessen": [50, 200, 500, 1000],
+  "lernziel": {
+    "optional": true,
+    "status": "confirmed",
+    "text": "Die Studierenden können lineare Regressionsmodelle anwenden."
+  },
+  "fragen": [
+    {
+      "key": "A",
+      "sourceId": "qa-question:11111111-1111-4111-8111-111111111111",
+      "paar": "A/B",
+      "thema": "lineare-regression-beispiele",
+      "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+      "status": "ACTIVE",
+      "positive": 80,
+      "negative": 30
+    },
+    {
+      "key": "B",
+      "sourceId": "qa-question:22222222-2222-4222-8222-222222222222",
+      "paar": "A/B",
+      "thema": "lineare-regression-beispiele",
+      "text": "Gibt es ein weiteres Beispiel zur linearen Regression?",
+      "status": "ACTIVE",
+      "positive": 10,
+      "negative": 0
+    },
+    {
+      "key": "C",
+      "sourceId": "qa-question:33333333-3333-4333-8333-333333333333",
+      "paar": "C/D",
+      "thema": "pruefungsrelevanz",
+      "text": "Ist Kapitel 4 klausurrelevant?",
+      "status": "ACTIVE",
+      "positive": 30,
+      "negative": 0
+    },
+    {
+      "key": "D",
+      "sourceId": "qa-question:44444444-4444-4444-8444-444444444444",
+      "paar": "C/D",
+      "thema": "pruefungsrelevanz",
+      "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+      "status": "ACTIVE",
+      "positive": 12,
+      "negative": 0
+    },
+    {
+      "key": "E",
+      "sourceId": "qa-question:55555555-5555-4555-8555-555555555555",
+      "paar": "E/F",
+      "thema": "anwesenheitspflicht",
+      "text": "Soll die Anwesenheit verpflichtend sein?",
+      "status": "ACTIVE",
+      "positive": 40,
+      "negative": 40
+    },
+    {
+      "key": "F",
+      "sourceId": "qa-question:66666666-6666-4666-8666-666666666666",
+      "paar": "E/F",
+      "thema": "anwesenheitspflicht",
+      "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+      "status": "ACTIVE",
+      "positive": 20,
+      "negative": 20
+    }
+  ]
+}
