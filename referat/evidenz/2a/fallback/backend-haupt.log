@@ -1,0 +1,23 @@
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'extractive',
+  fallbackReason: 'disabled',
+  latencyMs: 68
+}
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'extractive',
+  fallbackReason: 'disabled',
+  latencyMs: 62
+}
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'extractive',
+  fallbackReason: 'disabled',
+  latencyMs: 64
+}

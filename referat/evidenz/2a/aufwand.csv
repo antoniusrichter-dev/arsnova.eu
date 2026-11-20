@@ -1,0 +1,7 @@
+szenario,n,median_us,p95_us,min_us,max_us,heap_delta_median_kib,heap_delta_p95_kib,info
+kartenbildung,50,42.14,99.02,23.69,131.46,11.74,20.66,"friction:8 clarification:8; next=pending-qa"
+extraktiv,50,113.47,210.18,79.94,222.87,42.26,48.52,"status=ready; statements=4"
+kartenbildung,500,84.98,134.49,71.53,151.82,67.49,69.38,"friction:8 clarification:8; next=pending-qa"
+extraktiv,500,185.08,263.23,149.86,284.98,93.93,100.03,"status=ready; statements=4"
+kartenbildung,2500,399.52,518.21,344.99,566.24,386.20,388.84,"friction:8 clarification:8; next=pending-qa"
+extraktiv,2500,498.37,688.45,372.58,782.07,346.91,352.26,"status=ready; statements=4"

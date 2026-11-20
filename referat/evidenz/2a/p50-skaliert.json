@@ -1,0 +1,300 @@
+{
+  "fall": "P50-skaliert",
+  "faktor": 0.4,
+  "skalierung": [
+    {
+      "key": "A",
+      "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+      "positiveFixture": 80,
+      "negativeFixture": 30,
+      "positive": 32,
+      "negative": 12
+    },
+    {
+      "key": "B",
+      "text": "Gibt es ein weiteres Beispiel zur linearen Regression?",
+      "positiveFixture": 10,
+      "negativeFixture": 0,
+      "positive": 4,
+      "negative": 0
+    },
+    {
+      "key": "C",
+      "text": "Ist Kapitel 4 klausurrelevant?",
+      "positiveFixture": 30,
+      "negativeFixture": 0,
+      "positive": 12,
+      "negative": 0
+    },
+    {
+      "key": "D",
+      "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+      "positiveFixture": 12,
+      "negativeFixture": 0,
+      "positive": 5,
+      "negative": 0
+    },
+    {
+      "key": "E",
+      "text": "Soll die Anwesenheit verpflichtend sein?",
+      "positiveFixture": 40,
+      "negativeFixture": 40,
+      "positive": 16,
+      "negative": 16
+    },
+    {
+      "key": "F",
+      "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+      "positiveFixture": 20,
+      "negativeFixture": 20,
+      "positive": 8,
+      "negative": 8
+    }
+  ],
+  "skaliert": {
+    "P": 50,
+    "T": 5,
+    "rulesVersion": "moderation-compass-rules-v1",
+    "questions": [
+      {
+        "key": "A",
+        "sourceId": "qa-question:11111111-1111-4111-8111-111111111111",
+        "status": "ACTIVE",
+        "positive": 32,
+        "negative": 12,
+        "total": 44,
+        "votesAvailable": true,
+        "bestScore": 0.581508453144907,
+        "controversyScore": 0.4897959183673469,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "B",
+        "sourceId": "qa-question:22222222-2222-4222-8222-222222222222",
+        "status": "ACTIVE",
+        "positive": 4,
+        "negative": 0,
+        "total": 4,
+        "votesAvailable": true,
+        "bestScore": 0.5100999795960008,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": true,
+        "badge": "insufficient"
+      },
+      {
+        "key": "C",
+        "sourceId": "qa-question:33333333-3333-4333-8333-333333333333",
+        "status": "ACTIVE",
+        "positive": 12,
+        "negative": 0,
+        "total": 12,
+        "votesAvailable": true,
+        "bestScore": 0.7574992425007574,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "D",
+        "sourceId": "qa-question:44444444-4444-4444-8444-444444444444",
+        "status": "ACTIVE",
+        "positive": 5,
+        "negative": 0,
+        "total": 5,
+        "votesAvailable": true,
+        "bestScore": 0.565508505247919,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "E",
+        "sourceId": "qa-question:55555555-5555-4555-8555-555555555555",
+        "status": "ACTIVE",
+        "positive": 16,
+        "negative": 16,
+        "total": 32,
+        "votesAvailable": true,
+        "bestScore": 0.33630614316859386,
+        "controversyScore": 0.8648648648648649,
+        "isControversial": true,
+        "insufficientVotes": false,
+        "badge": "controversial"
+      },
+      {
+        "key": "F",
+        "sourceId": "qa-question:66666666-6666-4666-8666-666666666666",
+        "status": "ACTIVE",
+        "positive": 8,
+        "negative": 8,
+        "total": 16,
+        "votesAvailable": true,
+        "bestScore": 0.2799923761135083,
+        "controversyScore": 0.7619047619047619,
+        "isControversial": true,
+        "insufficientVotes": false,
+        "badge": "controversial"
+      }
+    ],
+    "pendingQuestionSourceIds": [],
+    "frictionQuestionSourceIds": [
+      "qa-question:55555555-5555-4555-8555-555555555555",
+      "qa-question:66666666-6666-4666-8666-666666666666"
+    ],
+    "cards": [
+      {
+        "kind": "friction",
+        "tone": "caution",
+        "sourceIds": [
+          "qa-question:55555555-5555-4555-8555-555555555555",
+          "qa-question:66666666-6666-4666-8666-666666666666"
+        ],
+        "sourceKeys": [
+          "E",
+          "F"
+        ],
+        "nextStepReason": null
+      }
+    ],
+    "recommendation": {
+      "reason": "controversy",
+      "preferredCardKind": "friction",
+      "attachToCard": false
+    },
+    "nextStep": "controversy",
+    "sourceKeys": [
+      "E",
+      "F"
+    ]
+  },
+  "rechnerischP50": {
+    "P": 50,
+    "T": 5,
+    "rulesVersion": "moderation-compass-rules-v1",
+    "questions": [
+      {
+        "key": "A",
+        "sourceId": "qa-question:11111111-1111-4111-8111-111111111111",
+        "status": "ACTIVE",
+        "positive": 80,
+        "negative": 30,
+        "total": 110,
+        "votesAvailable": true,
+        "bestScore": 0.637432407306822,
+        "controversyScore": 0.5217391304347826,
+        "isControversial": true,
+        "insufficientVotes": false,
+        "badge": "controversial"
+      },
+      {
+        "key": "B",
+        "sourceId": "qa-question:22222222-2222-4222-8222-222222222222",
+        "status": "ACTIVE",
+        "positive": 10,
+        "negative": 0,
+        "total": 10,
+        "votesAvailable": true,
+        "bestScore": 0.7224598312333834,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "C",
+        "sourceId": "qa-question:33333333-3333-4333-8333-333333333333",
+        "status": "ACTIVE",
+        "positive": 30,
+        "negative": 0,
+        "total": 30,
+        "votesAvailable": true,
+        "bestScore": 0.886482908609522,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "D",
+        "sourceId": "qa-question:44444444-4444-4444-8444-444444444444",
+        "status": "ACTIVE",
+        "positive": 12,
+        "negative": 0,
+        "total": 12,
+        "votesAvailable": true,
+        "bestScore": 0.7574992425007574,
+        "controversyScore": 0,
+        "isControversial": false,
+        "insufficientVotes": false,
+        "badge": "onesided"
+      },
+      {
+        "key": "E",
+        "sourceId": "qa-question:55555555-5555-4555-8555-555555555555",
+        "status": "ACTIVE",
+        "positive": 40,
+        "negative": 40,
+        "total": 80,
+        "votesAvailable": true,
+        "bestScore": 0.392972274311075,
+        "controversyScore": 0.9411764705882353,
+        "isControversial": true,
+        "insufficientVotes": false,
+        "badge": "controversial"
+      },
+      {
+        "key": "F",
+        "sourceId": "qa-question:66666666-6666-4666-8666-666666666666",
+        "status": "ACTIVE",
+        "positive": 20,
+        "negative": 20,
+        "total": 40,
+        "votesAvailable": true,
+        "bestScore": 0.35199278797099753,
+        "controversyScore": 0.8888888888888888,
+        "isControversial": true,
+        "insufficientVotes": false,
+        "badge": "controversial"
+      }
+    ],
+    "pendingQuestionSourceIds": [],
+    "frictionQuestionSourceIds": [
+      "qa-question:55555555-5555-4555-8555-555555555555",
+      "qa-question:66666666-6666-4666-8666-666666666666",
+      "qa-question:11111111-1111-4111-8111-111111111111"
+    ],
+    "cards": [
+      {
+        "kind": "friction",
+        "tone": "caution",
+        "sourceIds": [
+          "qa-question:55555555-5555-4555-8555-555555555555",
+          "qa-question:66666666-6666-4666-8666-666666666666",
+          "qa-question:11111111-1111-4111-8111-111111111111"
+        ],
+        "sourceKeys": [
+          "E",
+          "F",
+          "A"
+        ],
+        "nextStepReason": null
+      }
+    ],
+    "recommendation": {
+      "reason": "controversy",
+      "preferredCardKind": "friction",
+      "attachToCard": false
+    },
+    "nextStep": "controversy",
+    "sourceKeys": [
+      "E",
+      "F",
+      "A"
+    ]
+  }
+}

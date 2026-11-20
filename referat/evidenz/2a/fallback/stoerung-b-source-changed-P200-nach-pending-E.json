@@ -1,0 +1,194 @@
+{
+  "schritt": "3.3 Störung b",
+  "fall": "P200",
+  "variante": "nach-pending",
+  "erzeugt": "2026-11-20T08:42:26.935Z",
+  "erwartet": "source_changed, wenn die Frage während pending gelöscht wird",
+  "geloeschteFrage": {
+    "key": "E",
+    "id": "0e686d68-09a8-47df-88be-0f656b28b01f"
+  },
+  "loeschung": {
+    "ok": true,
+    "status": "DELETED",
+    "ms": 59
+  },
+  "anfrage": {
+    "ok": true,
+    "msNachStart": 35,
+    "enabled": true,
+    "inferenceConfigured": false,
+    "status": "pending",
+    "attemptedMode": null,
+    "effectiveMode": null,
+    "fallbackReason": null,
+    "modelVersion": null,
+    "statements": 0,
+    "snapshotHash": "57ea6c8b7f1e90b8d5e8de574a02cbb39a667d53d55a44868937fd5a87a4427d"
+  },
+  "kurz": {
+    "vorher": {
+      "enabled": true,
+      "inferenceConfigured": false,
+      "status": "ready",
+      "attemptedMode": null,
+      "effectiveMode": "extractive",
+      "fallbackReason": "disabled",
+      "modelVersion": "extractive-v2",
+      "statements": 3,
+      "snapshotHash": "57ea6c8b7f1e90b8d5e8de574a02cbb39a667d53d55a44868937fd5a87a4427d"
+    },
+    "final": {
+      "enabled": true,
+      "inferenceConfigured": false,
+      "status": "ready",
+      "attemptedMode": null,
+      "effectiveMode": "extractive",
+      "fallbackReason": "source_changed",
+      "modelVersion": "extractive-v2",
+      "statements": 3,
+      "snapshotHash": "fde8ae7dec5170d36ca8b25f2e8fb3d810a7d0b65224ebfa6151e1a1fd766128"
+    }
+  },
+  "pollsBisFertig": 1,
+  "msBisFertig": 33,
+  "quellen": {
+    "anzahl": 3,
+    "aufgeloest": 3,
+    "liste": [
+      {
+        "id": "65717227-7685-4caa-8f76-52dbf984da0c",
+        "key": "C"
+      },
+      {
+        "id": "8defa90a-7041-42de-a0f5-88b723bb5785",
+        "key": "B"
+      },
+      {
+        "id": "c3b94a9e-fac3-4e93-bd5a-820bae55d32b",
+        "key": "D"
+      }
+    ]
+  },
+  "geloeschteFrageInQuellen": false,
+  "antwortRequestSummary": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": false,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "pending",
+      "statements": [],
+      "suggestedNextSteps": [],
+      "limitations": [],
+      "sources": [],
+      "snapshotHash": "57ea6c8b7f1e90b8d5e8de574a02cbb39a667d53d55a44868937fd5a87a4427d",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": null,
+        "effectiveMode": null,
+        "fallback": null
+      }
+    }
+  },
+  "antwortSummaryRuntime": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": false,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "ready",
+      "statements": [
+        {
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sourceIds": [
+            "qa-question:65717227-7685-4caa-8f76-52dbf984da0c"
+          ]
+        },
+        {
+          "text": "Gibt es ein weiteres Beispiel zur linearen Regression?",
+          "sourceIds": [
+            "qa-question:8defa90a-7041-42de-a0f5-88b723bb5785"
+          ]
+        },
+        {
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "sourceIds": [
+            "qa-question:c3b94a9e-fac3-4e93-bd5a-820bae55d32b"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [],
+      "limitations": [
+        "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+      ],
+      "sources": [
+        {
+          "id": "qa-question:65717227-7685-4caa-8f76-52dbf984da0c",
+          "kind": "qa-question",
+          "label": "Ist Kapitel 4 klausurrelevant?"
+        },
+        {
+          "id": "qa-question:8defa90a-7041-42de-a0f5-88b723bb5785",
+          "kind": "qa-question",
+          "label": "Gibt es ein weiteres Beispiel zur linearen Regression?"
+        },
+        {
+          "id": "qa-question:c3b94a9e-fac3-4e93-bd5a-820bae55d32b",
+          "kind": "qa-question",
+          "label": "Müssen wir den vierten Abschnitt für die Prüfung lernen?"
+        }
+      ],
+      "modelVersion": "extractive-v2",
+      "analyzedAt": "2026-11-20T08:42:26.932Z",
+      "snapshotHash": "fde8ae7dec5170d36ca8b25f2e8fb3d810a7d0b65224ebfa6151e1a1fd766128",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": null,
+        "effectiveMode": "extractive",
+        "fallback": {
+          "contractVersion": "qa-summary-fallback-v1",
+          "requestedRequestContract": "qa-summary-context-v2",
+          "requestedOutputContract": "qa-summary-model-output-v3",
+          "mode": "extractive",
+          "reason": "source_changed",
+          "retry": "manual"
+        }
+      }
+    }
+  }
+}

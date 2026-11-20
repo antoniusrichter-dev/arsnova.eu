@@ -1,0 +1,210 @@
+{
+  "schritt": "3.3 Störung a",
+  "erzeugt": "2026-11-20T08:39:36.763Z",
+  "erwartet": "queue_full bei zwei schnellen Anfragen (zwei Sessions, QA_SUMMARY_QUEUE_LIMIT=1)",
+  "sessions": [
+    {
+      "fall": "P200",
+      "code": "6X3D44",
+      "sessionId": "8b19aac0-596d-403c-8b4d-ae2b989dc0bd",
+      "typ": "Q_AND_A",
+      "qaModerationMode": false
+    },
+    {
+      "fall": "P500",
+      "code": "XEA84G",
+      "sessionId": "c4d670c6-6bdc-4909-828f-a93835ed8f0e",
+      "typ": "Q_AND_A",
+      "qaModerationMode": false
+    }
+  ],
+  "runden": 1,
+  "queueFullRunden": 1,
+  "protokoll": [
+    {
+      "runde": 1,
+      "anfragen": [
+        {
+          "fall": "P200",
+          "ms": 50,
+          "enabled": true,
+          "inferenceConfigured": false,
+          "status": "pending",
+          "attemptedMode": null,
+          "effectiveMode": null,
+          "fallbackReason": null,
+          "modelVersion": null,
+          "statements": 0,
+          "snapshotHash": "56205ff90516f7b87e49a8e63a5461a51319d3cbda16ea159d68fac5fb4cbafe"
+        },
+        {
+          "fall": "P500",
+          "ms": 70,
+          "enabled": true,
+          "inferenceConfigured": false,
+          "status": "ready",
+          "attemptedMode": null,
+          "effectiveMode": "extractive",
+          "fallbackReason": "queue_full",
+          "modelVersion": "extractive-v2",
+          "statements": 3,
+          "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a"
+        }
+      ],
+      "final": [
+        {
+          "fall": "P200",
+          "enabled": true,
+          "inferenceConfigured": false,
+          "status": "ready",
+          "attemptedMode": null,
+          "effectiveMode": "extractive",
+          "fallbackReason": "disabled",
+          "modelVersion": "extractive-v2",
+          "statements": 3,
+          "snapshotHash": "56205ff90516f7b87e49a8e63a5461a51319d3cbda16ea159d68fac5fb4cbafe"
+        },
+        {
+          "fall": "P500",
+          "enabled": true,
+          "inferenceConfigured": false,
+          "status": "ready",
+          "attemptedMode": null,
+          "effectiveMode": "extractive",
+          "fallbackReason": "queue_full",
+          "modelVersion": "extractive-v2",
+          "statements": 3,
+          "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a"
+        }
+      ],
+      "antworten": [
+        {
+          "fall": "P200",
+          "antwort": {
+            "schemaVersion": 2,
+            "enabled": true,
+            "inferenceConfigured": false,
+            "capabilities": {
+              "contractVersion": "qa-summary-adapter-capabilities-v1",
+              "adapterId": "arsnova-summary-adapter-v2",
+              "modes": [
+                {
+                  "kind": "full-context",
+                  "requestContract": "qa-summary-context-v2",
+                  "outputContract": "qa-summary-model-output-v3",
+                  "promptContextContract": "moderation-prompt-context-v1",
+                  "definitionVersion": "moderation-prompt-definitions-v1"
+                },
+                {
+                  "kind": "legacy-text"
+                }
+              ]
+            },
+            "result": {
+              "schemaVersion": 2,
+              "contractVersion": "qa-summary-result-v2",
+              "status": "pending",
+              "statements": [],
+              "suggestedNextSteps": [],
+              "limitations": [],
+              "sources": [],
+              "snapshotHash": "56205ff90516f7b87e49a8e63a5461a51319d3cbda16ea159d68fac5fb4cbafe",
+              "locale": "de",
+              "execution": {
+                "attemptedMode": null,
+                "effectiveMode": null,
+                "fallback": null
+              }
+            }
+          }
+        },
+        {
+          "fall": "P500",
+          "antwort": {
+            "schemaVersion": 2,
+            "enabled": true,
+            "inferenceConfigured": false,
+            "capabilities": {
+              "contractVersion": "qa-summary-adapter-capabilities-v1",
+              "adapterId": "arsnova-summary-adapter-v2",
+              "modes": [
+                {
+                  "kind": "full-context",
+                  "requestContract": "qa-summary-context-v2",
+                  "outputContract": "qa-summary-model-output-v3",
+                  "promptContextContract": "moderation-prompt-context-v1",
+                  "definitionVersion": "moderation-prompt-definitions-v1"
+                },
+                {
+                  "kind": "legacy-text"
+                }
+              ]
+            },
+            "result": {
+              "schemaVersion": 2,
+              "contractVersion": "qa-summary-result-v2",
+              "status": "ready",
+              "statements": [
+                {
+                  "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+                  "sourceIds": [
+                    "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999"
+                  ]
+                },
+                {
+                  "text": "Soll die Anwesenheit verpflichtend sein?",
+                  "sourceIds": [
+                    "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746"
+                  ]
+                },
+                {
+                  "text": "Ist Kapitel 4 klausurrelevant?",
+                  "sourceIds": [
+                    "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4"
+                  ]
+                }
+              ],
+              "suggestedNextSteps": [],
+              "limitations": [
+                "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+              ],
+              "sources": [
+                {
+                  "id": "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999",
+                  "kind": "qa-question",
+                  "label": "Müssen wir den vierten Abschnitt für die Prüfung lernen?"
+                },
+                {
+                  "id": "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+                  "kind": "qa-question",
+                  "label": "Soll die Anwesenheit verpflichtend sein?"
+                },
+                {
+                  "id": "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+                  "kind": "qa-question",
+                  "label": "Ist Kapitel 4 klausurrelevant?"
+                }
+              ],
+              "modelVersion": "extractive-v2",
+              "analyzedAt": "2026-11-20T08:39:36.320Z",
+              "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a",
+              "locale": "de",
+              "execution": {
+                "attemptedMode": null,
+                "effectiveMode": "extractive",
+                "fallback": {
+                  "contractVersion": "qa-summary-fallback-v1",
+                  "requestedRequestContract": "qa-summary-context-v2",
+                  "requestedOutputContract": "qa-summary-model-output-v3",
+                  "mode": "extractive",
+                  "reason": "queue_full",
+                  "retry": "manual"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "schritt": "3.3",
+  "fall": "P500",
+  "P": 500,
+  "session": {
+    "code": "XEA84G",
+    "sessionId": "c4d670c6-6bdc-4909-828f-a93835ed8f0e",
+    "typ": "Q_AND_A",
+    "qaModerationMode": false
+  },
+  "erzeugt": "2026-11-20T08:37:33.285Z",
+  "aufrufe": [
+    "qa.summaryRuntime",
+    "qa.summaryContextPreview(locale=de)",
+    "qa.requestSummary(locale=de)",
+    "qa.summaryRuntime ×2"
+  ],
+  "latenz": {
+    "requestSummaryMs": 34,
+    "bisFertigMs": 148
+  },
+  "kurz": {
+    "vorher": {
+      "enabled": true,
+      "inferenceConfigured": false,
+      "status": null,
+      "attemptedMode": null,
+      "effectiveMode": null,
+      "fallbackReason": null,
+      "modelVersion": null,
+      "statements": null,
+      "snapshotHash": null
+    },
+    "anfrage": {
+      "enabled": true,
+      "inferenceConfigured": false,
+      "status": "pending",
+      "attemptedMode": null,
+      "effectiveMode": null,
+      "fallbackReason": null,
+      "modelVersion": null,
+      "statements": 0,
+      "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a"
+    },
+    "final": {
+      "enabled": true,
+      "inferenceConfigured": false,
+      "status": "ready",
+      "attemptedMode": null,
+      "effectiveMode": "extractive",
+      "fallbackReason": "disabled",
+      "modelVersion": "extractive-v2",
+      "statements": 3,
+      "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a"
+    }
+  },
+  "quellen": {
+    "anzahl": 3,
+    "aufgeloest": 3,
+    "liste": [
+      {
+        "id": "6610aaea-12ea-453f-a53d-b6ae6f54f999",
+        "key": "D"
+      },
+      {
+        "id": "85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+        "key": "E"
+      },
+      {
+        "id": "fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+        "key": "C"
+      }
+    ]
+  },
+  "quellenVorschau": {
+    "anzahl": 3,
+    "aufgeloest": 3,
+    "liste": [
+      {
+        "id": "6610aaea-12ea-453f-a53d-b6ae6f54f999",
+        "key": "D"
+      },
+      {
+        "id": "85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+        "key": "E"
+      },
+      {
+        "id": "fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+        "key": "C"
+      }
+    ]
+  },
+  "antwortSummaryContextPreview": {
+    "schemaVersion": 1,
+    "contractVersion": "qa-summary-context-preview-v1",
+    "promptContext": {
+      "schemaVersion": 1,
+      "contractVersion": "moderation-prompt-context-v1",
+      "packedAt": "2026-11-20T08:37:33.099Z",
+      "hashAlgorithm": "sha-256",
+      "hashMaterialVersion": "moderation-prompt-hash-material-v1",
+      "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a",
+      "context": {
+        "contractVersion": "moderation-domain-context-v1",
+        "representation": "prompt-selection",
+        "definitionsVersion": "moderation-prompt-definitions-v1",
+        "locale": "de",
+        "meta": {
+          "sourceRevision": "moderation-source-revision-v1:ec448bcea6bc2424253c789963d85b684d5ffac332478c4014f2559ea61d257e",
+          "analysisVersion": "moderation-analysis-builder-v1",
+          "selectionVersion": "moderation-prompt-selection-v1",
+          "revisions": {
+            "questionText": {
+              "state": "available",
+              "value": "qa-ranking-v1:288"
+            },
+            "questionVotes": {
+              "state": "available",
+              "value": "qa-ranking-v1:288:participants:500:500"
+            },
+            "questionStatus": {
+              "state": "available",
+              "value": "qa-ranking-v1:288"
+            },
+            "questionAnswerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "questionNlp": {
+              "state": "available",
+              "value": "qa-nlp:676df23ac6c899499211daa8109a13036402693d942ac1fb69093b464963c704"
+            },
+            "topics": {
+              "state": "not-applicable",
+              "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+            },
+            "learningObjectives": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "releasedResults": {
+              "state": "not-applicable",
+              "reason": "Released quiz results do not apply to this session."
+            },
+            "feedback": {
+              "state": "not-applicable",
+              "reason": "Quick feedback is disabled for this session."
+            }
+          }
+        },
+        "scope": {
+          "channels": [
+            "qa"
+          ],
+          "sessionPhase": "LOBBY",
+          "questionFilter": {
+            "state": "available",
+            "statuses": [
+              "PENDING",
+              "ACTIVE",
+              "PINNED"
+            ],
+            "timeWindow": {
+              "kind": "entire-session"
+            }
+          },
+          "activeWeighting": {
+            "kind": "qa-ranking",
+            "version": "qa-ranking-v1",
+            "sortMode": "BEST"
+          },
+          "selectionLimits": {
+            "questions": 3,
+            "topics": 30,
+            "compassSignals": 30,
+            "learningObjectives": 100,
+            "resultAggregates": 100,
+            "feedbackAggregates": 100
+          }
+        },
+        "questions": {
+          "state": "available",
+          "participantBasis": {
+            "state": "available",
+            "kind": "session-participant-record-count",
+            "value": 500,
+            "calculationVersion": "qa-ranking-v1"
+          },
+          "corpus": {
+            "total": 6,
+            "eligible": 6,
+            "analyzed": 6,
+            "deduplicated": 3,
+            "represented": 3
+          },
+          "items": [
+            {
+              "sourceId": "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999",
+              "status": "ACTIVE",
+              "answerState": {
+                "state": "unavailable",
+                "reason": "not-collected"
+              },
+              "votes": {
+                "state": "available",
+                "positive": 12,
+                "negative": 0,
+                "net": 12,
+                "total": 12,
+                "bestScore": {
+                  "state": "available",
+                  "value": 0.7574992425007574
+                },
+                "controversyScore": {
+                  "state": "available",
+                  "value": 0
+                }
+              },
+              "nlp": {
+                "state": "disabled",
+                "reason": "Optional Q&A classification is disabled or was not collected for this question."
+              },
+              "topicSourceIds": []
+            },
+            {
+              "sourceId": "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+              "status": "ACTIVE",
+              "answerState": {
+                "state": "unavailable",
+                "reason": "not-collected"
+              },
+              "votes": {
+                "state": "available",
+                "positive": 40,
+                "negative": 40,
+                "net": 0,
+                "total": 80,
+                "bestScore": {
+                  "state": "available",
+                  "value": 0.392972274311075
+                },
+                "controversyScore": {
+                  "state": "available",
+                  "value": 0.6153846153846154
+                }
+              },
+              "nlp": {
+                "state": "disabled",
+                "reason": "Optional Q&A classification is disabled or was not collected for this question."
+              },
+              "topicSourceIds": []
+            },
+            {
+              "sourceId": "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+              "status": "ACTIVE",
+              "answerState": {
+                "state": "unavailable",
+                "reason": "not-collected"
+              },
+              "votes": {
+                "state": "available",
+                "positive": 30,
+                "negative": 0,
+                "net": 30,
+                "total": 30,
+                "bestScore": {
+                  "state": "available",
+                  "value": 0.886482908609522
+                },
+                "controversyScore": {
+                  "state": "available",
+                  "value": 0
+                }
+              },
+              "nlp": {
+                "state": "disabled",
+                "reason": "Optional Q&A classification is disabled or was not collected for this question."
+              },
+              "topicSourceIds": []
+            }
+          ]
+        },
+        "topics": {
+          "state": "disabled",
+          "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        },
+        "compass": {
+          "state": "available",
+          "rulesVersion": "moderation-compass-rules-v1",
+          "signals": [
+            {
+              "sourceId": "compass-signal:friction.29f48bc852b7be13f7fa0c50c155a29e9cc8f7b89251a56013101346b54b75a2",
+              "signal": "high-controversy",
+              "basis": "controversy-score",
+              "cardKind": "friction",
+              "questionSourceIds": [
+                "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746"
+              ],
+              "value": 0.6153846153846154,
+              "reason": "The selected authoritative Q&A controversy scores exceed the visible-label threshold.",
+              "evidence": [
+                {
+                  "sourceId": "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+                  "detail": "Authoritative Q&A controversy evidence."
+                }
+              ],
+              "suggestedNextStep": {
+                "action": "open-discussion",
+                "rationale": "Invite clarification around the contested questions."
+              }
+            }
+          ],
+          "primarySignalSourceId": "compass-signal:friction.29f48bc852b7be13f7fa0c50c155a29e9cc8f7b89251a56013101346b54b75a2"
+        },
+        "learningContext": {
+          "state": "unavailable",
+          "reason": "not-collected"
+        },
+        "releasedResults": {
+          "state": "not-applicable",
+          "reason": "Released quiz results do not apply to this session."
+        },
+        "feedback": {
+          "state": "disabled",
+          "reason": "Quick feedback is disabled for this session."
+        },
+        "sources": [
+          {
+            "id": "compass-signal:friction.29f48bc852b7be13f7fa0c50c155a29e9cc8f7b89251a56013101346b54b75a2",
+            "kind": "compass-signal",
+            "label": "Q&A controversy"
+          },
+          {
+            "id": "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999",
+            "kind": "qa-question",
+            "content": {
+              "state": "included",
+              "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+              "truncated": false
+            }
+          },
+          {
+            "id": "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+            "kind": "qa-question",
+            "content": {
+              "state": "included",
+              "text": "Soll die Anwesenheit verpflichtend sein?",
+              "truncated": false
+            }
+          },
+          {
+            "id": "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+            "kind": "qa-question",
+            "content": {
+              "state": "included",
+              "text": "Ist Kapitel 4 klausurrelevant?",
+              "truncated": false
+            }
+          }
+        ],
+        "limitations": [
+          {
+            "code": "module-disabled",
+            "section": "feedback",
+            "detail": "Quick feedback is disabled for this session."
+          },
+          {
+            "code": "module-disabled",
+            "section": "topics",
+            "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+          }
+        ]
+      },
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5376,
+        "packedInputTokens": 6229,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      }
+    },
+    "instructionVersion": "qa-summary-technical-handoff-v5",
+    "definitionVersion": "moderation-prompt-definitions-v1",
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "selectedMode": null,
+    "fallback": {
+      "contractVersion": "qa-summary-fallback-v1",
+      "requestedRequestContract": "qa-summary-context-v2",
+      "requestedOutputContract": "qa-summary-model-output-v3",
+      "mode": "extractive",
+      "reason": "disabled",
+      "retry": "not-applicable"
+    },
+    "cache": "miss"
+  },
+  "antwortRequestSummary": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": false,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "pending",
+      "statements": [],
+      "suggestedNextSteps": [],
+      "limitations": [],
+      "sources": [],
+      "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": null,
+        "effectiveMode": null,
+        "fallback": null
+      }
+    }
+  },
+  "antwortSummaryRuntime": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": false,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "ready",
+      "statements": [
+        {
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "sourceIds": [
+            "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999"
+          ]
+        },
+        {
+          "text": "Soll die Anwesenheit verpflichtend sein?",
+          "sourceIds": [
+            "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746"
+          ]
+        },
+        {
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sourceIds": [
+            "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [],
+      "limitations": [
+        "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+      ],
+      "sources": [
+        {
+          "id": "qa-question:6610aaea-12ea-453f-a53d-b6ae6f54f999",
+          "kind": "qa-question",
+          "label": "Müssen wir den vierten Abschnitt für die Prüfung lernen?"
+        },
+        {
+          "id": "qa-question:85830cd6-83d2-4c5b-8a8c-26ee5aa19746",
+          "kind": "qa-question",
+          "label": "Soll die Anwesenheit verpflichtend sein?"
+        },
+        {
+          "id": "qa-question:fde9d44e-3729-4ac0-aac7-25c9682b9ff4",
+          "kind": "qa-question",
+          "label": "Ist Kapitel 4 klausurrelevant?"
+        }
+      ],
+      "modelVersion": "extractive-v2",
+      "analyzedAt": "2026-11-20T08:37:33.196Z",
+      "snapshotHash": "f9a23eb6ecc441e992e116f7c9ac6217f7ad84b6a75c5603666346dabc5c954a",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": null,
+        "effectiveMode": "extractive",
+        "fallback": {
+          "contractVersion": "qa-summary-fallback-v1",
+          "requestedRequestContract": "qa-summary-context-v2",
+          "requestedOutputContract": "qa-summary-model-output-v3",
+          "mode": "extractive",
+          "reason": "disabled",
+          "retry": "not-applicable"
+        }
+      }
+    }
+  }
+}

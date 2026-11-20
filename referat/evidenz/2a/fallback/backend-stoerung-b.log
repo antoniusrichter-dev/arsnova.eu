@@ -1,0 +1,18 @@
+◇ injected env (100) from ../../.env // tip: ⌘ enable debugging { debug: true }
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'extractive',
+  fallbackReason: 'disabled',
+  latencyMs: 105
+}
+qa_summary:failed {
+  reason: 'context_unavailable',
+  latencyMs: 28,
+  errorName: 'TRPCError',
+  errorMessage: 'Der autorisierte Q&A-Kontext hat sich während des Aufbaus geändert.'
+}

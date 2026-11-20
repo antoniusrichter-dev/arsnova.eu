@@ -1,0 +1,40 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.10 /mnt/c/Users/anton/Studium/arsnova.eu/apps/backend
+
+stdout | src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > verwirft generative Ausgabe wenn sich Quellen während der Inferenz ändern
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'extractive',
+  fallbackReason: 'source_changed',
+  latencyMs: 2
+}
+
+stdout | src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > revalidiert ein fertiges Ergebnis unmittelbar vor der Auslieferung
+qa_summary:completed {
+  status: 'ready',
+  effectiveMode: 'full-context',
+  fallbackReason: null,
+  latencyMs: 1
+}
+
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > nimmt ohne Produktflag keinen Job an und baut keinen Kontext
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > durchläuft initiale, Vor- und Nachprüfung und liefert ein V2-Ergebnis
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > baut beim Polling eines pending-Ergebnisses keinen Kontext neu
+ ✓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > verwirft generative Ausgabe wenn sich Quellen während der Inferenz ändern 83ms
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > liefert bei entzogenem Host-Zugriff keine Quellen aus
+ ✓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > revalidiert ein fertiges Ergebnis unmittelbar vor der Auslieferung 39ms
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > bricht den laufenden Processor beim Queue-Timeout ab und gibt den Slot frei
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > bricht und verwirft laufende Artefakte bei Session-Purge
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > löscht den ephemeren Host-Token nach dem Job aus dem Queue-Objekt
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > ruft bei weniger als drei berechtigten Fragen keinen Processor auf
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > ersetzt ein fertiges Ergebnis wenn der berechtigte Korpus unter drei Fragen schrumpft
+ ↓ src/lib/qaSummaryQueue.test.ts > qaSummaryQueue V2 > reiht bei überlappendem Kontextaufbau derselben Session nur einen Job ein
+
+ Test Files  1 passed (1)
+      Tests  2 passed | 10 skipped (12)
+   Start at  10:23:50
+   Duration  5.61s (transform 2.04s, setup 0ms, import 4.21s, tests 123ms, environment 0ms)
+
