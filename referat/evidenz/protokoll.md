@@ -470,3 +470,17 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
 - **Gefunden** von Claude Code bei der Prüfung der Korrekturen (Abschnitt „Korrektur 4.2“). **Korrigiert** in `2b/eval/ergebnis.md`. **Von Jeremy Richter geprüft und freigegeben.**
 - `2b/entscheidung.md` geprüft: Die betroffenen Aussagen (Seed-Zahlen, „Modell folgt dem Seed“) kommen dort nicht vor, daher keine Änderung. „87 % auf Seed“ bezieht sich auf den Eval-Lauf `eval:qa-nlp` und ist korrekt.
 - `ki-offenlegung.md`: Status der Korrektur auf „freigegeben“ aktualisiert.
+
+## Push des Branches (2026-11-21)
+
+- **Vorprüfungen in WSL** (Claude Code):
+  - 19 neue Commits gegenüber `origin`, sie berühren nur `referat/` und `CLAUDE.md`.
+  - `referat/.local/` und echte `.env`-Dateien sind in keinem Commit enthalten. Die `.env.*.example`-Vorlagen aus dem Upstream sind unverändert.
+  - Secret-Check über den vollständigen Inhalt aller 19 Commits: 0 Host-Tokens und 0 Treffer für Bearer, Keys, JWT oder DB-URLs mit Passwort.
+  - 17 Treffer waren Fehlalarme: 16 Session-IDs lokaler Test-Sessions und der öffentliche Standardname der Datenbank `POSTGRES_DB`, der auch in `.env.example` und der CI steht.
+- **Push aus WSL nicht möglich:** keine GitHub-Zugangsdaten (`could not read Username`), es wurde nichts übertragen.
+- **Push durch Antonius Richter aus PowerShell:** `git push -u origin referat/thema2-gruppe8`, nur dieser Branch.
+  - Mit `--no-verify`, weil der Pre-Push-Hook (`.husky/pre-push`: `npm run typecheck`) unter Windows kein `npm` findet (Node nur in WSL).
+  - Der Typecheck des Hooks ist für diesen Push daher **nicht gelaufen**.
+- **Kontrolle** (`git ls-remote`): `origin/referat/thema2-gruppe8` = `e6aa7edd` = lokaler HEAD zum Zeitpunkt des Pushs.
+- Dieser Protokolleintrag ist nach dem Push committet und muss noch aus PowerShell nachgepusht werden.
