@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+<rect x="0.00" y="0.00" width="520.00" height="360.00" fill="#ffffff"/>
+<text x="24.00" y="26.00" font-family="'DejaVu Sans', sans-serif" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">2B · Abdeckung und Precision je Konfidenzschwelle</text>
+<text x="24.00" y="40.00" font-family="'DejaVu Sans', sans-serif" font-size="8" fill="#52514e" text-anchor="start">Keine Variante erreicht den Zielbereich; die Schwelle verschiebt die Kaskade kaum.</text>
+<rect x="246.00" y="58.00" width="124.00" height="36.90" fill="#e6f2e6"/>
+<text x="250.00" y="68.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Zielbereich laut Plan</text>
+<text x="250.00" y="77.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Precision ≥ 0,85</text>
+<text x="250.00" y="86.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">bei Abdeckung ≥ 60 %</text>
+<line x1="60.00" y1="304.00" x2="370.00" y2="304.00" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="306.50" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">0 %</text>
+<line x1="60.00" y1="304.00" x2="60.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="60.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">0 %</text>
+<line x1="60.00" y1="254.80" x2="370.00" y2="254.80" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="257.30" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">20 %</text>
+<line x1="122.00" y1="304.00" x2="122.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="122.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">20 %</text>
+<line x1="60.00" y1="205.60" x2="370.00" y2="205.60" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="208.10" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">40 %</text>
+<line x1="184.00" y1="304.00" x2="184.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="184.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">40 %</text>
+<line x1="60.00" y1="156.40" x2="370.00" y2="156.40" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="158.90" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">60 %</text>
+<line x1="246.00" y1="304.00" x2="246.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="246.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">60 %</text>
+<line x1="60.00" y1="107.20" x2="370.00" y2="107.20" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="109.70" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">80 %</text>
+<line x1="308.00" y1="304.00" x2="308.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="308.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">80 %</text>
+<line x1="60.00" y1="58.00" x2="370.00" y2="58.00" stroke="#e4e3df" stroke-width="0.5"/>
+<text x="54.00" y="60.50" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">100 %</text>
+<line x1="370.00" y1="304.00" x2="370.00" y2="308.00" stroke="#8a8984" stroke-width="1"/>
+<text x="370.00" y="317.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">100 %</text>
+<line x1="60.00" y1="304.00" x2="370.00" y2="304.00" stroke="#8a8984" stroke-width="1"/>
+<text x="215.00" y="332.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#52514e" text-anchor="middle">Abdeckung (Anteil classified an n = 80)</text>
+<text x="18.00" y="181.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#52514e" text-anchor="middle" transform="rotate(-90 18 181)">Precision = Accuracy auf classified</text>
+<path d="M280.88,135.69 L288.63,137.21 L288.63,141.39" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="280.88" cy="135.69" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="288.63" cy="137.21" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="288.63" cy="141.39" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="272.88" y="138.19" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="end">@0,45</text>
+<text x="296.63" y="133.21" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">@0,55</text>
+<text x="296.63" y="151.39" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">@0,65</text>
+<path d="M191.75,188.23 L180.13,177.04 L180.13,177.04" fill="none" stroke="#eb6834" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="191.75" cy="188.23" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="180.13" cy="177.04" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="180.13" cy="177.04" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="1.5"/>
+<text x="199.75" y="190.73" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">@0,45</text>
+<text x="188.13" y="179.54" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">@0,55 = 0,65</text>
+<text x="382.00" y="62.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start" font-weight="bold">Methode</text>
+<line x1="382.00" y1="71.50" x2="396.00" y2="71.50" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="389.00" cy="71.50" r="3.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1"/>
+<text x="400.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">Kaskade (Gatekeeper + k-NN)</text>
+<line x1="382.00" y1="83.50" x2="396.00" y2="83.50" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="389.00" cy="83.50" r="3.5" fill="#eb6834" stroke="#ffffff" stroke-width="1"/>
+<text x="400.00" y="86.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">Keyword-Baseline</text>
+<text x="382.00" y="104.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Label am Punkt:</text>
+<text x="382.00" y="113.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">QA_NLP_MIN_CONFIDENCE</text>
+<text x="382.00" y="130.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start" font-weight="bold">Kaskade</text>
+<text x="382.00" y="140.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,45: 71,3 % · 68,4 %</text>
+<text x="382.00" y="150.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,55: 73,8 % · 67,8 %</text>
+<text x="382.00" y="160.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,65: 73,8 % · 66,1 %</text>
+<text x="382.00" y="174.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start" font-weight="bold">Keyword</text>
+<text x="382.00" y="184.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,45: 42,5 % · 47,1 %</text>
+<text x="382.00" y="194.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,55: 38,8 % · 51,6 %</text>
+<text x="382.00" y="204.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">0,65: 38,8 % · 51,6 %</text>
+<text x="24.00" y="350.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Quelle: referat/evidenz/2b/eval/ergebnis.json (Schritt 4.2, n = 80, Gold = label_person1) · Produktcode efd71b44 · erzeugt auf 0ca910f1</text>
+</svg>
