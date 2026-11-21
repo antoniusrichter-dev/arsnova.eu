@@ -420,3 +420,46 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - Kaskade @0,55: Abdeckung 73 %, Acc. classified 69 %, Macro-F1 streng 0,581. Keyword @0,55: 36 %, 59 %, 0,320.
 - **Neu:** `2b/entscheidung.md` (Abschnitt 3 des Entwurfs: Entscheidung, Voraussetzungen, Betriebsfolge, Grenzen).
 - Bei der Prüfung gefunden, im Text nicht geändert, weil wörtlich freigegeben: Der Seed hat 186 Einträge, FR und ES je 22 (Entwurf: „ca. 23 von 187“). „Konfidenzintervall erklären“ steht nicht wörtlich im Seed; nächstliegend ist Z. 423 („Koennen Sie den Begriff Konfidenzintervall noch einmal definieren?“, `content`).
+
+## Phase 4 / Korrektur 4.2 – 2B Seed-Belege in den Begründungen (2026-11-21)
+
+- Jeremy Richter hat den zwei Korrekturen aus dem Nachtrag 4.2 zugestimmt: Seed 22 von 186 und R024 mit Z. 423.
+- **Neuer Befund bei der Prüfung:**
+  - Gatekeeper (`qaNlpGatekeeper.ts:11`) und k-NN-Fallback (`qaNlpFallback.ts:52`) trainieren nur auf den Seed-Splits `train` bzw. `train` + `prototype`, das sind 71 von 186 Einträgen.
+  - Die in den Begründungen zitierten Zeilen 416 (R059), 423 und 795 (R024) sowie 1156 und 1226 (R078) liegen im Split `eval`. Das Modell hat sie nie gesehen.
+  - Die Prüfungsrelevanz-Konvention `content` ist trotzdem im Training belegt: Z. 32, 60, 88, 130.
+  - FR/ES im Training: je 7 von 71.
+- **Erweiterte Korrektur in `2b/eval/ergebnis.md`** (Variante „erweitert korrigieren“, entschieden in der Sitzung):
+  - R059 stützt sich jetzt auf die Train-Belege.
+  - R024 und R078 sind um „nur im Eval-Split, nicht trainiert“ ergänzt.
+  - Fehlermuster 2 lautet jetzt „je 22 von 186; trainiert werden nur `train` und `prototype`, darin FR/ES je 7 von 71“.
+  - Über der Tabelle steht ein Hinweis zur Trainingsbasis.
+  - `entscheidung.md` ist unverändert, weil keine der Aussagen betroffen ist.
+- **Status:** Diese erweiterte Korrektur ist ein KI-Entwurf (Claude) und **noch nicht von Jeremy Richter freigegeben**. Deshalb ist sie nur geschrieben und **nicht committet**.
+
+## Phase 6 / Schritt 6.1 – Abbildungen (2026-11-21)
+
+- Arbeitsstand `0ca910f1` (Produktcode 1.3.0 `efd71b44`), WSL2/Node v24.18.0, keine Dienste.
+- Rendern: SVG-Baukasten `referat/abbildungen/svg.ts`, gerastert mit `sharp` 0.35.5 (bereits Repo-Abhängigkeit) auf 300 dpi, Schrift DejaVu Sans.
+  - `matplotlib` ist nicht installiert. Es wurde nichts installiert.
+  - Palette: Referenzpalette des Dataviz-Leitfadens (heller Modus), Slots 1–3 mit dem Validator geprüft (alle Paare bestanden). Aqua liegt unter 3:1 Kontrast, deshalb gibt es Direktlabels und Datentabellen in den `index.md`.
+- Aufrufe, alle mit exit 0:
+  - `npx tsx referat/2a/abbildungen.ts` → `abbildungen/2a/k-werte-raumgroessen.{png,svg}`, `index.md`
+  - `npx tsx referat/2b/abbildungen.ts` → `abbildungen/2b/{abdeckung-precision-schwellen,reliability}.{png,svg}`, `index.md`
+  - `npx tsx referat/2c/abbildungen.ts` → `abbildungen/2c/{qualitaet-ttft,fragen-im-kontext,gate-ergebnis,speicher-bis-oom}.{png,svg}`, `index.md`
+- 2C enthält zusätzlich: Fragen A–F im Kontext je Fall/Variante (a–c; d hat keine Fixture-Fragen), Gate-Ergebnis je Fall/Variante mit Grund und den Speicherverlauf bis zum OOM (16:12:13 MEZ aus `oom-nachweis.json`).
+- „Qualität“ in der 2C-Abbildung ist nur das automatische Gate. Die Quellentreue wird weiterhin manuell bewertet.
+- Jede Abbildung wurde gerendert und auf Überlappungen geprüft. Labels sind korrigiert, bis keine Kollision mehr vorlag.
+- Prüfungen und Korrekturen während der Erstellung:
+  - T-Formel am Code geprüft: `max(1, ⌈0,1·P⌉)`, `qaControversy.ts:16`.
+  - Limit 3 belegt in `moderationSummaryContext.ts:195–197` (nicht Z. 187).
+  - Fall d: 8 von 300 Fragen gepackt.
+  - Ein Fehler beim Einlesen der Gate-Gründe (die Wiederholung überschrieb den OOM-Eintrag) ist behoben.
+
+## Phase 6 / Schritt 6.2 – KI-Offenlegung (2026-11-21)
+
+- `referat/evidenz/ki-offenlegung.md` enthält eine Tabelle aller Claude-Code-Schritte nach Runbook, Protokoll und Git-Historie. Die Spalte „Von uns geprüft/korrigiert“ ist leer.
+- Gesondert aufgeführt sind die KI-Entwürfe:
+  - 2B-Begründungen, Einordnung der IDs und Entscheidung (von Jeremy Richter geprüft);
+  - Beispielbewertungen der Rubrik (von Florian Meyer geprüft, laut Angabe der Gruppe; im Protokoll vorher nicht vermerkt).
+- Modell der früheren Sitzungen nicht protokolliert, in der Datei als „bitte ergänzen“ markiert.
