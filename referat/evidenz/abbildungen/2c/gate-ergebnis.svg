@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="308" viewBox="0 0 560 308">
+<rect x="0.00" y="0.00" width="560.00" height="308.00" fill="#ffffff"/>
+<text x="24.00" y="26.00" font-family="'DejaVu Sans', sans-serif" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">2C · Ergebnis des Qualitätsgates je Fall und Variante</text>
+<text x="24.00" y="40.00" font-family="'DejaVu Sans', sans-serif" font-size="8" fill="#52514e" text-anchor="start">Baseline 0/20 bestanden; nur drei Ablationen kommen durch – das Gate prüft die Form, nicht die Quellentreue.</text>
+<text x="198.00" y="76.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="middle" font-weight="bold">voll (Baseline)</text>
+<text x="294.00" y="76.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="middle" font-weight="bold">nur Texte</text>
+<text x="390.00" y="76.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Texte + Metadaten</text>
+<text x="486.00" y="76.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="middle" font-weight="bold">Texte + Metadaten, Wdh.</text>
+<text x="24.00" y="107.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">a · P200</text>
+<rect x="152.00" y="86.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="152.00" y="86.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="163.00" y="99.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="163.00" y="108.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 80 doppelter Lead</text>
+<rect x="248.00" y="86.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#0ca30c" stroke-width="1.5"/>
+<rect x="248.00" y="86.00" width="5.00" height="36.00" fill="#0ca30c" rx="2"/>
+<text x="259.00" y="99.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✓ 5/5 bestanden</text>
+<text x="259.00" y="108.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Modelltext sichtbar</text>
+<rect x="344.00" y="86.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#0ca30c" stroke-width="1.5"/>
+<rect x="344.00" y="86.00" width="5.00" height="36.00" fill="#0ca30c" rx="2"/>
+<text x="355.00" y="99.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✓ 5/5 bestanden</text>
+<text x="355.00" y="108.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Modelltext sichtbar</text>
+<text x="486.00" y="107.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="147.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">b · P200 + Lernziel</text>
+<rect x="152.00" y="126.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="152.00" y="126.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="163.00" y="139.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="163.00" y="148.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<rect x="248.00" y="126.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#0ca30c" stroke-width="1.5"/>
+<rect x="248.00" y="126.00" width="5.00" height="36.00" fill="#0ca30c" rx="2"/>
+<text x="259.00" y="139.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✓ 5/5 bestanden</text>
+<text x="259.00" y="148.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Modelltext sichtbar</text>
+<rect x="344.00" y="126.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="344.00" y="126.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="355.00" y="139.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="355.00" y="148.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<text x="486.00" y="147.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="187.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">c · P50-skaliert + Lernziel</text>
+<rect x="152.00" y="166.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="152.00" y="166.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="163.00" y="179.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="163.00" y="188.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<rect x="248.00" y="166.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="248.00" y="166.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="259.00" y="179.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="259.00" y="188.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<rect x="344.00" y="166.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="344.00" y="166.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="355.00" y="179.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="355.00" y="188.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<text x="486.00" y="187.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">d · #456-Teilmenge</text>
+<rect x="152.00" y="206.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="152.00" y="206.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="163.00" y="219.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="163.00" y="228.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<rect x="248.00" y="206.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="248.00" y="206.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="259.00" y="219.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="259.00" y="228.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<rect x="344.00" y="206.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="344.00" y="206.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="355.00" y="219.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/1 bestanden</text>
+<text x="355.00" y="228.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<text x="355.00" y="236.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">+ 4 ungültig (OOM)</text>
+<rect x="440.00" y="206.00" width="92.00" height="36.00" fill="#ffffff" rx="4" stroke="#d03b3b" stroke-width="1.5"/>
+<rect x="440.00" y="206.00" width="5.00" height="36.00" fill="#d03b3b" rx="2"/>
+<text x="451.00" y="219.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">✗ 0/5 bestanden</text>
+<text x="451.00" y="228.00" font-family="'DejaVu Sans', sans-serif" font-size="6" fill="#52514e" text-anchor="start">Z. 68 ohne Lead</text>
+<text x="150.00" y="258.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Gate: hasAcceptableQaSummaryQuality (qaSummaryQuality.ts:59); abgelehnt → extraktiver Fallback mit invalid_response.</text>
+<text x="150.00" y="268.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Z. 68: Aussage ohne „Thema: Aussage“-Lead · Z. 80: doppelter Lead. Alle gültigen Läufe waren schema-gültig.</text>
+<text x="24.00" y="298.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Quelle: referat/evidenz/2c/auswertung.csv (gate_ok), referat/evidenz/2c/gate-gruende.txt · Gegenprobe 65/65 gleich mit Produkt-Gate · erzeugt auf 0ca910f1</text>
+</svg>

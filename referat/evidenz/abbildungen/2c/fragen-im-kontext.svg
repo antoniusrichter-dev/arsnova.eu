@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="430" viewBox="0 0 540 430">
+<rect x="0.00" y="0.00" width="540.00" height="430.00" fill="#ffffff"/>
+<text x="24.00" y="26.00" font-family="'DejaVu Sans', sans-serif" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">2C · Welche Fixture-Fragen das Modell sieht</text>
+<text x="24.00" y="40.00" font-family="'DejaVu Sans', sans-serif" font-size="8" fill="#52514e" text-anchor="start">Die Baseline packt immer E, F, C; A, B und D erreichen das Modell nie. Ohne Kompasssignale wechselt die Auswahl.</text>
+<text x="176.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">A</text>
+<text x="176.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Regression</text>
+<text x="176.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 80/30</text>
+<text x="228.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">B</text>
+<text x="228.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Regression</text>
+<text x="228.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 10/0</text>
+<text x="280.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">C</text>
+<text x="280.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Klausur Kap. 4</text>
+<text x="280.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 30/0</text>
+<text x="332.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">D</text>
+<text x="332.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Klausur Kap. 4</text>
+<text x="332.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 12/0</text>
+<text x="384.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">E</text>
+<text x="384.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Anwesenheit</text>
+<text x="384.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 40/40</text>
+<text x="436.00" y="74.00" font-family="'DejaVu Sans', sans-serif" font-size="9" fill="#0b0b0b" text-anchor="middle" font-weight="bold">F</text>
+<text x="436.00" y="84.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">Anwesenheit</text>
+<text x="436.00" y="92.00" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#52514e" text-anchor="middle">U/D 20/20</text>
+<text x="24.00" y="104.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">a · P200</text>
+<text x="142.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">voll (Baseline)</text>
+<rect x="151.00" y="109.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="109.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="228.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="255.00" y="109.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="280.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="307.00" y="109.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="109.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="384.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="411.00" y="109.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="436.00" y="121.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<text x="142.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">nur Texte</text>
+<rect x="151.00" y="129.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="129.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="228.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="255.00" y="129.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="280.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="307.00" y="129.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="129.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="384.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="411.00" y="129.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="436.00" y="141.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<text x="142.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">Texte + Metadaten</text>
+<rect x="151.00" y="149.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="149.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="228.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="255.00" y="149.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="280.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="307.00" y="149.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="332.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="359.00" y="149.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="384.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="411.00" y="149.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="436.00" y="161.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="190.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">b · P200 + Lernziel</text>
+<text x="142.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">voll (Baseline)</text>
+<rect x="151.00" y="195.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="195.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="228.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="255.00" y="195.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="280.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="307.00" y="195.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="195.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="384.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="411.00" y="195.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="436.00" y="207.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<text x="142.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">nur Texte</text>
+<rect x="151.00" y="215.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="176.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="203.00" y="215.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="228.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="255.00" y="215.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="280.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="307.00" y="215.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="215.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="384.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="411.00" y="215.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="436.00" y="227.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="142.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">Texte + Metadaten</text>
+<rect x="151.00" y="235.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="235.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="228.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="255.00" y="235.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="280.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="307.00" y="235.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="332.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="359.00" y="235.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="384.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="411.00" y="235.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="436.00" y="247.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="276.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">c · P50-skaliert + Lernziel</text>
+<text x="142.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">voll (Baseline)</text>
+<rect x="151.00" y="281.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="281.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="228.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="255.00" y="281.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="280.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="307.00" y="281.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="281.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="384.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="411.00" y="281.00" width="50.00" height="18.00" fill="#2a78d6" rx="3"/>
+<text x="436.00" y="293.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<text x="142.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">nur Texte</text>
+<rect x="151.00" y="301.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="176.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="203.00" y="301.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="228.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="255.00" y="301.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="280.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="307.00" y="301.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="332.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="359.00" y="301.00" width="50.00" height="18.00" fill="#eb6834" rx="3"/>
+<text x="384.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="411.00" y="301.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="436.00" y="313.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="142.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="end">Texte + Metadaten</text>
+<rect x="151.00" y="321.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="176.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2.</text>
+<rect x="203.00" y="321.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="228.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="255.00" y="321.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="280.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1.</text>
+<rect x="307.00" y="321.00" width="50.00" height="18.00" fill="#1baf7a" rx="3"/>
+<text x="332.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3.</text>
+<rect x="359.00" y="321.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="384.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<rect x="411.00" y="321.00" width="50.00" height="18.00" fill="#f3f2ef" rx="3"/>
+<text x="436.00" y="333.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">–</text>
+<text x="24.00" y="356.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Farbige Zelle = im Kontext; Zahl = Position im gepackten Prompt (packed.qaSources). Grau = nicht im Kontext.</text>
+<text x="24.00" y="366.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Limit bei &lt; 100 Fragen: 3 (moderationSummaryContext.ts:195–197).</text>
+<text x="24.00" y="376.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Fall d stammt aus dem #456-Korpus (8 von 300 Fragen gepackt) und hat keine Fragen A–F; er fehlt hier.</text>
+<text x="24.00" y="420.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Quelle: referat/evidenz/2c/auswertung.csv, Spalte fragen_im_kontext (in allen 5 Läufen je Gruppe gleich) · Produktcode efd71b44 · erzeugt auf 0ca910f1</text>
+</svg>

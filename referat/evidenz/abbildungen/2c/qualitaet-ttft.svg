@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="330" viewBox="0 0 560 330">
+<rect x="0.00" y="0.00" width="560.00" height="330.00" fill="#ffffff"/>
+<text x="24.00" y="26.00" font-family="'DejaVu Sans', sans-serif" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">2C · Qualität und TTFT je Variante</text>
+<text x="24.00" y="40.00" font-family="'DejaVu Sans', sans-serif" font-size="8" fill="#52514e" text-anchor="start">Nur drei Ablationen (a: beide, b: nur Texte) passieren das Gate; die volle Baseline scheitert in allen Fällen.</text>
+<line x1="120.00" y1="118.50" x2="410.00" y2="118.50" stroke="#e4e3df" stroke-width="0.75"/>
+<text x="110.00" y="117.50" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="end" font-weight="bold">Gate bestanden</text>
+<text x="110.00" y="127.50" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="end">Modelltext sichtbar</text>
+<line x1="120.00" y1="215.50" x2="410.00" y2="215.50" stroke="#e4e3df" stroke-width="0.75"/>
+<text x="110.00" y="214.50" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#0b0b0b" text-anchor="end" font-weight="bold">Gate abgelehnt</text>
+<text x="110.00" y="224.50" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="end">extraktiver Fallback</text>
+<line x1="120.00" y1="264.00" x2="410.00" y2="264.00" stroke="#8a8984" stroke-width="1"/>
+<line x1="120.00" y1="264.00" x2="120.00" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="120.00" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">0</text>
+<line x1="161.43" y1="264.00" x2="161.43" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="161.43" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">5</text>
+<line x1="202.86" y1="264.00" x2="202.86" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="202.86" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">10</text>
+<line x1="244.29" y1="264.00" x2="244.29" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="244.29" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">15</text>
+<line x1="285.71" y1="264.00" x2="285.71" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="285.71" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">20</text>
+<line x1="327.14" y1="264.00" x2="327.14" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="327.14" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">25</text>
+<line x1="368.57" y1="264.00" x2="368.57" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="368.57" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">30</text>
+<line x1="410.00" y1="264.00" x2="410.00" y2="268.00" stroke="#8a8984" stroke-width="1"/>
+<text x="410.00" y="277.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#52514e" text-anchor="middle">35</text>
+<text x="265.00" y="292.00" font-family="'DejaVu Sans', sans-serif" font-size="7.5" fill="#52514e" text-anchor="middle">TTFT ≈ Prefill kalt in s (erster Lauf je Fall/Variante, ohne Prompt-Cache)</text>
+<circle cx="204.61238028571427" cy="215.5" r="4.5" fill="#ffffff" stroke="#1baf7a" stroke-width="2"/>
+<text x="204.61" y="217.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">b</text>
+<circle cx="205.43364371428572" cy="203.5" r="4.5" fill="#ffffff" stroke="#1baf7a" stroke-width="2"/>
+<text x="205.43" y="205.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">c</text>
+<circle cx="205.650456" cy="118.5" r="4.5" fill="#ffffff" stroke="#1baf7a" stroke-width="2"/>
+<text x="205.65" y="120.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">a</text>
+<circle cx="211.12379171428572" cy="227.5" r="4.5" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+<text x="211.12" y="229.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">c</text>
+<circle cx="214.92946999999998" cy="106.5" r="4.5" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+<text x="214.93" y="108.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">b</text>
+<circle cx="224.8507842857143" cy="118.5" r="4.5" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+<text x="224.85" y="120.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">a</text>
+<circle cx="315.05" cy="215.50" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="315.05" y="217.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle" font-weight="bold">b</text>
+<circle cx="318.96" cy="203.50" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="318.96" y="205.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle" font-weight="bold">c</text>
+<circle cx="319.9170597142857" cy="227.5" r="4.5" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+<text x="319.92" y="229.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">d</text>
+<circle cx="321.73559171428576" cy="191.5" r="4.5" fill="#ffffff" stroke="#1baf7a" stroke-width="2"/>
+<text x="321.74" y="193.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">d</text>
+<circle cx="327.2825128571428" cy="215.5" r="4.5" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+<text x="327.28" y="217.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#0b0b0b" text-anchor="middle" font-weight="bold">d</text>
+<circle cx="346.96" cy="215.50" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="346.96" y="217.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle" font-weight="bold">a</text>
+<circle cx="386.30" cy="215.50" r="4.5" fill="#1baf7a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="386.30" y="217.80" font-family="'DejaVu Sans', sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle" font-weight="bold">d*</text>
+<text x="424.00" y="70.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start" font-weight="bold">Variante</text>
+<circle cx="429.00" cy="79.50" r="4" fill="#2a78d6" stroke="#ffffff" stroke-width="1"/>
+<text x="438.00" y="82.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">voll (Baseline)</text>
+<circle cx="429.00" cy="91.50" r="4" fill="#eb6834" stroke="#ffffff" stroke-width="1"/>
+<text x="438.00" y="94.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">nur Texte</text>
+<circle cx="429.00" cy="103.50" r="4" fill="#1baf7a" stroke="#ffffff" stroke-width="1"/>
+<text x="438.00" y="106.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">Texte + Metadaten</text>
+<text x="424.00" y="124.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start" font-weight="bold">Messbedingung</text>
+<circle cx="429.00" cy="133.50" r="4" fill="#52514e" stroke="#ffffff" stroke-width="1"/>
+<text x="438.00" y="136.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">swapfrei</text>
+<circle cx="429" cy="145.5" r="3.5" fill="#ffffff" stroke="#52514e" stroke-width="1.8"/>
+<text x="438.00" y="148.00" font-family="'DejaVu Sans', sans-serif" font-size="7" fill="#0b0b0b" text-anchor="start">unter Swap gemessen</text>
+<text x="424.00" y="166.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Buchstabe = Fall a–d</text>
+<text x="424.00" y="175.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">d* = Wiederholung nach OOM</text>
+<text x="424.00" y="188.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Qualität hier nur automatisch</text>
+<text x="424.00" y="197.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">(Gate); Quellentreue wird</text>
+<text x="424.00" y="206.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">manuell bewertet.</text>
+<text x="24.00" y="320.00" font-family="'DejaVu Sans', sans-serif" font-size="6.5" fill="#52514e" text-anchor="start">Quelle: referat/evidenz/2c/auswertung.csv (5.2–5.4, 65 Läufe) · Qwen3-4B Q4_K_M, llama.cpp b10524 · Produktcode efd71b44 · erzeugt auf 0ca910f1</text>
+</svg>
