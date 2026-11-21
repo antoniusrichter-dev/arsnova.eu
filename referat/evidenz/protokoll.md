@@ -484,3 +484,16 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - Der Typecheck des Hooks ist für diesen Push daher **nicht gelaufen**.
 - **Kontrolle** (`git ls-remote`): `origin/referat/thema2-gruppe8` = `e6aa7edd` = lokaler HEAD zum Zeitpunkt des Pushs.
 - Dieser Protokolleintrag ist nach dem Push committet und muss noch aus PowerShell nachgepusht werden.
+
+## Typecheck nachgeholt (2026-11-21)
+
+- Grund: Beim Push aus PowerShell wurde der Pre-Push-Hook (`npm run typecheck`) mit `--no-verify` übersprungen.
+- **Aufruf in WSL:** `npm run typecheck` auf `c54416db`. Der Stand von `referat/` ist bis auf diesen Protokolleintrag gleich dem gepushten `e6aa7edd`; Produktcode unverändert `efd71b44`. Node v24.18.0.
+- Ablauf des Skripts: Build von `@arsnova/shared-types` und `@arsnova/session-export-report`, danach `tsc --noEmit` für shared-types, session-export-report, backend und frontend.
+- **Ergebnis:** exit 0, keine Fehler, Dauer 122 s.
+  - Die Build-Ausgaben (`libs/*/dist/`) sind per `.gitignore` ausgeschlossen.
+  - `git status` war danach unverändert.
+- **Erfasst der Typecheck `referat/`? Nein.**
+  - Keine der sechs Konfigurationen (`libs/shared-types/tsconfig.test.json`, `libs/session-export-report/tsconfig.test.json`, `apps/backend/tsconfig.json`, `apps/backend/tsconfig.scripts-test.json`, `apps/frontend/tsconfig.app.json`, `apps/frontend/tsconfig.spec.json`) nimmt `referat/` in `include`/`files` auf. Produktcode importiert nichts aus `referat/`.
+  - Beleg mit `tsc --listFilesOnly` je Konfiguration: 378 / 598 / 905 / 345 / 1 382 / 1 609 Dateien, davon jeweils **0** aus `referat/`. Insgesamt gibt es 19 `.ts`-Dateien unter `referat/`.
+- **Folge:** Der übersprungene Hook hätte für die gepushten Commits nichts geprüft, weil diese nur `referat/` und `CLAUDE.md` berühren. Der Versuchscode unter `referat/` wurde nur durch Ausführen mit `tsx` geprüft. `tsx` prüft keine Typen.
