@@ -463,3 +463,10 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - 2B-Begründungen, Einordnung der IDs und Entscheidung (von Jeremy Richter geprüft);
   - Beispielbewertungen der Rubrik (von Florian Meyer geprüft, laut Angabe der Gruppe; im Protokoll vorher nicht vermerkt).
 - Modell der früheren Sitzungen nicht protokolliert, in der Datei als „bitte ergänzen“ markiert.
+
+## Phase 4 / Freigabe Korrektur 4.2 – 2B (2026-11-21)
+
+- **Fehler im KI-Entwurf (Claude):** Die Begründungen R059, R024 und R078 sowie Fehlermuster 2 haben nicht beachtet, dass Gatekeeper und Fallback nur auf den Seed-Splits `train` bzw. `train` + `prototype` trainieren (71 von 186 Einträgen). Zitiert wurden Eval-Einträge, die das Modell nie gesehen hat, als ob es sie kennen würde.
+- **Gefunden** von Claude Code bei der Prüfung der Korrekturen (Abschnitt „Korrektur 4.2“). **Korrigiert** in `2b/eval/ergebnis.md`. **Von Jeremy Richter geprüft und freigegeben.**
+- `2b/entscheidung.md` geprüft: Die betroffenen Aussagen (Seed-Zahlen, „Modell folgt dem Seed“) kommen dort nicht vor, daher keine Änderung. „87 % auf Seed“ bezieht sich auf den Eval-Lauf `eval:qa-nlp` und ist korrekt.
+- `ki-offenlegung.md`: Status der Korrektur auf „freigegeben“ aktualisiert.
