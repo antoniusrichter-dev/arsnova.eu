@@ -1,0 +1,481 @@
+id,sprache,gruppe,gold,methode,schwelle,status,kategorie,konfidenz,richtig,stufe,earlyExit,usedFallback,text
+R001,de,fixture,content,kaskade,0.45,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,kaskade,0.45,classified,content,0.6922,true,gatekeeper-hash-nb-v1,true,false,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,kaskade,0.45,uncertain,content,1,false,fallback-knn-v1,false,true,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,kaskade,0.45,classified,organization,0.7523,true,gatekeeper-hash-nb-v1,true,false,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,kaskade,0.45,classified,organization,0.6,true,fallback-knn-v1,false,true,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,kaskade,0.45,uncertain,organization,0.9997,true,fallback-knn-v1,false,true,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,kaskade,0.45,uncertain,content,0.6848,false,fallback-knn-v1,false,true,Klausur wann?
+R008,de,kurz,technical,kaskade,0.45,classified,technical,0.8,true,fallback-knn-v1,false,true,WLAN geht nicht
+R009,de,kurz,organization,kaskade,0.45,uncertain,technical,0.4926,false,fallback-knn-v1,false,true,Folien online?
+R010,de,kurz,content,kaskade,0.45,classified,content,0.8,true,fallback-knn-v1,false,true,Was ist Varianz?
+R011,de,kurz,technical,kaskade,0.45,classified,technical,0.6,true,fallback-knn-v1,false,true,Mikro aus?
+R012,de,paraphrase,organization,kaskade,0.45,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,kaskade,0.45,uncertain,content,0.6,false,fallback-knn-v1,false,true,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,kaskade,0.45,classified,content,0.6,true,fallback-knn-v1,false,true,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,kaskade,0.45,classified,technical,0.9975,false,gatekeeper-hash-nb-v1,true,false,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,kaskade,0.45,classified,organization,0.9981,true,gatekeeper-hash-nb-v1,true,false,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,kaskade,0.45,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,kaskade,0.45,classified,technical,0.997,true,gatekeeper-hash-nb-v1,true,false,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,kaskade,0.45,uncertain,organization,0.9487,false,fallback-knn-v1,false,true,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,kaskade,0.45,classified,technical,0.923,false,gatekeeper-hash-nb-v1,true,false,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,kaskade,0.45,classified,content,0.6869,false,gatekeeper-hash-nb-v1,true,false,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,kaskade,0.45,uncertain,organization,0.9855,true,fallback-knn-v1,false,true,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,kaskade,0.45,classified,content,0.9985,true,gatekeeper-hash-nb-v1,true,false,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,kaskade,0.45,classified,technical,0.9717,false,gatekeeper-hash-nb-v1,true,false,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,kaskade,0.45,classified,organization,0.6965,false,gatekeeper-hash-nb-v1,true,false,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,kaskade,0.45,classified,technical,0.7705,false,gatekeeper-hash-nb-v1,true,false,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,kaskade,0.45,uncertain,content,0.431,false,fallback-knn-v1,false,true,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,kaskade,0.45,classified,content,0.8524,true,gatekeeper-hash-nb-v1,true,false,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,kaskade,0.45,uncertain,organization,0.7325,false,fallback-knn-v1,false,true,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,kaskade,0.45,classified,content,0.9871,true,gatekeeper-hash-nb-v1,true,false,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,kaskade,0.45,uncertain,technical,0.8062,false,fallback-knn-v1,false,true,Ist das wichtig?
+R032,de,mehrdeutig,technical,kaskade,0.45,classified,technical,0.7522,true,gatekeeper-hash-nb-v1,true,false,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,kaskade,0.45,classified,organization,0.9991,true,gatekeeper-hash-nb-v1,true,false,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,kaskade,0.45,classified,content,0.9685,false,gatekeeper-hash-nb-v1,true,false,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,kaskade,0.45,classified,content,0.9613,false,gatekeeper-hash-nb-v1,true,false,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,kaskade,0.45,classified,organization,0.9734,true,gatekeeper-hash-nb-v1,true,false,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,kaskade,0.45,classified,organization,0.6,true,fallback-knn-v1,false,true,Exam date?
+R038,en,kurz,technical,kaskade,0.45,uncertain,technical,0.5647,true,fallback-knn-v1,false,true,Sound is gone
+R039,en,kurz,organization,kaskade,0.45,uncertain,technical,0.9869,false,fallback-knn-v1,false,true,Slides uploaded?
+R040,en,kurz,content,kaskade,0.45,uncertain,organization,0.9109,false,fallback-knn-v1,false,true,What is a residual?
+R041,en,kurz,organization,kaskade,0.45,uncertain,technical,0.3876,false,fallback-knn-v1,false,true,Break soon?
+R042,en,paraphrase,organization,kaskade,0.45,classified,content,0.9705,false,gatekeeper-hash-nb-v1,true,false,Will the recording be available after class?
+R043,en,paraphrase,organization,kaskade,0.45,classified,content,0.6627,false,gatekeeper-hash-nb-v1,true,false,Can we rewatch today's session later?
+R044,en,paraphrase,content,kaskade,0.45,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,What is the difference between mean and median?
+R045,en,paraphrase,content,kaskade,0.45,classified,content,0.9631,true,gatekeeper-hash-nb-v1,true,false,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,kaskade,0.45,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,kaskade,0.45,classified,organization,0.9893,true,gatekeeper-hash-nb-v1,true,false,When exactly is the project due?
+R048,en,tippfehler,content,kaskade,0.45,classified,content,0.996,true,gatekeeper-hash-nb-v1,true,false,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,kaskade,0.45,classified,technical,0.8696,true,gatekeeper-hash-nb-v1,true,false,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,kaskade,0.45,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,kaskade,0.45,classified,content,0.8849,true,gatekeeper-hash-nb-v1,true,false,Can you explian the null hypothesis again?
+R052,en,slang,content,kaskade,0.45,classified,content,0.9998,true,gatekeeper-hash-nb-v1,true,false,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,kaskade,0.45,uncertain,organization,0.6,true,fallback-knn-v1,false,true,is the exam gonna be brutal or chill?
+R054,en,slang,technical,kaskade,0.45,uncertain,technical,0.9737,true,fallback-knn-v1,false,true,app keeps crashing ngl
+R055,en,slang,content,kaskade,0.45,uncertain,organization,0.3784,false,fallback-knn-v1,false,true,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,kaskade,0.45,uncertain,content,0.5667,false,fallback-knn-v1,false,true,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,kaskade,0.45,classified,content,0.8775,false,gatekeeper-hash-nb-v1,true,false,Is this going to be relevant?
+R058,en,mehrdeutig,content,kaskade,0.45,classified,content,0.9266,true,gatekeeper-hash-nb-v1,true,false,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,kaskade,0.45,classified,content,0.9999,false,gatekeeper-hash-nb-v1,true,false,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,kaskade,0.45,classified,content,0.6,false,fallback-knn-v1,false,true,Can you upload this?
+R061,fr,kurz,organization,kaskade,0.45,classified,organization,0.8,true,fallback-knn-v1,false,true,Quand est l'examen ?
+R062,fr,kurz,technical,kaskade,0.45,uncertain,technical,0.9745,true,fallback-knn-v1,false,true,Le son ne marche pas
+R063,fr,paraphrase,organization,kaskade,0.45,classified,content,0.9998,false,gatekeeper-hash-nb-v1,true,false,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,kaskade,0.45,classified,organization,0.6454,true,gatekeeper-hash-nb-v1,true,false,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,kaskade,0.45,classified,technical,0.6684,false,gatekeeper-hash-nb-v1,true,false,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,kaskade,0.45,classified,content,0.9986,true,gatekeeper-hash-nb-v1,true,false,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,kaskade,0.45,classified,organization,0.9516,false,gatekeeper-hash-nb-v1,true,false,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,kaskade,0.45,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,kaskade,0.45,classified,content,0.9985,false,gatekeeper-hash-nb-v1,true,false,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,kaskade,0.45,classified,organization,0.7723,true,gatekeeper-hash-nb-v1,true,false,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,kaskade,0.45,uncertain,organization,0.9045,true,fallback-knn-v1,false,true,¿Cuándo es el examen?
+R072,es,kurz,technical,kaskade,0.45,classified,technical,0.6,true,fallback-knn-v1,false,true,No se oye nada
+R073,es,paraphrase,organization,kaskade,0.45,uncertain,organization,0.5346,true,fallback-knn-v1,false,true,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,kaskade,0.45,uncertain,technical,0.9563,false,fallback-knn-v1,false,true,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,kaskade,0.45,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,kaskade,0.45,classified,content,0.9999,true,gatekeeper-hash-nb-v1,true,false,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,kaskade,0.45,classified,technical,0.991,true,gatekeeper-hash-nb-v1,true,false,La aplicasion no me carga en el movil
+R078,es,slang,content,kaskade,0.45,classified,organization,0.9594,false,gatekeeper-hash-nb-v1,true,false,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,kaskade,0.45,uncertain,organization,0.5887,true,fallback-knn-v1,false,true,¿Esto entra?
+R080,es,mehrdeutig,organization,kaskade,0.45,classified,organization,0.9997,true,gatekeeper-hash-nb-v1,true,false,¿Hay que venir obligatoriamente a las prácticas?
+R001,de,fixture,content,kaskade,0.55,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,kaskade,0.55,classified,content,0.6922,true,gatekeeper-hash-nb-v1,true,false,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,kaskade,0.55,uncertain,content,1,false,fallback-knn-v1,false,true,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,kaskade,0.55,classified,organization,0.7523,true,gatekeeper-hash-nb-v1,true,false,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,kaskade,0.55,classified,organization,0.6,true,fallback-knn-v1,false,true,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,kaskade,0.55,uncertain,organization,0.9997,true,fallback-knn-v1,false,true,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,kaskade,0.55,uncertain,content,0.6848,false,fallback-knn-v1,false,true,Klausur wann?
+R008,de,kurz,technical,kaskade,0.55,classified,technical,0.8,true,fallback-knn-v1,false,true,WLAN geht nicht
+R009,de,kurz,organization,kaskade,0.55,uncertain,technical,0.4926,false,fallback-knn-v1,false,true,Folien online?
+R010,de,kurz,content,kaskade,0.55,classified,content,0.8,true,fallback-knn-v1,false,true,Was ist Varianz?
+R011,de,kurz,technical,kaskade,0.55,classified,technical,0.6,true,fallback-knn-v1,false,true,Mikro aus?
+R012,de,paraphrase,organization,kaskade,0.55,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,kaskade,0.55,classified,content,0.6,false,fallback-knn-v1,false,true,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,kaskade,0.55,classified,content,0.6,true,fallback-knn-v1,false,true,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,kaskade,0.55,classified,technical,0.9975,false,gatekeeper-hash-nb-v1,true,false,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,kaskade,0.55,classified,organization,0.9981,true,gatekeeper-hash-nb-v1,true,false,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,kaskade,0.55,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,kaskade,0.55,classified,technical,0.997,true,gatekeeper-hash-nb-v1,true,false,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,kaskade,0.55,uncertain,organization,0.9487,false,fallback-knn-v1,false,true,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,kaskade,0.55,classified,technical,0.923,false,gatekeeper-hash-nb-v1,true,false,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,kaskade,0.55,classified,content,0.6869,false,gatekeeper-hash-nb-v1,true,false,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,kaskade,0.55,uncertain,organization,0.9855,true,fallback-knn-v1,false,true,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,kaskade,0.55,classified,content,0.9985,true,gatekeeper-hash-nb-v1,true,false,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,kaskade,0.55,classified,technical,0.9717,false,gatekeeper-hash-nb-v1,true,false,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,kaskade,0.55,classified,organization,0.6965,false,gatekeeper-hash-nb-v1,true,false,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,kaskade,0.55,classified,technical,0.7705,false,gatekeeper-hash-nb-v1,true,false,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,kaskade,0.55,uncertain,content,0.431,false,fallback-knn-v1,false,true,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,kaskade,0.55,classified,content,0.8524,true,gatekeeper-hash-nb-v1,true,false,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,kaskade,0.55,uncertain,organization,0.7325,false,fallback-knn-v1,false,true,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,kaskade,0.55,classified,content,0.9871,true,gatekeeper-hash-nb-v1,true,false,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,kaskade,0.55,uncertain,technical,0.8062,false,fallback-knn-v1,false,true,Ist das wichtig?
+R032,de,mehrdeutig,technical,kaskade,0.55,classified,technical,0.7522,true,gatekeeper-hash-nb-v1,true,false,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,kaskade,0.55,classified,organization,0.9991,true,gatekeeper-hash-nb-v1,true,false,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,kaskade,0.55,classified,content,0.9685,false,gatekeeper-hash-nb-v1,true,false,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,kaskade,0.55,classified,content,0.9613,false,gatekeeper-hash-nb-v1,true,false,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,kaskade,0.55,classified,organization,0.9734,true,gatekeeper-hash-nb-v1,true,false,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,kaskade,0.55,classified,organization,0.6,true,fallback-knn-v1,false,true,Exam date?
+R038,en,kurz,technical,kaskade,0.55,uncertain,technical,0.5647,true,fallback-knn-v1,false,true,Sound is gone
+R039,en,kurz,organization,kaskade,0.55,uncertain,technical,0.9869,false,fallback-knn-v1,false,true,Slides uploaded?
+R040,en,kurz,content,kaskade,0.55,uncertain,organization,0.9109,false,fallback-knn-v1,false,true,What is a residual?
+R041,en,kurz,organization,kaskade,0.55,uncertain,technical,0.3876,false,fallback-knn-v1,false,true,Break soon?
+R042,en,paraphrase,organization,kaskade,0.55,classified,content,0.9705,false,gatekeeper-hash-nb-v1,true,false,Will the recording be available after class?
+R043,en,paraphrase,organization,kaskade,0.55,classified,content,0.6627,false,gatekeeper-hash-nb-v1,true,false,Can we rewatch today's session later?
+R044,en,paraphrase,content,kaskade,0.55,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,What is the difference between mean and median?
+R045,en,paraphrase,content,kaskade,0.55,classified,content,0.9631,true,gatekeeper-hash-nb-v1,true,false,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,kaskade,0.55,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,kaskade,0.55,classified,organization,0.9893,true,gatekeeper-hash-nb-v1,true,false,When exactly is the project due?
+R048,en,tippfehler,content,kaskade,0.55,classified,content,0.996,true,gatekeeper-hash-nb-v1,true,false,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,kaskade,0.55,classified,technical,0.8696,true,gatekeeper-hash-nb-v1,true,false,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,kaskade,0.55,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,kaskade,0.55,classified,content,0.8849,true,gatekeeper-hash-nb-v1,true,false,Can you explian the null hypothesis again?
+R052,en,slang,content,kaskade,0.55,classified,content,0.9998,true,gatekeeper-hash-nb-v1,true,false,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,kaskade,0.55,classified,organization,0.6,true,fallback-knn-v1,false,true,is the exam gonna be brutal or chill?
+R054,en,slang,technical,kaskade,0.55,uncertain,technical,0.9737,true,fallback-knn-v1,false,true,app keeps crashing ngl
+R055,en,slang,content,kaskade,0.55,uncertain,organization,0.3784,false,fallback-knn-v1,false,true,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,kaskade,0.55,uncertain,content,0.5667,false,fallback-knn-v1,false,true,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,kaskade,0.55,classified,content,0.8775,false,gatekeeper-hash-nb-v1,true,false,Is this going to be relevant?
+R058,en,mehrdeutig,content,kaskade,0.55,classified,content,0.9266,true,gatekeeper-hash-nb-v1,true,false,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,kaskade,0.55,classified,content,0.9999,false,gatekeeper-hash-nb-v1,true,false,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,kaskade,0.55,classified,content,0.6,false,fallback-knn-v1,false,true,Can you upload this?
+R061,fr,kurz,organization,kaskade,0.55,classified,organization,0.8,true,fallback-knn-v1,false,true,Quand est l'examen ?
+R062,fr,kurz,technical,kaskade,0.55,uncertain,technical,0.9745,true,fallback-knn-v1,false,true,Le son ne marche pas
+R063,fr,paraphrase,organization,kaskade,0.55,classified,content,0.9998,false,gatekeeper-hash-nb-v1,true,false,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,kaskade,0.55,classified,organization,0.6454,true,gatekeeper-hash-nb-v1,true,false,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,kaskade,0.55,classified,technical,0.6684,false,gatekeeper-hash-nb-v1,true,false,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,kaskade,0.55,classified,content,0.9986,true,gatekeeper-hash-nb-v1,true,false,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,kaskade,0.55,classified,organization,0.9516,false,gatekeeper-hash-nb-v1,true,false,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,kaskade,0.55,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,kaskade,0.55,classified,content,0.9985,false,gatekeeper-hash-nb-v1,true,false,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,kaskade,0.55,classified,organization,0.7723,true,gatekeeper-hash-nb-v1,true,false,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,kaskade,0.55,uncertain,organization,0.9045,true,fallback-knn-v1,false,true,¿Cuándo es el examen?
+R072,es,kurz,technical,kaskade,0.55,classified,technical,0.6,true,fallback-knn-v1,false,true,No se oye nada
+R073,es,paraphrase,organization,kaskade,0.55,uncertain,organization,0.5346,true,fallback-knn-v1,false,true,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,kaskade,0.55,uncertain,technical,0.9563,false,fallback-knn-v1,false,true,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,kaskade,0.55,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,kaskade,0.55,classified,content,0.9999,true,gatekeeper-hash-nb-v1,true,false,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,kaskade,0.55,classified,technical,0.991,true,gatekeeper-hash-nb-v1,true,false,La aplicasion no me carga en el movil
+R078,es,slang,content,kaskade,0.55,classified,organization,0.9594,false,gatekeeper-hash-nb-v1,true,false,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,kaskade,0.55,uncertain,organization,0.5887,true,fallback-knn-v1,false,true,¿Esto entra?
+R080,es,mehrdeutig,organization,kaskade,0.55,classified,organization,0.9997,true,gatekeeper-hash-nb-v1,true,false,¿Hay que venir obligatoriamente a las prácticas?
+R001,de,fixture,content,kaskade,0.65,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,kaskade,0.65,classified,content,0.6922,true,gatekeeper-hash-nb-v1,true,false,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,kaskade,0.65,uncertain,content,1,false,fallback-knn-v1,false,true,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,kaskade,0.65,classified,organization,0.7523,true,gatekeeper-hash-nb-v1,true,false,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,kaskade,0.65,classified,organization,0.6,true,fallback-knn-v1,false,true,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,kaskade,0.65,uncertain,organization,0.9997,true,fallback-knn-v1,false,true,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,kaskade,0.65,uncertain,content,0.6848,false,fallback-knn-v1,false,true,Klausur wann?
+R008,de,kurz,technical,kaskade,0.65,classified,technical,0.8,true,fallback-knn-v1,false,true,WLAN geht nicht
+R009,de,kurz,organization,kaskade,0.65,uncertain,technical,0.4926,false,fallback-knn-v1,false,true,Folien online?
+R010,de,kurz,content,kaskade,0.65,classified,content,0.8,true,fallback-knn-v1,false,true,Was ist Varianz?
+R011,de,kurz,technical,kaskade,0.65,classified,technical,0.6,true,fallback-knn-v1,false,true,Mikro aus?
+R012,de,paraphrase,organization,kaskade,0.65,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,kaskade,0.65,classified,content,0.6,false,fallback-knn-v1,false,true,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,kaskade,0.65,classified,content,0.6,true,fallback-knn-v1,false,true,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,kaskade,0.65,classified,technical,0.9975,false,gatekeeper-hash-nb-v1,true,false,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,kaskade,0.65,classified,organization,0.9981,true,gatekeeper-hash-nb-v1,true,false,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,kaskade,0.65,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,kaskade,0.65,classified,technical,0.997,true,gatekeeper-hash-nb-v1,true,false,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,kaskade,0.65,uncertain,organization,0.9487,false,fallback-knn-v1,false,true,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,kaskade,0.65,classified,technical,0.923,false,gatekeeper-hash-nb-v1,true,false,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,kaskade,0.65,classified,content,0.6869,false,gatekeeper-hash-nb-v1,true,false,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,kaskade,0.65,uncertain,organization,0.9855,true,fallback-knn-v1,false,true,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,kaskade,0.65,classified,content,0.9985,true,gatekeeper-hash-nb-v1,true,false,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,kaskade,0.65,classified,technical,0.9717,false,gatekeeper-hash-nb-v1,true,false,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,kaskade,0.65,classified,organization,0.6965,false,gatekeeper-hash-nb-v1,true,false,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,kaskade,0.65,classified,technical,0.7705,false,gatekeeper-hash-nb-v1,true,false,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,kaskade,0.65,uncertain,content,0.431,false,fallback-knn-v1,false,true,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,kaskade,0.65,classified,content,0.8524,true,gatekeeper-hash-nb-v1,true,false,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,kaskade,0.65,uncertain,organization,0.7325,false,fallback-knn-v1,false,true,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,kaskade,0.65,classified,content,0.9871,true,gatekeeper-hash-nb-v1,true,false,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,kaskade,0.65,uncertain,technical,0.8062,false,fallback-knn-v1,false,true,Ist das wichtig?
+R032,de,mehrdeutig,technical,kaskade,0.65,classified,technical,0.7522,true,gatekeeper-hash-nb-v1,true,false,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,kaskade,0.65,classified,organization,0.9991,true,gatekeeper-hash-nb-v1,true,false,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,kaskade,0.65,classified,content,0.9685,false,gatekeeper-hash-nb-v1,true,false,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,kaskade,0.65,classified,content,0.9613,false,gatekeeper-hash-nb-v1,true,false,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,kaskade,0.65,classified,organization,0.9734,true,gatekeeper-hash-nb-v1,true,false,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,kaskade,0.65,classified,organization,0.6,true,fallback-knn-v1,false,true,Exam date?
+R038,en,kurz,technical,kaskade,0.65,uncertain,technical,0.5647,true,fallback-knn-v1,false,true,Sound is gone
+R039,en,kurz,organization,kaskade,0.65,uncertain,technical,0.9869,false,fallback-knn-v1,false,true,Slides uploaded?
+R040,en,kurz,content,kaskade,0.65,uncertain,organization,0.9109,false,fallback-knn-v1,false,true,What is a residual?
+R041,en,kurz,organization,kaskade,0.65,uncertain,technical,0.3876,false,fallback-knn-v1,false,true,Break soon?
+R042,en,paraphrase,organization,kaskade,0.65,classified,content,0.9705,false,gatekeeper-hash-nb-v1,true,false,Will the recording be available after class?
+R043,en,paraphrase,organization,kaskade,0.65,classified,content,0.6627,false,gatekeeper-hash-nb-v1,true,false,Can we rewatch today's session later?
+R044,en,paraphrase,content,kaskade,0.65,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,What is the difference between mean and median?
+R045,en,paraphrase,content,kaskade,0.65,classified,content,0.9631,true,gatekeeper-hash-nb-v1,true,false,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,kaskade,0.65,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,kaskade,0.65,classified,organization,0.9893,true,gatekeeper-hash-nb-v1,true,false,When exactly is the project due?
+R048,en,tippfehler,content,kaskade,0.65,classified,content,0.996,true,gatekeeper-hash-nb-v1,true,false,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,kaskade,0.65,classified,technical,0.8696,true,gatekeeper-hash-nb-v1,true,false,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,kaskade,0.65,classified,organization,1,true,gatekeeper-hash-nb-v1,true,false,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,kaskade,0.65,classified,content,0.8849,true,gatekeeper-hash-nb-v1,true,false,Can you explian the null hypothesis again?
+R052,en,slang,content,kaskade,0.65,classified,content,0.9998,true,gatekeeper-hash-nb-v1,true,false,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,kaskade,0.65,classified,organization,0.6,true,fallback-knn-v1,false,true,is the exam gonna be brutal or chill?
+R054,en,slang,technical,kaskade,0.65,uncertain,technical,0.9737,true,fallback-knn-v1,false,true,app keeps crashing ngl
+R055,en,slang,content,kaskade,0.65,uncertain,organization,0.3784,false,fallback-knn-v1,false,true,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,kaskade,0.65,uncertain,content,0.5667,false,fallback-knn-v1,false,true,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,kaskade,0.65,classified,content,0.8775,false,gatekeeper-hash-nb-v1,true,false,Is this going to be relevant?
+R058,en,mehrdeutig,content,kaskade,0.65,classified,content,0.9266,true,gatekeeper-hash-nb-v1,true,false,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,kaskade,0.65,classified,content,0.9999,false,gatekeeper-hash-nb-v1,true,false,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,kaskade,0.65,classified,content,0.6,false,fallback-knn-v1,false,true,Can you upload this?
+R061,fr,kurz,organization,kaskade,0.65,classified,organization,0.8,true,fallback-knn-v1,false,true,Quand est l'examen ?
+R062,fr,kurz,technical,kaskade,0.65,uncertain,technical,0.9745,true,fallback-knn-v1,false,true,Le son ne marche pas
+R063,fr,paraphrase,organization,kaskade,0.65,classified,content,0.9998,false,gatekeeper-hash-nb-v1,true,false,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,kaskade,0.65,classified,content,0.6,false,fallback-knn-v1,false,true,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,kaskade,0.65,classified,technical,0.6684,false,gatekeeper-hash-nb-v1,true,false,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,kaskade,0.65,classified,content,0.9986,true,gatekeeper-hash-nb-v1,true,false,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,kaskade,0.65,classified,organization,0.9516,false,gatekeeper-hash-nb-v1,true,false,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,kaskade,0.65,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,kaskade,0.65,classified,content,0.9985,false,gatekeeper-hash-nb-v1,true,false,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,kaskade,0.65,classified,organization,0.7723,true,gatekeeper-hash-nb-v1,true,false,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,kaskade,0.65,uncertain,organization,0.9045,true,fallback-knn-v1,false,true,¿Cuándo es el examen?
+R072,es,kurz,technical,kaskade,0.65,classified,technical,0.6,true,fallback-knn-v1,false,true,No se oye nada
+R073,es,paraphrase,organization,kaskade,0.65,uncertain,organization,0.5346,true,fallback-knn-v1,false,true,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,kaskade,0.65,uncertain,technical,0.9563,false,fallback-knn-v1,false,true,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,kaskade,0.65,classified,content,1,true,gatekeeper-hash-nb-v1,true,false,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,kaskade,0.65,classified,content,0.9999,true,gatekeeper-hash-nb-v1,true,false,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,kaskade,0.65,classified,technical,0.991,true,gatekeeper-hash-nb-v1,true,false,La aplicasion no me carga en el movil
+R078,es,slang,content,kaskade,0.65,classified,organization,0.9594,false,gatekeeper-hash-nb-v1,true,false,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,kaskade,0.65,uncertain,organization,0.5887,true,fallback-knn-v1,false,true,¿Esto entra?
+R080,es,mehrdeutig,organization,kaskade,0.65,classified,organization,0.9997,true,gatekeeper-hash-nb-v1,true,false,¿Hay que venir obligatoriamente a las prácticas?
+R001,de,fixture,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,keyword,0.45,classified,organization,1,true,keyword-baseline,,,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,keyword,0.45,classified,organization,1,true,keyword-baseline,,,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Klausur wann?
+R008,de,kurz,technical,keyword,0.45,classified,technical,1,true,keyword-baseline,,,WLAN geht nicht
+R009,de,kurz,organization,keyword,0.45,classified,content,0.5,false,keyword-baseline,,,Folien online?
+R010,de,kurz,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,Was ist Varianz?
+R011,de,kurz,technical,keyword,0.45,classified,technical,1,true,keyword-baseline,,,Mikro aus?
+R012,de,paraphrase,organization,keyword,0.45,classified,organization,1,true,keyword-baseline,,,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,keyword,0.45,classified,organization,1,true,keyword-baseline,,,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,keyword,0.45,classified,technical,1,false,keyword-baseline,,,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,keyword,0.45,classified,organization,1,false,keyword-baseline,,,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Ist das wichtig?
+R032,de,mehrdeutig,technical,keyword,0.45,classified,content,0.5,false,keyword-baseline,,,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Exam date?
+R038,en,kurz,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Sound is gone
+R039,en,kurz,organization,keyword,0.45,classified,content,0.5,false,keyword-baseline,,,Slides uploaded?
+R040,en,kurz,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,What is a residual?
+R041,en,kurz,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Break soon?
+R042,en,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Will the recording be available after class?
+R043,en,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Can we rewatch today's session later?
+R044,en,paraphrase,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,What is the difference between mean and median?
+R045,en,paraphrase,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,keyword,0.45,classified,organization,1,true,keyword-baseline,,,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,When exactly is the project due?
+R048,en,tippfehler,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,keyword,0.45,classified,organization,1,false,keyword-baseline,,,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Can you explian the null hypothesis again?
+R052,en,slang,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,is the exam gonna be brutal or chill?
+R054,en,slang,technical,keyword,0.45,classified,technical,1,true,keyword-baseline,,,app keeps crashing ngl
+R055,en,slang,content,keyword,0.45,classified,organization,1,false,keyword-baseline,,,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Is this going to be relevant?
+R058,en,mehrdeutig,content,keyword,0.45,classified,content,1,true,keyword-baseline,,,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Can you upload this?
+R061,fr,kurz,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,Quand est l'examen ?
+R062,fr,kurz,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Le son ne marche pas
+R063,fr,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,keyword,0.45,classified,content,1,false,keyword-baseline,,,¿Cuándo es el examen?
+R072,es,kurz,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,No se oye nada
+R073,es,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,La aplicasion no me carga en el movil
+R078,es,slang,content,keyword,0.45,uncertain,content,0.3333,true,keyword-baseline,,,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,¿Esto entra?
+R080,es,mehrdeutig,organization,keyword,0.45,uncertain,content,0.3333,false,keyword-baseline,,,¿Hay que venir obligatoriamente a las prácticas?
+R001,de,fixture,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,keyword,0.55,classified,organization,1,true,keyword-baseline,,,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,keyword,0.55,classified,organization,1,true,keyword-baseline,,,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Klausur wann?
+R008,de,kurz,technical,keyword,0.55,classified,technical,1,true,keyword-baseline,,,WLAN geht nicht
+R009,de,kurz,organization,keyword,0.55,uncertain,content,0.5,false,keyword-baseline,,,Folien online?
+R010,de,kurz,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,Was ist Varianz?
+R011,de,kurz,technical,keyword,0.55,classified,technical,1,true,keyword-baseline,,,Mikro aus?
+R012,de,paraphrase,organization,keyword,0.55,classified,organization,1,true,keyword-baseline,,,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,keyword,0.55,classified,organization,1,true,keyword-baseline,,,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,keyword,0.55,classified,technical,1,false,keyword-baseline,,,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,keyword,0.55,classified,organization,1,false,keyword-baseline,,,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Ist das wichtig?
+R032,de,mehrdeutig,technical,keyword,0.55,uncertain,content,0.5,false,keyword-baseline,,,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Exam date?
+R038,en,kurz,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Sound is gone
+R039,en,kurz,organization,keyword,0.55,uncertain,content,0.5,false,keyword-baseline,,,Slides uploaded?
+R040,en,kurz,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,What is a residual?
+R041,en,kurz,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Break soon?
+R042,en,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Will the recording be available after class?
+R043,en,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Can we rewatch today's session later?
+R044,en,paraphrase,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,What is the difference between mean and median?
+R045,en,paraphrase,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,keyword,0.55,classified,organization,1,true,keyword-baseline,,,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,When exactly is the project due?
+R048,en,tippfehler,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,keyword,0.55,classified,organization,1,false,keyword-baseline,,,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Can you explian the null hypothesis again?
+R052,en,slang,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,is the exam gonna be brutal or chill?
+R054,en,slang,technical,keyword,0.55,classified,technical,1,true,keyword-baseline,,,app keeps crashing ngl
+R055,en,slang,content,keyword,0.55,classified,organization,1,false,keyword-baseline,,,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Is this going to be relevant?
+R058,en,mehrdeutig,content,keyword,0.55,classified,content,1,true,keyword-baseline,,,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Can you upload this?
+R061,fr,kurz,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,Quand est l'examen ?
+R062,fr,kurz,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Le son ne marche pas
+R063,fr,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,keyword,0.55,classified,content,1,false,keyword-baseline,,,¿Cuándo es el examen?
+R072,es,kurz,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,No se oye nada
+R073,es,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,La aplicasion no me carga en el movil
+R078,es,slang,content,keyword,0.55,uncertain,content,0.3333,true,keyword-baseline,,,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,¿Esto entra?
+R080,es,mehrdeutig,organization,keyword,0.55,uncertain,content,0.3333,false,keyword-baseline,,,¿Hay que venir obligatoriamente a las prácticas?
+R001,de,fixture,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,Können wir mehr Beispiele zur linearen Regression bearbeiten?
+R002,de,fixture,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,Gibt es ein weiteres Beispiel zur linearen Regression?
+R003,de,fixture,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Ist Kapitel 4 klausurrelevant?
+R004,de,fixture,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Müssen wir den vierten Abschnitt für die Prüfung lernen?
+R005,de,fixture,organization,keyword,0.65,classified,organization,1,true,keyword-baseline,,,Soll die Anwesenheit verpflichtend sein?
+R006,de,fixture,organization,keyword,0.65,classified,organization,1,true,keyword-baseline,,,Sollten wir eine Anwesenheitspflicht einführen?
+R007,de,kurz,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Klausur wann?
+R008,de,kurz,technical,keyword,0.65,classified,technical,1,true,keyword-baseline,,,WLAN geht nicht
+R009,de,kurz,organization,keyword,0.65,uncertain,content,0.5,false,keyword-baseline,,,Folien online?
+R010,de,kurz,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,Was ist Varianz?
+R011,de,kurz,technical,keyword,0.65,classified,technical,1,true,keyword-baseline,,,Mikro aus?
+R012,de,paraphrase,organization,keyword,0.65,classified,organization,1,true,keyword-baseline,,,Wird die Vorlesung auch als Video bereitgestellt?
+R013,de,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Kann man die Aufzeichnung später nochmal ansehen?
+R014,de,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Was unterscheidet Korrelation von Kausalität?
+R015,de,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?
+R016,de,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Bis zu welchem Datum nehmt ihr das Übungsblatt noch an?
+R017,de,paraphrase,organization,keyword,0.65,classified,organization,1,true,keyword-baseline,,,Wann ist die Deadline für Blatt 3?
+R018,de,paraphrase,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,"Die Seite lädt bei mir nicht, liegt das am Server?"
+R019,de,tippfehler,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Wie berechent man den Standradfehler?
+R020,de,tippfehler,organization,keyword,0.65,classified,technical,1,false,keyword-baseline,,,Gibts die Folein auch als PDF?
+R021,de,tippfehler,technical,keyword,0.65,classified,organization,1,false,keyword-baseline,,,"Mein Bildschrim bleibt schwarz, wenn ich den Link öffne"
+R022,de,tippfehler,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Zält die Hausübung zur Endnote?
+R023,de,tippfehler,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Wie interpretiert man einen kleinen p-Wert richitg?
+R024,de,slang,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,"Check ich nicht, wieso ist das Intervall so breit?"
+R025,de,slang,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,"Mega Lag gerade, bin ich der Einzige?"
+R026,de,slang,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Kommt das Zeug echt alles dran?
+R027,de,slang,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Läuft die App auch aufm Handy oder nur am Laptop?
+R028,de,slang,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,"Bro, was war nochmal die Formel für die Steigung?"
+R029,de,mehrdeutig,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Können wir das nochmal machen?
+R030,de,mehrdeutig,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Gibt es dafür noch einen anderen Weg?
+R031,de,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Ist das wichtig?
+R032,de,mehrdeutig,technical,keyword,0.65,uncertain,content,0.5,false,keyword-baseline,,,"Warum klappt die Abgabe im Portal nicht, obwohl ich die Aufgabe richtig gerechnet habe?"
+R033,de,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Gibt es zu Kapitel 5 noch Material?
+R034,de,mehrdeutig,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Kann man die Übungsaufgaben auch in R statt Python lösen?
+R035,de,mehrdeutig,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Wie viel Zeit sollten wir für die Hausaufgabe einplanen?
+R036,de,mehrdeutig,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,"Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+R037,en,kurz,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Exam date?
+R038,en,kurz,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Sound is gone
+R039,en,kurz,organization,keyword,0.65,uncertain,content,0.5,false,keyword-baseline,,,Slides uploaded?
+R040,en,kurz,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,What is a residual?
+R041,en,kurz,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Break soon?
+R042,en,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Will the recording be available after class?
+R043,en,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Can we rewatch today's session later?
+R044,en,paraphrase,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,What is the difference between mean and median?
+R045,en,paraphrase,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,Why is the median more robust than the mean?
+R046,en,paraphrase,organization,keyword,0.65,classified,organization,1,true,keyword-baseline,,,Is the deadline for the project still Friday?
+R047,en,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,When exactly is the project due?
+R048,en,tippfehler,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,How do I interpert the confidence intervall?
+R049,en,tippfehler,technical,keyword,0.65,classified,organization,1,false,keyword-baseline,,,The link to the quizz doesn't open on my phone
+R050,en,tippfehler,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Is attendence mandatory for the lab sessions?
+R051,en,tippfehler,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Can you explian the null hypothesis again?
+R052,en,slang,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,"lowkey lost on the last slide, can you go over it?"
+R053,en,slang,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,is the exam gonna be brutal or chill?
+R054,en,slang,technical,keyword,0.65,classified,technical,1,true,keyword-baseline,,,app keeps crashing ngl
+R055,en,slang,content,keyword,0.65,classified,organization,1,false,keyword-baseline,,,tbh no clue what a z-score is
+R056,en,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Could you scroll up a bit?
+R057,en,mehrdeutig,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Is this going to be relevant?
+R058,en,mehrdeutig,content,keyword,0.65,classified,content,1,true,keyword-baseline,,,Why doesn't my code give the same result as on the slide?
+R059,en,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Do we need to know the derivation?
+R060,en,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Can you upload this?
+R061,fr,kurz,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,Quand est l'examen ?
+R062,fr,kurz,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Le son ne marche pas
+R063,fr,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que la séance sera enregistrée ?
+R064,fr,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Pourrait-on revoir la vidéo du cours plus tard ?
+R065,fr,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Comment obtient-on l'écart-type à partir des données ?
+R066,fr,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,Pourquoi divise-t-on par n-1 pour la variance ?
+R067,fr,tippfehler,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Je n'arrive pas a me connecter a la plateform
+R068,fr,slang,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,"C'est quoi la diff entre régression et corrélation, j'ai rien capté"
+R069,fr,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Est-ce que c'est important pour la suite ?
+R070,fr,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,Le devoir compte combien dans la note finale ?
+R071,es,kurz,organization,keyword,0.65,classified,content,1,false,keyword-baseline,,,¿Cuándo es el examen?
+R072,es,kurz,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,No se oye nada
+R073,es,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,¿Se va a grabar la clase?
+R074,es,paraphrase,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,¿Podemos ver la grabación después?
+R075,es,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,¿Qué significa un intervalo de confianza del 95 %?
+R076,es,paraphrase,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,¿Cómo se interpreta el coeficiente de determinación?
+R077,es,tippfehler,technical,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,La aplicasion no me carga en el movil
+R078,es,slang,content,keyword,0.65,uncertain,content,0.3333,true,keyword-baseline,,,"Ni idea de lo que es un p-valor, ¿lo explicas otra vez?"
+R079,es,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,¿Esto entra?
+R080,es,mehrdeutig,organization,keyword,0.65,uncertain,content,0.3333,false,keyword-baseline,,,¿Hay que venir obligatoriamente a las prácticas?

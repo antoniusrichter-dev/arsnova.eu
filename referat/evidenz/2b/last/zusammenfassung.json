@@ -1,0 +1,426 @@
+{
+  "erzeugt": "2026-11-21T00:12:59.823Z",
+  "konfigs": {
+    "aus": {
+      "laeufe": [
+        {
+          "lauf": 1,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 1234.7,
+          "p95Ms": 1272,
+          "maxMs": 1280.1,
+          "burstMs": 1290.8,
+          "direktDb": {
+            "DISABLED": 200
+          },
+          "direktCompletedDelta": 0,
+          "endeDb": {
+            "DISABLED": 200
+          },
+          "endeDelta": {
+            "completed": 0,
+            "failed": 0,
+            "skipped": 0,
+            "earlyExit": 0,
+            "fallback": 0,
+            "unclassified": 0
+          },
+          "failedNachModell": [],
+          "rssMaxMiB": 427,
+          "rssAnonMaxMiB": 361,
+          "rssVorherMiB": 397
+        },
+        {
+          "lauf": 2,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 471.2,
+          "p95Ms": 507.5,
+          "maxMs": 511.1,
+          "burstMs": 512.2,
+          "direktDb": {
+            "DISABLED": 200
+          },
+          "direktCompletedDelta": 0,
+          "endeDb": {
+            "DISABLED": 200
+          },
+          "endeDelta": {
+            "completed": 0,
+            "failed": 0,
+            "skipped": 0,
+            "earlyExit": 0,
+            "fallback": 0,
+            "unclassified": 0
+          },
+          "failedNachModell": [],
+          "rssMaxMiB": 446,
+          "rssAnonMaxMiB": 380,
+          "rssVorherMiB": 430
+        },
+        {
+          "lauf": 3,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 427,
+          "p95Ms": 459.1,
+          "maxMs": 461.6,
+          "burstMs": 463.7,
+          "direktDb": {
+            "DISABLED": 200
+          },
+          "direktCompletedDelta": 0,
+          "endeDb": {
+            "DISABLED": 200
+          },
+          "endeDelta": {
+            "completed": 0,
+            "failed": 0,
+            "skipped": 0,
+            "earlyExit": 0,
+            "fallback": 0,
+            "unclassified": 0
+          },
+          "failedNachModell": [],
+          "rssMaxMiB": 449,
+          "rssAnonMaxMiB": 383,
+          "rssVorherMiB": 446
+        }
+      ],
+      "warmP50Median": 427,
+      "warmP95Median": 459.1,
+      "log": {
+        "completed": 0,
+        "skipped": 0,
+        "failed": 0,
+        "persistFailed": 0,
+        "skippedGrund": [],
+        "latencyMsCompleted": null,
+        "queueLengthMaxBeiCompleted": null
+      },
+      "metricsEnde": {
+        "queueLength": 0,
+        "lastLatencyMs": null,
+        "completed": 0,
+        "failed": 0,
+        "skipped": 0,
+        "earlyExit": 0,
+        "fallback": 0,
+        "unclassified": 0,
+        "earlyExitRate": 0,
+        "fallbackRate": 0,
+        "unclassifiedRate": 0
+      }
+    },
+    "an-limit100": {
+      "laeufe": [
+        {
+          "lauf": 1,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 977.2,
+          "p95Ms": 1050.5,
+          "maxMs": 1052.1,
+          "burstMs": 1056.5,
+          "direktDb": {
+            "PENDING": 18,
+            "CLASSIFIED": 60,
+            "UNCERTAIN": 24,
+            "FAILED": 98
+          },
+          "direktCompletedDelta": 81,
+          "endeDb": {
+            "CLASSIFIED": 73,
+            "UNCERTAIN": 29,
+            "FAILED": 98
+          },
+          "endeDelta": {
+            "completed": 102,
+            "failed": 0,
+            "skipped": 98,
+            "earlyExit": 61,
+            "fallback": 41,
+            "unclassified": 29
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 98
+            }
+          ],
+          "rssMaxMiB": 429,
+          "rssAnonMaxMiB": 363,
+          "rssVorherMiB": 416
+        },
+        {
+          "lauf": 2,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 509.5,
+          "p95Ms": 560.9,
+          "maxMs": 563.5,
+          "burstMs": 566.2,
+          "direktDb": {
+            "PENDING": 16,
+            "CLASSIFIED": 62,
+            "UNCERTAIN": 24,
+            "FAILED": 98
+          },
+          "direktCompletedDelta": 84,
+          "endeDb": {
+            "CLASSIFIED": 73,
+            "UNCERTAIN": 29,
+            "FAILED": 98
+          },
+          "endeDelta": {
+            "completed": 102,
+            "failed": 0,
+            "skipped": 98,
+            "earlyExit": 59,
+            "fallback": 43,
+            "unclassified": 29
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 98
+            }
+          ],
+          "rssMaxMiB": 437,
+          "rssAnonMaxMiB": 371,
+          "rssVorherMiB": 432
+        },
+        {
+          "lauf": 3,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 422,
+          "p95Ms": 471.4,
+          "maxMs": 475.2,
+          "burstMs": 476.1,
+          "direktDb": {
+            "PENDING": 12,
+            "CLASSIFIED": 69,
+            "UNCERTAIN": 21,
+            "FAILED": 98
+          },
+          "direktCompletedDelta": 87,
+          "endeDb": {
+            "CLASSIFIED": 78,
+            "UNCERTAIN": 24,
+            "FAILED": 98
+          },
+          "endeDelta": {
+            "completed": 102,
+            "failed": 0,
+            "skipped": 98,
+            "earlyExit": 62,
+            "fallback": 40,
+            "unclassified": 24
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 98
+            }
+          ],
+          "rssMaxMiB": 445,
+          "rssAnonMaxMiB": 380,
+          "rssVorherMiB": 440
+        }
+      ],
+      "warmP50Median": 422,
+      "warmP95Median": 471.4,
+      "log": {
+        "completed": 306,
+        "skipped": 294,
+        "failed": 0,
+        "persistFailed": 0,
+        "skippedGrund": [
+          "queue-limit"
+        ],
+        "latencyMsCompleted": {
+          "n": 306,
+          "p50": 2,
+          "p95": 4,
+          "max": 477
+        },
+        "queueLengthMaxBeiCompleted": 99
+      },
+      "metricsEnde": {
+        "queueLength": 0,
+        "lastLatencyMs": 2,
+        "completed": 306,
+        "failed": 0,
+        "skipped": 294,
+        "earlyExit": 182,
+        "fallback": 124,
+        "unclassified": 82,
+        "earlyExitRate": 0.5947712418300654,
+        "fallbackRate": 0.40522875816993464,
+        "unclassifiedRate": 0.2679738562091503
+      }
+    },
+    "an-limit20": {
+      "laeufe": [
+        {
+          "lauf": 1,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 966.4,
+          "p95Ms": 1031.6,
+          "maxMs": 1036.4,
+          "burstMs": 1036.9,
+          "direktDb": {
+            "CLASSIFIED": 16,
+            "UNCERTAIN": 5,
+            "FAILED": 179
+          },
+          "direktCompletedDelta": 21,
+          "endeDb": {
+            "CLASSIFIED": 16,
+            "UNCERTAIN": 5,
+            "FAILED": 179
+          },
+          "endeDelta": {
+            "completed": 21,
+            "failed": 0,
+            "skipped": 179,
+            "earlyExit": 15,
+            "fallback": 6,
+            "unclassified": 5
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 179
+            }
+          ],
+          "rssMaxMiB": 455,
+          "rssAnonMaxMiB": 389,
+          "rssVorherMiB": 440
+        },
+        {
+          "lauf": 2,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 490.9,
+          "p95Ms": 544.6,
+          "maxMs": 548.9,
+          "burstMs": 550,
+          "direktDb": {
+            "CLASSIFIED": 17,
+            "UNCERTAIN": 4,
+            "FAILED": 179
+          },
+          "direktCompletedDelta": 21,
+          "endeDb": {
+            "CLASSIFIED": 17,
+            "UNCERTAIN": 4,
+            "FAILED": 179
+          },
+          "endeDelta": {
+            "completed": 21,
+            "failed": 0,
+            "skipped": 179,
+            "earlyExit": 13,
+            "fallback": 8,
+            "unclassified": 4
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 179
+            }
+          ],
+          "rssMaxMiB": 464,
+          "rssAnonMaxMiB": 398,
+          "rssVorherMiB": 459
+        },
+        {
+          "lauf": 3,
+          "submitOk": 200,
+          "submitFehler": 0,
+          "p50Ms": 413.8,
+          "p95Ms": 461.5,
+          "maxMs": 466.5,
+          "burstMs": 466.9,
+          "direktDb": {
+            "CLASSIFIED": 13,
+            "UNCERTAIN": 8,
+            "FAILED": 179
+          },
+          "direktCompletedDelta": 21,
+          "endeDb": {
+            "CLASSIFIED": 13,
+            "UNCERTAIN": 8,
+            "FAILED": 179
+          },
+          "endeDelta": {
+            "completed": 21,
+            "failed": 0,
+            "skipped": 179,
+            "earlyExit": 9,
+            "fallback": 12,
+            "unclassified": 8
+          },
+          "failedNachModell": [
+            {
+              "nlpStatus": "FAILED",
+              "nlpModelVersion": "stub:queue-limit",
+              "n": 179
+            }
+          ],
+          "rssMaxMiB": 473,
+          "rssAnonMaxMiB": 408,
+          "rssVorherMiB": 468
+        }
+      ],
+      "warmP50Median": 413.8,
+      "warmP95Median": 461.5,
+      "log": {
+        "completed": 63,
+        "skipped": 537,
+        "failed": 0,
+        "persistFailed": 0,
+        "skippedGrund": [
+          "queue-limit"
+        ],
+        "latencyMsCompleted": {
+          "n": 63,
+          "p50": 2,
+          "p95": 162,
+          "max": 655
+        },
+        "queueLengthMaxBeiCompleted": 19
+      },
+      "metricsEnde": {
+        "queueLength": 0,
+        "lastLatencyMs": 2,
+        "completed": 63,
+        "failed": 0,
+        "skipped": 537,
+        "earlyExit": 37,
+        "fallback": 26,
+        "unclassified": 17,
+        "earlyExitRate": 0.5873015873015873,
+        "fallbackRate": 0.4126984126984127,
+        "unclassifiedRate": 0.2698412698412698
+      }
+    }
+  },
+  "klassifikationMikro": {
+    "fragen": 80,
+    "wiederholungen": 20,
+    "n": 1600,
+    "p50": 0.03,
+    "p95": 1.443,
+    "max": 3.623
+  }
+}

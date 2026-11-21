@@ -1,0 +1,1110 @@
+◇ injected env (94) from ../../.env // tip: ⌁ auth for agents [www.vestauth.com]
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 655,
+  queueLength: 19,
+  earlyExit: 1,
+  fallback: 0,
+  unclassified: 0
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 203,
+  queueLength: 19,
+  earlyExit: 1,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 39,
+  queueLength: 18,
+  earlyExit: 2,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 17,
+  earlyExit: 3,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 16,
+  earlyExit: 4,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 15,
+  earlyExit: 5,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 14,
+  earlyExit: 6,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 13,
+  earlyExit: 7,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 6,
+  queueLength: 12,
+  earlyExit: 8,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 11,
+  earlyExit: 9,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 10,
+  earlyExit: 10,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 9,
+  earlyExit: 11,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 8,
+  earlyExit: 12,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 7,
+  earlyExit: 13,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 6,
+  earlyExit: 13,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 5,
+  earlyExit: 13,
+  fallback: 3,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 4,
+  earlyExit: 13,
+  fallback: 4,
+  unclassified: 3
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 3,
+  earlyExit: 13,
+  fallback: 5,
+  unclassified: 4
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 2,
+  earlyExit: 14,
+  fallback: 5,
+  unclassified: 4
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 1,
+  earlyExit: 15,
+  fallback: 5,
+  unclassified: 4
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 15,
+  fallback: 6,
+  unclassified: 5
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 156,
+  queueLength: 19,
+  earlyExit: 16,
+  fallback: 6,
+  unclassified: 5
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 219,
+  queueLength: 19,
+  earlyExit: 16,
+  fallback: 7,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 57,
+  queueLength: 18,
+  earlyExit: 17,
+  fallback: 7,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 17,
+  earlyExit: 18,
+  fallback: 7,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 16,
+  earlyExit: 18,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 15,
+  earlyExit: 19,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 14,
+  earlyExit: 20,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 13,
+  earlyExit: 21,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 12,
+  earlyExit: 22,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 11,
+  earlyExit: 23,
+  fallback: 8,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 10,
+  earlyExit: 23,
+  fallback: 9,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 9,
+  earlyExit: 23,
+  fallback: 10,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 8,
+  earlyExit: 23,
+  fallback: 11,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 7,
+  earlyExit: 23,
+  fallback: 12,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 6,
+  earlyExit: 23,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 5,
+  earlyExit: 24,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 4,
+  earlyExit: 25,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 3,
+  earlyExit: 26,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 2,
+  earlyExit: 27,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 1,
+  earlyExit: 28,
+  fallback: 13,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 28,
+  fallback: 14,
+  unclassified: 9
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 162,
+  queueLength: 19,
+  earlyExit: 29,
+  fallback: 14,
+  unclassified: 9
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 19, running: 1, limit: 20 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 152,
+  queueLength: 19,
+  earlyExit: 29,
+  fallback: 15,
+  unclassified: 10
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 28,
+  queueLength: 18,
+  earlyExit: 30,
+  fallback: 15,
+  unclassified: 10
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 17,
+  earlyExit: 30,
+  fallback: 16,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 16,
+  earlyExit: 30,
+  fallback: 17,
+  unclassified: 12
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 15,
+  earlyExit: 30,
+  fallback: 18,
+  unclassified: 12
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 14,
+  earlyExit: 31,
+  fallback: 18,
+  unclassified: 12
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 13,
+  earlyExit: 31,
+  fallback: 19,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 12,
+  earlyExit: 32,
+  fallback: 19,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 11,
+  earlyExit: 33,
+  fallback: 19,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 10,
+  earlyExit: 34,
+  fallback: 19,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 9,
+  earlyExit: 35,
+  fallback: 19,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 8,
+  earlyExit: 35,
+  fallback: 20,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 7,
+  earlyExit: 35,
+  fallback: 21,
+  unclassified: 14
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 6,
+  earlyExit: 35,
+  fallback: 22,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 5,
+  earlyExit: 36,
+  fallback: 22,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 4,
+  earlyExit: 36,
+  fallback: 23,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 3,
+  earlyExit: 36,
+  fallback: 24,
+  unclassified: 16
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 2,
+  earlyExit: 36,
+  fallback: 25,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 1,
+  earlyExit: 36,
+  fallback: 26,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 37,
+  fallback: 26,
+  unclassified: 17
+}

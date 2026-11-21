@@ -1,0 +1,2089 @@
+{
+  "erzeugt": "2026-11-21T14:11:16.277Z",
+  "referenz": "referat/2b/referenz.csv",
+  "n": 80,
+  "goldVerteilung": {
+    "content": 25,
+    "organization": 41,
+    "technical": 14
+  },
+  "gruppen": {
+    "fixture": 6,
+    "kurz": 14,
+    "mehrdeutig": 17,
+    "paraphrase": 21,
+    "slang": 11,
+    "tippfehler": 11
+  },
+  "sprachen": {
+    "de": 36,
+    "en": 24,
+    "es": 10,
+    "fr": 10
+  },
+  "labeling": {
+    "personen": 1,
+    "gold": "label_person1",
+    "cohensKappa": null,
+    "uneinigkeit": null,
+    "grund": "Nur eine labelnde Person (Einzel-Labeling); κ und Uneinigkeit nicht berechenbar."
+  },
+  "produktKonstanten": {
+    "gatekeeperModell": "gatekeeper-hash-nb-v1",
+    "minConfidenceDefault": 0.55,
+    "earlyExitMargin": 0.22,
+    "earlyExitMinTokens": 6
+  },
+  "definitionen": {
+    "classifiedKaskade": "status === 'classified' aus classifyQaNlpCascade",
+    "classifiedKeyword": "confidence ≥ Schwelle (wie evaluateQaNlpPredictions)",
+    "macroF1Classified": "nur classified-Fälle",
+    "macroF1Streng": "uncertain zählt als falsch (Recall über alle, Precision über classified)",
+    "macroF1BestGuess": "Bestes Label für alle Fälle (Produktdefinition evaluateQaNlpPredictions)",
+    "reliability": "0,1-Bins der Konfidenz gegen Trefferquote des besten Labels, alle Fälle; ECE gewichtet"
+  },
+  "varianten": {
+    "kaskade@0.45": {
+      "methode": "kaskade",
+      "schwelle": 0.45,
+      "istDefault": false,
+      "n": 80,
+      "classified": 57,
+      "abdeckung": 0.7125,
+      "accuracyClassified": 0.6842,
+      "macroF1Classified": 0.6755,
+      "macroF1Streng": 0.5669,
+      "macroF1BestGuess": 0.5978,
+      "accuracyBestGuess": 0.6,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.6296,
+          "recall": 0.8095,
+          "f1": 0.7083,
+          "support": 21
+        },
+        "organization": {
+          "precision": 0.8333,
+          "recall": 0.5769,
+          "f1": 0.6818,
+          "support": 26
+        },
+        "technical": {
+          "precision": 0.5833,
+          "recall": 0.7,
+          "f1": 0.6364,
+          "support": 10
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 17,
+          "organization": 1,
+          "technical": 3,
+          "uncertain": 4
+        },
+        "organization": {
+          "content": 9,
+          "organization": 15,
+          "technical": 2,
+          "uncertain": 15
+        },
+        "technical": {
+          "content": 1,
+          "organization": 2,
+          "technical": 7,
+          "uncertain": 4
+        }
+      },
+      "kaskadenStufen": {
+        "earlyExit": 48,
+        "fallbackGenutzt": 32
+      },
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 4,
+          "abdeckung": 0.6667,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.8333,
+          "macroF1Streng": 0.5556
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 6,
+          "abdeckung": 0.4286,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.6429,
+          "macroF1Streng": 0.6204
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 13,
+          "abdeckung": 0.7647,
+          "accuracyClassified": 0.5385,
+          "accuracyBestGuess": 0.4706,
+          "macroF1Streng": 0.6114
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 18,
+          "abdeckung": 0.8571,
+          "accuracyClassified": 0.7222,
+          "accuracyBestGuess": 0.6667,
+          "macroF1Streng": 0.6242
+        },
+        "slang": {
+          "n": 11,
+          "classified": 7,
+          "abdeckung": 0.6364,
+          "accuracyClassified": 0.4286,
+          "accuracyBestGuess": 0.4545,
+          "macroF1Streng": 0.2222
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 9,
+          "abdeckung": 0.8182,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6364,
+          "macroF1Streng": 0.5738
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 26,
+          "abdeckung": 0.7222,
+          "accuracyClassified": 0.6923,
+          "accuracyBestGuess": 0.5556,
+          "macroF1Streng": 0.5795
+        },
+        "en": {
+          "n": 24,
+          "classified": 16,
+          "abdeckung": 0.6667,
+          "accuracyClassified": 0.6875,
+          "accuracyBestGuess": 0.5833,
+          "macroF1Streng": 0.5341
+        },
+        "es": {
+          "n": 10,
+          "classified": 6,
+          "abdeckung": 0.6,
+          "accuracyClassified": 0.8333,
+          "accuracyBestGuess": 0.8,
+          "macroF1Streng": 0.6952
+        },
+        "fr": {
+          "n": 10,
+          "classified": 9,
+          "abdeckung": 0.9,
+          "accuracyClassified": 0.5556,
+          "accuracyBestGuess": 0.6,
+          "macroF1Streng": 0.4127
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.383,
+            "trefferquote": 0,
+            "luecke": 0.383
+          },
+          {
+            "bin": "0.4–0.5",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.4618,
+            "trefferquote": 0,
+            "luecke": 0.4618
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 4,
+            "classified": 0,
+            "mittlereKonfidenz": 0.5637,
+            "trefferquote": 0.75,
+            "luecke": -0.1863
+          },
+          {
+            "bin": "0.6–0.7",
+            "n": 15,
+            "classified": 12,
+            "mittlereKonfidenz": 0.6358,
+            "trefferquote": 0.5333,
+            "luecke": 0.1025
+          },
+          {
+            "bin": "0.7–0.8",
+            "n": 5,
+            "classified": 4,
+            "mittlereKonfidenz": 0.756,
+            "trefferquote": 0.6,
+            "luecke": 0.156
+          },
+          {
+            "bin": "0.8–0.9",
+            "n": 8,
+            "classified": 7,
+            "mittlereKonfidenz": 0.8363,
+            "trefferquote": 0.75,
+            "luecke": 0.0863
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 44,
+            "classified": 34,
+            "mittlereKonfidenz": 0.9809,
+            "trefferquote": 0.6364,
+            "luecke": 0.3445
+          }
+        ],
+        "ece": 0.2575
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R059",
+          "text": "Do we need to know the derivation?",
+          "sprache": "en",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9999,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R063",
+          "text": "Est-ce que la séance sera enregistrée ?",
+          "sprache": "fr",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9998,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R069",
+          "text": "Est-ce que c'est important pour la suite ?",
+          "sprache": "fr",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9985,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R015",
+          "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+          "sprache": "de",
+          "gruppe": "paraphrase",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9975,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R024",
+          "text": "Check ich nicht, wieso ist das Intervall so breit?",
+          "sprache": "de",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9717,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R042",
+          "text": "Will the recording be available after class?",
+          "sprache": "en",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9705,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9685,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9613,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R078",
+          "text": "Ni idea de lo que es un p-valor, ¿lo explicas otra vez?",
+          "sprache": "es",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9594,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R067",
+          "text": "Je n'arrive pas a me connecter a la plateform",
+          "sprache": "fr",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9516,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        }
+      ]
+    },
+    "kaskade@0.55": {
+      "methode": "kaskade",
+      "schwelle": 0.55,
+      "istDefault": true,
+      "n": 80,
+      "classified": 59,
+      "abdeckung": 0.7375,
+      "accuracyClassified": 0.678,
+      "macroF1Classified": 0.6704,
+      "macroF1Streng": 0.5711,
+      "macroF1BestGuess": 0.5978,
+      "accuracyBestGuess": 0.6,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.6071,
+          "recall": 0.8095,
+          "f1": 0.6939,
+          "support": 21
+        },
+        "organization": {
+          "precision": 0.8421,
+          "recall": 0.5714,
+          "f1": 0.6809,
+          "support": 28
+        },
+        "technical": {
+          "precision": 0.5833,
+          "recall": 0.7,
+          "f1": 0.6364,
+          "support": 10
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 17,
+          "organization": 1,
+          "technical": 3,
+          "uncertain": 4
+        },
+        "organization": {
+          "content": 10,
+          "organization": 16,
+          "technical": 2,
+          "uncertain": 13
+        },
+        "technical": {
+          "content": 1,
+          "organization": 2,
+          "technical": 7,
+          "uncertain": 4
+        }
+      },
+      "kaskadenStufen": {
+        "earlyExit": 48,
+        "fallbackGenutzt": 32
+      },
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 4,
+          "abdeckung": 0.6667,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.8333,
+          "macroF1Streng": 0.5556
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 6,
+          "abdeckung": 0.4286,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.6429,
+          "macroF1Streng": 0.6204
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 13,
+          "abdeckung": 0.7647,
+          "accuracyClassified": 0.5385,
+          "accuracyBestGuess": 0.4706,
+          "macroF1Streng": 0.6114
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 19,
+          "abdeckung": 0.9048,
+          "accuracyClassified": 0.6842,
+          "accuracyBestGuess": 0.6667,
+          "macroF1Streng": 0.6111
+        },
+        "slang": {
+          "n": 11,
+          "classified": 8,
+          "abdeckung": 0.7273,
+          "accuracyClassified": 0.5,
+          "accuracyBestGuess": 0.4545,
+          "macroF1Streng": 0.3556
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 9,
+          "abdeckung": 0.8182,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6364,
+          "macroF1Streng": 0.5738
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 27,
+          "abdeckung": 0.75,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.5556,
+          "macroF1Streng": 0.5694
+        },
+        "en": {
+          "n": 24,
+          "classified": 17,
+          "abdeckung": 0.7083,
+          "accuracyClassified": 0.7059,
+          "accuracyBestGuess": 0.5833,
+          "macroF1Streng": 0.5624
+        },
+        "es": {
+          "n": 10,
+          "classified": 6,
+          "abdeckung": 0.6,
+          "accuracyClassified": 0.8333,
+          "accuracyBestGuess": 0.8,
+          "macroF1Streng": 0.6952
+        },
+        "fr": {
+          "n": 10,
+          "classified": 9,
+          "abdeckung": 0.9,
+          "accuracyClassified": 0.5556,
+          "accuracyBestGuess": 0.6,
+          "macroF1Streng": 0.4127
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.383,
+            "trefferquote": 0,
+            "luecke": 0.383
+          },
+          {
+            "bin": "0.4–0.5",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.4618,
+            "trefferquote": 0,
+            "luecke": 0.4618
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 4,
+            "classified": 0,
+            "mittlereKonfidenz": 0.5637,
+            "trefferquote": 0.75,
+            "luecke": -0.1863
+          },
+          {
+            "bin": "0.6–0.7",
+            "n": 15,
+            "classified": 14,
+            "mittlereKonfidenz": 0.6358,
+            "trefferquote": 0.5333,
+            "luecke": 0.1025
+          },
+          {
+            "bin": "0.7–0.8",
+            "n": 5,
+            "classified": 4,
+            "mittlereKonfidenz": 0.756,
+            "trefferquote": 0.6,
+            "luecke": 0.156
+          },
+          {
+            "bin": "0.8–0.9",
+            "n": 8,
+            "classified": 7,
+            "mittlereKonfidenz": 0.8363,
+            "trefferquote": 0.75,
+            "luecke": 0.0863
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 44,
+            "classified": 34,
+            "mittlereKonfidenz": 0.9809,
+            "trefferquote": 0.6364,
+            "luecke": 0.3445
+          }
+        ],
+        "ece": 0.2575
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R059",
+          "text": "Do we need to know the derivation?",
+          "sprache": "en",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9999,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R063",
+          "text": "Est-ce que la séance sera enregistrée ?",
+          "sprache": "fr",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9998,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R069",
+          "text": "Est-ce que c'est important pour la suite ?",
+          "sprache": "fr",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9985,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R015",
+          "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+          "sprache": "de",
+          "gruppe": "paraphrase",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9975,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R024",
+          "text": "Check ich nicht, wieso ist das Intervall so breit?",
+          "sprache": "de",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9717,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R042",
+          "text": "Will the recording be available after class?",
+          "sprache": "en",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9705,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9685,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9613,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R078",
+          "text": "Ni idea de lo que es un p-valor, ¿lo explicas otra vez?",
+          "sprache": "es",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9594,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R067",
+          "text": "Je n'arrive pas a me connecter a la plateform",
+          "sprache": "fr",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9516,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        }
+      ]
+    },
+    "kaskade@0.65": {
+      "methode": "kaskade",
+      "schwelle": 0.65,
+      "istDefault": false,
+      "n": 80,
+      "classified": 59,
+      "abdeckung": 0.7375,
+      "accuracyClassified": 0.661,
+      "macroF1Classified": 0.6562,
+      "macroF1Streng": 0.5589,
+      "macroF1BestGuess": 0.5875,
+      "accuracyBestGuess": 0.5875,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.5862,
+          "recall": 0.8095,
+          "f1": 0.68,
+          "support": 21
+        },
+        "organization": {
+          "precision": 0.8333,
+          "recall": 0.5357,
+          "f1": 0.6522,
+          "support": 28
+        },
+        "technical": {
+          "precision": 0.5833,
+          "recall": 0.7,
+          "f1": 0.6364,
+          "support": 10
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 17,
+          "organization": 1,
+          "technical": 3,
+          "uncertain": 4
+        },
+        "organization": {
+          "content": 11,
+          "organization": 15,
+          "technical": 2,
+          "uncertain": 13
+        },
+        "technical": {
+          "content": 1,
+          "organization": 2,
+          "technical": 7,
+          "uncertain": 4
+        }
+      },
+      "kaskadenStufen": {
+        "earlyExit": 47,
+        "fallbackGenutzt": 33
+      },
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 4,
+          "abdeckung": 0.6667,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.8333,
+          "macroF1Streng": 0.5556
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 6,
+          "abdeckung": 0.4286,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.6429,
+          "macroF1Streng": 0.6204
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 13,
+          "abdeckung": 0.7647,
+          "accuracyClassified": 0.5385,
+          "accuracyBestGuess": 0.4706,
+          "macroF1Streng": 0.6114
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 19,
+          "abdeckung": 0.9048,
+          "accuracyClassified": 0.6316,
+          "accuracyBestGuess": 0.619,
+          "macroF1Streng": 0.5733
+        },
+        "slang": {
+          "n": 11,
+          "classified": 8,
+          "abdeckung": 0.7273,
+          "accuracyClassified": 0.5,
+          "accuracyBestGuess": 0.4545,
+          "macroF1Streng": 0.3556
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 9,
+          "abdeckung": 0.8182,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6364,
+          "macroF1Streng": 0.5738
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 27,
+          "abdeckung": 0.75,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.5556,
+          "macroF1Streng": 0.5694
+        },
+        "en": {
+          "n": 24,
+          "classified": 17,
+          "abdeckung": 0.7083,
+          "accuracyClassified": 0.7059,
+          "accuracyBestGuess": 0.5833,
+          "macroF1Streng": 0.5624
+        },
+        "es": {
+          "n": 10,
+          "classified": 6,
+          "abdeckung": 0.6,
+          "accuracyClassified": 0.8333,
+          "accuracyBestGuess": 0.8,
+          "macroF1Streng": 0.6952
+        },
+        "fr": {
+          "n": 10,
+          "classified": 9,
+          "abdeckung": 0.9,
+          "accuracyClassified": 0.4444,
+          "accuracyBestGuess": 0.5,
+          "macroF1Streng": 0.3333
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.383,
+            "trefferquote": 0,
+            "luecke": 0.383
+          },
+          {
+            "bin": "0.4–0.5",
+            "n": 2,
+            "classified": 0,
+            "mittlereKonfidenz": 0.4618,
+            "trefferquote": 0,
+            "luecke": 0.4618
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 4,
+            "classified": 0,
+            "mittlereKonfidenz": 0.5637,
+            "trefferquote": 0.75,
+            "luecke": -0.1863
+          },
+          {
+            "bin": "0.6–0.7",
+            "n": 15,
+            "classified": 14,
+            "mittlereKonfidenz": 0.6328,
+            "trefferquote": 0.4667,
+            "luecke": 0.1661
+          },
+          {
+            "bin": "0.7–0.8",
+            "n": 5,
+            "classified": 4,
+            "mittlereKonfidenz": 0.756,
+            "trefferquote": 0.6,
+            "luecke": 0.156
+          },
+          {
+            "bin": "0.8–0.9",
+            "n": 8,
+            "classified": 7,
+            "mittlereKonfidenz": 0.8363,
+            "trefferquote": 0.75,
+            "luecke": 0.0863
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 44,
+            "classified": 34,
+            "mittlereKonfidenz": 0.9809,
+            "trefferquote": 0.6364,
+            "luecke": 0.3445
+          }
+        ],
+        "ece": 0.2694
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R059",
+          "text": "Do we need to know the derivation?",
+          "sprache": "en",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9999,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R063",
+          "text": "Est-ce que la séance sera enregistrée ?",
+          "sprache": "fr",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9998,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R069",
+          "text": "Est-ce que c'est important pour la suite ?",
+          "sprache": "fr",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9985,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R015",
+          "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+          "sprache": "de",
+          "gruppe": "paraphrase",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9975,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R024",
+          "text": "Check ich nicht, wieso ist das Intervall so breit?",
+          "sprache": "de",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 0.9717,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R042",
+          "text": "Will the recording be available after class?",
+          "sprache": "en",
+          "gruppe": "paraphrase",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9705,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9685,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 0.9613,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R078",
+          "text": "Ni idea de lo que es un p-valor, ¿lo explicas otra vez?",
+          "sprache": "es",
+          "gruppe": "slang",
+          "gold": "content",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9594,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        },
+        {
+          "id": "R067",
+          "text": "Je n'arrive pas a me connecter a la plateform",
+          "sprache": "fr",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 0.9516,
+          "stufe": "gatekeeper-hash-nb-v1",
+          "begruendung": ""
+        }
+      ]
+    },
+    "keyword@0.45": {
+      "methode": "keyword",
+      "schwelle": 0.45,
+      "istDefault": false,
+      "n": 80,
+      "classified": 34,
+      "abdeckung": 0.425,
+      "accuracyClassified": 0.4706,
+      "macroF1Classified": 0.4955,
+      "macroF1Streng": 0.2926,
+      "macroF1BestGuess": 0.3512,
+      "accuracyBestGuess": 0.4,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.3636,
+          "recall": 0.8889,
+          "f1": 0.5161,
+          "support": 9
+        },
+        "organization": {
+          "precision": 0.625,
+          "recall": 0.2632,
+          "f1": 0.3704,
+          "support": 19
+        },
+        "technical": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "support": 6
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 8,
+          "organization": 1,
+          "technical": 0,
+          "uncertain": 16
+        },
+        "organization": {
+          "content": 13,
+          "organization": 5,
+          "technical": 1,
+          "uncertain": 22
+        },
+        "technical": {
+          "content": 1,
+          "organization": 2,
+          "technical": 3,
+          "uncertain": 8
+        }
+      },
+      "kaskadenStufen": null,
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 6,
+          "abdeckung": 1,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6667,
+          "macroF1Streng": 0.4445
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 9,
+          "abdeckung": 0.6429,
+          "accuracyClassified": 0.3333,
+          "accuracyBestGuess": 0.2857,
+          "macroF1Streng": 0.2645
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 6,
+          "abdeckung": 0.3529,
+          "accuracyClassified": 0.1667,
+          "accuracyBestGuess": 0.1765,
+          "macroF1Streng": 0.0741
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 5,
+          "abdeckung": 0.2381,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.5238,
+          "macroF1Streng": 0.2667
+        },
+        "slang": {
+          "n": 11,
+          "classified": 5,
+          "abdeckung": 0.4545,
+          "accuracyClassified": 0.6,
+          "accuracyBestGuess": 0.5455,
+          "macroF1Streng": 0.3148
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 3,
+          "abdeckung": 0.2727,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3636,
+          "macroF1Streng": 0
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 20,
+          "abdeckung": 0.5556,
+          "accuracyClassified": 0.5,
+          "accuracyBestGuess": 0.4722,
+          "macroF1Streng": 0.3652
+        },
+        "en": {
+          "n": 24,
+          "classified": 12,
+          "abdeckung": 0.5,
+          "accuracyClassified": 0.5,
+          "accuracyBestGuess": 0.375,
+          "macroF1Streng": 0.375
+        },
+        "es": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        },
+        "fr": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 46,
+            "classified": 0,
+            "mittlereKonfidenz": 0.3333,
+            "trefferquote": 0.3478,
+            "luecke": -0.0145
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 3,
+            "classified": 3,
+            "mittlereKonfidenz": 0.5,
+            "trefferquote": 0,
+            "luecke": 0.5
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 31,
+            "classified": 31,
+            "mittlereKonfidenz": 1,
+            "trefferquote": 0.5161,
+            "luecke": 0.4839
+          }
+        ],
+        "ece": 0.2146
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R003",
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R004",
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R007",
+          "text": "Klausur wann?",
+          "sprache": "de",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R020",
+          "text": "Gibts die Folein auch als PDF?",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "organization",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R021",
+          "text": "Mein Bildschrim bleibt schwarz, wenn ich den Link öffne",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R036",
+          "text": "Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R037",
+          "text": "Exam date?",
+          "sprache": "en",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R049",
+          "text": "The link to the quizz doesn't open on my phone",
+          "sprache": "en",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        }
+      ]
+    },
+    "keyword@0.55": {
+      "methode": "keyword",
+      "schwelle": 0.55,
+      "istDefault": true,
+      "n": 80,
+      "classified": 31,
+      "abdeckung": 0.3875,
+      "accuracyClassified": 0.5161,
+      "macroF1Classified": 0.546,
+      "macroF1Streng": 0.3003,
+      "macroF1BestGuess": 0.3512,
+      "accuracyBestGuess": 0.4,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.4211,
+          "recall": 0.8889,
+          "f1": 0.5714,
+          "support": 9
+        },
+        "organization": {
+          "precision": 0.625,
+          "recall": 0.2941,
+          "f1": 0.4,
+          "support": 17
+        },
+        "technical": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6667,
+          "support": 5
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 8,
+          "organization": 1,
+          "technical": 0,
+          "uncertain": 16
+        },
+        "organization": {
+          "content": 11,
+          "organization": 5,
+          "technical": 1,
+          "uncertain": 24
+        },
+        "technical": {
+          "content": 0,
+          "organization": 2,
+          "technical": 3,
+          "uncertain": 9
+        }
+      },
+      "kaskadenStufen": null,
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 6,
+          "abdeckung": 1,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6667,
+          "macroF1Streng": 0.4445
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 7,
+          "abdeckung": 0.5,
+          "accuracyClassified": 0.4286,
+          "accuracyBestGuess": 0.2857,
+          "macroF1Streng": 0.2857
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 5,
+          "abdeckung": 0.2941,
+          "accuracyClassified": 0.2,
+          "accuracyBestGuess": 0.1765,
+          "macroF1Streng": 0.0833
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 5,
+          "abdeckung": 0.2381,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.5238,
+          "macroF1Streng": 0.2667
+        },
+        "slang": {
+          "n": 11,
+          "classified": 5,
+          "abdeckung": 0.4545,
+          "accuracyClassified": 0.6,
+          "accuracyBestGuess": 0.5455,
+          "macroF1Streng": 0.3148
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 3,
+          "abdeckung": 0.2727,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3636,
+          "macroF1Streng": 0
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 18,
+          "abdeckung": 0.5,
+          "accuracyClassified": 0.5556,
+          "accuracyBestGuess": 0.4722,
+          "macroF1Streng": 0.3763
+        },
+        "en": {
+          "n": 24,
+          "classified": 11,
+          "abdeckung": 0.4583,
+          "accuracyClassified": 0.5455,
+          "accuracyBestGuess": 0.375,
+          "macroF1Streng": 0.3861
+        },
+        "es": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        },
+        "fr": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 46,
+            "classified": 0,
+            "mittlereKonfidenz": 0.3333,
+            "trefferquote": 0.3478,
+            "luecke": -0.0145
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 3,
+            "classified": 0,
+            "mittlereKonfidenz": 0.5,
+            "trefferquote": 0,
+            "luecke": 0.5
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 31,
+            "classified": 31,
+            "mittlereKonfidenz": 1,
+            "trefferquote": 0.5161,
+            "luecke": 0.4839
+          }
+        ],
+        "ece": 0.2146
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R003",
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R004",
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R007",
+          "text": "Klausur wann?",
+          "sprache": "de",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R020",
+          "text": "Gibts die Folein auch als PDF?",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "organization",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R021",
+          "text": "Mein Bildschrim bleibt schwarz, wenn ich den Link öffne",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R036",
+          "text": "Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R037",
+          "text": "Exam date?",
+          "sprache": "en",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R049",
+          "text": "The link to the quizz doesn't open on my phone",
+          "sprache": "en",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        }
+      ]
+    },
+    "keyword@0.65": {
+      "methode": "keyword",
+      "schwelle": 0.65,
+      "istDefault": false,
+      "n": 80,
+      "classified": 31,
+      "abdeckung": 0.3875,
+      "accuracyClassified": 0.5161,
+      "macroF1Classified": 0.546,
+      "macroF1Streng": 0.3003,
+      "macroF1BestGuess": 0.3512,
+      "accuracyBestGuess": 0.4,
+      "perClassClassified": {
+        "content": {
+          "precision": 0.4211,
+          "recall": 0.8889,
+          "f1": 0.5714,
+          "support": 9
+        },
+        "organization": {
+          "precision": 0.625,
+          "recall": 0.2941,
+          "f1": 0.4,
+          "support": 17
+        },
+        "technical": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6667,
+          "support": 5
+        }
+      },
+      "konfusion_gold_x_vorhersage": {
+        "content": {
+          "content": 8,
+          "organization": 1,
+          "technical": 0,
+          "uncertain": 16
+        },
+        "organization": {
+          "content": 11,
+          "organization": 5,
+          "technical": 1,
+          "uncertain": 24
+        },
+        "technical": {
+          "content": 0,
+          "organization": 2,
+          "technical": 3,
+          "uncertain": 9
+        }
+      },
+      "kaskadenStufen": null,
+      "jeGruppe": {
+        "fixture": {
+          "n": 6,
+          "classified": 6,
+          "abdeckung": 1,
+          "accuracyClassified": 0.6667,
+          "accuracyBestGuess": 0.6667,
+          "macroF1Streng": 0.4445
+        },
+        "kurz": {
+          "n": 14,
+          "classified": 7,
+          "abdeckung": 0.5,
+          "accuracyClassified": 0.4286,
+          "accuracyBestGuess": 0.2857,
+          "macroF1Streng": 0.2857
+        },
+        "mehrdeutig": {
+          "n": 17,
+          "classified": 5,
+          "abdeckung": 0.2941,
+          "accuracyClassified": 0.2,
+          "accuracyBestGuess": 0.1765,
+          "macroF1Streng": 0.0833
+        },
+        "paraphrase": {
+          "n": 21,
+          "classified": 5,
+          "abdeckung": 0.2381,
+          "accuracyClassified": 1,
+          "accuracyBestGuess": 0.5238,
+          "macroF1Streng": 0.2667
+        },
+        "slang": {
+          "n": 11,
+          "classified": 5,
+          "abdeckung": 0.4545,
+          "accuracyClassified": 0.6,
+          "accuracyBestGuess": 0.5455,
+          "macroF1Streng": 0.3148
+        },
+        "tippfehler": {
+          "n": 11,
+          "classified": 3,
+          "abdeckung": 0.2727,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3636,
+          "macroF1Streng": 0
+        }
+      },
+      "jeSprache": {
+        "de": {
+          "n": 36,
+          "classified": 18,
+          "abdeckung": 0.5,
+          "accuracyClassified": 0.5556,
+          "accuracyBestGuess": 0.4722,
+          "macroF1Streng": 0.3763
+        },
+        "en": {
+          "n": 24,
+          "classified": 11,
+          "abdeckung": 0.4583,
+          "accuracyClassified": 0.5455,
+          "accuracyBestGuess": 0.375,
+          "macroF1Streng": 0.3861
+        },
+        "es": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        },
+        "fr": {
+          "n": 10,
+          "classified": 1,
+          "abdeckung": 0.1,
+          "accuracyClassified": 0,
+          "accuracyBestGuess": 0.3,
+          "macroF1Streng": 0
+        }
+      },
+      "reliability": {
+        "bins": [
+          {
+            "bin": "0.3–0.4",
+            "n": 46,
+            "classified": 0,
+            "mittlereKonfidenz": 0.3333,
+            "trefferquote": 0.3478,
+            "luecke": -0.0145
+          },
+          {
+            "bin": "0.5–0.6",
+            "n": 3,
+            "classified": 0,
+            "mittlereKonfidenz": 0.5,
+            "trefferquote": 0,
+            "luecke": 0.5
+          },
+          {
+            "bin": "0.9–1.0",
+            "n": 31,
+            "classified": 31,
+            "mittlereKonfidenz": 1,
+            "trefferquote": 0.5161,
+            "luecke": 0.4839
+          }
+        ],
+        "ece": 0.2146
+      },
+      "auffaelligsteFehler": [
+        {
+          "id": "R003",
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R004",
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "sprache": "de",
+          "gruppe": "fixture",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R007",
+          "text": "Klausur wann?",
+          "sprache": "de",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R020",
+          "text": "Gibts die Folein auch als PDF?",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "organization",
+          "vorhersage": "technical",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R021",
+          "text": "Mein Bildschrim bleibt schwarz, wenn ich den Link öffne",
+          "sprache": "de",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R034",
+          "text": "Kann man die Übungsaufgaben auch in R statt Python lösen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R035",
+          "text": "Wie viel Zeit sollten wir für die Hausaufgabe einplanen?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R036",
+          "text": "Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?",
+          "sprache": "de",
+          "gruppe": "mehrdeutig",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R037",
+          "text": "Exam date?",
+          "sprache": "en",
+          "gruppe": "kurz",
+          "gold": "organization",
+          "vorhersage": "content",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        },
+        {
+          "id": "R049",
+          "text": "The link to the quizz doesn't open on my phone",
+          "sprache": "en",
+          "gruppe": "tippfehler",
+          "gold": "technical",
+          "vorhersage": "organization",
+          "status": "classified",
+          "konfidenz": 1,
+          "stufe": "keyword-baseline",
+          "begruendung": ""
+        }
+      ]
+    }
+  },
+  "sensitivitaetPruefungsrelevanz": {
+    "beschreibung": "Metriken ohne Fragen zur Prüfung/Klausur/Relevanz (Musterabgleich), weil Labelregel 2 hier vom Repo-Seed abweicht. Labels unverändert.",
+    "muster": "klausur|prüfung|pruefung|exam|examen|relevant|kommt .* dran|au programme",
+    "ausgeschlossen": [
+      {
+        "id": "R003",
+        "gold": "organization",
+        "gruppe": "fixture",
+        "text": "Ist Kapitel 4 klausurrelevant?"
+      },
+      {
+        "id": "R004",
+        "gold": "organization",
+        "gruppe": "fixture",
+        "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?"
+      },
+      {
+        "id": "R007",
+        "gold": "organization",
+        "gruppe": "kurz",
+        "text": "Klausur wann?"
+      },
+      {
+        "id": "R026",
+        "gold": "organization",
+        "gruppe": "slang",
+        "text": "Kommt das Zeug echt alles dran?"
+      },
+      {
+        "id": "R036",
+        "gold": "organization",
+        "gruppe": "mehrdeutig",
+        "text": "Brauchen wir für die Klausur einen Taschenrechner, und welcher ist erlaubt?"
+      },
+      {
+        "id": "R037",
+        "gold": "organization",
+        "gruppe": "kurz",
+        "text": "Exam date?"
+      },
+      {
+        "id": "R053",
+        "gold": "organization",
+        "gruppe": "slang",
+        "text": "is the exam gonna be brutal or chill?"
+      },
+      {
+        "id": "R057",
+        "gold": "organization",
+        "gruppe": "mehrdeutig",
+        "text": "Is this going to be relevant?"
+      },
+      {
+        "id": "R061",
+        "gold": "organization",
+        "gruppe": "kurz",
+        "text": "Quand est l'examen ?"
+      },
+      {
+        "id": "R071",
+        "gold": "organization",
+        "gruppe": "kurz",
+        "text": "¿Cuándo es el examen?"
+      }
+    ],
+    "n": 70,
+    "varianten": {
+      "kaskade@0.45": {
+        "abdeckung": 0.7286,
+        "classified": 51,
+        "accuracyClassified": 0.6863,
+        "macroF1Classified": 0.6791,
+        "macroF1Streng": 0.5719,
+        "macroF1BestGuess": 0.6006
+      },
+      "kaskade@0.55": {
+        "abdeckung": 0.7429,
+        "classified": 52,
+        "accuracyClassified": 0.6731,
+        "macroF1Classified": 0.6679,
+        "macroF1Streng": 0.5676,
+        "macroF1BestGuess": 0.6006
+      },
+      "kaskade@0.65": {
+        "abdeckung": 0.7429,
+        "classified": 52,
+        "accuracyClassified": 0.6538,
+        "macroF1Classified": 0.6496,
+        "macroF1Streng": 0.552,
+        "macroF1BestGuess": 0.5876
+      },
+      "keyword@0.45": {
+        "abdeckung": 0.3571,
+        "classified": 25,
+        "accuracyClassified": 0.64,
+        "macroF1Classified": 0.6276,
+        "macroF1Streng": 0.3369,
+        "macroF1BestGuess": 0.3893
+      },
+      "keyword@0.55": {
+        "abdeckung": 0.3143,
+        "classified": 22,
+        "accuracyClassified": 0.7273,
+        "macroF1Classified": 0.7113,
+        "macroF1Streng": 0.3489,
+        "macroF1BestGuess": 0.3893
+      },
+      "keyword@0.65": {
+        "abdeckung": 0.3143,
+        "classified": 22,
+        "accuracyClassified": 0.7273,
+        "macroF1Classified": 0.7113,
+        "macroF1Streng": 0.3489,
+        "macroF1BestGuess": 0.3893
+      }
+    }
+  },
+  "sensitivitaetKonfliktfaelle": {
+    "beschreibung": "Metriken ohne die 5 echten Konfliktfälle zur Prüfungsrelevanz (feste ID-Liste nach Prüfung durch die labelnde Person). Termin- und Hilfsmittelfragen bleiben enthalten. Labels unverändert.",
+    "ausgeschlossen": [
+      {
+        "id": "R003",
+        "gold": "organization",
+        "gruppe": "fixture",
+        "text": "Ist Kapitel 4 klausurrelevant?"
+      },
+      {
+        "id": "R004",
+        "gold": "organization",
+        "gruppe": "fixture",
+        "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?"
+      },
+      {
+        "id": "R026",
+        "gold": "organization",
+        "gruppe": "slang",
+        "text": "Kommt das Zeug echt alles dran?"
+      },
+      {
+        "id": "R053",
+        "gold": "organization",
+        "gruppe": "slang",
+        "text": "is the exam gonna be brutal or chill?"
+      },
+      {
+        "id": "R057",
+        "gold": "organization",
+        "gruppe": "mehrdeutig",
+        "text": "Is this going to be relevant?"
+      }
+    ],
+    "n": 75,
+    "varianten": {
+      "kaskade@0.45": {
+        "abdeckung": 0.72,
+        "classified": 54,
+        "accuracyClassified": 0.7037,
+        "macroF1Classified": 0.6967,
+        "macroF1Streng": 0.585,
+        "macroF1BestGuess": 0.6124
+      },
+      "kaskade@0.55": {
+        "abdeckung": 0.7333,
+        "classified": 55,
+        "accuracyClassified": 0.6909,
+        "macroF1Classified": 0.686,
+        "macroF1Streng": 0.5807,
+        "macroF1BestGuess": 0.6124
+      },
+      "kaskade@0.65": {
+        "abdeckung": 0.7333,
+        "classified": 55,
+        "accuracyClassified": 0.6727,
+        "macroF1Classified": 0.6702,
+        "macroF1Streng": 0.5672,
+        "macroF1BestGuess": 0.6011
+      },
+      "keyword@0.45": {
+        "abdeckung": 0.4,
+        "classified": 30,
+        "accuracyClassified": 0.5333,
+        "macroF1Classified": 0.5425,
+        "macroF1Streng": 0.3109,
+        "macroF1BestGuess": 0.3687
+      },
+      "keyword@0.55": {
+        "abdeckung": 0.36,
+        "classified": 27,
+        "accuracyClassified": 0.5926,
+        "macroF1Classified": 0.6032,
+        "macroF1Streng": 0.3202,
+        "macroF1BestGuess": 0.3687
+      },
+      "keyword@0.65": {
+        "abdeckung": 0.36,
+        "classified": 27,
+        "accuracyClassified": 0.5926,
+        "macroF1Classified": 0.6032,
+        "macroF1Streng": 0.3202,
+        "macroF1BestGuess": 0.3687
+      }
+    }
+  }
+}

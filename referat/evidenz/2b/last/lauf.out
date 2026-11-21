@@ -1,0 +1,18 @@
+== aus (QA_NLP_ENABLED=false, QA_NLP_QUEUE_LIMIT=100) Start 2026-11-21T01:09:34+01:00
+Backend-PID 120472 (/home/antonius/.nvm/versions/node/v24.18.0/bin/node --requir…)
+aus Lauf 1: Submits 200/200 (Fehler 0) · p50 1234.7 ms · p95 1272 ms · Burst 1290.8 ms · direkt danach DB {"DISABLED":200} Δcompleted 0 · Ende DB {"DISABLED":200} Δ completed 0 skipped 0 failed 0 · RSS max 427 MiB
+aus Lauf 2: Submits 200/200 (Fehler 0) · p50 471.2 ms · p95 507.5 ms · Burst 512.2 ms · direkt danach DB {"DISABLED":200} Δcompleted 0 · Ende DB {"DISABLED":200} Δ completed 0 skipped 0 failed 0 · RSS max 446 MiB
+aus Lauf 3: Submits 200/200 (Fehler 0) · p50 427 ms · p95 459.1 ms · Burst 463.7 ms · direkt danach DB {"DISABLED":200} Δcompleted 0 · Ende DB {"DISABLED":200} Δ completed 0 skipped 0 failed 0 · RSS max 449 MiB
+== aus Ende 2026-11-21T01:10:24+01:00
+== an-limit100 (QA_NLP_ENABLED=true, QA_NLP_QUEUE_LIMIT=100) Start 2026-11-21T01:10:24+01:00
+Backend-PID 120725 (/home/antonius/.nvm/versions/node/v24.18.0/bin/node --requir…)
+an-limit100 Lauf 1: Submits 200/200 (Fehler 0) · p50 977.2 ms · p95 1050.5 ms · Burst 1056.5 ms · direkt danach DB {"PENDING":18,"CLASSIFIED":60,"UNCERTAIN":24,"FAILED":98} Δcompleted 81 · Ende DB {"CLASSIFIED":73,"UNCERTAIN":29,"FAILED":98} Δ completed 102 skipped 98 failed 0 · RSS max 429 MiB
+an-limit100 Lauf 2: Submits 200/200 (Fehler 0) · p50 509.5 ms · p95 560.9 ms · Burst 566.2 ms · direkt danach DB {"PENDING":16,"CLASSIFIED":62,"UNCERTAIN":24,"FAILED":98} Δcompleted 84 · Ende DB {"CLASSIFIED":73,"UNCERTAIN":29,"FAILED":98} Δ completed 102 skipped 98 failed 0 · RSS max 437 MiB
+an-limit100 Lauf 3: Submits 200/200 (Fehler 0) · p50 422 ms · p95 471.4 ms · Burst 476.1 ms · direkt danach DB {"PENDING":12,"CLASSIFIED":69,"UNCERTAIN":21,"FAILED":98} Δcompleted 87 · Ende DB {"CLASSIFIED":78,"UNCERTAIN":24,"FAILED":98} Δ completed 102 skipped 98 failed 0 · RSS max 445 MiB
+== an-limit100 Ende 2026-11-21T01:11:03+01:00
+== an-limit20 (QA_NLP_ENABLED=true, QA_NLP_QUEUE_LIMIT=20) Start 2026-11-21T01:11:03+01:00
+Backend-PID 120926 (/home/antonius/.nvm/versions/node/v24.18.0/bin/node --requir…)
+an-limit20 Lauf 1: Submits 200/200 (Fehler 0) · p50 966.4 ms · p95 1031.6 ms · Burst 1036.9 ms · direkt danach DB {"CLASSIFIED":16,"UNCERTAIN":5,"FAILED":179} Δcompleted 21 · Ende DB {"CLASSIFIED":16,"UNCERTAIN":5,"FAILED":179} Δ completed 21 skipped 179 failed 0 · RSS max 455 MiB
+an-limit20 Lauf 2: Submits 200/200 (Fehler 0) · p50 490.9 ms · p95 544.6 ms · Burst 550 ms · direkt danach DB {"CLASSIFIED":17,"UNCERTAIN":4,"FAILED":179} Δcompleted 21 · Ende DB {"CLASSIFIED":17,"UNCERTAIN":4,"FAILED":179} Δ completed 21 skipped 179 failed 0 · RSS max 464 MiB
+an-limit20 Lauf 3: Submits 200/200 (Fehler 0) · p50 413.8 ms · p95 461.5 ms · Burst 466.9 ms · direkt danach DB {"CLASSIFIED":13,"UNCERTAIN":8,"FAILED":179} Δcompleted 21 · Ende DB {"CLASSIFIED":13,"UNCERTAIN":8,"FAILED":179} Δ completed 21 skipped 179 failed 0 · RSS max 473 MiB
+== an-limit20 Ende 2026-11-21T01:11:42+01:00

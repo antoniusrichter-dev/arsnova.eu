@@ -1,0 +1,489 @@
+{
+  "erzeugt": "2026-11-21T00:16:40.816Z",
+  "trpcUrl": "http://127.0.0.1:3000/trpc",
+  "session": {
+    "code": "BHSNWH",
+    "sessionId": "f2a444ac-0e2b-473d-9081-1d772a700d9c"
+  },
+  "backendNlpEnabled": true,
+  "nachSubmitVorFixture": [
+    {
+      "id": "2db3d041-3ad1-48e0-aace-82e2bc43ff35",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "CONTENT",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    },
+    {
+      "id": "3014a9d9-c173-41fb-a923-21d151ba851c",
+      "nlpStatus": "UNCERTAIN",
+      "nlpCategory": "CONTENT",
+      "nlpModelVersion": "fallback-knn-v1"
+    },
+    {
+      "id": "c3fec20f-fd53-421b-9806-5a6d7983886c",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "ORGANIZATION",
+      "nlpModelVersion": "fallback-knn-v1"
+    },
+    {
+      "id": "ab0a10d2-2560-4e10-beb1-89ddc949af2e",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "CONTENT",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    },
+    {
+      "id": "9bb40d3e-e26f-4df4-9953-99dd4bd44509",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "TECHNICAL",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    },
+    {
+      "id": "b9f8490b-0907-49de-887e-afc99de43b04",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "ORGANIZATION",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    },
+    {
+      "id": "0f9079b7-dc71-4cd8-a72a-832afe4b4ace",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "TECHNICAL",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    },
+    {
+      "id": "b7d1b7a0-50f5-44ae-89b4-508141aea3ca",
+      "nlpStatus": "CLASSIFIED",
+      "nlpCategory": "CONTENT",
+      "nlpModelVersion": "gatekeeper-hash-nb-v1"
+    }
+  ],
+  "fixtureEingriffe": [
+    {
+      "frage": 1,
+      "id": "2db3d041-3ad1-48e0-aace-82e2bc43ff35",
+      "gesetzt": "PENDING (Felder leer)"
+    },
+    {
+      "frage": 2,
+      "id": "3014a9d9-c173-41fb-a923-21d151ba851c",
+      "gesetzt": "FAILED stub:queue-limit"
+    },
+    {
+      "frage": 3,
+      "id": "c3fec20f-fd53-421b-9806-5a6d7983886c",
+      "gesetzt": "DISABLED"
+    }
+  ],
+  "vorher": {
+    "db": [
+      {
+        "id": "0f9079b7-dc71-4cd8-a72a-832afe4b4ace",
+        "text": "The audio stream keeps cutting out, can you check the microphone?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "TECHNICAL",
+        "nlpConfidence": 0.9998,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.392Z",
+        "updatedAt": "2026-11-21T00:16:36.393Z"
+      },
+      {
+        "id": "2db3d041-3ad1-48e0-aace-82e2bc43ff35",
+        "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+        "nlpStatus": "PENDING",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": null,
+        "nlpAnalyzedAt": null,
+        "updatedAt": "2026-11-21T00:16:36.604Z"
+      },
+      {
+        "id": "3014a9d9-c173-41fb-a923-21d151ba851c",
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "nlpStatus": "FAILED",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": "stub:queue-limit",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.611Z",
+        "updatedAt": "2026-11-21T00:16:36.612Z"
+      },
+      {
+        "id": "9bb40d3e-e26f-4df4-9953-99dd4bd44509",
+        "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "TECHNICAL",
+        "nlpConfidence": 0.9975,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.378Z",
+        "updatedAt": "2026-11-21T00:16:36.378Z"
+      },
+      {
+        "id": "ab0a10d2-2560-4e10-beb1-89ddc949af2e",
+        "text": "Mein Bildschirm bleibt schwarz, wenn ich den Link öffne",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "CONTENT",
+        "nlpConfidence": 0.6638,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.370Z",
+        "updatedAt": "2026-11-21T00:16:36.370Z"
+      },
+      {
+        "id": "b7d1b7a0-50f5-44ae-89b4-508141aea3ca",
+        "text": "Kannst du die Herleitung der Varianz noch einmal erklären?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "CONTENT",
+        "nlpConfidence": 1,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.399Z",
+        "updatedAt": "2026-11-21T00:16:36.399Z"
+      },
+      {
+        "id": "b9f8490b-0907-49de-887e-afc99de43b04",
+        "text": "Wann ist die Abgabefrist für das Projekt?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "ORGANIZATION",
+        "nlpConfidence": 1,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.385Z",
+        "updatedAt": "2026-11-21T00:16:36.386Z"
+      },
+      {
+        "id": "c3fec20f-fd53-421b-9806-5a6d7983886c",
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "nlpStatus": "DISABLED",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": null,
+        "nlpAnalyzedAt": null,
+        "updatedAt": "2026-11-21T00:16:36.615Z"
+      }
+    ],
+    "metrics": {
+      "queueLength": 0,
+      "lastLatencyMs": 2,
+      "completed": 16,
+      "failed": 0,
+      "skipped": 0,
+      "earlyExit": 12,
+      "fallback": 4,
+      "unclassified": 2,
+      "earlyExitRate": 0.75,
+      "fallbackRate": 0.25,
+      "unclassifiedRate": 0.125
+    },
+    "logZeilen": 16,
+    "inProzessEnqueued": 0
+  },
+  "nachher": {
+    "db": [
+      {
+        "id": "0f9079b7-dc71-4cd8-a72a-832afe4b4ace",
+        "text": "The audio stream keeps cutting out, can you check the microphone?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "TECHNICAL",
+        "nlpConfidence": 0.9998,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.392Z",
+        "updatedAt": "2026-11-21T00:16:36.393Z"
+      },
+      {
+        "id": "2db3d041-3ad1-48e0-aace-82e2bc43ff35",
+        "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+        "nlpStatus": "PENDING",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": null,
+        "nlpAnalyzedAt": null,
+        "updatedAt": "2026-11-21T00:16:36.604Z"
+      },
+      {
+        "id": "3014a9d9-c173-41fb-a923-21d151ba851c",
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "nlpStatus": "FAILED",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": "stub:queue-limit",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.611Z",
+        "updatedAt": "2026-11-21T00:16:36.612Z"
+      },
+      {
+        "id": "9bb40d3e-e26f-4df4-9953-99dd4bd44509",
+        "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "TECHNICAL",
+        "nlpConfidence": 0.9975,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.378Z",
+        "updatedAt": "2026-11-21T00:16:36.378Z"
+      },
+      {
+        "id": "ab0a10d2-2560-4e10-beb1-89ddc949af2e",
+        "text": "Mein Bildschirm bleibt schwarz, wenn ich den Link öffne",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "CONTENT",
+        "nlpConfidence": 0.6638,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.370Z",
+        "updatedAt": "2026-11-21T00:16:36.370Z"
+      },
+      {
+        "id": "b7d1b7a0-50f5-44ae-89b4-508141aea3ca",
+        "text": "Kannst du die Herleitung der Varianz noch einmal erklären?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "CONTENT",
+        "nlpConfidence": 1,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.399Z",
+        "updatedAt": "2026-11-21T00:16:36.399Z"
+      },
+      {
+        "id": "b9f8490b-0907-49de-887e-afc99de43b04",
+        "text": "Wann ist die Abgabefrist für das Projekt?",
+        "nlpStatus": "CLASSIFIED",
+        "nlpCategory": "ORGANIZATION",
+        "nlpConfidence": 1,
+        "nlpModelVersion": "gatekeeper-hash-nb-v1",
+        "nlpAnalyzedAt": "2026-11-21T00:16:36.385Z",
+        "updatedAt": "2026-11-21T00:16:36.386Z"
+      },
+      {
+        "id": "c3fec20f-fd53-421b-9806-5a6d7983886c",
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "nlpStatus": "DISABLED",
+        "nlpCategory": null,
+        "nlpConfidence": null,
+        "nlpModelVersion": null,
+        "nlpAnalyzedAt": null,
+        "updatedAt": "2026-11-21T00:16:36.615Z"
+      }
+    ],
+    "metrics": {
+      "queueLength": 0,
+      "lastLatencyMs": 2,
+      "completed": 16,
+      "failed": 0,
+      "skipped": 0,
+      "earlyExit": 12,
+      "fallback": 4,
+      "unclassified": 2,
+      "earlyExitRate": 0.75,
+      "fallbackRate": 0.25,
+      "unclassifiedRate": 0.125
+    },
+    "logZeilen": 16,
+    "inProzessEnqueued": 0,
+    "inProzessQueueLength": 0
+  },
+  "kontextabrufe": {
+    "summaryContextPreviewHttp": 3,
+    "buildModerationPromptContextInProzess": 1
+  },
+  "previewSelectedMode": [
+    null,
+    null,
+    null
+  ],
+  "gegenprobe": {
+    "metricsCompletedDelta": 1,
+    "logZeilenDelta": 1
+  },
+  "vergleich": [
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:2db3d041-3ad1-48e0-aace-82e2bc43ff35",
+      "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+      "dbStatus": "PENDING",
+      "kontextNlp": {
+        "state": "pending"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:3014a9d9-c173-41fb-a923-21d151ba851c",
+      "text": "Ist Kapitel 4 klausurrelevant?",
+      "dbStatus": "FAILED",
+      "kontextNlp": {
+        "state": "failed",
+        "reason": "The stored Q&A classification failed."
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:c3fec20f-fd53-421b-9806-5a6d7983886c",
+      "text": "Soll die Anwesenheit verpflichtend sein?",
+      "dbStatus": "DISABLED",
+      "kontextNlp": {
+        "state": "disabled",
+        "reason": "Optional Q&A classification is disabled or was not collected for this question."
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:ab0a10d2-2560-4e10-beb1-89ddc949af2e",
+      "text": "Mein Bildschirm bleibt schwarz, wenn ich den Link öffne",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "content",
+        "confidence": {
+          "value": 0.6638,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.370Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:9bb40d3e-e26f-4df4-9953-99dd4bd44509",
+      "text": "Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "technical",
+        "confidence": {
+          "value": 0.9975,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.378Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:b9f8490b-0907-49de-887e-afc99de43b04",
+      "text": "Wann ist die Abgabefrist für das Projekt?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "organization",
+        "confidence": {
+          "value": 1,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.385Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:0f9079b7-dc71-4cd8-a72a-832afe4b4ace",
+      "text": "The audio stream keeps cutting out, can you check the microphone?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "technical",
+        "confidence": {
+          "value": 0.9998,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.392Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "analyse-voll",
+      "sourceId": "qa-question:b7d1b7a0-50f5-44ae-89b4-508141aea3ca",
+      "text": "Kannst du die Herleitung der Varianz noch einmal erklären?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "content",
+        "confidence": {
+          "value": 1,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.399Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "preview-gepackt",
+      "sourceId": "qa-question:ab0a10d2-2560-4e10-beb1-89ddc949af2e",
+      "text": "Mein Bildschirm bleibt schwarz, wenn ich den Link öffne",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "content",
+        "confidence": {
+          "value": 0.6638,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.370Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "preview-gepackt",
+      "sourceId": "qa-question:b7d1b7a0-50f5-44ae-89b4-508141aea3ca",
+      "text": "Kannst du die Herleitung der Varianz noch einmal erklären?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "content",
+        "confidence": {
+          "value": 1,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.399Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    },
+    {
+      "quelle": "preview-gepackt",
+      "sourceId": "qa-question:b9f8490b-0907-49de-887e-afc99de43b04",
+      "text": "Wann ist die Abgabefrist für das Projekt?",
+      "dbStatus": "CLASSIFIED",
+      "kontextNlp": {
+        "state": "classified",
+        "category": "organization",
+        "confidence": {
+          "value": 1,
+          "meaning": "uncalibrated-model-score"
+        },
+        "modelId": "qa-nlp-cascade",
+        "modelVersion": "gatekeeper-hash-nb-v1",
+        "classifiedAt": "2026-11-21T00:16:36.385Z"
+      },
+      "gleich": true,
+      "abweichungen": []
+    }
+  ],
+  "pruefungen": {
+    "dbUnveraendert": true,
+    "pendingBleibtPending": true,
+    "backendMetrikenUnveraendert": true,
+    "backendLogOhneNeueQaNlpZeilen": true,
+    "inProzessKeinEnqueue": true,
+    "alleFragenImVollkontext": true,
+    "kontextGleichDb": true,
+    "gegenprobeDetektorenGreifen": true,
+    "previewSnapshotStabil": true
+  },
+  "bestanden": true
+}

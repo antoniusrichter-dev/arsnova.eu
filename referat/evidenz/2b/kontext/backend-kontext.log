@@ -1,0 +1,159 @@
+◇ injected env (94) from ../../.env // tip: ⌘ override existing { override: true }
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 12,
+  queueLength: 0,
+  earlyExit: 1,
+  fallback: 0,
+  unclassified: 0
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 9,
+  queueLength: 0,
+  earlyExit: 1,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 5,
+  queueLength: 0,
+  earlyExit: 1,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 4,
+  queueLength: 0,
+  earlyExit: 2,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 4,
+  queueLength: 0,
+  earlyExit: 3,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 5,
+  queueLength: 0,
+  earlyExit: 4,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 5,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 6,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 4,
+  queueLength: 0,
+  earlyExit: 7,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 7,
+  fallback: 3,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 7,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 8,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 9,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 10,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 11,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 12,
+  fallback: 4,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 13,
+  fallback: 4,
+  unclassified: 2
+}

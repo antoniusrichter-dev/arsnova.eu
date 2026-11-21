@@ -1,0 +1,118 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.10 /mnt/c/Users/anton/Studium/arsnova.eu/apps/backend
+
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > collects with a repeatable-read transaction and rechecks host access and revisions 8ms
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > rejects the built context when the final Q&A revision changed 1ms
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > never returns data when the final host authorization was revoked 1ms
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > samples the retention boundary after the final asynchronous host authorization 1ms
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > degrades a disabled Q&A channel without opening a transaction or cache 0ms
+ ✓ src/lib/moderationQaContext.service.test.ts > buildAuthorizedModerationQaContext > preserves the measured total when no Q&A rows are currently eligible 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderation authorization state > invalidates a collected context when the learning revision changes 2ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > projects directional counters independently of the legacy net field 7ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > keeps a calculated zero score available 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > degrades an uncertain stored result without analysis time inside the N6 projection 1ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > rejects score columns that diverge from the canonical SQL projection 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > uses one bounded identity-free query with the authoritative status scope 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > truncates source text by Unicode code points and keeps untrusted text as data 1ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N6 > represents an empty eligible corpus without inventing a question 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N7 > revalidates all members in one query and includes an out-of-candidate label only 9ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N7 > preserves an accepted short model label with explicit provenance 1ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N7 > omits a whole topic and marks it stale when any member changed 1ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N7 > omits a valid singleton cluster quietly because the context topic needs two members 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext N7 > does not query members when semantic topics are disabled or absent 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext persisted NLP mapping > maps classified and uncertain results with explicit uncalibrated provenance 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext persisted NLP mapping > maps PENDING without starting a job 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext persisted NLP mapping > maps DISABLED without starting a job 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext persisted NLP mapping > maps FAILED without starting a job 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext persisted NLP mapping > degrades incomplete persisted classifier data instead of inventing provenance 0ms
+ ✓ src/lib/moderationQaContext.test.ts > moderationQaContext source helpers > creates only opaque Q&A source IDs 0ms
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > laesst enqueue zurueckkehren bevor ein langsamer Worker fertig ist
+qa_nlp:completed {
+  status: 'disabled',
+  modelVersion: 'stub',
+  latencyMs: 81,
+  queueLength: 0,
+  earlyExit: 0,
+  fallback: 0,
+  unclassified: 1
+}
+
+stderr | src/lib/qaNlpQueue.test.ts > qaNlpQueue > ueberspringt bei vollem Queue-Limit und markiert failed
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 0, running: 1, limit: 1 }
+
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > ueberspringt bei vollem Queue-Limit und markiert failed
+qa_nlp:completed {
+  status: 'disabled',
+  modelVersion: 'stub',
+  latencyMs: 10,
+  queueLength: 0,
+  earlyExit: 0,
+  fallback: 0,
+  unclassified: 1
+}
+
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > nimmt ohne Flag keinen Job an 1ms
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > laesst enqueue zurueckkehren bevor ein langsamer Worker fertig ist 83ms
+stderr | src/lib/qaNlpQueue.test.ts > qaNlpQueue > degradiert Timeout auf failed
+qa_nlp:failed { reason: 'timeout', latencyMs: 31, queueLength: 0 }
+
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > nutzt den Gatekeeper als Default-Processor
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 0,
+  earlyExit: 1,
+  fallback: 0,
+  unclassified: 0
+}
+
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > ueberspringt bei vollem Queue-Limit und markiert failed 20ms
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > degradiert Timeout auf failed 31ms
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > nutzt den Gatekeeper als Default-Processor 10ms
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > verwirft Altjobs nach Frage-Invalidierung und lässt den neuen Job schreiben
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'test',
+  latencyMs: 0,
+  queueLength: 0,
+  earlyExit: 0,
+  fallback: 0,
+  unclassified: 0
+}
+
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > schreibt keinen Altjob, der vor dem DB-Write auf den geänderten Text trifft
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'test',
+  latencyMs: 51,
+  queueLength: 0,
+  earlyExit: 0,
+  fallback: 0,
+  unclassified: 0
+}
+
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > persistiert nach einer Session-Purge-Invalidierung kein laufendes Textartefakt mehr 62ms
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > verwirft Altjobs nach Frage-Invalidierung und lässt den neuen Job schreiben 61ms
+stdout | src/lib/qaNlpQueue.test.ts > qaNlpQueue > zaehlt Fallback und Unclassified nach kurzem Text
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 5,
+  queueLength: 0,
+  earlyExit: 0,
+  fallback: 1,
+  unclassified: 1
+}
+
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > schreibt keinen Altjob, der vor dem DB-Write auf den geänderten Text trifft 61ms
+ ✓ src/lib/qaNlpQueue.test.ts > qaNlpQueue > zaehlt Fallback und Unclassified nach kurzem Text 11ms
+
+ Test Files  3 passed (3)
+      Tests  34 passed (34)
+   Start at  01:16:52
+   Duration  3.89s (transform 2.55s, setup 0ms, import 6.51s, tests 379ms, environment 0ms)
+

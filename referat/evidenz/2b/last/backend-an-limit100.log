@@ -1,0 +1,3054 @@
+◇ injected env (94) from ../../.env // tip: ⌘ suppress logs { quiet: true }
+🚀 Backend HTTP auf http://localhost:3000
+   tRPC: http://localhost:3000/trpc
+Cleanup-Scheduler gestartet (alle 1 Min).
+   WebSocket (tRPC): ws://0.0.0.0:3001
+   Yjs WebSocket: ws://0.0.0.0:3002
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 477,
+  queueLength: 60,
+  earlyExit: 1,
+  fallback: 0,
+  unclassified: 0
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 357,
+  queueLength: 99,
+  earlyExit: 1,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 98,
+  queueLength: 99,
+  earlyExit: 2,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 7,
+  queueLength: 98,
+  earlyExit: 3,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 97,
+  earlyExit: 4,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 96,
+  earlyExit: 5,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 95,
+  earlyExit: 6,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 94,
+  earlyExit: 7,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 93,
+  earlyExit: 8,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 92,
+  earlyExit: 9,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 91,
+  earlyExit: 10,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 90,
+  earlyExit: 11,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 89,
+  earlyExit: 12,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 88,
+  earlyExit: 13,
+  fallback: 1,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 87,
+  earlyExit: 13,
+  fallback: 2,
+  unclassified: 1
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 86,
+  earlyExit: 13,
+  fallback: 3,
+  unclassified: 2
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 85,
+  earlyExit: 13,
+  fallback: 4,
+  unclassified: 3
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 84,
+  earlyExit: 13,
+  fallback: 5,
+  unclassified: 4
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 83,
+  earlyExit: 14,
+  fallback: 5,
+  unclassified: 4
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 82,
+  earlyExit: 14,
+  fallback: 6,
+  unclassified: 5
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 81,
+  earlyExit: 14,
+  fallback: 7,
+  unclassified: 6
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 6,
+  queueLength: 80,
+  earlyExit: 14,
+  fallback: 8,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 79,
+  earlyExit: 15,
+  fallback: 8,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 78,
+  earlyExit: 15,
+  fallback: 9,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 77,
+  earlyExit: 16,
+  fallback: 9,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 76,
+  earlyExit: 16,
+  fallback: 10,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 75,
+  earlyExit: 17,
+  fallback: 10,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 74,
+  earlyExit: 18,
+  fallback: 10,
+  unclassified: 7
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 73,
+  earlyExit: 18,
+  fallback: 11,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 72,
+  earlyExit: 18,
+  fallback: 12,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 71,
+  earlyExit: 19,
+  fallback: 12,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 70,
+  earlyExit: 20,
+  fallback: 12,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 69,
+  earlyExit: 20,
+  fallback: 13,
+  unclassified: 8
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 68,
+  earlyExit: 20,
+  fallback: 14,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 67,
+  earlyExit: 20,
+  fallback: 15,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 66,
+  earlyExit: 21,
+  fallback: 15,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 65,
+  earlyExit: 22,
+  fallback: 15,
+  unclassified: 9
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 64,
+  earlyExit: 22,
+  fallback: 16,
+  unclassified: 10
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 63,
+  earlyExit: 23,
+  fallback: 16,
+  unclassified: 10
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 62,
+  earlyExit: 23,
+  fallback: 17,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 61,
+  earlyExit: 24,
+  fallback: 17,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 60,
+  earlyExit: 25,
+  fallback: 17,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 59,
+  earlyExit: 26,
+  fallback: 17,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 58,
+  earlyExit: 27,
+  fallback: 17,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 57,
+  earlyExit: 27,
+  fallback: 18,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 56,
+  earlyExit: 28,
+  fallback: 18,
+  unclassified: 11
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 55,
+  earlyExit: 28,
+  fallback: 19,
+  unclassified: 12
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 54,
+  earlyExit: 28,
+  fallback: 20,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 53,
+  earlyExit: 29,
+  fallback: 20,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 52,
+  earlyExit: 30,
+  fallback: 20,
+  unclassified: 13
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 51,
+  earlyExit: 30,
+  fallback: 21,
+  unclassified: 14
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 50,
+  earlyExit: 31,
+  fallback: 21,
+  unclassified: 14
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 49,
+  earlyExit: 31,
+  fallback: 22,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 48,
+  earlyExit: 32,
+  fallback: 22,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 47,
+  earlyExit: 32,
+  fallback: 23,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 46,
+  earlyExit: 33,
+  fallback: 23,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 45,
+  earlyExit: 33,
+  fallback: 24,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 44,
+  earlyExit: 34,
+  fallback: 24,
+  unclassified: 15
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 43,
+  earlyExit: 34,
+  fallback: 25,
+  unclassified: 16
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 42,
+  earlyExit: 35,
+  fallback: 25,
+  unclassified: 16
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 41,
+  earlyExit: 36,
+  fallback: 25,
+  unclassified: 16
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 40,
+  earlyExit: 37,
+  fallback: 25,
+  unclassified: 16
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 39,
+  earlyExit: 37,
+  fallback: 26,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 38,
+  earlyExit: 38,
+  fallback: 26,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 37,
+  earlyExit: 39,
+  fallback: 26,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 36,
+  earlyExit: 39,
+  fallback: 27,
+  unclassified: 17
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 35,
+  earlyExit: 39,
+  fallback: 28,
+  unclassified: 18
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 34,
+  earlyExit: 40,
+  fallback: 28,
+  unclassified: 18
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 33,
+  earlyExit: 41,
+  fallback: 28,
+  unclassified: 18
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 32,
+  earlyExit: 41,
+  fallback: 29,
+  unclassified: 19
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 3,
+  queueLength: 31,
+  earlyExit: 42,
+  fallback: 29,
+  unclassified: 19
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 30,
+  earlyExit: 43,
+  fallback: 29,
+  unclassified: 19
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 29,
+  earlyExit: 44,
+  fallback: 29,
+  unclassified: 19
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 28,
+  earlyExit: 44,
+  fallback: 30,
+  unclassified: 20
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 27,
+  earlyExit: 45,
+  fallback: 30,
+  unclassified: 20
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 26,
+  earlyExit: 46,
+  fallback: 30,
+  unclassified: 20
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 25,
+  earlyExit: 46,
+  fallback: 31,
+  unclassified: 21
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 24,
+  earlyExit: 46,
+  fallback: 32,
+  unclassified: 22
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 23,
+  earlyExit: 47,
+  fallback: 32,
+  unclassified: 22
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 22,
+  earlyExit: 47,
+  fallback: 33,
+  unclassified: 23
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 21,
+  earlyExit: 48,
+  fallback: 33,
+  unclassified: 23
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 5,
+  queueLength: 20,
+  earlyExit: 48,
+  fallback: 34,
+  unclassified: 24
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 19,
+  earlyExit: 49,
+  fallback: 34,
+  unclassified: 24
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 18,
+  earlyExit: 50,
+  fallback: 34,
+  unclassified: 24
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 17,
+  earlyExit: 50,
+  fallback: 35,
+  unclassified: 25
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 16,
+  earlyExit: 51,
+  fallback: 35,
+  unclassified: 25
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 15,
+  earlyExit: 52,
+  fallback: 35,
+  unclassified: 25
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 14,
+  earlyExit: 52,
+  fallback: 36,
+  unclassified: 25
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 13,
+  earlyExit: 52,
+  fallback: 37,
+  unclassified: 26
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 12,
+  earlyExit: 52,
+  fallback: 38,
+  unclassified: 27
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 4,
+  queueLength: 11,
+  earlyExit: 52,
+  fallback: 39,
+  unclassified: 27
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 10,
+  earlyExit: 53,
+  fallback: 39,
+  unclassified: 27
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 9,
+  earlyExit: 53,
+  fallback: 40,
+  unclassified: 28
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 8,
+  earlyExit: 54,
+  fallback: 40,
+  unclassified: 28
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 7,
+  earlyExit: 55,
+  fallback: 40,
+  unclassified: 28
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 6,
+  earlyExit: 56,
+  fallback: 40,
+  unclassified: 28
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 5,
+  earlyExit: 56,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 4,
+  earlyExit: 57,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 3,
+  earlyExit: 58,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 2,
+  earlyExit: 59,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 1,
+  earlyExit: 60,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 61,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 81,
+  queueLength: 41,
+  earlyExit: 62,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 254,
+  queueLength: 99,
+  earlyExit: 63,
+  fallback: 41,
+  unclassified: 29
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 107,
+  queueLength: 99,
+  earlyExit: 63,
+  fallback: 42,
+  unclassified: 30
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 7,
+  queueLength: 98,
+  earlyExit: 63,
+  fallback: 43,
+  unclassified: 31
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 97,
+  earlyExit: 64,
+  fallback: 43,
+  unclassified: 31
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 96,
+  earlyExit: 64,
+  fallback: 44,
+  unclassified: 32
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 95,
+  earlyExit: 64,
+  fallback: 45,
+  unclassified: 33
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 94,
+  earlyExit: 64,
+  fallback: 46,
+  unclassified: 34
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 93,
+  earlyExit: 64,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 92,
+  earlyExit: 65,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 91,
+  earlyExit: 66,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 90,
+  earlyExit: 67,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 89,
+  earlyExit: 68,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 88,
+  earlyExit: 69,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 87,
+  earlyExit: 70,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 86,
+  earlyExit: 71,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 85,
+  earlyExit: 72,
+  fallback: 47,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 84,
+  earlyExit: 72,
+  fallback: 48,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 83,
+  earlyExit: 73,
+  fallback: 48,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 82,
+  earlyExit: 74,
+  fallback: 48,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 81,
+  earlyExit: 75,
+  fallback: 48,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 80,
+  earlyExit: 75,
+  fallback: 49,
+  unclassified: 35
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 79,
+  earlyExit: 75,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 78,
+  earlyExit: 76,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 77,
+  earlyExit: 77,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 76,
+  earlyExit: 78,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 75,
+  earlyExit: 79,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 74,
+  earlyExit: 80,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 73,
+  earlyExit: 81,
+  fallback: 50,
+  unclassified: 36
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 72,
+  earlyExit: 81,
+  fallback: 51,
+  unclassified: 37
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 71,
+  earlyExit: 82,
+  fallback: 51,
+  unclassified: 37
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 70,
+  earlyExit: 83,
+  fallback: 51,
+  unclassified: 37
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 69,
+  earlyExit: 83,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 68,
+  earlyExit: 84,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 67,
+  earlyExit: 85,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 66,
+  earlyExit: 86,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 65,
+  earlyExit: 87,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 64,
+  earlyExit: 88,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 63,
+  earlyExit: 89,
+  fallback: 52,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 62,
+  earlyExit: 89,
+  fallback: 53,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 61,
+  earlyExit: 90,
+  fallback: 53,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 60,
+  earlyExit: 91,
+  fallback: 53,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 59,
+  earlyExit: 92,
+  fallback: 53,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 58,
+  earlyExit: 92,
+  fallback: 54,
+  unclassified: 38
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 57,
+  earlyExit: 92,
+  fallback: 55,
+  unclassified: 39
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 56,
+  earlyExit: 93,
+  fallback: 55,
+  unclassified: 39
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 55,
+  earlyExit: 94,
+  fallback: 55,
+  unclassified: 39
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 54,
+  earlyExit: 94,
+  fallback: 56,
+  unclassified: 39
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 53,
+  earlyExit: 94,
+  fallback: 57,
+  unclassified: 40
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 52,
+  earlyExit: 94,
+  fallback: 58,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 51,
+  earlyExit: 95,
+  fallback: 58,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 50,
+  earlyExit: 96,
+  fallback: 58,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 49,
+  earlyExit: 96,
+  fallback: 59,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 48,
+  earlyExit: 97,
+  fallback: 59,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 47,
+  earlyExit: 97,
+  fallback: 60,
+  unclassified: 41
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 46,
+  earlyExit: 97,
+  fallback: 61,
+  unclassified: 42
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 45,
+  earlyExit: 97,
+  fallback: 62,
+  unclassified: 43
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 44,
+  earlyExit: 97,
+  fallback: 63,
+  unclassified: 43
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 43,
+  earlyExit: 98,
+  fallback: 63,
+  unclassified: 43
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 42,
+  earlyExit: 98,
+  fallback: 64,
+  unclassified: 44
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 41,
+  earlyExit: 98,
+  fallback: 65,
+  unclassified: 44
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 40,
+  earlyExit: 99,
+  fallback: 65,
+  unclassified: 44
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 39,
+  earlyExit: 99,
+  fallback: 66,
+  unclassified: 44
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 38,
+  earlyExit: 99,
+  fallback: 67,
+  unclassified: 45
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 37,
+  earlyExit: 99,
+  fallback: 68,
+  unclassified: 46
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 36,
+  earlyExit: 99,
+  fallback: 69,
+  unclassified: 46
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 35,
+  earlyExit: 100,
+  fallback: 69,
+  unclassified: 46
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 34,
+  earlyExit: 100,
+  fallback: 70,
+  unclassified: 47
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 33,
+  earlyExit: 101,
+  fallback: 70,
+  unclassified: 47
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 32,
+  earlyExit: 102,
+  fallback: 70,
+  unclassified: 47
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 31,
+  earlyExit: 102,
+  fallback: 71,
+  unclassified: 48
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 30,
+  earlyExit: 103,
+  fallback: 71,
+  unclassified: 48
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 29,
+  earlyExit: 104,
+  fallback: 71,
+  unclassified: 48
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 28,
+  earlyExit: 105,
+  fallback: 71,
+  unclassified: 48
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 27,
+  earlyExit: 106,
+  fallback: 71,
+  unclassified: 48
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 26,
+  earlyExit: 106,
+  fallback: 72,
+  unclassified: 49
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 25,
+  earlyExit: 106,
+  fallback: 73,
+  unclassified: 50
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 24,
+  earlyExit: 107,
+  fallback: 73,
+  unclassified: 50
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 23,
+  earlyExit: 108,
+  fallback: 73,
+  unclassified: 50
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 22,
+  earlyExit: 108,
+  fallback: 74,
+  unclassified: 50
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 21,
+  earlyExit: 108,
+  fallback: 75,
+  unclassified: 51
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 20,
+  earlyExit: 108,
+  fallback: 76,
+  unclassified: 52
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 19,
+  earlyExit: 108,
+  fallback: 77,
+  unclassified: 52
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 18,
+  earlyExit: 108,
+  fallback: 78,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 17,
+  earlyExit: 108,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 16,
+  earlyExit: 109,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 15,
+  earlyExit: 110,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 14,
+  earlyExit: 111,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 13,
+  earlyExit: 112,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 12,
+  earlyExit: 113,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 11,
+  earlyExit: 114,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 10,
+  earlyExit: 115,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 9,
+  earlyExit: 116,
+  fallback: 79,
+  unclassified: 53
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 8,
+  earlyExit: 116,
+  fallback: 80,
+  unclassified: 54
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 7,
+  earlyExit: 117,
+  fallback: 80,
+  unclassified: 54
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 6,
+  earlyExit: 118,
+  fallback: 80,
+  unclassified: 54
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 5,
+  earlyExit: 118,
+  fallback: 81,
+  unclassified: 55
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 4,
+  earlyExit: 118,
+  fallback: 82,
+  unclassified: 56
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 3,
+  earlyExit: 118,
+  fallback: 83,
+  unclassified: 57
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 2,
+  earlyExit: 119,
+  fallback: 83,
+  unclassified: 57
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 1,
+  earlyExit: 120,
+  fallback: 83,
+  unclassified: 57
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 120,
+  fallback: 84,
+  unclassified: 58
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 61,
+  queueLength: 56,
+  earlyExit: 121,
+  fallback: 84,
+  unclassified: 58
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 191,
+  queueLength: 99,
+  earlyExit: 121,
+  fallback: 85,
+  unclassified: 59
+}
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:skipped { reason: 'queue-limit', queueLength: 99, running: 1, limit: 100 }
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 79,
+  queueLength: 99,
+  earlyExit: 122,
+  fallback: 85,
+  unclassified: 59
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 5,
+  queueLength: 98,
+  earlyExit: 122,
+  fallback: 86,
+  unclassified: 60
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 97,
+  earlyExit: 122,
+  fallback: 87,
+  unclassified: 61
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 96,
+  earlyExit: 122,
+  fallback: 88,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 95,
+  earlyExit: 122,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 94,
+  earlyExit: 123,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 93,
+  earlyExit: 124,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 92,
+  earlyExit: 125,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 91,
+  earlyExit: 126,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 90,
+  earlyExit: 127,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 89,
+  earlyExit: 128,
+  fallback: 89,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 88,
+  earlyExit: 128,
+  fallback: 90,
+  unclassified: 62
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 87,
+  earlyExit: 128,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 86,
+  earlyExit: 129,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 85,
+  earlyExit: 130,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 84,
+  earlyExit: 131,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 83,
+  earlyExit: 132,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 82,
+  earlyExit: 133,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 81,
+  earlyExit: 134,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 80,
+  earlyExit: 135,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 79,
+  earlyExit: 136,
+  fallback: 91,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 78,
+  earlyExit: 136,
+  fallback: 92,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 77,
+  earlyExit: 137,
+  fallback: 92,
+  unclassified: 63
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 76,
+  earlyExit: 137,
+  fallback: 93,
+  unclassified: 64
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 75,
+  earlyExit: 138,
+  fallback: 93,
+  unclassified: 64
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 74,
+  earlyExit: 139,
+  fallback: 93,
+  unclassified: 64
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 73,
+  earlyExit: 140,
+  fallback: 93,
+  unclassified: 64
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 72,
+  earlyExit: 140,
+  fallback: 94,
+  unclassified: 65
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 71,
+  earlyExit: 140,
+  fallback: 95,
+  unclassified: 66
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 70,
+  earlyExit: 140,
+  fallback: 96,
+  unclassified: 67
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 69,
+  earlyExit: 140,
+  fallback: 97,
+  unclassified: 68
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 68,
+  earlyExit: 140,
+  fallback: 98,
+  unclassified: 68
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 67,
+  earlyExit: 140,
+  fallback: 99,
+  unclassified: 69
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 66,
+  earlyExit: 141,
+  fallback: 99,
+  unclassified: 69
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 65,
+  earlyExit: 141,
+  fallback: 100,
+  unclassified: 69
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 64,
+  earlyExit: 141,
+  fallback: 101,
+  unclassified: 70
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 63,
+  earlyExit: 141,
+  fallback: 102,
+  unclassified: 70
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 62,
+  earlyExit: 141,
+  fallback: 103,
+  unclassified: 71
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 61,
+  earlyExit: 142,
+  fallback: 103,
+  unclassified: 71
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 60,
+  earlyExit: 143,
+  fallback: 103,
+  unclassified: 71
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 59,
+  earlyExit: 143,
+  fallback: 104,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 58,
+  earlyExit: 144,
+  fallback: 104,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 57,
+  earlyExit: 144,
+  fallback: 105,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 56,
+  earlyExit: 145,
+  fallback: 105,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 55,
+  earlyExit: 146,
+  fallback: 105,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 54,
+  earlyExit: 147,
+  fallback: 105,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 53,
+  earlyExit: 148,
+  fallback: 105,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 52,
+  earlyExit: 148,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 51,
+  earlyExit: 149,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 50,
+  earlyExit: 150,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 49,
+  earlyExit: 151,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 48,
+  earlyExit: 152,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 47,
+  earlyExit: 153,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 46,
+  earlyExit: 154,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 45,
+  earlyExit: 155,
+  fallback: 106,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 1,
+  queueLength: 44,
+  earlyExit: 155,
+  fallback: 107,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 43,
+  earlyExit: 156,
+  fallback: 107,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 42,
+  earlyExit: 156,
+  fallback: 108,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 41,
+  earlyExit: 156,
+  fallback: 109,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 40,
+  earlyExit: 157,
+  fallback: 109,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 39,
+  earlyExit: 158,
+  fallback: 109,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 38,
+  earlyExit: 159,
+  fallback: 109,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 37,
+  earlyExit: 160,
+  fallback: 109,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 36,
+  earlyExit: 160,
+  fallback: 110,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 35,
+  earlyExit: 161,
+  fallback: 110,
+  unclassified: 72
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 34,
+  earlyExit: 161,
+  fallback: 111,
+  unclassified: 73
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 33,
+  earlyExit: 161,
+  fallback: 112,
+  unclassified: 74
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 32,
+  earlyExit: 161,
+  fallback: 113,
+  unclassified: 75
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 31,
+  earlyExit: 162,
+  fallback: 113,
+  unclassified: 75
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 30,
+  earlyExit: 163,
+  fallback: 113,
+  unclassified: 75
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 29,
+  earlyExit: 163,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 1,
+  queueLength: 28,
+  earlyExit: 164,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 27,
+  earlyExit: 165,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 26,
+  earlyExit: 166,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 25,
+  earlyExit: 167,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 24,
+  earlyExit: 168,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 23,
+  earlyExit: 169,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 22,
+  earlyExit: 170,
+  fallback: 114,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 21,
+  earlyExit: 170,
+  fallback: 115,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 20,
+  earlyExit: 171,
+  fallback: 115,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 19,
+  earlyExit: 172,
+  fallback: 115,
+  unclassified: 76
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 18,
+  earlyExit: 172,
+  fallback: 116,
+  unclassified: 77
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 17,
+  earlyExit: 173,
+  fallback: 116,
+  unclassified: 77
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 16,
+  earlyExit: 174,
+  fallback: 116,
+  unclassified: 77
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 15,
+  earlyExit: 174,
+  fallback: 117,
+  unclassified: 77
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 3,
+  queueLength: 14,
+  earlyExit: 174,
+  fallback: 118,
+  unclassified: 78
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 13,
+  earlyExit: 175,
+  fallback: 118,
+  unclassified: 78
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 12,
+  earlyExit: 175,
+  fallback: 119,
+  unclassified: 79
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 11,
+  earlyExit: 175,
+  fallback: 120,
+  unclassified: 79
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 10,
+  earlyExit: 175,
+  fallback: 121,
+  unclassified: 80
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 9,
+  earlyExit: 175,
+  fallback: 122,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 8,
+  earlyExit: 176,
+  fallback: 122,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 7,
+  earlyExit: 177,
+  fallback: 122,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 6,
+  earlyExit: 177,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 5,
+  earlyExit: 178,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 4,
+  earlyExit: 179,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 3,
+  earlyExit: 180,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 2,
+  earlyExit: 181,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'classified',
+  modelVersion: 'gatekeeper-hash-nb-v1',
+  latencyMs: 2,
+  queueLength: 1,
+  earlyExit: 182,
+  fallback: 123,
+  unclassified: 81
+}
+qa_nlp:completed {
+  status: 'uncertain',
+  modelVersion: 'fallback-knn-v1',
+  latencyMs: 2,
+  queueLength: 0,
+  earlyExit: 182,
+  fallback: 124,
+  unclassified: 82
+}
