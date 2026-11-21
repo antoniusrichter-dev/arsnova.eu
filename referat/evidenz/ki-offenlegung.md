@@ -30,7 +30,7 @@
 | 4.1 | 2B | Referenzmenge (80 Fragen) und Labelregeln | `referat/2b/{referenz.csv,referenz_erzeugen.py,labelregeln.md}` | Fragen und Regeln vorgeschlagen; **Labels nicht von der KI** (`label_person1` von Jeremy Richter) | |
 | 4.2 | 2B | Evaluation Kaskade gegen Keyword-Baseline bei drei Schwellen, Referenzlauf `eval:qa-nlp` | `referat/2b/eval.ts`, `referat/evidenz/2b/eval/` | Auswertungsskript geschrieben und ausgeführt | |
 | 4.2 (Nachtrag) | 2B | **Fehlerbegründungen**, Fehlermuster, Einordnung der 10 Sensitivitäts-IDs, Sensitivität 2 (ohne 5 Konfliktfälle) | `referat/evidenz/2b/eval/ergebnis.md`, `ergebnis.json`, `referat/2b/eval.ts` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben**; Sensitivität 2 von der KI gerechnet | |
-| 4.2 (Korrektur) | 2B | Seed-Belege in den Begründungen korrigiert (Seed-Größe, Z. 423, Train-/Eval-Split) | `referat/evidenz/2b/eval/ergebnis.md` | Von der KI bei der Prüfung gefunden; erweiterte Korrektur **noch nicht** von Jeremy Richter freigegeben, daher nicht committet | |
+| 4.2 (Korrektur) | 2B | Seed-Belege in den Begründungen korrigiert (Seed-Größe, Z. 423, Train-/Eval-Split) | `referat/evidenz/2b/eval/ergebnis.md` | Fehler im eigenen KI-Entwurf (Trainings- vs. Eval-Split nicht beachtet), von der KI bei der Prüfung gefunden und korrigiert; **von Jeremy Richter geprüft und freigegeben** | |
 | 4.2 (Entscheidung) | 2B | **Entscheidung**, Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben** | |
 | 4.3 | 2B | Laufzeit und Burst (200 `qa.submit`, Queue-Limit 100/20) | `referat/2b/{burst.ts,burst-alle.sh,burst-auswertung.ts,start-backend.sh}`, `referat/evidenz/2b/last/` | Skripte geschrieben, Läufe ausgeführt | |
 | 4.4 | 2B | Kontextschnittstelle (#456 nur mit persistierten Kategorien) | `referat/2b/kontext-pruefung.ts`, `referat/evidenz/2b/kontext.md`, `referat/evidenz/2b/kontext/` | Prüfskript geschrieben, Live-Prüfung und Produkttests ausgeführt | |
@@ -48,7 +48,7 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Inhalt | Datei | Geprüft von | Stand |
 | ------ | ----- | ----------- | ----- |
 | Beispielbewertungen der Rubrik (3 Varianten × 5 Kriterien, Bemerkungen) | `referat/evidenz/rubrik.md` | Florian Meyer | geprüft (Angabe der Gruppe) |
-| Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben; erweiterte Korrektur zur Train-/Eval-Aufteilung des Seeds steht noch zur Prüfung aus |
+| Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben, einschließlich der Korrektur zur Train-/Eval-Aufteilung des Seeds |
 | Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben |
 | Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | freigegeben |
 | Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | | |
