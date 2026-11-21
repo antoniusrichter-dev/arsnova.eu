@@ -91,24 +91,24 @@ Dateien: `ergebnis.json` (alle Kennzahlen), `vorhersagen.csv` (480 Zeilen = 80 F
 
 ## Die 10 auffälligsten Fehler kaskade@0.55
 
-Sortierung: zuerst classified, dann nach Konfidenz absteigend. Begründungen: KI-Entwurf (Claude, 21.11.2026), von Jeremy Richter geprüft und freigegeben. Mit „Vermutung“ markierte Ursachen sind nicht gemessen.
+Sortierung: zuerst classified, dann nach Konfidenz absteigend. Begründungen: KI-Entwurf (Claude, 21.11.2026), von Jeremy Richter geprüft und freigegeben. Mit „Vermutung“ markierte Ursachen sind nicht gemessen. Seed-Zeilen beziehen sich auf `apps/backend/src/lib/qaNlpSeed.ts`; Gatekeeper (`qaNlpGatekeeper.ts:11`) und Fallback (`qaNlpFallback.ts:52`) trainieren nur auf den Splits `train` bzw. `train` + `prototype` (71 von 186 Einträgen), nicht auf `eval`.
 
 | ID | Text | Gruppe | Gold | Vorhersage | Status | Konfidenz | Stufe | Begründung |
 | -- | ---- | ------ | ---- | ---------- | ------ | --------: | ----- | ---------- |
-| R059 | Do we need to know the derivation? | mehrdeutig | organization | content | classified | 1,000 | gatekeeper-hash-nb-v1 | Prüfungsrelevanz-Konvention: Der Seed labelt die fast gleiche Frage („Herleitung … pruefungsrelevant?“, Z. 416) als `content`. Das Modell folgt dem Seed. |
+| R059 | Do we need to know the derivation? | mehrdeutig | organization | content | classified | 1,000 | gatekeeper-hash-nb-v1 | Prüfungsrelevanz-Konvention: Im Trainings-Split labelt der Seed Prüfungsrelevanz als `content` (Z. 32, 60, 88, 130, z. B. „Ist Aufgabe 3 klausurrelevant?“). Das Modell folgt dieser Konvention. Die fast gleiche Frage („Herleitung … pruefungsrelevant?“, Z. 416, `content`) steht nur im Eval-Split und wurde nicht trainiert. |
 | R063 | Est-ce que la séance sera enregistrée ? | paraphrase | organization | content | classified | 1,000 | gatekeeper-hash-nb-v1 | Aufzeichnung kommt im Seed in keiner Sprache vor („Aufzeichnung“, „recording“, „enregistr“: 0 Treffer). Französisch ist nur schwach vertreten. Trotzdem Konfidenz 1,0 → Überkonfidenz bei unbekanntem Thema. |
 | R069 | Est-ce que c'est important pour la suite ? | mehrdeutig | organization | content | classified | 0,999 | gatekeeper-hash-nb-v1 | Mehrdeutig (Relevanz für Prüfung oder für Verständnis?). Gleiche Konventionsfrage wie R059. |
 | R015 | Warum folgt aus einem Zusammenhang nicht automatisch eine Ursache? | paraphrase | content | technical | classified | 0,998 | gatekeeper-hash-nb-v1 | Echter Modellfehler. „Zusammenhang“ und „Ursache“ fehlen im Seed. *Vermutung:* Ähnlichkeit zu „warum geht … nicht“-Mustern aus Technikfragen. |
-| R024 | Check ich nicht, wieso ist das Intervall so breit? | slang | content | technical | classified | 0,972 | gatekeeper-hash-nb-v1 | Echter Modellfehler, obwohl der Seed „Konfidenzintervall erklären“ und „Ich check den Loesungsweg null“ als `content` kennt. *Vermutung:* „wieso … nicht“ zieht Richtung Technik. |
+| R024 | Check ich nicht, wieso ist das Intervall so breit? | slang | content | technical | classified | 0,972 | gatekeeper-hash-nb-v1 | Echter Modellfehler. Der Seed enthält „Koennen Sie den Begriff Konfidenzintervall noch einmal definieren?“ (qaNlpSeed.ts Z. 423, content) und „Ich check den Loesungsweg null“ (Z. 795, content), beide aber nur im Eval-Split, also nicht trainiert. *Vermutung:* „wieso … nicht“ zieht Richtung Technik. |
 | R042 | Will the recording be available after class? | paraphrase | organization | content | classified | 0,971 | gatekeeper-hash-nb-v1 | Wie R063: Thema Aufzeichnung fehlt im Seed. |
 | R034 | Kann man die Übungsaufgaben auch in R statt Python lösen? | mehrdeutig | organization | content | classified | 0,969 | gatekeeper-hash-nb-v1 | Regel 5 (Werkzeug erlaubt = org) ist unsere Festlegung. „Übungsaufgaben“ und Programmiersprachen klingen fachlich. *Vermutung:* Ohne Seed-Beispiel zu erlaubten Werkzeugen greift das Fachvokabular. |
 | R035 | Wie viel Zeit sollten wir für die Hausaufgabe einplanen? | mehrdeutig | organization | content | classified | 0,961 | gatekeeper-hash-nb-v1 | Mehrdeutig. „Hausaufgabe“ kommt im Seed nicht vor. *Vermutung:* Ähnliche Zeichenfolgen zu „Aufgabe“ aus Fach-Seeds ziehen Richtung `content`. |
-| R078 | Ni idea de lo que es un p-valor, ¿lo explicas otra vez? | slang | content | organization | classified | 0,959 | gatekeeper-hash-nb-v1 | Slang und Spanisch. „otra vez“ steht im Seed sowohl bei `content` als auch bei `technical`. Warum `organization` herauskommt, ist ungeklärt → offen lassen. |
+| R078 | Ni idea de lo que es un p-valor, ¿lo explicas otra vez? | slang | content | organization | classified | 0,959 | gatekeeper-hash-nb-v1 | Slang und Spanisch. „otra vez“ steht im Seed sowohl bei `content` (Z. 1156) als auch bei `technical` (Z. 1226), beide nur im Eval-Split, also nicht trainiert. Warum `organization` herauskommt, ist ungeklärt → offen lassen. |
 | R067 | Je n'arrive pas a me connecter a la plateform | tippfehler | technical | organization | classified | 0,952 | gatekeeper-hash-nb-v1 | Tippfehler und fehlende Akzente verändern die Zeichen-n-Gramme. „connect“/„plataforma“ kommen im Seed nicht vor. |
 
 **Drei Fehlermuster:**
 1. **Konvention** (R059, R069, R034, R035): Das Modell ist nicht falsch, sondern folgt einer anderen Festlegung als unsere Labelregeln.
-2. **Lücken im Seed** (R063, R042, R067, R078): Themen bzw. Sprachen, die im Trainings-Seed fehlen oder schwach sind (FR/ES je ca. 23 von 187 Einträgen).
+2. **Lücken im Seed** (R063, R042, R067, R078): Themen bzw. Sprachen, die im Trainings-Seed fehlen oder schwach sind (FR/ES je 22 von 186 Einträgen; trainiert werden nur `train` und `prototype`, darin FR/ES je 7 von 71).
 3. **Echte Fehlzuordnung** (R015, R024): fachliche Fragen, die als Technik gelesen werden.
 
 Alle zehn haben Konfidenz ≥ 0,95. **Die gefährlichsten Fehler sind die sichersten.** Die Lehrperson bekommt kein „unsicher“ angezeigt.
