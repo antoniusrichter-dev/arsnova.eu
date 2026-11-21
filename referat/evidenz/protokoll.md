@@ -359,3 +359,64 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - 271 Zeilen der Langfassung ergeben 93 Zeilen: 40 Aussagen kommen einmal vor, 34 viermal, 19 fünfmal.
   - Zusammengefasst werden identische Aussagen bei gleichem Modus, Fall, Variante, Art, Text und gleichen sourceIds. Neue Spalten: `vorkommen` und `lauf_ids`. Die Fehlerklassen sind leer.
   - Die Langfassung ist unverändert (SHA-256 `86a3a913…` vorher und nachher gleich).
+
+## Phase 4 / Schritt 4.2 – 2B Baseline und Variante (2026-11-21)
+
+- Commit `2b1848a1` (Produktcode 1.3.0 `efd71b44`), WSL2/Node v24.18.0, in-process, keine Dienste.
+- Aufrufe:
+  - `npx tsx referat/2b/eval.ts` → `2b/eval/{ergebnis.json,vorhersagen.csv,uebersicht.md}`; Text in `2b/eval/ergebnis.md`.
+  - `npm run eval:qa-nlp -w @arsnova/backend` → `2b/eval/eval-qa-nlp-repo-seed.json` (exit 0, stderr leer).
+- Referenzmenge: `referat/2b/referenz.csv` mit 80 Fragen, Gold = `label_person1`. Nur eine labelnde Person, daher κ und Uneinigkeit nicht berechenbar (Abweichung vom Runbook-Text, als Grenze vermerkt).
+- Variiert wurde nur `QA_NLP_MIN_CONFIDENCE` (0,45 / 0,55 / 0,65), als Argument an `classifyQaNlpCascade` übergeben. Ohne Env-Änderung und ohne Produktcode-Änderung.
+- Kernzahlen @0,55:
+  - Kaskade: Abdeckung 73,8 %, Accuracy (classified) 67,8 %, Macro-F1 streng 0,571, Bestes Label 0,598, ECE 0,258.
+  - Keyword: 38,8 %, 51,6 %, 0,300, 0,351, ECE 0,215.
+  - Repo-Seed: Kaskade 85 % Abdeckung und 87,1 % Accuracy (classified).
+- Befunde:
+  - Die Schwelle wirkt nicht monoton (Abdeckung 0,45 < 0,55).
+  - Die zehn auffälligsten Kaskaden-Fehler sind Gatekeeper-Early-Exits mit Konfidenz ≥ 0,95.
+  - Die Labelregel 2 (Prüfungsrelevanz → organization) widerspricht dem Repo-Seed (`qaNlpSeed.ts`, Z. 60/416 = content) und dem Keyword-Lexikon. Dazu gibt es eine Sensitivitätsanalyse ohne 10 Musterfälle, bei unveränderten Labels.
+- 2B-Dateien nur geschrieben, nicht gestagt.
+
+## Phase 4 / Schritt 4.3 – 2B Laufzeit und Burst (2026-11-21)
+
+- Commit `2b1848a1`, Produktcode 1.3.0 `efd71b44`, WSL2, Node v24.18.0, Backend lokal (Port 3000), PostgreSQL und Redis in Docker, nur Loopback.
+- Aufruf: `referat/2b/burst-alle.sh 3`, 01:09:34–01:11:42 MEZ.
+  - Konfigurationen: aus (`QA_NLP_ENABLED=false`), `an-limit100`, `an-limit20`.
+  - Fest gesetzt: `QA_NLP_TIMEOUT_MS=2000`, `QA_NLP_CONCURRENCY=1`, `QA_NLP_MIN_CONFIDENCE=0.55`; übrige KI-Pfade aus.
+  - Je Konfiguration ein frisches Backend und 3 Bursts mit je 200 gleichzeitigen `qa.submit` (20 TN × 10).
+- Auswertung: `npx tsx referat/2b/burst-auswertung.ts`. Rohdaten in `2b/last/`; die Backend-Logs enthalten keine Tokens, nur den dotenv-Hinweis `injected env (94)` ohne Werte.
+- Ergebnis:
+  - 1 800/1 800 Submits erfolgreich.
+  - Submit-Latenz in den warmen Läufen (p50/p95): aus 427/459 ms, limit100 422/471 ms, limit20 414/462 ms; Kaltstart je ≈ 1 s.
+  - Skips je Lauf: limit100 98/200, limit20 179/200, jeweils `FAILED` `stub:queue-limit`.
+  - Logzählung stimmt mit den Metrik-Deltas überein.
+  - Direkt nach der letzten Antwort sind noch 12–18 Fragen `PENDING`, damit ist belegt, dass submit nicht wartet.
+  - Reine Klassifikation p50 0,03 ms; RSS 400–470 MiB.
+- Hinweis: `unclassifiedRate` in `qa.nlpRuntime` schließt die Skips aus.
+- 2B-Dateien nur geschrieben, nicht gestagt.
+
+## Phase 4 / Schritt 4.4 – 2B Kontextschnittstelle (2026-11-21)
+
+- Commit `2b1848a1`. Backend mit `referat/2b/start-backend.sh true 100 referat/evidenz/2b/kontext/backend-kontext.log`, 01:16 MEZ, danach gestoppt.
+- `npx tsx referat/2b/kontext-pruefung.ts --log … --out referat/evidenz/2b/kontext/kontext-pruefung.json`, zweimal ausgeführt (JKC8AU ohne und BHSNWH mit Gegenprobe), beide Male bestanden:
+  - DB, Backend-Metriken und Log unverändert; PENDING bleibt PENDING; kein Enqueue im Prozess.
+  - 11/11 Kontextfelder gleich DB.
+  - Gegenprobe: completed +1, Log +1.
+  - Fixture-Eingriffe per Prisma nur an eigenen Seed-Zeilen (PENDING, FAILED, DISABLED).
+- Produkttests (`apps/backend`): `vitest run` für moderationQaContext, moderationQaContext.service und qaNlpQueue, 34/34 bestanden → `2b/kontext/vitest-ausgabe.txt`. Der Test „maps … without starting a job“ prüft nur den state.
+- Beleg mit Codestellen: `2b/kontext.md`. 2B-Dateien nur geschrieben, nicht gestagt.
+
+## Phase 4 / Nachtrag 4.2 – 2B Begründungen, Sensitivität 2, Entscheidung (2026-11-21)
+
+- Commit `2b1848a1` (Produktcode 1.3.0 `efd71b44`), WSL2/Node v24.18.0, in-process, keine Dienste.
+- **Herkunft:** Fehlerbegründungen, Einordnung der 10 Sensitivitäts-IDs und Entscheidung als **KI-Entwurf (Claude)** erstellt (`2b-entwurf-fuer-jeremy.md`, außerhalb des Repos), **von Jeremy Richter geprüft und freigegeben**. Übernahme wörtlich, inkl. der Kennzeichnung „Vermutung“.
+- **Labels:** keine Änderung in `referat/2b/referenz.csv`.
+- `2b/eval/ergebnis.md`:
+  - Spalte „Begründung“ der Tabelle „Die 10 auffälligsten Fehler kaskade@0.55“ gefüllt, drei Fehlermuster als Absatz darunter.
+  - Abschnitt „Sensitivität“: Einordnung der 10 IDs (Termin R007/R037/R061/R071, Hilfsmittel R036, Prüfungsrelevanz R003/R004/R026/R057, Grenzfall R053) und Seed-Widersprüche ergänzt. `qaNlpSeed.ts` Z. 416 (`content`) und Z. 1049 (`organization`) am Code verifiziert.
+- **Sensitivität 2:** `referat/2b/eval.ts` um eine feste ID-Liste erweitert (ohne R003, R004, R026, R053, R057; n = 75), `npx tsx referat/2b/eval.ts` neu ausgeführt (exit 0) → `ergebnis.json` → `sensitivitaetKonfliktfaelle`.
+  - Gegenprobe: `vorhersagen.csv` und `uebersicht.md` bytegleich, `ergebnis.json` bis auf `erzeugt` und den neuen Block unverändert.
+  - Kaskade @0,55: Abdeckung 73 %, Acc. classified 69 %, Macro-F1 streng 0,581. Keyword @0,55: 36 %, 59 %, 0,320.
+- **Neu:** `2b/entscheidung.md` (Abschnitt 3 des Entwurfs: Entscheidung, Voraussetzungen, Betriebsfolge, Grenzen).
+- Bei der Prüfung gefunden, im Text nicht geändert, weil wörtlich freigegeben: Der Seed hat 186 Einträge, FR und ES je 22 (Entwurf: „ca. 23 von 187“). „Konfidenzintervall erklären“ steht nicht wörtlich im Seed; nächstliegend ist Z. 423 („Koennen Sie den Begriff Konfidenzintervall noch einmal definieren?“, `content`).
