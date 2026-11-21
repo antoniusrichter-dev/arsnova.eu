@@ -1,0 +1,722 @@
+[
+  {
+    "fall": "b-P200-lernziel",
+    "lauf": 1,
+    "kalt": true,
+    "startedAt": 1795185470259,
+    "endedAt": 1795185530614,
+    "gesamtMs": 60355,
+    "enqueueMs": 30,
+    "polls": 30,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "ab9ad3682384484b82219ef9f63e002953e671a209071dcb42a35c6d0e5f17e6",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5925,
+        "packedInputTokens": 6778,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "E",
+        "F",
+        "C"
+      ],
+      "qaSources": [
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      },
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  {
+    "fall": "b-P200-lernziel",
+    "lauf": 2,
+    "kalt": false,
+    "startedAt": 1795185536653,
+    "endedAt": 1795185572910,
+    "gesamtMs": 36257,
+    "enqueueMs": 28,
+    "polls": 18,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "ab9ad3682384484b82219ef9f63e002953e671a209071dcb42a35c6d0e5f17e6",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5925,
+        "packedInputTokens": 6778,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "E",
+        "F",
+        "C"
+      ],
+      "qaSources": [
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      },
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  {
+    "fall": "b-P200-lernziel",
+    "lauf": 3,
+    "kalt": false,
+    "startedAt": 1795185578942,
+    "endedAt": 1795185615207,
+    "gesamtMs": 36265,
+    "enqueueMs": 26,
+    "polls": 18,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "ab9ad3682384484b82219ef9f63e002953e671a209071dcb42a35c6d0e5f17e6",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5925,
+        "packedInputTokens": 6778,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "E",
+        "F",
+        "C"
+      ],
+      "qaSources": [
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      },
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  {
+    "fall": "b-P200-lernziel",
+    "lauf": 4,
+    "kalt": false,
+    "startedAt": 1795185621239,
+    "endedAt": 1795185657500,
+    "gesamtMs": 36261,
+    "enqueueMs": 26,
+    "polls": 18,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "ab9ad3682384484b82219ef9f63e002953e671a209071dcb42a35c6d0e5f17e6",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5925,
+        "packedInputTokens": 6778,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "E",
+        "F",
+        "C"
+      ],
+      "qaSources": [
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      },
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  {
+    "fall": "b-P200-lernziel",
+    "lauf": 5,
+    "kalt": false,
+    "startedAt": 1795185663531,
+    "endedAt": 1795185699790,
+    "gesamtMs": 36259,
+    "enqueueMs": 25,
+    "polls": 18,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "ab9ad3682384484b82219ef9f63e002953e671a209071dcb42a35c6d0e5f17e6",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5925,
+        "packedInputTokens": 6778,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "E",
+        "F",
+        "C"
+      ],
+      "qaSources": [
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      },
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "fall": "a-P200",
+  "variante": "texte-metadaten",
+  "lauf": 5,
+  "kalt": false,
+  "startedAt": 1795186624439,
+  "endedAt": 1795186649381,
+  "gesamtMs": 24942,
+  "packed": {
+    "snapshotHash": "d520e1a6604aeb405debaa89f09d823b29af78a73045bb9a5ef4f401df9149e1",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 4310,
+      "packedInputTokens": 5163,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 3,
+          "reason": "deduplication"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 3,
+      "topics": 30,
+      "compassSignals": 30,
+      "learningObjectives": 100,
+      "resultAggregates": 100,
+      "feedbackAggregates": 100
+    },
+    "corpus": {
+      "total": 6,
+      "eligible": 6,
+      "analyzed": 6,
+      "deduplicated": 3,
+      "represented": 3
+    },
+    "representedItems": [
+      "B",
+      "D",
+      "C"
+    ],
+    "qaSources": [
+      {
+        "id": "B",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "D",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "C",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 3,
+    "sections": {
+      "topics": "unavailable",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": true,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "completed",
+  "telemetry": {
+    "taskType": "qa_summary",
+    "elapsedMs": 24942,
+    "model": "qwen3-4b-instruct-2507-q4_k_m",
+    "promptTokens": 1485,
+    "completionTokens": 308
+  },
+  "schemaGueltig": true,
+  "modellStatus": "ready",
+  "qualitaetsgate": true,
+  "ergebnisStatus": "ready",
+  "entfernteSourceIds": [],
+  "statements": [
+    {
+      "text": "Lineare Regression: Gibt es ein weiteres Beispiel zur linearen Regression?",
+      "sourceIds": [
+        "B"
+      ]
+    },
+    {
+      "text": "Prüfungsvorbereitung: Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+      "sourceIds": [
+        "D"
+      ]
+    },
+    {
+      "text": "Klausurrelevanz: Ist Kapitel 4 klausurrelevant?",
+      "sourceIds": [
+        "C"
+      ]
+    }
+  ],
+  "suggestedNextSteps": [
+    {
+      "text": "Prüfe die Relevanz von Kapitel 4 für die Klausur.",
+      "sourceIds": [
+        "C"
+      ]
+    }
+  ],
+  "limitations": [],
+  "rohausgabe": {
+    "status": "ready",
+    "statements": [
+      {
+        "text": "Lineare Regression: Gibt es ein weiteres Beispiel zur linearen Regression?",
+        "sourceIds": [
+          "qa-question:259e7272-1783-4e00-9bac-5b3c495274d7"
+        ]
+      },
+      {
+        "text": "Prüfungsvorbereitung: Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+        "sourceIds": [
+          "qa-question:80fda819-339c-4160-88b4-1735731e6112"
+        ]
+      },
+      {
+        "text": "Klausurrelevanz: Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "qa-question:f6e699fd-ddbd-49d3-9f9f-317f04a3f89d"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfe die Relevanz von Kapitel 4 für die Klausur.",
+        "sourceIds": [
+          "qa-question:f6e699fd-ddbd-49d3-9f9f-317f04a3f89d"
+        ]
+      }
+    ],
+    "limitations": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "fixtureId": "referat-thema2-sechs-fragen-v1",
+  "fall": "P50-skaliert",
+  "P": 50,
+  "faktor": 0.4,
+  "erzeugt": "2026-11-20T14:41:44.727Z",
+  "trpcUrl": "http://127.0.0.1:3000/trpc",
+  "session": {
+    "code": "DFHQWW",
+    "sessionId": "c1ebeb0c-e4d6-479b-8ef4-0368323823e0",
+    "typ": "Q_AND_A",
+    "qaModerationMode": false
+  },
+  "tokenDatei": "referat/.local/host-DFHQWW.json",
+  "lernziel": {
+    "objectiveId": "26a906ea-c1af-4f8a-a88e-928d90eb00ef",
+    "text": "Die Studierenden können lineare Regressionsmodelle anwenden.",
+    "confirmationState": "confirmed"
+  },
+  "teilnehmende": 50,
+  "stimmZeilen": 113,
+  "fragen": [
+    {
+      "key": "A",
+      "id": "5fcf1e53-1928-4781-91bd-16336ecdbfc8",
+      "sourceId": "qa-question:5fcf1e53-1928-4781-91bd-16336ecdbfc8",
+      "soll": {
+        "positive": 32,
+        "negative": 12
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 32,
+        "negative": 12,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "B",
+      "id": "c620552a-e74f-4eee-9f44-33be37c54423",
+      "sourceId": "qa-question:c620552a-e74f-4eee-9f44-33be37c54423",
+      "soll": {
+        "positive": 4,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 4,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "C",
+      "id": "2865f452-dcb4-40bc-90ae-68fce5876ff8",
+      "sourceId": "qa-question:2865f452-dcb4-40bc-90ae-68fce5876ff8",
+      "soll": {
+        "positive": 12,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 12,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "D",
+      "id": "e2c8ceba-a539-4343-b336-56afb2e458d4",
+      "sourceId": "qa-question:e2c8ceba-a539-4343-b336-56afb2e458d4",
+      "soll": {
+        "positive": 5,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 5,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "E",
+      "id": "3637294b-aa0a-4d9c-80ff-dc71992e6ad4",
+      "sourceId": "qa-question:3637294b-aa0a-4d9c-80ff-dc71992e6ad4",
+      "soll": {
+        "positive": 16,
+        "negative": 16
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 16,
+        "negative": 16,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "F",
+      "id": "d8ba3d2c-c517-41fa-9d45-6fa81bf46c45",
+      "sourceId": "qa-question:d8ba3d2c-c517-41fa-9d45-6fa81bf46c45",
+      "soll": {
+        "positive": 8,
+        "negative": 8
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 8,
+        "negative": 8,
+        "upvoteCount": 0
+      }
+    }
+  ],
+  "pruefung": "ok",
+  "fehler": []
+}

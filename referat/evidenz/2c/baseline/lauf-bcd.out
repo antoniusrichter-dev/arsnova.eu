@@ -1,0 +1,28 @@
+== Fall b Start 2026-11-20T15:37:37+01:00
+Host-Token: in referat/.local/host-SWW5HJ.json (nicht ausgegeben)
+Prüfung: ok
+b-P200-lernziel Lauf 1 (kalt): ready · extractive (invalid_response) · 60355 ms · Fragen im Kontext: E,F,C
+b-P200-lernziel Lauf 2: ready · extractive (invalid_response) · 36257 ms · Fragen im Kontext: E,F,C
+b-P200-lernziel Lauf 3: ready · extractive (invalid_response) · 36265 ms · Fragen im Kontext: E,F,C
+b-P200-lernziel Lauf 4: ready · extractive (invalid_response) · 36261 ms · Fragen im Kontext: E,F,C
+b-P200-lernziel Lauf 5: ready · extractive (invalid_response) · 36259 ms · Fragen im Kontext: E,F,C
+Terminated
+== Fall b Ende 2026-11-20T15:41:42+01:00 Dauer 245 s
+== Fall c Start 2026-11-20T15:41:42+01:00
+Host-Token: in referat/.local/host-DFHQWW.json (nicht ausgegeben)
+Prüfung: ok
+c-P50skaliert-lernziel Lauf 1 (kalt): ready · extractive (invalid_response) · 76464 ms · Fragen im Kontext: C,E,F
+c-P50skaliert-lernziel Lauf 2: ready · extractive (invalid_response) · 56353 ms · Fragen im Kontext: C,E,F
+c-P50skaliert-lernziel Lauf 3: ready · extractive (invalid_response) · 50327 ms · Fragen im Kontext: C,E,F
+c-P50skaliert-lernziel Lauf 4: ready · extractive (invalid_response) · 48320 ms · Fragen im Kontext: C,E,F
+c-P50skaliert-lernziel Lauf 5: ready · extractive (invalid_response) · 48331 ms · Fragen im Kontext: C,E,F
+== Fall c Ende 2026-11-20T15:47:02+01:00 Dauer 320 s
+== Fall d Start 2026-11-20T15:47:02+01:00
+Session AKSV8N · 30 TN · Fragen 300/300 (eindeutig 50) · Stimmen 4268 · Prüfung ok
+d-456-teilmenge Lauf 1 (kalt): ready · extractive (invalid_response) · 60427 ms · Fragen im Kontext: qa-question:1272c91b-7525-4999-b8d6-81da01e347d2,qa-question:29b98a7b-e239-4402-a967-40394631f94a,qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d,qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38,qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b,qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f,qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618,qa-question:8182c299-330d-480d-a80d-39d76afb8531
+d-456-teilmenge Lauf 2: ready · extractive (invalid_response) · 38267 ms · Fragen im Kontext: qa-question:1272c91b-7525-4999-b8d6-81da01e347d2,qa-question:29b98a7b-e239-4402-a967-40394631f94a,qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d,qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38,qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b,qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f,qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618,qa-question:8182c299-330d-480d-a80d-39d76afb8531
+d-456-teilmenge Lauf 3: ready · extractive (invalid_response) · 38289 ms · Fragen im Kontext: qa-question:1272c91b-7525-4999-b8d6-81da01e347d2,qa-question:29b98a7b-e239-4402-a967-40394631f94a,qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d,qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38,qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b,qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f,qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618,qa-question:8182c299-330d-480d-a80d-39d76afb8531
+d-456-teilmenge Lauf 4: ready · extractive (invalid_response) · 36262 ms · Fragen im Kontext: qa-question:1272c91b-7525-4999-b8d6-81da01e347d2,qa-question:29b98a7b-e239-4402-a967-40394631f94a,qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d,qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38,qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b,qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f,qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618,qa-question:8182c299-330d-480d-a80d-39d76afb8531
+d-456-teilmenge Lauf 5: ready · extractive (invalid_response) · 36277 ms · Fragen im Kontext: qa-question:1272c91b-7525-4999-b8d6-81da01e347d2,qa-question:29b98a7b-e239-4402-a967-40394631f94a,qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d,qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38,qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b,qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f,qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618,qa-question:8182c299-330d-480d-a80d-39d76afb8531
+Terminated
+== Fall d Ende 2026-11-20T15:51:13+01:00 Dauer 251 s

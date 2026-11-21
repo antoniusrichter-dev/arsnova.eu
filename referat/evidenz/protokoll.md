@@ -282,3 +282,80 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - 4a 2A, Autor Florian Meyer: `referat/2a/`, `referat/evidenz/2a/`, `referat/evidenz/rubrik.md`
   - 4b 2B, Autor Jeremy Richter: `referat/2b/`, `referat/evidenz/2b/`
   - 4c Gemeinsames + 2C bis 5.1, Autor Antonius Richter: `referat/evidenz/{protokoll.md,manifest.md,labor/,seed/,2c/}`, `referat/2c/`
+
+---
+
+## Phase 5 / Schritt 5.2 – 2C Baseline full-context (2026-11-20)
+
+- HEAD `ef5c3011` (Produktcode = `efd71b44`); Runtime unverändert aus 5.1 (Image `cb50fb7f…`, ctx 8192, parallel 1, n-predict 768, 4 Threads, 5 GiB / 4 CPU), läuft seit 12:22 ohne Neustart; Hardware: Manifest
+- Aufzeichnender Proxy `node referat/2c/llm-proxy.mjs --listen 8081 --target 8080 --log referat/evidenz/2c/llm-exchanges.jsonl` (nur 127.0.0.1; Grund: Produkt-Client verwirft `timings`; Authorization-Header wird nicht protokolliert)
+- Backend `referat/2c/start-backend.sh referat/evidenz/2c/backend-5.2.log`: `OPEN_WEIGHT_LLM_ENABLED=true OPEN_WEIGHT_LLM_URL=http://127.0.0.1:8081 OPEN_WEIGHT_LLM_SOCKET_PATH= OPEN_WEIGHT_LLM_TOKEN=<Compose-Default, nicht protokolliert>` Timeouts 30000/90000/300000, `QA_SUMMARY_ENABLED=true QA_SUMMARY_INFERENCE_URL= QA_SUMMARY_TIMEOUT_MS=90000 QA_SUMMARY_QUEUE_LIMIT=8 QA_SUMMARY_CONCURRENCY=1 QA_SUMMARY_COOLDOWN_MS=5000 QA_SUMMARY_TTL_MS=1800000 QA_NLP_ENABLED=false NLP_ENABLED=false WORD_CLOUD_SEMANTIC_ENABLED=false`. Cooldown auf das dokumentierte Minimum 5 s, damit Läufe 2–5 keine Cache-Treffer der Queue sind (Wartezeit 6 s)
+- Fälle (je frischer Seed wegen Host-Token-TTL 15 min, `referat/2c/fall.sh baseline <a|b|c|d> 5`):
+  - a `a-P200`: `seed-sechs-fragen.ts --p 200`; b `b-P200-lernziel`: `--p 200 --lernziel`; c `c-P50skaliert-lernziel`: `--p 50 --skaliert --lernziel`; keine unskalierte P50-Fixture
+  - d `d-456-teilmenge`: `npx tsx referat/2c/seed-issue456-teilmenge.ts --teilnehmende 30` → 300 Fragen (50 eindeutige Texte) aus `buildIssue456ParticipantQuestions`, 4 268 deterministische Stimmen (mulberry32 0x456), alle ACTIVE, kein Lernziel (Lasttest-Lernziel ist quiz-weit, Session hier Q&A-only). Lasttest selbst nicht genutzt (verlangt ≥ 250 TN + Demo-Quiz)
+- Lauf-Skript `referat/2c/baseline-lauf.mjs` (je Lauf `qa.summaryContextPreview`, `qa.requestSummary`, Polling `qa.summaryRuntime` alle 2 s); Sampler wie 5.1 je Fall
+- Zeiten: a 15:26–15:37 (inkl. Fehlersuche Sampler), b 15:37:37–15:41:42, c 15:41:42–15:47:02, d 15:47:02–15:51:13
+- **Ergebnisse** (Rohdaten `referat/evidenz/2c/baseline/`, Auswertung `npx tsx referat/2c/auswertung.ts`):
+  - Alle 20 Läufe: `ready`, aber `effectiveMode: extractive`, `fallbackReason: invalid_response`. Modellausgabe in 20/20 schema-gültig (`QaSummaryModelOutputV2Schema`), aber 0/20 durch `hasAcceptableQaSummaryQuality`: Englisch trotz `locale de`, jede Aussage beginnt wörtlich mit „Specific topic:“ (gleiche Leads), teils technische Werte („Controversy score of 0.8“)
+  - Gepackter Kontext: a/b E, F, C; c C, E, F (`selectionLimits.questions = 3`, Kürzung als `questions:3:deduplication` ausgewiesen) → A, B, D fehlen auch im full-context-Pfad. d: 300 total, 200 analyzed, 15 dedupliziert, 8 represented, Kürzungen `deduplication 185` + `token-budget 7`, Kompass im Pack entfernt (`compassSignals: 0`)
+  - Tokens: Prompt 2005–2207, Completion 390–572, `finish_reason stop`; Prefill kalt 23,5–27,4 s, warm 81–90 ms (Prompt-Cache, `cache_n` = Prompt − 1); Generierung 10,9–11,3 Tokens/s; Gesamt Median 36–50 s
+  - Kalt- vs. Warm-Ausgabe verschieden, warme Läufe untereinander identisch
+- **Speicher:** `RssAnon` wächst mit jedem neuen Prompt (a 3,35 → d 5,07 GiB), `RssFile` 2,1–2,3 GiB; ab Fall c Swap (bis 2,2 GiB `memory.swap.current`), `memory.events max` 16 649, `oom_kill` 0, `OOMKilled=false`. Ursache: llama.cpp b10524 Prompt-Cache im Host-RAM, `--cache-ram` Default 8192 MiB (`llama-server --help`), im `entrypoint.sh` nicht gesetzt → Cache > Containerlimit. Nicht umgangen, Runtime nicht neu gestartet
+
+## Phase 5 / Schritt 5.3 – 2C Ablationen (2026-11-20) – ANGEHALTEN nach OOM
+
+- HEAD `ef5c3011`; Runtime, Proxy, Flags wie 5.2 (Harness mit denselben LLM-Flags: `referat/2c/start-harness.sh`); Backend lief parallel ohne Last
+- Harness `referat/2c/ablation-harness.ts` (Kopf: Versuchscode, kein Produktpfad): je Fall einmal `buildModerationPromptContext`, Reduktion vor dem Packen, dann Produktweg `packSummaryModerationPromptContext` → `assemblePreparedModerationSummaryContext` → `runOpenWeightLlmSummaryV2` (temperature 0, max_tokens wie Produkt) → `bindQaSummaryModelOutputV2`, zusätzlich `hasAcceptableQaSummaryQuality`
+  - `nur-texte`: Themen/Kompass/Lernziele `unavailable/outside-scope`, deren Quellen entfernt; Stimmen, Teilnehmerbasis, Beantwortungsstatus `unavailable/outside-scope`; `status` bleibt (Pflichtfeld, überall ACTIVE)
+  - `texte-metadaten`: wie oben, aber Stimmen, Status, Teilnehmerbasis bleiben
+  - reduzierter Kontext jeweils gegen `ModerationAnalysisContextV1Schema` geprüft
+- Lauf `referat/2c/ablation-alle.sh a b c d` (je Fall frischer Seed, Varianten nacheinander, je 5 Läufe, Lauf 1 kalt), 15:52:21–16:12:16
+- Gepackte Fragen (Trimmen auf 3 bzw. 8 betrifft alle Varianten; ohne Kompass schützt nichts mehr E/F):
+  - a P200: voll E F C · nur-texte B F E · texte-metadaten B D C
+  - b P200+LZ: voll E F C · nur-texte A E C · texte-metadaten C D B
+  - c P50s+LZ: voll C E F · nur-texte E B C · texte-metadaten C A D
+  - d #456: je 8 Fragen, je Variante andere Auswahl (Kürzung 185–186 deduplication + 6–7 token-budget)
+- Gate (`hasAcceptableQaSummaryQuality`) ok: a nur-texte 5/5 (alle `uncertain`, 0 Aussagen), a texte-metadaten 5/5 (`ready`), b nur-texte 5/5 (`ready`), sonst 0/5. Prompt 1 290–1 490 Tokens (d ≈ 2 200), Prefill kalt 10–13 s (d 24 s), warm 74–83 ms, 12,4–12,8 Tokens/s
+- **OOM:** Swap stieg weiter (Ende Fall d ≈ 4,84 GiB + 5 GiB RAM ≈ Memory+Swap-Limit 10 GiB). `docker events`: 16:12:13 `oom`, `die exitCode=137`, `start` (Restart-Policy `unless-stopped`), 16:12:28 `healthy`. Proxy: Lauf 2 von d/texte-metadaten (16:12:12) `socket hang up`, Läufe 3/4 `ECONNREFUSED` → `unavailable`, Lauf 5 `circuit_open` (Circuit-Breaker im Produkt-Client). 4 von 40 Ablationsläufen ungültig. `OOMKilled` steht nach dem Neustart wieder auf false; cgroup-Zähler des neuen Containers bei 0 (alte Werte nur bis 16:11:30 im Sampler)
+- Runtime läuft nach automatischem Neustart (Cache leer). Nicht umgangen, nichts wiederholt; wartet auf Entscheidung
+
+## Phase 5 / Schritt 5.3 (Fortsetzung) – Wiederholung d/texte-metadaten nach OOM-Neustart (2026-11-20)
+
+- Entscheidung des Auftraggebers: Option A. Die OOM-Läufe bleiben in den Daten (markiert `oom_betroffen`); die Variante wird mit 5 neuen Läufen wiederholt.
+- Commit `ef5c3011` (Produktcode 1.3.0 `efd71b44`), Runtime unverändert (ctx 8192, 4 CPU, 5 GiB, `--cache-ram` nicht gesetzt), Flags wie 5.3 (`referat/2c/start-harness.sh`).
+- Aufruf: `OUTDIR=referat/evidenz/2c/ablation-wiederholung-nach-oom referat/2c/fall.sh ablation d 5 --varianten texte-metadaten --marke nach-oom-neustart`. Harness und `fall.sh` dafür um `--varianten`/`--marke`/`OUTDIR` erweitert; Standardverhalten unverändert.
+- 19:32:56–19:37:31 MEZ (275 s). Frischer Seed V3FS23 (30 TN, 300 Fragen, 4 268 Stimmen, Prüfung ok) → `seed/ablation-ablation-wiederholung-nach-oom-d-456-teilmenge.json`.
+- Ergebnis: 5/5 `completed`, schema-gültig, Modellstatus `uncertain`, Gate 0/5 (Z. 68, kein Lead), 8 Fragen im Kontext. Swap 0, RssAnon max 3,69 GiB. Prefill kalt 32,1 s, 9,1 Tokens/s, also langsamer als vor dem OOM bei gleicher Konfiguration; Ursache nicht untersucht.
+- `docker events` des OOM lassen sich nachträglich nicht mehr abfragen (der Puffer wurde vom Restart-Loop `arsnova-v3-app` überschrieben, `RestartCount` > 400, unabhängig vom Versuch). Ersatznachweis: `StartedAt`/`RestartCount` → `2c/ablation/oom-nachweis.json`.
+
+## Phase 5 / Schritt 5.4 – 2C Auswertung (2026-11-20)
+
+- `npx tsx referat/2c/auswertung.ts` → `2c/auswertung.csv` (65 Läufe), `2c/auswertung-tabelle.md`, `2c/quellentreue-bogen.csv` (271 Zeilen, eine Raterin bzw. ein Rater, Fehlerklassen leer). `python3 referat/2c/gate-gruende.py` → `2c/gate-gruende.txt`. Text: `2c/auswertung.md`.
+- Auswertungsregeln:
+  - Nur gültige Läufe (HTTP 200) gehen in Kennzahlen ein.
+  - Swap wird je Lauf gemessen und nicht angenommen.
+  - Prefill gilt als kalt, wenn `cache_n` < 50 % der Prompt-Tokens ist; Cache-Treffer stehen getrennt.
+- Gate-Gründe (Gegenprobe 65/65 gleich mit Produkt-Gate):
+  - Baseline a: Z. 80, doppelter Lead „Specific topic“, Englisch.
+  - Baseline b, c, d sowie alle abgelehnten Ablationen: Z. 68, Aussage ohne Lead.
+- **Korrekturen früherer Einträge:**
+  - (5.2) „Englisch, Specific topic, technische Werte“ gilt nur für Fall a; b, c und d antworten deutsch bzw. gemischt.
+  - (5.3) a/nur-texte hat 3 Aussagen (Modellstatus `uncertain`), nicht 0. Das Gate besteht, weil alle drei einen eigenen Lead haben.
+  - (5.3) Unter Swap liefen alle Ablationen a–d sowie Baseline c (Läufe 2–5) und d, nicht erst c und d.
+- Weitere Befunde:
+  - In keinem Lauf hat die Bindung eine sourceId entfernt.
+  - Die Budgetschätzung in d (7 204 Tokens) überschätzt den tatsächlichen Prompt (2 207 Tokens) um das 3,3-Fache und löst die Kürzung `token-budget` (7 Fragen) aus.
+  - In a und c ist die angezeigte Kurzfassung identisch mit der 2A-Extraktion (Mengen F/E/C).
+- Runtime, Backend (Port 3000) und Proxy (8081) laufen weiter. Nichts committet.
+
+## Phase 5 / Nachtrag 5.4 (2026-11-21)
+
+- **Container `arsnova-v3-app` gestoppt** (01:00 MEZ): `docker update --restart=no arsnova-v3-app`, danach `docker stop arsnova-v3-app`. Der Container wurde nicht gelöscht.
+  - Zustand danach: `exited`, Restart-Policy `no`, `RestartCount` 766 (erstellt 2026-10-09).
+  - Fehler je Start: `exec /app/scripts/docker-entrypoint.sh: no such file or directory`.
+  - Er gehört nicht zum Versuchsaufbau; das Backend lief lokal auf Port 3000.
+  - Laut `RestartCount` lief er während aller 2C-Messungen (5.1–5.4) im Restart-Loop und kann dabei CPU-Last erzeugt haben. Das ist eine mögliche Erklärung für den langsameren Wiederholungslauf d/texte-metadaten (Prefill kalt 32,1 s statt 24,3 s, 9,1 statt 11,2 Tokens/s), aber **nicht belegt**: Die CPU-Last des Containers wurde nicht gemessen.
+- **Kompakter Quellentreue-Bogen:** `python3 referat/2c/bogen-kompakt.py` → `2c/quellentreue-bogen-kompakt.csv`.
+  - 271 Zeilen der Langfassung ergeben 93 Zeilen: 40 Aussagen kommen einmal vor, 34 viermal, 19 fünfmal.
+  - Zusammengefasst werden identische Aussagen bei gleichem Modus, Fall, Variante, Art, Text und gleichen sourceIds. Neue Spalten: `vorkommen` und `lauf_ids`. Die Fehlerklassen sind leer.
+  - Die Langfassung ist unverändert (SHA-256 `86a3a913…` vorher und nachher gleich).

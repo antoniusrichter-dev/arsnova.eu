@@ -1,0 +1,117 @@
+{
+  "fall": "d-456-teilmenge",
+  "variante": "texte-metadaten",
+  "lauf": 2,
+  "kalt": false,
+  "startedAt": 1795187532704,
+  "endedAt": 1795187533441,
+  "gesamtMs": 737,
+  "packed": {
+    "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 6468,
+      "packedInputTokens": 7321,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 185,
+          "reason": "deduplication"
+        },
+        {
+          "section": "questions",
+          "omittedItems": 7,
+          "reason": "token-budget"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 16,
+      "topics": 0,
+      "compassSignals": 0,
+      "learningObjectives": 0,
+      "resultAggregates": 0,
+      "feedbackAggregates": 0
+    },
+    "corpus": {
+      "total": 300,
+      "eligible": 300,
+      "analyzed": 200,
+      "deduplicated": 15,
+      "represented": 8
+    },
+    "representedItems": [
+      "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+      "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+      "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+      "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+      "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+      "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+      "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+      "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+    ],
+    "qaSources": [
+      {
+        "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 8,
+    "sections": {
+      "topics": "disabled",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": false,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "unavailable",
+  "schemaGueltig": false
+}

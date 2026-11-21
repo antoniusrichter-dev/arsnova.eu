@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "moderation-prompt-context-v1",
+  "packedAt": "2026-11-20T18:33:22.548Z",
+  "hashAlgorithm": "sha-256",
+  "hashMaterialVersion": "moderation-prompt-hash-material-v1",
+  "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+  "context": {
+    "contractVersion": "moderation-domain-context-v1",
+    "representation": "prompt-selection",
+    "definitionsVersion": "moderation-prompt-definitions-v1",
+    "locale": "de",
+    "meta": {
+      "sourceRevision": "moderation-source-revision-v1:f7786c5dd4ff25414af6caf0f898b353e009454e86267147463911a62389d987",
+      "analysisVersion": "moderation-analysis-builder-v1",
+      "selectionVersion": "moderation-prompt-selection-v1",
+      "revisions": {
+        "questionText": {
+          "state": "available",
+          "value": "qa-ranking-v1:4568"
+        },
+        "questionVotes": {
+          "state": "available",
+          "value": "qa-ranking-v1:4568:participants:30:30"
+        },
+        "questionStatus": {
+          "state": "available",
+          "value": "qa-ranking-v1:4568"
+        },
+        "questionAnswerState": {
+          "state": "unavailable",
+          "reason": "not-collected"
+        },
+        "questionNlp": {
+          "state": "available",
+          "value": "qa-nlp:d64bb2ec223b6073e12cb9f770294fedc7fba998e9023beb87315347caf4f20c"
+        },
+        "topics": {
+          "state": "not-applicable",
+          "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        },
+        "learningObjectives": {
+          "state": "unavailable",
+          "reason": "not-collected"
+        },
+        "releasedResults": {
+          "state": "not-applicable",
+          "reason": "Released quiz results do not apply to this session."
+        },
+        "feedback": {
+          "state": "not-applicable",
+          "reason": "Quick feedback is disabled for this session."
+        }
+      }
+    },
+    "scope": {
+      "channels": [
+        "qa"
+      ],
+      "sessionPhase": "LOBBY",
+      "questionFilter": {
+        "state": "available",
+        "statuses": [
+          "PENDING",
+          "ACTIVE",
+          "PINNED"
+        ],
+        "timeWindow": {
+          "kind": "entire-session"
+        }
+      },
+      "activeWeighting": {
+        "kind": "qa-ranking",
+        "version": "qa-ranking-v1",
+        "sortMode": "BEST"
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      }
+    },
+    "questions": {
+      "state": "available",
+      "participantBasis": {
+        "state": "available",
+        "kind": "session-participant-record-count",
+        "value": 30,
+        "calculationVersion": "qa-ranking-v1"
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "items": [
+        {
+          "sourceId": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "qa-baseline"
+          },
+          "topicSourceIds": []
+        }
+      ]
+    },
+    "topics": {
+      "state": "disabled",
+      "reason": "qa-baseline"
+    },
+    "compass": {
+      "state": "unavailable",
+      "reason": "outside-scope"
+    },
+    "learningContext": {
+      "state": "unavailable",
+      "reason": "outside-scope"
+    },
+    "releasedResults": {
+      "state": "not-released",
+      "reason": "qa-baseline"
+    },
+    "feedback": {
+      "state": "not-applicable",
+      "reason": "qa-baseline"
+    },
+    "sources": [
+      {
+        "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?",
+          "truncated": false
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "code": "budget-truncated",
+        "section": "topics",
+        "detail": "qa-baseline"
+      },
+      {
+        "code": "budget-truncated",
+        "section": "questions",
+        "detail": "7 item(s) were omitted by deterministic prompt packing."
+      }
+    ]
+  },
+  "budget": {
+    "version": "moderation-prompt-budget-v1",
+    "tokenizer": {
+      "method": "conservative-estimate",
+      "id": "utf8-byte-upper-bound",
+      "version": "1"
+    },
+    "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+    "contextWindowTokens": 8192,
+    "instructionTokens": 650,
+    "definitionTokens": 203,
+    "dataTokens": 6361,
+    "packedInputTokens": 7214,
+    "reservedOutputTokens": 640,
+    "safetyMarginTokens": 128,
+    "truncations": [
+      {
+        "section": "questions",
+        "omittedItems": 185,
+        "reason": "deduplication"
+      },
+      {
+        "section": "questions",
+        "omittedItems": 7,
+        "reason": "token-budget"
+      }
+    ]
+  }
+}

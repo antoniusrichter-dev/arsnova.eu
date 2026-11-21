@@ -1,0 +1,57 @@
+== Fall a Start 2026-11-20T15:52:21+01:00
+Host-Token: in referat/.local/host-BL88WT.json (nicht ausgegeben)
+Prüfung: ok
+a-P200 nur-texte Lauf 1 (kalt): completed · uncertain · Gate ok · 41057 ms · Fragetexte 3: B,F,E
+a-P200 nur-texte Lauf 2: completed · uncertain · Gate ok · 28895 ms · Fragetexte 3: B,F,E
+a-P200 nur-texte Lauf 3: completed · uncertain · Gate ok · 28689 ms · Fragetexte 3: B,F,E
+a-P200 nur-texte Lauf 4: completed · uncertain · Gate ok · 28325 ms · Fragetexte 3: B,F,E
+a-P200 nur-texte Lauf 5: completed · uncertain · Gate ok · 28343 ms · Fragetexte 3: B,F,E
+a-P200 texte-metadaten Lauf 1 (kalt): completed · ready · Gate ok · 35410 ms · Fragetexte 3: B,D,C
+a-P200 texte-metadaten Lauf 2: completed · ready · Gate ok · 25359 ms · Fragetexte 3: B,D,C
+a-P200 texte-metadaten Lauf 3: completed · ready · Gate ok · 25199 ms · Fragetexte 3: B,D,C
+a-P200 texte-metadaten Lauf 4: completed · ready · Gate ok · 24803 ms · Fragetexte 3: B,D,C
+a-P200 texte-metadaten Lauf 5: completed · ready · Gate ok · 24942 ms · Fragetexte 3: B,D,C
+Terminated
+== Fall a Ende 2026-11-20T15:57:32+01:00 Dauer 311 s exit 0
+== Fall b Start 2026-11-20T15:57:32+01:00
+Host-Token: in referat/.local/host-AEFZVH.json (nicht ausgegeben)
+Prüfung: ok
+b-P200-lernziel nur-texte Lauf 1 (kalt): completed · ready · Gate ok · 34735 ms · Fragetexte 3: A,E,C
+b-P200-lernziel nur-texte Lauf 2: completed · ready · Gate ok · 23922 ms · Fragetexte 3: A,E,C
+b-P200-lernziel nur-texte Lauf 3: completed · ready · Gate ok · 24261 ms · Fragetexte 3: A,E,C
+b-P200-lernziel nur-texte Lauf 4: completed · ready · Gate ok · 23615 ms · Fragetexte 3: A,E,C
+b-P200-lernziel nur-texte Lauf 5: completed · ready · Gate ok · 23555 ms · Fragetexte 3: A,E,C
+b-P200-lernziel texte-metadaten Lauf 1 (kalt): completed · uncertain · Gate abgelehnt · 33511 ms · Fragetexte 3: C,D,B
+b-P200-lernziel texte-metadaten Lauf 2: completed · ready · Gate abgelehnt · 23432 ms · Fragetexte 3: C,D,B
+b-P200-lernziel texte-metadaten Lauf 3: completed · ready · Gate abgelehnt · 23327 ms · Fragetexte 3: C,D,B
+b-P200-lernziel texte-metadaten Lauf 4: completed · ready · Gate abgelehnt · 22967 ms · Fragetexte 3: C,D,B
+b-P200-lernziel texte-metadaten Lauf 5: completed · ready · Gate abgelehnt · 22963 ms · Fragetexte 3: C,D,B
+== Fall b Ende 2026-11-20T16:02:08+01:00 Dauer 276 s exit 0
+== Fall c Start 2026-11-20T16:02:08+01:00
+Host-Token: in referat/.local/host-RECX8Q.json (nicht ausgegeben)
+Prüfung: ok
+c-P50skaliert-lernziel nur-texte Lauf 1 (kalt): completed · uncertain · Gate abgelehnt · 34198 ms · Fragetexte 3: E,B,C
+c-P50skaliert-lernziel nur-texte Lauf 2: completed · uncertain · Gate abgelehnt · 27637 ms · Fragetexte 3: E,B,C
+c-P50skaliert-lernziel nur-texte Lauf 3: completed · uncertain · Gate abgelehnt · 27546 ms · Fragetexte 3: E,B,C
+c-P50skaliert-lernziel nur-texte Lauf 4: completed · uncertain · Gate abgelehnt · 27064 ms · Fragetexte 3: E,B,C
+c-P50skaliert-lernziel nur-texte Lauf 5: completed · uncertain · Gate abgelehnt · 27159 ms · Fragetexte 3: E,B,C
+c-P50skaliert-lernziel texte-metadaten Lauf 1 (kalt): completed · ready · Gate abgelehnt · 40686 ms · Fragetexte 3: C,A,D
+c-P50skaliert-lernziel texte-metadaten Lauf 2: completed · ready · Gate abgelehnt · 23636 ms · Fragetexte 3: C,A,D
+c-P50skaliert-lernziel texte-metadaten Lauf 3: completed · ready · Gate abgelehnt · 23546 ms · Fragetexte 3: C,A,D
+c-P50skaliert-lernziel texte-metadaten Lauf 4: completed · ready · Gate abgelehnt · 23103 ms · Fragetexte 3: C,A,D
+c-P50skaliert-lernziel texte-metadaten Lauf 5: completed · ready · Gate abgelehnt · 23085 ms · Fragetexte 3: C,A,D
+== Fall c Ende 2026-11-20T16:07:04+01:00 Dauer 296 s exit 0
+== Fall d Start 2026-11-20T16:07:04+01:00
+Session 2JFXCT · 30 TN · Fragen 300/300 (eindeutig 50) · Stimmen 4268 · Prüfung ok
+d-456-teilmenge nur-texte Lauf 1 (kalt): completed · ready · Gate abgelehnt · 65179 ms · Fragetexte 8: qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc,qa-question:099e0a56-11b1-4377-8028-acbd74b36313,qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5,qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a,qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0,qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf,qa-question:0f8ad161-ff17-48d0-a329-504397ba362b
+d-456-teilmenge nur-texte Lauf 2: completed · uncertain · Gate abgelehnt · 40932 ms · Fragetexte 8: qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc,qa-question:099e0a56-11b1-4377-8028-acbd74b36313,qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5,qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a,qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0,qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf,qa-question:0f8ad161-ff17-48d0-a329-504397ba362b
+d-456-teilmenge nur-texte Lauf 3: completed · uncertain · Gate abgelehnt · 41098 ms · Fragetexte 8: qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc,qa-question:099e0a56-11b1-4377-8028-acbd74b36313,qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5,qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a,qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0,qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf,qa-question:0f8ad161-ff17-48d0-a329-504397ba362b
+d-456-teilmenge nur-texte Lauf 4: completed · uncertain · Gate abgelehnt · 40739 ms · Fragetexte 8: qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc,qa-question:099e0a56-11b1-4377-8028-acbd74b36313,qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5,qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a,qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0,qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf,qa-question:0f8ad161-ff17-48d0-a329-504397ba362b
+d-456-teilmenge nur-texte Lauf 5: completed · uncertain · Gate abgelehnt · 40709 ms · Fragetexte 8: qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc,qa-question:099e0a56-11b1-4377-8028-acbd74b36313,qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5,qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a,qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0,qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf,qa-question:0f8ad161-ff17-48d0-a329-504397ba362b
+d-456-teilmenge texte-metadaten Lauf 1 (kalt): completed · uncertain · Gate abgelehnt · 60334 ms · Fragetexte 8: qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:151c6538-32f0-490e-a1d0-aa1861395943,qa-question:28140a20-7776-4afa-b8af-712031ed7b2a,qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5,qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7,qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a,qa-question:712af527-7707-4b94-980c-adeb30d594b5,qa-question:7169d795-f739-40dd-ba20-2de654d81582
+d-456-teilmenge texte-metadaten Lauf 2: unavailable · 737 ms · Fragetexte 8: qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:151c6538-32f0-490e-a1d0-aa1861395943,qa-question:28140a20-7776-4afa-b8af-712031ed7b2a,qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5,qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7,qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a,qa-question:712af527-7707-4b94-980c-adeb30d594b5,qa-question:7169d795-f739-40dd-ba20-2de654d81582
+d-456-teilmenge texte-metadaten Lauf 3: unavailable · 2 ms · Fragetexte 8: qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:151c6538-32f0-490e-a1d0-aa1861395943,qa-question:28140a20-7776-4afa-b8af-712031ed7b2a,qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5,qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7,qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a,qa-question:712af527-7707-4b94-980c-adeb30d594b5,qa-question:7169d795-f739-40dd-ba20-2de654d81582
+d-456-teilmenge texte-metadaten Lauf 4: unavailable · 3 ms · Fragetexte 8: qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:151c6538-32f0-490e-a1d0-aa1861395943,qa-question:28140a20-7776-4afa-b8af-712031ed7b2a,qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5,qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7,qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a,qa-question:712af527-7707-4b94-980c-adeb30d594b5,qa-question:7169d795-f739-40dd-ba20-2de654d81582
+d-456-teilmenge texte-metadaten Lauf 5: circuit_open · 0 ms · Fragetexte 8: qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937,qa-question:151c6538-32f0-490e-a1d0-aa1861395943,qa-question:28140a20-7776-4afa-b8af-712031ed7b2a,qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5,qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7,qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a,qa-question:712af527-7707-4b94-980c-adeb30d594b5,qa-question:7169d795-f739-40dd-ba20-2de654d81582
+Terminated
+== Fall d Ende 2026-11-20T16:12:16+01:00 Dauer 312 s exit 0

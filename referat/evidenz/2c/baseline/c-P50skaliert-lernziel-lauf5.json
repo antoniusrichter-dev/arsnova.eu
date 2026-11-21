@@ -1,0 +1,229 @@
+{
+  "run": {
+    "fall": "c-P50skaliert-lernziel",
+    "lauf": 5,
+    "kalt": false,
+    "startedAt": 1795185970834,
+    "endedAt": 1795186019165,
+    "gesamtMs": 48331,
+    "enqueueMs": 28,
+    "polls": 24,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "8f72b523c540f149522cd6ef1870312eed572f3bb0cad272384d8af1dba550bc",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 5952,
+        "packedInputTokens": 6805,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 3,
+            "reason": "deduplication"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 3,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 3,
+        "represented": 3
+      },
+      "representedItems": [
+        "C",
+        "E",
+        "F"
+      ],
+      "qaSources": [
+        {
+          "id": "C",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "E",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "F",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 3,
+      "sections": {
+        "topics": "disabled",
+        "compass": "available",
+        "learningContext": "available",
+        "releasedResults": "not-applicable",
+        "feedback": "disabled"
+      },
+      "compassSignals": [
+        {
+          "signal": "high-controversy",
+          "cardKind": "friction",
+          "questions": [
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "learningObjectives": 1,
+      "limitations": [
+        {
+          "code": "module-disabled",
+          "section": "feedback",
+          "detail": "Quick feedback is disabled for this session."
+        },
+        {
+          "code": "module-disabled",
+          "section": "topics",
+          "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Ist Kapitel 4 klausurrelevant?",
+        "sourceIds": [
+          "C"
+        ]
+      },
+      {
+        "text": "Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "E"
+        ]
+      },
+      {
+        "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "F"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  "runtime": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": true,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "ready",
+      "statements": [
+        {
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "sourceIds": [
+            "qa-question:2865f452-dcb4-40bc-90ae-68fce5876ff8"
+          ]
+        },
+        {
+          "text": "Soll die Anwesenheit verpflichtend sein?",
+          "sourceIds": [
+            "qa-question:3637294b-aa0a-4d9c-80ff-dc71992e6ad4"
+          ]
+        },
+        {
+          "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+          "sourceIds": [
+            "qa-question:d8ba3d2c-c517-41fa-9d45-6fa81bf46c45"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [],
+      "limitations": [
+        "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+      ],
+      "sources": [
+        {
+          "id": "qa-question:2865f452-dcb4-40bc-90ae-68fce5876ff8",
+          "kind": "qa-question",
+          "label": "Ist Kapitel 4 klausurrelevant?"
+        },
+        {
+          "id": "qa-question:3637294b-aa0a-4d9c-80ff-dc71992e6ad4",
+          "kind": "qa-question",
+          "label": "Soll die Anwesenheit verpflichtend sein?"
+        },
+        {
+          "id": "qa-question:d8ba3d2c-c517-41fa-9d45-6fa81bf46c45",
+          "kind": "qa-question",
+          "label": "Sollten wir eine Anwesenheitspflicht einführen?"
+        }
+      ],
+      "modelVersion": "extractive-v2",
+      "analyzedAt": "2026-11-20T14:46:57.391Z",
+      "snapshotHash": "8f72b523c540f149522cd6ef1870312eed572f3bb0cad272384d8af1dba550bc",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": "full-context",
+        "effectiveMode": "extractive",
+        "fallback": {
+          "contractVersion": "qa-summary-fallback-v1",
+          "requestedRequestContract": "qa-summary-context-v2",
+          "requestedOutputContract": "qa-summary-model-output-v3",
+          "mode": "extractive",
+          "reason": "invalid_response",
+          "retry": "manual"
+        }
+      }
+    }
+  }
+}

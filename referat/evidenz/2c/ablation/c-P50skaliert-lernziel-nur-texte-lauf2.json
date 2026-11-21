@@ -1,0 +1,158 @@
+{
+  "fall": "c-P50skaliert-lernziel",
+  "variante": "nur-texte",
+  "lauf": 2,
+  "kalt": false,
+  "startedAt": 1795186978429,
+  "endedAt": 1795187006066,
+  "gesamtMs": 27637,
+  "packed": {
+    "snapshotHash": "18aef0add52aa7d5e2e6a7d78911a5016f2b9ee15228e433ded7ee1c0724f8e8",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 3835,
+      "packedInputTokens": 4688,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 3,
+          "reason": "deduplication"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 3,
+      "topics": 30,
+      "compassSignals": 30,
+      "learningObjectives": 100,
+      "resultAggregates": 100,
+      "feedbackAggregates": 100
+    },
+    "corpus": {
+      "total": 6,
+      "eligible": 6,
+      "analyzed": 6,
+      "deduplicated": 3,
+      "represented": 3
+    },
+    "representedItems": [
+      "E",
+      "B",
+      "C"
+    ],
+    "qaSources": [
+      {
+        "id": "E",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "B",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "C",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 3,
+    "sections": {
+      "topics": "unavailable",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": false,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "completed",
+  "telemetry": {
+    "taskType": "qa_summary",
+    "elapsedMs": 27636,
+    "model": "qwen3-4b-instruct-2507-q4_k_m",
+    "promptTokens": 1305,
+    "completionTokens": 347
+  },
+  "schemaGueltig": true,
+  "modellStatus": "uncertain",
+  "qualitaetsgate": false,
+  "ergebnisStatus": "uncertain",
+  "entfernteSourceIds": [],
+  "statements": [
+    {
+      "text": "Anwesenheitspflicht wird nicht klargestellt.",
+      "sourceIds": [
+        "E"
+      ]
+    },
+    {
+      "text": "Zu lineare Regression fehlt ein weiteres Beispiel.",
+      "sourceIds": [
+        "B"
+      ]
+    },
+    {
+      "text": "Die Relevanz von Kapitel 4 für Klausuren ist unklar.",
+      "sourceIds": [
+        "C"
+      ]
+    }
+  ],
+  "suggestedNextSteps": [
+    {
+      "text": "Klare Positionen zu Anwesenheitspflicht, linearen Regressionsbeispielen und Kapitelrelevanz festlegen.",
+      "sourceIds": [
+        "E",
+        "B"
+      ]
+    }
+  ],
+  "limitations": [
+    "Die Zusammenfassung ist unsicher."
+  ],
+  "rohausgabe": {
+    "status": "uncertain",
+    "statements": [
+      {
+        "text": "Anwesenheitspflicht wird nicht klargestellt.",
+        "sourceIds": [
+          "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841"
+        ]
+      },
+      {
+        "text": "Zu lineare Regression fehlt ein weiteres Beispiel.",
+        "sourceIds": [
+          "qa-question:48057259-e73c-43c0-baaa-cb6bd91c5428"
+        ]
+      },
+      {
+        "text": "Die Relevanz von Kapitel 4 für Klausuren ist unklar.",
+        "sourceIds": [
+          "qa-question:5c83bfc5-8ea5-4546-8919-0721a02518e7"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Klare Positionen zu Anwesenheitspflicht, linearen Regressionsbeispielen und Kapitelrelevanz festlegen.",
+        "sourceIds": [
+          "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841",
+          "qa-question:48057259-e73c-43c0-baaa-cb6bd91c5428"
+        ]
+      }
+    ],
+    "limitations": []
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "fall": "b-P200-lernziel",
+  "variante": "nur-texte",
+  "lauf": 1,
+  "kalt": true,
+  "startedAt": 1795186668740,
+  "endedAt": 1795186703475,
+  "gesamtMs": 34735,
+  "packed": {
+    "snapshotHash": "2b81c94f76d5cc3b2a8e1e417ea21659b6361a3295f3d5b3853a4edf3de438b5",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 3845,
+      "packedInputTokens": 4698,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 3,
+          "reason": "deduplication"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 3,
+      "topics": 30,
+      "compassSignals": 30,
+      "learningObjectives": 100,
+      "resultAggregates": 100,
+      "feedbackAggregates": 100
+    },
+    "corpus": {
+      "total": 6,
+      "eligible": 6,
+      "analyzed": 6,
+      "deduplicated": 3,
+      "represented": 3
+    },
+    "representedItems": [
+      "A",
+      "E",
+      "C"
+    ],
+    "qaSources": [
+      {
+        "id": "A",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "E",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "C",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 3,
+    "sections": {
+      "topics": "unavailable",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": false,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "completed",
+  "telemetry": {
+    "taskType": "qa_summary",
+    "elapsedMs": 34734,
+    "model": "qwen3-4b-instruct-2507-q4_k_m",
+    "promptTokens": 1292,
+    "completionTokens": 294
+  },
+  "schemaGueltig": true,
+  "modellStatus": "ready",
+  "qualitaetsgate": true,
+  "ergebnisStatus": "ready",
+  "entfernteSourceIds": [],
+  "statements": [
+    {
+      "text": "Lineare Regression: Nachfrage nach weiteren Beispielen.",
+      "sourceIds": [
+        "A"
+      ]
+    },
+    {
+      "text": "Verpflichtung der Anwesenheit: Klärung der Regelung.",
+      "sourceIds": [
+        "E"
+      ]
+    },
+    {
+      "text": "Relevanz von Kapitel 4 für Klausur: Prüfung der Bedeutung.",
+      "sourceIds": [
+        "C"
+      ]
+    }
+  ],
+  "suggestedNextSteps": [
+    {
+      "text": "Bewerten der Bedeutung von Kapitel 4 für die Klausur.",
+      "sourceIds": [
+        "C"
+      ]
+    }
+  ],
+  "limitations": [],
+  "rohausgabe": {
+    "status": "ready",
+    "statements": [
+      {
+        "text": "Lineare Regression: Nachfrage nach weiteren Beispielen.",
+        "sourceIds": [
+          "qa-question:01593c51-eff8-41c3-a9e3-62f1504d9943"
+        ]
+      },
+      {
+        "text": "Verpflichtung der Anwesenheit: Klärung der Regelung.",
+        "sourceIds": [
+          "qa-question:3b71b6e1-e1d3-4e63-813a-c71cddbf1ba2"
+        ]
+      },
+      {
+        "text": "Relevanz von Kapitel 4 für Klausur: Prüfung der Bedeutung.",
+        "sourceIds": [
+          "qa-question:816b81ef-dacc-41e4-be9b-74217a65a590"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Bewerten der Bedeutung von Kapitel 4 für die Klausur.",
+        "sourceIds": [
+          "qa-question:816b81ef-dacc-41e4-be9b-74217a65a590"
+        ]
+      }
+    ],
+    "limitations": []
+  }
+}

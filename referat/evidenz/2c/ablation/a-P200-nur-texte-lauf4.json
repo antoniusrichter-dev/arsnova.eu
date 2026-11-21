@@ -1,0 +1,158 @@
+{
+  "fall": "a-P200",
+  "variante": "nur-texte",
+  "lauf": 4,
+  "kalt": false,
+  "startedAt": 1795186456980,
+  "endedAt": 1795186485305,
+  "gesamtMs": 28325,
+  "packed": {
+    "snapshotHash": "5796c88b082a3de356a2920361419e57dbaf284cc986a9278c2a8740de0df239",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 3850,
+      "packedInputTokens": 4703,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 3,
+          "reason": "deduplication"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 3,
+      "topics": 30,
+      "compassSignals": 30,
+      "learningObjectives": 100,
+      "resultAggregates": 100,
+      "feedbackAggregates": 100
+    },
+    "corpus": {
+      "total": 6,
+      "eligible": 6,
+      "analyzed": 6,
+      "deduplicated": 3,
+      "represented": 3
+    },
+    "representedItems": [
+      "B",
+      "F",
+      "E"
+    ],
+    "qaSources": [
+      {
+        "id": "B",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "F",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "E",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 3,
+    "sections": {
+      "topics": "unavailable",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": false,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "completed",
+  "telemetry": {
+    "taskType": "qa_summary",
+    "elapsedMs": 28325,
+    "model": "qwen3-4b-instruct-2507-q4_k_m",
+    "promptTokens": 1310,
+    "completionTokens": 358
+  },
+  "schemaGueltig": true,
+  "modellStatus": "uncertain",
+  "qualitaetsgate": true,
+  "ergebnisStatus": "uncertain",
+  "entfernteSourceIds": [],
+  "statements": [
+    {
+      "text": "Lineare Regression: Gibt es ein weiteres Beispiel zur linearen Regression?",
+      "sourceIds": [
+        "B"
+      ]
+    },
+    {
+      "text": "Anwesenheitspflicht: Sollten wir eine Anwesenheitspflicht einführen?",
+      "sourceIds": [
+        "F"
+      ]
+    },
+    {
+      "text": "Anwesenheit verpflichtend: Soll die Anwesenheit verpflichtend sein?",
+      "sourceIds": [
+        "E"
+      ]
+    }
+  ],
+  "suggestedNextSteps": [
+    {
+      "text": "Prüfe die Zusammenhänge zwischen den Fragen zur Anwesenheitspflicht und der linearen Regression.",
+      "sourceIds": [
+        "B",
+        "F"
+      ]
+    }
+  ],
+  "limitations": [
+    "Die Zusammenfassung ist unsicher."
+  ],
+  "rohausgabe": {
+    "status": "uncertain",
+    "statements": [
+      {
+        "text": "Lineare Regression: Gibt es ein weiteres Beispiel zur linearen Regression?",
+        "sourceIds": [
+          "qa-question:259e7272-1783-4e00-9bac-5b3c495274d7"
+        ]
+      },
+      {
+        "text": "Anwesenheitspflicht: Sollten wir eine Anwesenheitspflicht einführen?",
+        "sourceIds": [
+          "qa-question:263a05df-6644-40ca-a1b0-b224232e0e37"
+        ]
+      },
+      {
+        "text": "Anwesenheit verpflichtend: Soll die Anwesenheit verpflichtend sein?",
+        "sourceIds": [
+          "qa-question:2839360a-fef8-4820-9327-5b129bb0c7e3"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfe die Zusammenhänge zwischen den Fragen zur Anwesenheitspflicht und der linearen Regression.",
+        "sourceIds": [
+          "qa-question:259e7272-1783-4e00-9bac-5b3c495274d7",
+          "qa-question:263a05df-6644-40ca-a1b0-b224232e0e37"
+        ]
+      }
+    ],
+    "limitations": []
+  }
+}

@@ -1,0 +1,1823 @@
+{
+  "fall": "d-issue456-teilmenge",
+  "korpus": "scripts/load/lib/issue-456-demo-qa-corpus.mjs (buildIssue456ParticipantQuestions)",
+  "teilnehmende": 30,
+  "fragenSoll": 300,
+  "fragenIst": 300,
+  "eindeutigeTexte": 50,
+  "stimmZeilen": 4268,
+  "stimmSeed": "0x456",
+  "erzeugt": "2026-11-20T14:47:06.649Z",
+  "trpcUrl": "http://127.0.0.1:3000/trpc",
+  "session": {
+    "code": "AKSV8N",
+    "sessionId": "419b43f3-c1b6-48bb-86dd-5b0186ee129c",
+    "typ": "Q_AND_A",
+    "qaModerationMode": false
+  },
+  "tokenDatei": "referat/.local/host-AKSV8N.json",
+  "lernziel": null,
+  "fragen": [
+    {
+      "sourceId": "qa-question:785214fa-0e25-4209-8088-02ab185334ab",
+      "teilnehmer": 0,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:b087dc2e-576a-4f6f-9c30-8a0167787164",
+      "teilnehmer": 0,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:e59529c3-2cc1-4c3d-adb9-801525dedc1b",
+      "teilnehmer": 0,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:fe81575e-3f62-46c0-89da-b6ed9fda93e3",
+      "teilnehmer": 0,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:5ce6bb68-71c1-4fb0-a520-680cdbacb69b",
+      "teilnehmer": 0,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:2766be4e-4cf2-4e62-a8d2-de64ba15c9a7",
+      "teilnehmer": 0,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:db713aa3-2dfe-477c-af15-ae17ccbfd6c6",
+      "teilnehmer": 0,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:08daf42b-05cd-4459-8f48-ed739ad3f75b",
+      "teilnehmer": 0,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:d00e66af-c271-42fb-b636-451ac7d4762e",
+      "teilnehmer": 0,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:8e0d9a46-e6b9-4871-905c-0b14244bce2a",
+      "teilnehmer": 0,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:265c0f94-eaab-428d-a1ec-c86e7c9f9c5e",
+      "teilnehmer": 1,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:1f695b90-754d-4f93-8978-41707b9c0107",
+      "teilnehmer": 1,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:a74176fc-6e89-4412-b3fe-1fc6c40d42ed",
+      "teilnehmer": 1,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:99812d98-2ae9-4ff3-91d7-2a788f2e02fa",
+      "teilnehmer": 1,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:e7d148ca-de76-47fa-b3df-4a177992bace",
+      "teilnehmer": 1,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:9b2f164b-9497-4a8b-b46d-3a7b09e5dcae",
+      "teilnehmer": 1,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:0d36fab9-e41d-4914-95bc-6ff52757a649",
+      "teilnehmer": 1,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:06c1eb35-a7ae-46b2-aa87-089990522e05",
+      "teilnehmer": 1,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:83607f2f-65cc-45e2-952a-a5faa4defbb0",
+      "teilnehmer": 1,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:632453cc-b09c-401c-b7ae-49e2942cc706",
+      "teilnehmer": 1,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:b8787053-bd74-43af-b0b1-5770ccba2eb1",
+      "teilnehmer": 2,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:53c2c9b4-3a74-4698-84f1-5b9c5521a712",
+      "teilnehmer": 2,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:2396221d-2f07-4768-821b-0a7387fdbf81",
+      "teilnehmer": 2,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:014956af-795b-4278-bf10-ce8f81951c24",
+      "teilnehmer": 2,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:13f1aa29-9307-4aa9-bae0-0e91df143967",
+      "teilnehmer": 2,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:4ccdecc4-139c-46e2-a111-6e4109c38240",
+      "teilnehmer": 2,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:0c1c9052-4e14-4921-9bef-cbd6bc280c2e",
+      "teilnehmer": 2,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:3e8dfc9c-ae85-4bd7-8cc8-8928bf688488",
+      "teilnehmer": 2,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:741536b8-9f0a-40f7-bbd1-f8da49a116fb",
+      "teilnehmer": 2,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:a14c09e9-bfd5-456a-8099-261322335a89",
+      "teilnehmer": 2,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:95cc71e8-ca34-4994-af5f-3c2f3ec1ee94",
+      "teilnehmer": 3,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:03e66549-32ea-46c4-a2ec-d49c8767ecf3",
+      "teilnehmer": 3,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:942179c2-397b-4fca-a51f-5c1383c014d6",
+      "teilnehmer": 3,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:0389090c-1c53-4113-9999-fcb9996345b5",
+      "teilnehmer": 3,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:e97e8b77-d3b0-4158-8cec-267709957315",
+      "teilnehmer": 3,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:a7f62149-ec6e-4e55-8875-521d4b3d9395",
+      "teilnehmer": 3,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:57e3a79e-51ba-4006-94ce-024ac422603e",
+      "teilnehmer": 3,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:3453b601-39a3-4170-8d66-b4a7bb6c4b4b",
+      "teilnehmer": 3,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:e6856ea3-5818-46af-ae8a-b10a91777e03",
+      "teilnehmer": 3,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:9f5e3e9e-eb99-4e0d-924a-621b179027a6",
+      "teilnehmer": 3,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:91b0cede-6f77-4d28-8f1c-562242db58f3",
+      "teilnehmer": 4,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:a0db0d25-2130-47a9-842e-b6ae8127822b",
+      "teilnehmer": 4,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:d3eab470-40aa-4011-8492-cd9d40901310",
+      "teilnehmer": 4,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:03082e90-e13d-4f01-90e8-ae6d6edd5320",
+      "teilnehmer": 4,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:91f12e27-8c99-45eb-9c3c-4f810ab7357a",
+      "teilnehmer": 4,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:b9d759c0-6825-4891-abca-40fdb18d99ca",
+      "teilnehmer": 4,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:e2728f5b-de4d-4f27-a68b-d56caad2fe7f",
+      "teilnehmer": 4,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:4b047a4c-3f3d-49a4-a121-75cd667b5eb8",
+      "teilnehmer": 4,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:0a483c69-26c4-4fa6-b217-7be47e7b781f",
+      "teilnehmer": 4,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:880dc604-1c1f-40d8-9143-ffcdd9399da1",
+      "teilnehmer": 4,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    },
+    {
+      "sourceId": "qa-question:f7f864b0-2e2f-4641-a6d0-c4448cbc2401",
+      "teilnehmer": 5,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:66ee6dfc-a57e-4171-a235-de55a8332673",
+      "teilnehmer": 5,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    },
+    {
+      "sourceId": "qa-question:9be7c096-393a-43a1-948d-90b76c922a86",
+      "teilnehmer": 5,
+      "scope": "demo-quiz",
+      "text": "Welche Demo-Frage eignet sich am besten für eine Peer-Instruction-Diskussion und warum?"
+    },
+    {
+      "sourceId": "qa-question:7c141820-bed4-4cfe-96ef-41935c583bcb",
+      "teilnehmer": 5,
+      "scope": "arsnova.eu",
+      "text": "Was sollten Lehrende bei der Nutzung von Bildern und Quellenangaben in einem Quiz beachten?"
+    },
+    {
+      "sourceId": "qa-question:99277a91-084a-4545-a7c8-c525b6643d45",
+      "teilnehmer": 5,
+      "scope": "demo-quiz",
+      "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?"
+    },
+    {
+      "sourceId": "qa-question:2056cfd1-89fc-4488-9002-7d3718f2ef8b",
+      "teilnehmer": 5,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ich in arsnova.eu erkennen, ob meine Q&A-Frage erfolgreich übermittelt wurde?"
+    },
+    {
+      "sourceId": "qa-question:c17eb2ec-7c6f-4a0f-b32b-ec4e382c9794",
+      "teilnehmer": 5,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lassen sich die Werke im Demo-Quiz ihren Literaturepochen zuordnen?"
+    },
+    {
+      "sourceId": "qa-question:d5e1e2f3-5d1a-4129-b4d3-942f4d5ab3f4",
+      "teilnehmer": 5,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?"
+    },
+    {
+      "sourceId": "qa-question:188e73b8-849b-4b82-957f-c5295dadd35b",
+      "teilnehmer": 5,
+      "scope": "demo-quiz",
+      "text": "Welche Rückmeldung sollten Lernende nach einer falschen Antwort auf die Pi-Frage erhalten?"
+    },
+    {
+      "sourceId": "qa-question:52c1de8c-0fac-4b04-9443-3a6691c076da",
+      "teilnehmer": 5,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?"
+    },
+    {
+      "sourceId": "qa-question:288ee384-17df-4b04-a166-baea826ad305",
+      "teilnehmer": 6,
+      "scope": "demo-quiz",
+      "text": "Welche Rückmeldung sollten Lernende nach einer falschen Antwort auf die Pi-Frage erhalten?"
+    },
+    {
+      "sourceId": "qa-question:8182c299-330d-480d-a80d-39d76afb8531",
+      "teilnehmer": 6,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?"
+    },
+    {
+      "sourceId": "qa-question:c9fad008-aaa6-4237-ace2-021ed4aece0f",
+      "teilnehmer": 6,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:ce621806-2308-4de0-a4fb-219e14564d89",
+      "teilnehmer": 6,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:7d5c240c-f097-47cb-ae54-306f24376b58",
+      "teilnehmer": 6,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:f6c7207b-a849-4db2-aedd-c2a35940cfc5",
+      "teilnehmer": 6,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:1f282a6c-c822-4cfa-b6f0-ddc452132c88",
+      "teilnehmer": 6,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:5b3ada90-cd7f-451a-ab6a-6e4876663c71",
+      "teilnehmer": 6,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:5069480b-d648-4c1d-81af-0e24941b1469",
+      "teilnehmer": 6,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:68507480-270c-4b70-801a-fc2ee9916742",
+      "teilnehmer": 6,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:facb8ad4-3239-43da-8d2b-2579c556a168",
+      "teilnehmer": 7,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:7cd8d774-9ec4-4e60-9c0b-dca099b26183",
+      "teilnehmer": 7,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:6dbacc80-378e-444d-bd32-dcff8ed16488",
+      "teilnehmer": 7,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:b80fc8b8-3ce2-43e1-9974-15f91982d53c",
+      "teilnehmer": 7,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:d896d7ae-239b-46e1-b699-1f47488ef31a",
+      "teilnehmer": 7,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:43591312-b1a8-4f16-82ab-e7f41d80b61c",
+      "teilnehmer": 7,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:caf481a4-60d0-4df7-8dc5-bc92e5b65234",
+      "teilnehmer": 7,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:1278a896-0f1d-4fff-94b1-d13cecd77497",
+      "teilnehmer": 7,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:5a66858f-4a83-4cec-b54a-773ac8228df2",
+      "teilnehmer": 7,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:f58dde09-283f-49bf-939d-b1c2fe518047",
+      "teilnehmer": 7,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:b2d7e191-c3d1-4b30-8278-8a0537d0e492",
+      "teilnehmer": 8,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:0ebe10a5-a350-47bf-b28f-6000bdf39e92",
+      "teilnehmer": 8,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:eedd2123-8743-41d8-b878-a0264fceb57a",
+      "teilnehmer": 8,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:613da0d0-3e28-4626-bb69-4869841744c6",
+      "teilnehmer": 8,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:f9565a28-965c-4c5d-b776-2db31e8cfecd",
+      "teilnehmer": 8,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:c7eea491-b3c6-4ae9-bcaf-2a4bf6b80a84",
+      "teilnehmer": 8,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:4afcc320-4787-41b8-a7ec-4aa7aaa5ef05",
+      "teilnehmer": 8,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:8c82247e-749e-40ce-b0a8-1c6b87fcf551",
+      "teilnehmer": 8,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:3428b12e-c7db-4fec-bf07-e8e65095ff82",
+      "teilnehmer": 8,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:214e0ab9-8c09-44fe-8757-516f0c99936f",
+      "teilnehmer": 8,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:40159ff1-240f-40c4-ae8d-34a8e1c6e2ad",
+      "teilnehmer": 9,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:fbf3e799-1a7a-49d9-b109-1f124b9b4029",
+      "teilnehmer": 9,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:932f7f28-8f99-4008-8402-e2b347e7ae16",
+      "teilnehmer": 9,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:d9a87b9a-6af3-49d6-963b-11d1ebfba535",
+      "teilnehmer": 9,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:d72c2aec-549e-4cdd-ac60-eaa13a7a26ca",
+      "teilnehmer": 9,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:e9d03c0f-09a0-405b-9842-e70e5527c33b",
+      "teilnehmer": 9,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:4561ad8d-d8ca-4f6e-9774-bec68c62300b",
+      "teilnehmer": 9,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:806ae9db-a9e7-45a4-9408-5bcdc7ea623b",
+      "teilnehmer": 9,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:b9dc5431-d634-459c-8e5f-4d650e308382",
+      "teilnehmer": 9,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:a221c72a-83e7-4271-9f54-6bde55ee1367",
+      "teilnehmer": 9,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:f86007b6-9d0f-42b0-a61a-0ad73e3b285d",
+      "teilnehmer": 10,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:1e5cacb8-18dc-48c1-8077-f942c7d00251",
+      "teilnehmer": 10,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:34f7776e-7c69-4e69-a1e1-de8514ccd356",
+      "teilnehmer": 10,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:0d618fa0-a001-4bf5-94e1-93b97487201c",
+      "teilnehmer": 10,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:a9ba0eae-e333-44a4-8c7b-0104036f812f",
+      "teilnehmer": 10,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:1a13d011-22d4-48b1-9115-ce18cb15c664",
+      "teilnehmer": 10,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:26c9e044-3936-4773-be5b-525347fcfda2",
+      "teilnehmer": 10,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:faad4f72-10ff-45be-88db-3e6c57b1a6bb",
+      "teilnehmer": 10,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:cc9d9bfa-3fbd-468e-880a-26ec47b3a06f",
+      "teilnehmer": 10,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:32463bc9-b45a-4206-b5c1-dc862ec01da3",
+      "teilnehmer": 10,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:7cbb3b64-f56d-4f1e-a973-34cf8d495fe3",
+      "teilnehmer": 11,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:132123d1-374c-4962-ac43-6260239315de",
+      "teilnehmer": 11,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:bafc7cdf-c360-47e4-afe7-5232a7a7c633",
+      "teilnehmer": 11,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:317322a6-f898-403b-94f2-b63bd671d112",
+      "teilnehmer": 11,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    },
+    {
+      "sourceId": "qa-question:c1c7b1d0-486d-4a36-a430-2e3041513386",
+      "teilnehmer": 11,
+      "scope": "demo-quiz",
+      "text": "Welche Demo-Frage eignet sich am besten für eine Peer-Instruction-Diskussion und warum?"
+    },
+    {
+      "sourceId": "qa-question:be323b9b-1409-46ab-bfba-1c10470536c1",
+      "teilnehmer": 11,
+      "scope": "arsnova.eu",
+      "text": "Was sollten Lehrende bei der Nutzung von Bildern und Quellenangaben in einem Quiz beachten?"
+    },
+    {
+      "sourceId": "qa-question:79a27598-afc4-441f-a0c7-6951af05adb9",
+      "teilnehmer": 11,
+      "scope": "demo-quiz",
+      "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?"
+    },
+    {
+      "sourceId": "qa-question:7851a7b4-fca4-4bed-8b0b-e6b488e2ed29",
+      "teilnehmer": 11,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ich in arsnova.eu erkennen, ob meine Q&A-Frage erfolgreich übermittelt wurde?"
+    },
+    {
+      "sourceId": "qa-question:e6c3eba7-0e18-4267-b177-c1972c5b8655",
+      "teilnehmer": 11,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lassen sich die Werke im Demo-Quiz ihren Literaturepochen zuordnen?"
+    },
+    {
+      "sourceId": "qa-question:763c1f51-1683-46ee-afb1-91b9d9386583",
+      "teilnehmer": 11,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?"
+    },
+    {
+      "sourceId": "qa-question:a0d7f374-0637-48a0-a744-83656c6d29e1",
+      "teilnehmer": 12,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lassen sich die Werke im Demo-Quiz ihren Literaturepochen zuordnen?"
+    },
+    {
+      "sourceId": "qa-question:dbcefd2b-2662-44a1-af16-91aa756c3e51",
+      "teilnehmer": 12,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?"
+    },
+    {
+      "sourceId": "qa-question:759c6beb-958f-448f-be95-c7ea2f363114",
+      "teilnehmer": 12,
+      "scope": "demo-quiz",
+      "text": "Welche Rückmeldung sollten Lernende nach einer falschen Antwort auf die Pi-Frage erhalten?"
+    },
+    {
+      "sourceId": "qa-question:bfd5c757-58e8-41c0-b155-180fcfdd265e",
+      "teilnehmer": 12,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?"
+    },
+    {
+      "sourceId": "qa-question:a38aa9da-29b4-4ca3-9241-4519d482d27a",
+      "teilnehmer": 12,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:7f35c246-e8e6-479c-b6f2-b5f976372275",
+      "teilnehmer": 12,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:e0e4fa69-fb4d-4ee3-81c7-ee1ccbc5c245",
+      "teilnehmer": 12,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:ba5523f9-cd78-4a90-9d01-668441d9ad00",
+      "teilnehmer": 12,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:65016047-2d2b-4ce8-8cea-230029935ff4",
+      "teilnehmer": 12,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:eff47338-6143-4f7f-8afe-d5a33264166d",
+      "teilnehmer": 12,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:188e6bd1-df34-4f03-b04d-bf017dffaa2c",
+      "teilnehmer": 13,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:a34583f5-46b4-4b36-adb9-d689d9f925ee",
+      "teilnehmer": 13,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:669ae560-ebab-4952-b9f3-3591fcff6a83",
+      "teilnehmer": 13,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:36a63ecd-f95c-4cb9-84b1-91717bfbf88d",
+      "teilnehmer": 13,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:f228dec8-8a74-4dc3-b124-bca2b622837d",
+      "teilnehmer": 13,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:86a38f89-00ec-4f9b-bb6e-cc27423d04c4",
+      "teilnehmer": 13,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:0378949e-125b-4be5-bdb4-56872b244b9a",
+      "teilnehmer": 13,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:fea88455-873c-4110-9d3c-8e2763621288",
+      "teilnehmer": 13,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:8f296e89-e868-451d-8295-4988be1f2613",
+      "teilnehmer": 13,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:30114905-eac2-4bc0-a628-fac212b86386",
+      "teilnehmer": 13,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:b9283ff8-3cca-4b44-a3d0-9c5d3b9dd72a",
+      "teilnehmer": 14,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:71349858-aca9-4c56-9e11-198a06aebc05",
+      "teilnehmer": 14,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:57aad0c3-e2ee-4992-bc21-e7daf16c4152",
+      "teilnehmer": 14,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:d501f5f1-d673-4f15-800c-c8067eec036b",
+      "teilnehmer": 14,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:96d707ea-88fd-4d28-a035-5e856d55134e",
+      "teilnehmer": 14,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:52dd3cb3-97dc-4aae-b24a-bceeaa916947",
+      "teilnehmer": 14,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:f0f86dae-7571-4bd4-9aa6-95d3e262ed46",
+      "teilnehmer": 14,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:687a874e-ed01-4068-bc1e-4cd07eb341ed",
+      "teilnehmer": 14,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618",
+      "teilnehmer": 14,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:9319b1bd-61c8-4438-8521-8d2d2d49a4f8",
+      "teilnehmer": 14,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:e1412227-e29b-454e-9d77-e9da7233342a",
+      "teilnehmer": 15,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:a4930a5d-769a-415d-90d4-e07f4f5387b1",
+      "teilnehmer": 15,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:c3d285d3-ad16-4df5-94df-bd603599c4a4",
+      "teilnehmer": 15,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:1fe404d1-0eb4-4066-82be-325fcbddc3f9",
+      "teilnehmer": 15,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:9bcf7c9e-9b4f-4b0a-ba8c-5591647edafd",
+      "teilnehmer": 15,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f",
+      "teilnehmer": 15,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:da442034-26d2-40ae-bd5e-a67419c8fe6b",
+      "teilnehmer": 15,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:a4bb4f46-2ed6-42e9-a188-75dbc73de03b",
+      "teilnehmer": 15,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:06d0eb96-d593-4256-997b-f3353a2cf48d",
+      "teilnehmer": 15,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:e5f709be-65be-4547-936b-03be3fc00654",
+      "teilnehmer": 15,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:83099773-1637-4879-93aa-230b62f60777",
+      "teilnehmer": 16,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:e9d59094-fb51-46d2-bd99-3c9f4099e4be",
+      "teilnehmer": 16,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:f1febb73-71d9-4be7-874e-72371677c752",
+      "teilnehmer": 16,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:b0e3eb16-5d0b-4b2a-bd40-ea14d0338505",
+      "teilnehmer": 16,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:f39a128c-4804-49eb-b976-6873c68fd933",
+      "teilnehmer": 16,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:57058074-5157-4bc5-9dbd-d3d64fc01e9d",
+      "teilnehmer": 16,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:c8652d0f-9f97-441b-b59a-f7a3b7159673",
+      "teilnehmer": 16,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:55ae1ff7-0607-4c0a-bdc1-83093b010f8e",
+      "teilnehmer": 16,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:1b216e2e-088a-4dc0-bdb1-cd34e6f79321",
+      "teilnehmer": 16,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:1e7071fd-0121-42a1-91ad-77a4dad10542",
+      "teilnehmer": 16,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:b9f3fb04-3f03-4266-a6af-e4340d3a4756",
+      "teilnehmer": 17,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:f8b19e1e-8bb9-499d-90fb-7b073018b4a9",
+      "teilnehmer": 17,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:9b7d5a1d-a1ce-4811-90db-6a15c1c69a37",
+      "teilnehmer": 17,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:c8a4768d-6395-48ce-af12-e92248badd32",
+      "teilnehmer": 17,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:cd4fc477-d088-4bc6-ab9b-848eea1e6f4e",
+      "teilnehmer": 17,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:aadad0e4-6348-4c03-a035-381d115785f2",
+      "teilnehmer": 17,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    },
+    {
+      "sourceId": "qa-question:977d2140-e988-4a22-b993-d9e3bb3c5e65",
+      "teilnehmer": 17,
+      "scope": "demo-quiz",
+      "text": "Welche Demo-Frage eignet sich am besten für eine Peer-Instruction-Diskussion und warum?"
+    },
+    {
+      "sourceId": "qa-question:e5a79750-0c22-4c8e-92ba-952a63b37246",
+      "teilnehmer": 17,
+      "scope": "arsnova.eu",
+      "text": "Was sollten Lehrende bei der Nutzung von Bildern und Quellenangaben in einem Quiz beachten?"
+    },
+    {
+      "sourceId": "qa-question:984176ee-a106-4232-b022-79c2f5abc8d2",
+      "teilnehmer": 17,
+      "scope": "demo-quiz",
+      "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?"
+    },
+    {
+      "sourceId": "qa-question:a6765f10-6c8e-451b-bb9b-8aa3520da597",
+      "teilnehmer": 17,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ich in arsnova.eu erkennen, ob meine Q&A-Frage erfolgreich übermittelt wurde?"
+    },
+    {
+      "sourceId": "qa-question:281708bc-2557-4c12-8712-8911cdfdf9fc",
+      "teilnehmer": 18,
+      "scope": "demo-quiz",
+      "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?"
+    },
+    {
+      "sourceId": "qa-question:b8667ecf-1e25-4d1a-8de9-f686e5f35cb7",
+      "teilnehmer": 18,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ich in arsnova.eu erkennen, ob meine Q&A-Frage erfolgreich übermittelt wurde?"
+    },
+    {
+      "sourceId": "qa-question:939cbef8-c114-4727-9807-75fe7723cbdb",
+      "teilnehmer": 18,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lassen sich die Werke im Demo-Quiz ihren Literaturepochen zuordnen?"
+    },
+    {
+      "sourceId": "qa-question:449d47f4-43bc-47b1-ba11-2a9960e3c140",
+      "teilnehmer": 18,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?"
+    },
+    {
+      "sourceId": "qa-question:e26d1ad8-7e5a-4e5f-8c96-1d7397687c43",
+      "teilnehmer": 18,
+      "scope": "demo-quiz",
+      "text": "Welche Rückmeldung sollten Lernende nach einer falschen Antwort auf die Pi-Frage erhalten?"
+    },
+    {
+      "sourceId": "qa-question:6e086051-9d7c-4af4-ad9e-417b96e5bad0",
+      "teilnehmer": 18,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?"
+    },
+    {
+      "sourceId": "qa-question:ef6d9435-72ff-4735-8ea7-7eb884b1cf85",
+      "teilnehmer": 18,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:ed8876e6-210f-4a3d-a663-6663cc8fdae0",
+      "teilnehmer": 18,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:d5a999fc-d136-405b-89d0-ce800e8299a9",
+      "teilnehmer": 18,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:aca4fa96-31fd-44e5-b018-3004924c3f46",
+      "teilnehmer": 18,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:940bada3-56b8-4b75-9acb-deebba0d0847",
+      "teilnehmer": 19,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:f89e2964-eac2-461e-b344-beb9d18fa177",
+      "teilnehmer": 19,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+      "teilnehmer": 19,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:91c01d81-3910-4c80-a36c-24ef1c170a10",
+      "teilnehmer": 19,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:2149c85a-b3cd-42bf-9fc5-5977391a1e4b",
+      "teilnehmer": 19,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:b9bc952e-b381-4dee-8a31-35afb21c2cdf",
+      "teilnehmer": 19,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:45494339-0528-4752-ad9f-0694509eb00a",
+      "teilnehmer": 19,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:56809b11-58d3-4d50-b4c8-401f29bc6637",
+      "teilnehmer": 19,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:3b42e04c-c853-4fcc-8e40-2f7fe4c9e5f2",
+      "teilnehmer": 19,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:0b60e768-8b51-4841-8780-929420696a89",
+      "teilnehmer": 19,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:7c95bf8f-43a9-4255-a072-86d255a7fb46",
+      "teilnehmer": 20,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:5184b776-f3a0-4b63-a777-3b27f83b38a1",
+      "teilnehmer": 20,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+      "teilnehmer": 20,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:734df95a-46d5-4c92-8a28-41b03614f565",
+      "teilnehmer": 20,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:9ca08bfa-90fc-49e0-bda0-2cf0e4ca6944",
+      "teilnehmer": 20,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:92e8ba08-a5eb-4985-8439-7c88447fa8d1",
+      "teilnehmer": 20,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:e4f6a0a7-fd46-4405-a2de-07306dc297bd",
+      "teilnehmer": 20,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:401ea5bb-2ad9-4825-95b5-6a9020312562",
+      "teilnehmer": 20,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:b77b18a7-3a87-42bc-bf2e-107876b86f93",
+      "teilnehmer": 20,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:fb3534a3-3105-4f0c-88d4-af93215a3d53",
+      "teilnehmer": 20,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:004f8581-d0b7-4017-a14a-844cb7982331",
+      "teilnehmer": 21,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:b7002464-ca83-4383-aefe-6e9e3e8f49df",
+      "teilnehmer": 21,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:61320c80-0231-44e9-b204-4c7dd455c706",
+      "teilnehmer": 21,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:f218f588-7c06-44fc-85a3-b3e5a1b78f90",
+      "teilnehmer": 21,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:659e8cdd-05b9-49bb-999d-2ba05f206436",
+      "teilnehmer": 21,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:68e63316-8644-480c-80fe-805b73bff9de",
+      "teilnehmer": 21,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:93fafb46-5a0e-42a9-93cb-190ed10c0c80",
+      "teilnehmer": 21,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:6316e0a9-fb76-4016-b4f8-71126797732c",
+      "teilnehmer": 21,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:e2208949-1dcb-42b6-a8a8-36ca957fdbcb",
+      "teilnehmer": 21,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:241d98c3-ec6d-4793-b44b-0f52df16e7ee",
+      "teilnehmer": 21,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:5ce3de26-ed91-44ff-8b2f-a37ca71894cd",
+      "teilnehmer": 22,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:cc128838-76c2-49e2-9161-7457a72c5e77",
+      "teilnehmer": 22,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:464c947f-4918-4f2e-bba9-593b92d8bf2d",
+      "teilnehmer": 22,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:303ff3a9-3c43-454f-b90b-e66a605d70af",
+      "teilnehmer": 22,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:243d24f1-87f6-46c8-8a1e-041bceccdc04",
+      "teilnehmer": 22,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:5747a5b9-4445-45b8-aeb1-2127bdbd7fc7",
+      "teilnehmer": 22,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:624ac5fa-65d3-413c-9cf0-5985270bd27f",
+      "teilnehmer": 22,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:1b3dd54e-e612-4af9-bdf5-48efef881761",
+      "teilnehmer": 22,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:737dd4b2-1fb3-4da3-9f48-f05151372a2c",
+      "teilnehmer": 22,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:d3c0f9e7-c31e-4e95-87e8-91b48e2fc687",
+      "teilnehmer": 22,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:b0cd5188-fa98-46dd-9721-c33d8077b073",
+      "teilnehmer": 23,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:73cc9ebc-a11a-430b-86e2-4800591eddc6",
+      "teilnehmer": 23,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+      "teilnehmer": 23,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:7008d16b-e8c2-4c27-990b-79e61793d51c",
+      "teilnehmer": 23,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:c251aa5a-2dac-4a69-bee6-ba884fe1829c",
+      "teilnehmer": 23,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:782d250b-2bdc-477c-bd27-a2c59f0979e4",
+      "teilnehmer": 23,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:2e6179f8-425a-4be5-9bfd-919e2790515a",
+      "teilnehmer": 23,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:fd9216ca-e4c7-4f46-bc47-c0f25fd41e67",
+      "teilnehmer": 23,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    },
+    {
+      "sourceId": "qa-question:6fee2bb5-7764-48b3-bade-171863500f2c",
+      "teilnehmer": 23,
+      "scope": "demo-quiz",
+      "text": "Welche Demo-Frage eignet sich am besten für eine Peer-Instruction-Diskussion und warum?"
+    },
+    {
+      "sourceId": "qa-question:c24c9814-5a38-4baa-80a4-0a5d849e0dc8",
+      "teilnehmer": 23,
+      "scope": "arsnova.eu",
+      "text": "Was sollten Lehrende bei der Nutzung von Bildern und Quellenangaben in einem Quiz beachten?"
+    },
+    {
+      "sourceId": "qa-question:8094ddbe-9018-4832-b889-39dac635700b",
+      "teilnehmer": 24,
+      "scope": "demo-quiz",
+      "text": "Welche Demo-Frage eignet sich am besten für eine Peer-Instruction-Diskussion und warum?"
+    },
+    {
+      "sourceId": "qa-question:6d3c3684-5973-44d8-8c12-22a04bc7aa01",
+      "teilnehmer": 24,
+      "scope": "arsnova.eu",
+      "text": "Was sollten Lehrende bei der Nutzung von Bildern und Quellenangaben in einem Quiz beachten?"
+    },
+    {
+      "sourceId": "qa-question:8cbf253d-4882-4bbc-a71d-a7fb6243fc6d",
+      "teilnehmer": 24,
+      "scope": "demo-quiz",
+      "text": "Warum sind Vorwissen, Verständnis und Anwendung sinnvolle Anlässe für einen kurzen Live-Check?"
+    },
+    {
+      "sourceId": "qa-question:b86babad-5083-467b-b395-15af54c6683c",
+      "teilnehmer": 24,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ich in arsnova.eu erkennen, ob meine Q&A-Frage erfolgreich übermittelt wurde?"
+    },
+    {
+      "sourceId": "qa-question:ccf8b5ff-3bbe-4c0b-bf70-819e25d7f924",
+      "teilnehmer": 24,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lassen sich die Werke im Demo-Quiz ihren Literaturepochen zuordnen?"
+    },
+    {
+      "sourceId": "qa-question:a81af2de-005a-41ef-9272-22a210b15309",
+      "teilnehmer": 24,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende erkennen, welche Quizfrage noch einmal erklärt werden sollte?"
+    },
+    {
+      "sourceId": "qa-question:025cd860-98af-4c2d-8184-22097a9e3a16",
+      "teilnehmer": 24,
+      "scope": "demo-quiz",
+      "text": "Welche Rückmeldung sollten Lernende nach einer falschen Antwort auf die Pi-Frage erhalten?"
+    },
+    {
+      "sourceId": "qa-question:43724748-70ff-4314-bf0b-0ab7223cc2a4",
+      "teilnehmer": 24,
+      "scope": "arsnova.eu",
+      "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?"
+    },
+    {
+      "sourceId": "qa-question:993f7966-c5f3-45d3-80eb-63b335d629e9",
+      "teilnehmer": 24,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:9def5209-c43e-4ea1-a8a6-4edb262d7ad5",
+      "teilnehmer": 24,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:9fffcbd7-c557-4558-8108-5c7fe5955ca4",
+      "teilnehmer": 25,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Stimmungsfrage zu Beginn ausgewertet werden, ohne einzelne Personen bloßzustellen?"
+    },
+    {
+      "sourceId": "qa-question:cbaa9a59-f816-438a-98cf-d81e8d74bd75",
+      "teilnehmer": 25,
+      "scope": "arsnova.eu",
+      "text": "Wie trete ich einer arsnova.eu-Session bei, ohne ein persönliches Konto anzulegen?"
+    },
+    {
+      "sourceId": "qa-question:593b7f2d-5679-433c-ad0a-229c1d345f48",
+      "teilnehmer": 25,
+      "scope": "demo-quiz",
+      "text": "Warum gehören zwei Abstimmungsrunden und eine Diskussion zum Konzept Peer Instruction?"
+    },
+    {
+      "sourceId": "qa-question:2dc0dba7-fa52-4c8d-a431-ca1fc73ed742",
+      "teilnehmer": 25,
+      "scope": "arsnova.eu",
+      "text": "Welche Tastaturfunktionen brauche ich, um an einem Quiz barrierearm teilzunehmen?"
+    },
+    {
+      "sourceId": "qa-question:34672078-d8f5-4c0b-aa01-2aa8c23266e6",
+      "teilnehmer": 25,
+      "scope": "demo-quiz",
+      "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+    },
+    {
+      "sourceId": "qa-question:854b5658-46ef-433b-8fd8-a23b6f50ff03",
+      "teilnehmer": 25,
+      "scope": "arsnova.eu",
+      "text": "Welche Daten fließen in die Moderationszusammenfassung ein und wie werden die Quellen kenntlich gemacht?"
+    },
+    {
+      "sourceId": "qa-question:2001191c-8bf8-4cac-9fae-ef50bb6457ce",
+      "teilnehmer": 25,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Sicherheitseinschätzung helfen, richtiges Raten von sicherem Wissen zu unterscheiden?"
+    },
+    {
+      "sourceId": "qa-question:3fe2a371-3ddd-4234-b33c-feb1a2a819b5",
+      "teilnehmer": 25,
+      "scope": "arsnova.eu",
+      "text": "Wie werden Ergebnisse nach einem Quiz für eine didaktische Nachbesprechung aufbereitet?"
+    },
+    {
+      "sourceId": "qa-question:3afa1adf-1c79-4956-a17a-a690f5b8ee41",
+      "teilnehmer": 25,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:a47ad039-027a-46ac-8d44-ee6a62d66669",
+      "teilnehmer": 25,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:9851938f-606c-48b3-abaf-9f7cc17b32c9",
+      "teilnehmer": 26,
+      "scope": "demo-quiz",
+      "text": "An welchen Merkmalen lässt sich bei der Dachszene begründet erkennen, ob das Bild KI-generiert ist?"
+    },
+    {
+      "sourceId": "qa-question:3c971a3a-aae0-466e-929d-d3ce2100437d",
+      "teilnehmer": 26,
+      "scope": "arsnova.eu",
+      "text": "Was passiert mit meiner Frage, wenn der Q&A-Kanal ohne Vorabmoderation geöffnet ist?"
+    },
+    {
+      "sourceId": "qa-question:5d872160-1b86-4867-97a6-23fd1c6e8015",
+      "teilnehmer": 26,
+      "scope": "demo-quiz",
+      "text": "Wie helfen die Daten im Zuordnungsspiel dabei, die Entwicklung der Weimarer Republik zu verstehen?"
+    },
+    {
+      "sourceId": "qa-question:158694ec-6da6-4ecf-ab96-6ad2a14efe27",
+      "teilnehmer": 26,
+      "scope": "arsnova.eu",
+      "text": "Warum benötigt jede teilnehmende Person eine eigene Sitzungscapability statt einer IP-basierten Freigabe?"
+    },
+    {
+      "sourceId": "qa-question:4da635b6-82f6-4d08-abeb-f93f04b9fe30",
+      "teilnehmer": 26,
+      "scope": "demo-quiz",
+      "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+    },
+    {
+      "sourceId": "qa-question:adab90a2-b048-43b5-a88e-399a2b439c62",
+      "teilnehmer": 26,
+      "scope": "arsnova.eu",
+      "text": "Wie verhindert arsnova.eu, dass Lösungshinweise während einer laufenden Frage an Teilnehmende gelangen?"
+    },
+    {
+      "sourceId": "qa-question:d34a18a7-1bdb-47af-9a77-e1b062235a4b",
+      "teilnehmer": 26,
+      "scope": "demo-quiz",
+      "text": "Welche Ergebnisse des Team-Quiz sollten nach der letzten Frage noch gemeinsam reflektiert werden?"
+    },
+    {
+      "sourceId": "qa-question:a82cf1a6-6dad-400f-846e-e7a5988f0326",
+      "teilnehmer": 26,
+      "scope": "arsnova.eu",
+      "text": "Welche Einstellungen helfen dabei, Animationen und Töne an individuelle Bedürfnisse anzupassen?"
+    },
+    {
+      "sourceId": "qa-question:01991734-6ccb-4158-bd3a-4dc8e2a08c16",
+      "teilnehmer": 26,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:c3d574d8-1a8a-40ed-9ac6-8edccebc4517",
+      "teilnehmer": 26,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:73b602b2-0423-4905-b5cf-8907d43a0d9b",
+      "teilnehmer": 27,
+      "scope": "demo-quiz",
+      "text": "Welche Merkmale im Codebeispiel weisen auf die Creative-Coding-Umgebung Processing hin?"
+    },
+    {
+      "sourceId": "qa-question:842cc710-1e3b-40af-af96-6c253efe2ce1",
+      "teilnehmer": 27,
+      "scope": "arsnova.eu",
+      "text": "Wie kann ein Tempo-Blitzlicht genutzt werden, ohne den laufenden Quizablauf zu unterbrechen?"
+    },
+    {
+      "sourceId": "qa-question:af4def0a-6dd1-4c78-8ca2-4c95cb035595",
+      "teilnehmer": 27,
+      "scope": "demo-quiz",
+      "text": "Welche der zehn Fragetypen des Demo-Quiz eignen sich für eine diagnostische Einstiegsfrage?"
+    },
+    {
+      "sourceId": "qa-question:147e56b8-ac35-4ba6-914e-7da742ed45b0",
+      "teilnehmer": 27,
+      "scope": "arsnova.eu",
+      "text": "Wie bleibt die Abstimmung fair, wenn eine Verbindung kurz abbricht und anschließend wiederhergestellt wird?"
+    },
+    {
+      "sourceId": "qa-question:a364c6bf-b927-47b5-80a5-a450fb50c951",
+      "teilnehmer": 27,
+      "scope": "demo-quiz",
+      "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?"
+    },
+    {
+      "sourceId": "qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b",
+      "teilnehmer": 27,
+      "scope": "arsnova.eu",
+      "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?"
+    },
+    {
+      "sourceId": "qa-question:afe31a18-3225-462e-97ed-f51fe50d3ce9",
+      "teilnehmer": 27,
+      "scope": "demo-quiz",
+      "text": "Warum wird Pi im Demo-Quiz auf zwei Dezimalstellen gerundet und wie wird die Toleranz bewertet?"
+    },
+    {
+      "sourceId": "qa-question:9bcbbf19-0026-40ae-9306-f372e64c0f3b",
+      "teilnehmer": 27,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu Lehrende dabei, Fragen aus einem großen Hörsaal zu priorisieren?"
+    },
+    {
+      "sourceId": "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+      "teilnehmer": 27,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:c1fcc101-0244-4ffe-9e02-48c05d5083bd",
+      "teilnehmer": 27,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:e743edd6-586f-4cba-8d55-ef6735f254b3",
+      "teilnehmer": 28,
+      "scope": "demo-quiz",
+      "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+    },
+    {
+      "sourceId": "qa-question:1975dd39-6569-4c1e-a55f-9cede700e4d9",
+      "teilnehmer": 28,
+      "scope": "arsnova.eu",
+      "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?"
+    },
+    {
+      "sourceId": "qa-question:cc61094c-9e6d-46c2-aaa4-7a851053f963",
+      "teilnehmer": 28,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich der Lernzuwachs zwischen den beiden Runden der Revolutionsfrage beurteilen?"
+    },
+    {
+      "sourceId": "qa-question:91443c91-4c15-4a3a-ae0a-a867b1857313",
+      "teilnehmer": 28,
+      "scope": "arsnova.eu",
+      "text": "Was bedeutet ein Fallback der Zusammenfassung und welche Inhalte bleiben dann weiterhin verfügbar?"
+    },
+    {
+      "sourceId": "qa-question:97457d3d-f4f6-4184-bc6d-8b6eae7898f0",
+      "teilnehmer": 28,
+      "scope": "demo-quiz",
+      "text": "Wie kann man die Wortwolke moderieren, wenn häufige und seltene Lernstrategien genannt werden?"
+    },
+    {
+      "sourceId": "qa-question:67312389-ec10-4716-b4af-2ad67051a3ee",
+      "teilnehmer": 28,
+      "scope": "arsnova.eu",
+      "text": "Wie unterstützt arsnova.eu verschiedene Sprachen in derselben Lehrveranstaltung?"
+    },
+    {
+      "sourceId": "qa-question:669f43b8-77d4-4282-9be1-330ac8cf9075",
+      "teilnehmer": 28,
+      "scope": "demo-quiz",
+      "text": "Wie lässt sich die Zahl der sichtbaren Cubies eines 3×3-Zauberwürfels systematisch herleiten?"
+    },
+    {
+      "sourceId": "qa-question:de2d498d-a137-47d2-a940-16cdcf5dad7f",
+      "teilnehmer": 28,
+      "scope": "arsnova.eu",
+      "text": "Wie unterscheiden sich Quiz, Q&A und Blitzlicht in arsnova.eu für den Einsatz im Unterricht?"
+    },
+    {
+      "sourceId": "qa-question:475ee7b1-b805-486f-a2d2-a282e29c17e9",
+      "teilnehmer": 28,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:81a9b2ce-a36c-4b0b-8d0c-e5826f64ce9b",
+      "teilnehmer": 28,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:23852f42-bd6e-4676-9629-986bcc5262b8",
+      "teilnehmer": 29,
+      "scope": "demo-quiz",
+      "text": "Wie kann die abschließende Einsatzbewertung genutzt werden, um die nächste Lehrveranstaltung zu planen?"
+    },
+    {
+      "sourceId": "qa-question:86000277-2c67-4687-b53e-c68253ca2e03",
+      "teilnehmer": 29,
+      "scope": "arsnova.eu",
+      "text": "Welche Bedeutung hat die Antwortsicherheit neben einer richtigen oder falschen Antwort?"
+    },
+    {
+      "sourceId": "qa-question:19cdca49-b947-4d2c-9577-b673c54000ee",
+      "teilnehmer": 29,
+      "scope": "demo-quiz",
+      "text": "Wie kann die Reihenfolge der Genexpression nach der Abstimmung gemeinsam begründet werden?"
+    },
+    {
+      "sourceId": "qa-question:8bf09915-d9ff-42a6-b3ed-763024452c68",
+      "teilnehmer": 29,
+      "scope": "arsnova.eu",
+      "text": "Wie hilft der Teammodus dabei, Austausch zu fördern, ohne individuelle Ergebnisse offenzulegen?"
+    },
+    {
+      "sourceId": "qa-question:d98c034f-90c6-41f7-ba97-8e87aa06185d",
+      "teilnehmer": 29,
+      "scope": "demo-quiz",
+      "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+    },
+    {
+      "sourceId": "qa-question:fc4af435-9bfa-43bb-abc3-5b211b34061e",
+      "teilnehmer": 29,
+      "scope": "arsnova.eu",
+      "text": "Welche Informationen sehen Lehrende bei anonymen Teilnehmenden und welche bleiben verborgen?"
+    },
+    {
+      "sourceId": "qa-question:575b7516-00b5-4c00-8533-e776c18a4005",
+      "teilnehmer": 29,
+      "scope": "demo-quiz",
+      "text": "Weshalb gilt 1789 als Beginn der Französischen Revolution und welche Ereignisse markieren diesen Beginn?"
+    },
+    {
+      "sourceId": "qa-question:7b830d10-736f-4a07-93a0-c67a5670d42b",
+      "teilnehmer": 29,
+      "scope": "arsnova.eu",
+      "text": "Wie werden lange Fragen und Antworttexte auf einem kleinen Smartphone dargestellt?"
+    },
+    {
+      "sourceId": "qa-question:113f3df8-e2ef-44c7-bfcf-9aae2bc5f1ca",
+      "teilnehmer": 29,
+      "scope": "demo-quiz",
+      "text": "Welche Fehlvorstellung soll die Zauberwürfel-Frage sichtbar machen und wie kann man sie auflösen?"
+    },
+    {
+      "sourceId": "qa-question:69846266-8fa8-4ada-8297-39299fc9ae43",
+      "teilnehmer": 29,
+      "scope": "arsnova.eu",
+      "text": "Wie kann die Kontextvorschau geprüft werden, bevor eine Zusammenfassung angefordert wird?"
+    }
+  ],
+  "pruefung": "ok"
+}

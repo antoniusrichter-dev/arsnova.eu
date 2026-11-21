@@ -1,0 +1,205 @@
+{
+  "fall": "d-456-teilmenge",
+  "variante": "nur-texte",
+  "lauf": 3,
+  "kalt": false,
+  "startedAt": 1795187349792,
+  "endedAt": 1795187390890,
+  "gesamtMs": 41098,
+  "packed": {
+    "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 6385,
+      "packedInputTokens": 7238,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 186,
+          "reason": "deduplication"
+        },
+        {
+          "section": "questions",
+          "omittedItems": 6,
+          "reason": "token-budget"
+        }
+      ]
+    },
+    "selectionLimits": {
+      "questions": 16,
+      "topics": 0,
+      "compassSignals": 0,
+      "learningObjectives": 0,
+      "resultAggregates": 0,
+      "feedbackAggregates": 0
+    },
+    "corpus": {
+      "total": 300,
+      "eligible": 300,
+      "analyzed": 200,
+      "deduplicated": 14,
+      "represented": 8
+    },
+    "representedItems": [
+      "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+      "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+      "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+      "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+      "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+      "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+      "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+      "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+    ],
+    "qaSources": [
+      {
+        "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "content": "included",
+        "truncated": false
+      },
+      {
+        "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+        "content": "included",
+        "truncated": false
+      }
+    ],
+    "gepackteFragetexte": 8,
+    "sections": {
+      "topics": "disabled",
+      "compass": "unavailable",
+      "learningContext": "unavailable"
+    },
+    "votesSichtbar": false,
+    "selectedMode": "full-context"
+  },
+  "llmStatus": "completed",
+  "telemetry": {
+    "taskType": "qa_summary",
+    "elapsedMs": 41098,
+    "model": "qwen3-4b-instruct-2507-q4_k_m",
+    "promptTokens": 2190,
+    "completionTokens": 455
+  },
+  "schemaGueltig": true,
+  "modellStatus": "uncertain",
+  "qualitaetsgate": false,
+  "ergebnisStatus": "uncertain",
+  "entfernteSourceIds": [],
+  "statements": [
+    {
+      "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+      "sourceIds": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+      ]
+    },
+    {
+      "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+      "sourceIds": [
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+      ]
+    },
+    {
+      "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+      "sourceIds": [
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+      ]
+    },
+    {
+      "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+      "sourceIds": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+      ]
+    }
+  ],
+  "suggestedNextSteps": [
+    {
+      "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+      "sourceIds": [
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+      ]
+    }
+  ],
+  "limitations": [
+    "Die Zusammenfassung ist unsicher."
+  ],
+  "rohausgabe": {
+    "status": "uncertain",
+    "statements": [
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": []
+  }
+}

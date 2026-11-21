@@ -1,0 +1,1022 @@
+[
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 1,
+    "kalt": true,
+    "marke": "nach-oom-neustart",
+    "startedAt": 1795199602553,
+    "endedAt": 1795199677399,
+    "gesamtMs": 74846,
+    "packed": {
+      "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6361,
+        "packedInputTokens": 7214,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 74843,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2173,
+      "completionTokens": 388
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Fragetypen des Demo-Quiz werden für diagnostische Einstiegsfragen bewertet.",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      },
+      {
+        "text": "Freitext, Kurztext und Wortwolke unterscheiden sich im didaktischen Einsatz des Demo-Quiz.",
+        "sourceIds": [
+          "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+        ]
+      },
+      {
+        "text": "Lehrende können Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen.",
+        "sourceIds": [
+          "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+        ]
+      },
+      {
+        "text": "Lehrende erkennen, welche Quizfragen erneut erklärt werden sollten.",
+        "sourceIds": [
+          "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfe die Rückmeldungen bei erreichtem persönlichen Fragenkontingent.",
+        "sourceIds": [
+          "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Fragetypen des Demo-Quiz werden für diagnostische Einstiegsfragen bewertet.",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        },
+        {
+          "text": "Freitext, Kurztext und Wortwolke unterscheiden sich im didaktischen Einsatz des Demo-Quiz.",
+          "sourceIds": [
+            "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+          ]
+        },
+        {
+          "text": "Lehrende können Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen.",
+          "sourceIds": [
+            "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+          ]
+        },
+        {
+          "text": "Lehrende erkennen, welche Quizfragen erneut erklärt werden sollten.",
+          "sourceIds": [
+            "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfe die Rückmeldungen bei erreichtem persönlichen Fragenkontingent.",
+          "sourceIds": [
+            "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 2,
+    "kalt": false,
+    "marke": "nach-oom-neustart",
+    "startedAt": 1795199677405,
+    "endedAt": 1795199720196,
+    "gesamtMs": 42791,
+    "packed": {
+      "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6361,
+        "packedInputTokens": 7214,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 42790,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2173,
+      "completionTokens": 391
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      },
+      {
+        "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+        "sourceIds": [
+          "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+        ]
+      },
+      {
+        "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+        "sourceIds": [
+          "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+        ]
+      },
+      {
+        "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+        "sourceIds": [
+          "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        },
+        {
+          "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+          "sourceIds": [
+            "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+          ]
+        },
+        {
+          "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+          "sourceIds": [
+            "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+          ]
+        },
+        {
+          "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+          "sourceIds": [
+            "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 3,
+    "kalt": false,
+    "marke": "nach-oom-neustart",
+    "startedAt": 1795199720198,
+    "endedAt": 1795199763349,
+    "gesamtMs": 43151,
+    "packed": {
+      "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6361,
+        "packedInputTokens": 7214,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 43150,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2173,
+      "completionTokens": 391
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      },
+      {
+        "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+        "sourceIds": [
+          "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+        ]
+      },
+      {
+        "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+        "sourceIds": [
+          "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+        ]
+      },
+      {
+        "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+        "sourceIds": [
+          "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        },
+        {
+          "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+          "sourceIds": [
+            "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+          ]
+        },
+        {
+          "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+          "sourceIds": [
+            "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+          ]
+        },
+        {
+          "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+          "sourceIds": [
+            "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 4,
+    "kalt": false,
+    "marke": "nach-oom-neustart",
+    "startedAt": 1795199763352,
+    "endedAt": 1795199805793,
+    "gesamtMs": 42441,
+    "packed": {
+      "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6361,
+        "packedInputTokens": 7214,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 42438,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2173,
+      "completionTokens": 391
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      },
+      {
+        "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+        "sourceIds": [
+          "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+        ]
+      },
+      {
+        "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+        "sourceIds": [
+          "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+        ]
+      },
+      {
+        "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+        "sourceIds": [
+          "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        },
+        {
+          "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+          "sourceIds": [
+            "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+          ]
+        },
+        {
+          "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+          "sourceIds": [
+            "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+          ]
+        },
+        {
+          "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+          "sourceIds": [
+            "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 5,
+    "kalt": false,
+    "marke": "nach-oom-neustart",
+    "startedAt": 1795199805795,
+    "endedAt": 1795199848640,
+    "gesamtMs": 42845,
+    "packed": {
+      "snapshotHash": "792caf421759665b80ca17c78cf21d8cde9d5f414decf7241d007450fa629a24",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6361,
+        "packedInputTokens": 7214,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+        "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+        "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+        "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+        "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+        "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+        "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+        "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2ff13677-0520-4952-a449-38e542d55d74",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:56ce8bd3-b311-43c1-9473-c65ef582ebe4",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7b5e46c4-3d96-4dec-a98b-a75e035270a3",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8b5216c0-cde5-42c5-b935-77aea057fb2c",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:a2877cb6-33a0-4575-a32d-d4cd2ffb390f",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 42844,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2173,
+      "completionTokens": 391
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      },
+      {
+        "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+        "sourceIds": [
+          "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+        ]
+      },
+      {
+        "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+        "sourceIds": [
+          "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+        ]
+      },
+      {
+        "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+        "sourceIds": [
+          "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+        "sourceIds": [
+          "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Fragetypen des Demo-Quiz für diagnostische Einstiegsfragen",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        },
+        {
+          "text": "Unterschiede zwischen Freitext, Kurztext und Wortwolke im didaktischen Einsatz",
+          "sourceIds": [
+            "qa-question:12185c45-6c77-4987-a1d1-e30fc792934c"
+          ]
+        },
+        {
+          "text": "Möglichkeiten für Lehrende, Q&A-Fragen zu heften, archivieren oder auswählen",
+          "sourceIds": [
+            "qa-question:2ff13677-0520-4952-a449-38e542d55d74"
+          ]
+        },
+        {
+          "text": "Kriterien, um zu erkennen, welche Quizfrage erneut erklärt werden sollte",
+          "sourceIds": [
+            "qa-question:5425c319-3a63-4282-a5d8-a25f5ed64b33"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfung der didaktischen Relevanz der Fragetypen im Kontext des Lernprozesses",
+          "sourceIds": [
+            "qa-question:084b8ea9-dc6f-4b6c-bc3b-06f19715cc74"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  }
+]

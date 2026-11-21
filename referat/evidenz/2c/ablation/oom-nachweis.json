@@ -1,0 +1,11 @@
+{
+  "container": "/arsnova-v3-open-weight-llm-http",
+  "startedAt": "2026-11-20T15:12:13.594077174Z",
+  "restartCount": 1,
+  "oomKilledNachNeustart": false,
+  "memory": 5368709120,
+  "memorySwap": 10737418240,
+  "restartPolicy": "unless-stopped",
+  "abgefragt": "2026-11-20T19:40:13+01:00",
+  "hinweis": "docker events des OOM (16:12:13 oom, die exitCode=137, start; 16:12:28 healthy) wurden live abgelesen und im Protokoll 5.3 notiert; der Ereignispuffer des Daemons enthaelt sie inzwischen nicht mehr (Abfrage --since/--until leer). startedAt/restartCount bestaetigen den Neustart zum OOM-Zeitpunkt."
+}

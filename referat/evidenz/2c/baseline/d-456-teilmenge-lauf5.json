@@ -1,0 +1,272 @@
+{
+  "run": {
+    "fall": "d-456-teilmenge",
+    "lauf": 5,
+    "kalt": false,
+    "startedAt": 1795186234598,
+    "endedAt": 1795186270875,
+    "gesamtMs": 36277,
+    "enqueueMs": 36,
+    "polls": 18,
+    "pendingBeimStart": "pending",
+    "status": "ready",
+    "execution": {
+      "attemptedMode": "full-context",
+      "effectiveMode": "extractive",
+      "fallback": {
+        "contractVersion": "qa-summary-fallback-v1",
+        "requestedRequestContract": "qa-summary-context-v2",
+        "requestedOutputContract": "qa-summary-model-output-v3",
+        "mode": "extractive",
+        "reason": "invalid_response",
+        "retry": "manual"
+      }
+    },
+    "snapshotHashGleich": true,
+    "selectedMode": "full-context",
+    "packed": {
+      "snapshotHash": "0cc08f09d3dd8be03a1208d328b63a80d9dee65c9d77c60d5478a4a00b5910fa",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6351,
+        "packedInputTokens": 7204,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+        "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+        "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+        "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+        "qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b",
+        "qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f",
+        "qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618",
+        "qa-question:8182c299-330d-480d-a80d-39d76afb8531"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:8182c299-330d-480d-a80d-39d76afb8531",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "includedQuestionTexts": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable",
+        "releasedResults": "not-released",
+        "feedback": "not-applicable"
+      },
+      "compassSignals": [],
+      "learningObjectives": 0,
+      "limitations": [
+        {
+          "code": "budget-truncated",
+          "section": "topics",
+          "detail": "qa-baseline"
+        },
+        {
+          "code": "budget-truncated",
+          "section": "questions",
+          "detail": "7 item(s) were omitted by deterministic prompt packing."
+        }
+      ]
+    },
+    "statements": [
+      {
+        "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?",
+        "sourceIds": [
+          "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2"
+        ]
+      },
+      {
+        "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?",
+        "sourceIds": [
+          "qa-question:29b98a7b-e239-4402-a967-40394631f94a"
+        ]
+      },
+      {
+        "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?",
+        "sourceIds": [
+          "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d"
+        ]
+      },
+      {
+        "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?",
+        "sourceIds": [
+          "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [],
+    "limitations": [
+      "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+    ]
+  },
+  "runtime": {
+    "schemaVersion": 2,
+    "enabled": true,
+    "inferenceConfigured": true,
+    "capabilities": {
+      "contractVersion": "qa-summary-adapter-capabilities-v1",
+      "adapterId": "arsnova-summary-adapter-v2",
+      "modes": [
+        {
+          "kind": "full-context",
+          "requestContract": "qa-summary-context-v2",
+          "outputContract": "qa-summary-model-output-v3",
+          "promptContextContract": "moderation-prompt-context-v1",
+          "definitionVersion": "moderation-prompt-definitions-v1"
+        },
+        {
+          "kind": "legacy-text"
+        }
+      ]
+    },
+    "result": {
+      "schemaVersion": 2,
+      "contractVersion": "qa-summary-result-v2",
+      "status": "ready",
+      "statements": [
+        {
+          "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?",
+          "sourceIds": [
+            "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2"
+          ]
+        },
+        {
+          "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?",
+          "sourceIds": [
+            "qa-question:29b98a7b-e239-4402-a967-40394631f94a"
+          ]
+        },
+        {
+          "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?",
+          "sourceIds": [
+            "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d"
+          ]
+        },
+        {
+          "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?",
+          "sourceIds": [
+            "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [],
+      "limitations": [
+        "Eine ausführliche Zusammenfassung war diesmal nicht möglich. Deshalb werden die wichtigsten Fragen im Wortlaut angezeigt."
+      ],
+      "sources": [
+        {
+          "id": "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+          "kind": "qa-question",
+          "label": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?"
+        },
+        {
+          "id": "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+          "kind": "qa-question",
+          "label": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?"
+        },
+        {
+          "id": "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+          "kind": "qa-question",
+          "label": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?"
+        },
+        {
+          "id": "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+          "kind": "qa-question",
+          "label": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?"
+        }
+      ],
+      "modelVersion": "extractive-v2",
+      "analyzedAt": "2026-11-20T14:51:10.140Z",
+      "snapshotHash": "0cc08f09d3dd8be03a1208d328b63a80d9dee65c9d77c60d5478a4a00b5910fa",
+      "locale": "de",
+      "execution": {
+        "attemptedMode": "full-context",
+        "effectiveMode": "extractive",
+        "fallback": {
+          "contractVersion": "qa-summary-fallback-v1",
+          "requestedRequestContract": "qa-summary-context-v2",
+          "requestedOutputContract": "qa-summary-model-output-v3",
+          "mode": "extractive",
+          "reason": "invalid_response",
+          "retry": "manual"
+        }
+      }
+    }
+  }
+}

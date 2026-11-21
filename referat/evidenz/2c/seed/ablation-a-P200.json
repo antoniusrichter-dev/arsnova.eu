@@ -1,0 +1,112 @@
+{
+  "fixtureId": "referat-thema2-sechs-fragen-v1",
+  "fall": "P200",
+  "P": 200,
+  "faktor": 1,
+  "erzeugt": "2026-11-20T14:52:23.966Z",
+  "trpcUrl": "http://127.0.0.1:3000/trpc",
+  "session": {
+    "code": "BL88WT",
+    "sessionId": "602428e3-ab52-45e7-a365-749d69039c01",
+    "typ": "Q_AND_A",
+    "qaModerationMode": false
+  },
+  "tokenDatei": "referat/.local/host-BL88WT.json",
+  "lernziel": null,
+  "teilnehmende": 200,
+  "stimmZeilen": 282,
+  "fragen": [
+    {
+      "key": "A",
+      "id": "51e577a8-bab2-4029-9156-76129e7ea0ba",
+      "sourceId": "qa-question:51e577a8-bab2-4029-9156-76129e7ea0ba",
+      "soll": {
+        "positive": 80,
+        "negative": 30
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 80,
+        "negative": 30,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "B",
+      "id": "259e7272-1783-4e00-9bac-5b3c495274d7",
+      "sourceId": "qa-question:259e7272-1783-4e00-9bac-5b3c495274d7",
+      "soll": {
+        "positive": 10,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 10,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "C",
+      "id": "f6e699fd-ddbd-49d3-9f9f-317f04a3f89d",
+      "sourceId": "qa-question:f6e699fd-ddbd-49d3-9f9f-317f04a3f89d",
+      "soll": {
+        "positive": 30,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 30,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "D",
+      "id": "80fda819-339c-4160-88b4-1735731e6112",
+      "sourceId": "qa-question:80fda819-339c-4160-88b4-1735731e6112",
+      "soll": {
+        "positive": 12,
+        "negative": 0
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 12,
+        "negative": 0,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "E",
+      "id": "2839360a-fef8-4820-9327-5b129bb0c7e3",
+      "sourceId": "qa-question:2839360a-fef8-4820-9327-5b129bb0c7e3",
+      "soll": {
+        "positive": 40,
+        "negative": 40
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 40,
+        "negative": 40,
+        "upvoteCount": 0
+      }
+    },
+    {
+      "key": "F",
+      "id": "263a05df-6644-40ca-a1b0-b224232e0e37",
+      "sourceId": "qa-question:263a05df-6644-40ca-a1b0-b224232e0e37",
+      "soll": {
+        "positive": 20,
+        "negative": 20
+      },
+      "ist": {
+        "status": "ACTIVE",
+        "positive": 20,
+        "negative": 20,
+        "upvoteCount": 0
+      }
+    }
+  ],
+  "pruefung": "ok",
+  "fehler": []
+}

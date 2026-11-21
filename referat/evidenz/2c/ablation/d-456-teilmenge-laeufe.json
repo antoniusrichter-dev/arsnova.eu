@@ -1,0 +1,1696 @@
+[
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "nur-texte",
+    "lauf": 1,
+    "kalt": true,
+    "startedAt": 1795187243675,
+    "endedAt": 1795187308854,
+    "gesamtMs": 65179,
+    "packed": {
+      "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6385,
+        "packedInputTokens": 7238,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 186,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 6,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 14,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 65178,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2190,
+      "completionTokens": 459
+    },
+    "schemaGueltig": true,
+    "modellStatus": "ready",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "ready",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Lernaktivitäten wie Zuordnung, Sortierung und Kategorisierung teilen eine gemeinsame Grundlage der strukturierten Wissensverarbeitung.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente nach der Abstimmung begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale auf, dass es sich um eine Creative-Coding-Umgebung mit Processing handelt.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage offenbart eine Fehlvorstellung, die durch didaktische Reflexion auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": [],
+    "rohausgabe": {
+      "status": "ready",
+      "statements": [
+        {
+          "text": "Lernaktivitäten wie Zuordnung, Sortierung und Kategorisierung teilen eine gemeinsame Grundlage der strukturierten Wissensverarbeitung.",
+          "sourceIds": [
+            "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+          ]
+        },
+        {
+          "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente nach der Abstimmung begründet werden.",
+          "sourceIds": [
+            "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+          ]
+        },
+        {
+          "text": "Im Codebeispiel zeigen bestimmte Merkmale auf, dass es sich um eine Creative-Coding-Umgebung mit Processing handelt.",
+          "sourceIds": [
+            "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+          ]
+        },
+        {
+          "text": "Die Zauberwürfel-Frage offenbart eine Fehlvorstellung, die durch didaktische Reflexion auflösbar ist.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+          "sourceIds": [
+            "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+            "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "nur-texte",
+    "lauf": 2,
+    "kalt": false,
+    "startedAt": 1795187308858,
+    "endedAt": 1795187349790,
+    "gesamtMs": 40932,
+    "packed": {
+      "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6385,
+        "packedInputTokens": 7238,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 186,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 6,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 14,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 40932,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2190,
+      "completionTokens": 455
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+          "sourceIds": [
+            "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+          ]
+        },
+        {
+          "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+          "sourceIds": [
+            "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+          ]
+        },
+        {
+          "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+          "sourceIds": [
+            "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+          ]
+        },
+        {
+          "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+          "sourceIds": [
+            "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+            "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "nur-texte",
+    "lauf": 3,
+    "kalt": false,
+    "startedAt": 1795187349792,
+    "endedAt": 1795187390890,
+    "gesamtMs": 41098,
+    "packed": {
+      "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6385,
+        "packedInputTokens": 7238,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 186,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 6,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 14,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 41098,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2190,
+      "completionTokens": 455
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+          "sourceIds": [
+            "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+          ]
+        },
+        {
+          "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+          "sourceIds": [
+            "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+          ]
+        },
+        {
+          "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+          "sourceIds": [
+            "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+          ]
+        },
+        {
+          "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+          "sourceIds": [
+            "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+            "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "nur-texte",
+    "lauf": 4,
+    "kalt": false,
+    "startedAt": 1795187390892,
+    "endedAt": 1795187431631,
+    "gesamtMs": 40739,
+    "packed": {
+      "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6385,
+        "packedInputTokens": 7238,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 186,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 6,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 14,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 40738,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2190,
+      "completionTokens": 455
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+          "sourceIds": [
+            "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+          ]
+        },
+        {
+          "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+          "sourceIds": [
+            "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+          ]
+        },
+        {
+          "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+          "sourceIds": [
+            "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+          ]
+        },
+        {
+          "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+          "sourceIds": [
+            "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+            "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "nur-texte",
+    "lauf": 5,
+    "kalt": false,
+    "startedAt": 1795187431633,
+    "endedAt": 1795187472342,
+    "gesamtMs": 40709,
+    "packed": {
+      "snapshotHash": "1790aa670258d47a13f8a6a9814ae0223ee9339ffb7bb4eb2319f184bb936d05",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6385,
+        "packedInputTokens": 7238,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 186,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 6,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 14,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+        "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+        "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+        "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+        "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+        "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:099e0a56-11b1-4377-8028-acbd74b36313",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f783627-c0a2-4cf3-b446-dbed6e042fbf",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:0f8ad161-ff17-48d0-a329-504397ba362b",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 40709,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2190,
+      "completionTokens": 455
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+        "sourceIds": [
+          "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+        ]
+      },
+      {
+        "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+        "sourceIds": [
+          "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+        ]
+      },
+      {
+        "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+        "sourceIds": [
+          "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+        ]
+      },
+      {
+        "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+        "sourceIds": [
+          "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+          "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Zuordnung, Sortierung und Kategorisierung teilen sich die Gemeinsamkeit, dass sie strukturelle Denkprozesse fördern.",
+          "sourceIds": [
+            "qa-question:073b6ce5-7af4-4e2b-a457-07b2e321e9bc"
+          ]
+        },
+        {
+          "text": "Die Reihenfolge der Genexpression kann durch gemeinsame wissenschaftliche Argumente begründet werden.",
+          "sourceIds": [
+            "qa-question:099e0a56-11b1-4377-8028-acbd74b36313"
+          ]
+        },
+        {
+          "text": "Im Codebeispiel zeigen bestimmte Merkmale wie dynamische Grafik und Funktionen auf die Creative-Coding-Umgebung Processing hin.",
+          "sourceIds": [
+            "qa-question:0a7ab6d5-096f-49a7-8339-f27cc17ec4a5"
+          ]
+        },
+        {
+          "text": "Die Zauberwürfel-Frage macht eine Fehlvorstellung sichtbar, die durch systematische Beobachtung auflösbar ist.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Erstellen einer didaktischen Nachbesprechung basierend auf den Quizergebnissen.",
+          "sourceIds": [
+            "qa-question:0d95b925-47ad-4028-8010-b69a33f15b0a",
+            "qa-question:0d9ab6bf-3998-4e59-a070-81b800ff31a0"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 1,
+    "kalt": true,
+    "startedAt": 1795187472368,
+    "endedAt": 1795187532702,
+    "gesamtMs": 60334,
+    "packed": {
+      "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6468,
+        "packedInputTokens": 7321,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "completed",
+    "telemetry": {
+      "taskType": "qa_summary",
+      "elapsedMs": 60334,
+      "model": "qwen3-4b-instruct-2507-q4_k_m",
+      "promptTokens": 2227,
+      "completionTokens": 403
+    },
+    "schemaGueltig": true,
+    "modellStatus": "uncertain",
+    "qualitaetsgate": false,
+    "ergebnisStatus": "uncertain",
+    "entfernteSourceIds": [],
+    "statements": [
+      {
+        "text": "Zauberwürfel-Frage zeigt eine Fehlvorstellung auf und erläutert deren Auflösung.",
+        "sourceIds": [
+          "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+        ]
+      },
+      {
+        "text": "Zuordnung, Sortierung und Kategorisierung teilen eine gemeinsame Lernaktivitätsstruktur.",
+        "sourceIds": [
+          "qa-question:151c6538-32f0-490e-a1d0-aa1861395943"
+        ]
+      },
+      {
+        "text": "Teilnehmende erhalten Rückmeldungen, sobald ihr persönliches Fragenkontingent erreicht ist.",
+        "sourceIds": [
+          "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a"
+        ]
+      },
+      {
+        "text": "Freitext, Kurztext und Wortwolke unterscheiden sich im didaktischen Einsatz im Demo-Quiz.",
+        "sourceIds": [
+          "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5"
+        ]
+      }
+    ],
+    "suggestedNextSteps": [
+      {
+        "text": "Prüfe die didaktischen Vorteile von Wortwolken im Kontext von gemeinsamen Nachbesprechungen.",
+        "sourceIds": [
+          "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+        ]
+      }
+    ],
+    "limitations": [
+      "Die Zusammenfassung ist unsicher."
+    ],
+    "rohausgabe": {
+      "status": "uncertain",
+      "statements": [
+        {
+          "text": "Zauberwürfel-Frage zeigt eine Fehlvorstellung auf und erläutert deren Auflösung.",
+          "sourceIds": [
+            "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937"
+          ]
+        },
+        {
+          "text": "Zuordnung, Sortierung und Kategorisierung teilen eine gemeinsame Lernaktivitätsstruktur.",
+          "sourceIds": [
+            "qa-question:151c6538-32f0-490e-a1d0-aa1861395943"
+          ]
+        },
+        {
+          "text": "Teilnehmende erhalten Rückmeldungen, sobald ihr persönliches Fragenkontingent erreicht ist.",
+          "sourceIds": [
+            "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a"
+          ]
+        },
+        {
+          "text": "Freitext, Kurztext und Wortwolke unterscheiden sich im didaktischen Einsatz im Demo-Quiz.",
+          "sourceIds": [
+            "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5"
+          ]
+        }
+      ],
+      "suggestedNextSteps": [
+        {
+          "text": "Prüfe die didaktischen Vorteile von Wortwolken im Kontext von gemeinsamen Nachbesprechungen.",
+          "sourceIds": [
+            "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 2,
+    "kalt": false,
+    "startedAt": 1795187532704,
+    "endedAt": 1795187533441,
+    "gesamtMs": 737,
+    "packed": {
+      "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6468,
+        "packedInputTokens": 7321,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "unavailable",
+    "schemaGueltig": false
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 3,
+    "kalt": false,
+    "startedAt": 1795187533443,
+    "endedAt": 1795187533445,
+    "gesamtMs": 2,
+    "packed": {
+      "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6468,
+        "packedInputTokens": 7321,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "unavailable",
+    "schemaGueltig": false
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 4,
+    "kalt": false,
+    "startedAt": 1795187533448,
+    "endedAt": 1795187533451,
+    "gesamtMs": 3,
+    "packed": {
+      "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6468,
+        "packedInputTokens": 7321,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "unavailable",
+    "schemaGueltig": false
+  },
+  {
+    "fall": "d-456-teilmenge",
+    "variante": "texte-metadaten",
+    "lauf": 5,
+    "kalt": false,
+    "startedAt": 1795187533453,
+    "endedAt": 1795187533453,
+    "gesamtMs": 0,
+    "packed": {
+      "snapshotHash": "9c68857ef906632308b25e78294a183d74c0e36a04425730c2b082a0da785c3c",
+      "budget": {
+        "version": "moderation-prompt-budget-v1",
+        "tokenizer": {
+          "method": "conservative-estimate",
+          "id": "utf8-byte-upper-bound",
+          "version": "1"
+        },
+        "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+        "contextWindowTokens": 8192,
+        "instructionTokens": 650,
+        "definitionTokens": 203,
+        "dataTokens": 6468,
+        "packedInputTokens": 7321,
+        "reservedOutputTokens": 640,
+        "safetyMarginTokens": 128,
+        "truncations": [
+          {
+            "section": "questions",
+            "omittedItems": 185,
+            "reason": "deduplication"
+          },
+          {
+            "section": "questions",
+            "omittedItems": 7,
+            "reason": "token-budget"
+          }
+        ]
+      },
+      "selectionLimits": {
+        "questions": 16,
+        "topics": 0,
+        "compassSignals": 0,
+        "learningObjectives": 0,
+        "resultAggregates": 0,
+        "feedbackAggregates": 0
+      },
+      "corpus": {
+        "total": 300,
+        "eligible": 300,
+        "analyzed": 200,
+        "deduplicated": 15,
+        "represented": 8
+      },
+      "representedItems": [
+        "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+        "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+        "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+        "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+        "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+        "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+        "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+        "qa-question:7169d795-f739-40dd-ba20-2de654d81582"
+      ],
+      "qaSources": [
+        {
+          "id": "qa-question:0c04e39e-a09c-4704-adc4-f11a955dd937",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:151c6538-32f0-490e-a1d0-aa1861395943",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:28140a20-7776-4afa-b8af-712031ed7b2a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:322bf325-2779-4e0d-a8ff-3c493fcabfc5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:3d7b21a3-16f6-4e9e-9c3f-6a54c68486d7",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:6a21be1d-adee-4191-a39c-665e787d4a9a",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:712af527-7707-4b94-980c-adeb30d594b5",
+          "content": "included",
+          "truncated": false
+        },
+        {
+          "id": "qa-question:7169d795-f739-40dd-ba20-2de654d81582",
+          "content": "included",
+          "truncated": false
+        }
+      ],
+      "gepackteFragetexte": 8,
+      "sections": {
+        "topics": "disabled",
+        "compass": "unavailable",
+        "learningContext": "unavailable"
+      },
+      "votesSichtbar": false,
+      "selectedMode": "full-context"
+    },
+    "llmStatus": "circuit_open",
+    "schemaGueltig": false
+  }
+]

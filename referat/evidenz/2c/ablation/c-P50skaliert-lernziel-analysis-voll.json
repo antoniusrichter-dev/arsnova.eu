@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "moderation-analysis-context-v1",
+  "assembledAt": "2026-11-20T15:02:24.198Z",
+  "context": {
+    "contractVersion": "moderation-domain-context-v1",
+    "representation": "analysis-candidates",
+    "definitionsVersion": "moderation-prompt-definitions-v1",
+    "locale": "de",
+    "meta": {
+      "sourceRevision": "moderation-source-revision-v1:4e99a0722e4433ac0840347bba4260a7a23021abda22e2858ab6d2329f7ae529",
+      "analysisVersion": "moderation-analysis-builder-v1",
+      "selectionVersion": "moderation-analysis-candidates-v1",
+      "revisions": {
+        "questionText": {
+          "state": "available",
+          "value": "qa-ranking-v1:119"
+        },
+        "questionVotes": {
+          "state": "available",
+          "value": "qa-ranking-v1:119:participants:50:50"
+        },
+        "questionStatus": {
+          "state": "available",
+          "value": "qa-ranking-v1:119"
+        },
+        "questionAnswerState": {
+          "state": "unavailable",
+          "reason": "not-collected"
+        },
+        "questionNlp": {
+          "state": "available",
+          "value": "qa-nlp:4ad0e7d859e89b66fef4c621f0223f162890d6be7b20bbae04ec69c88f74a59b"
+        },
+        "topics": {
+          "state": "not-applicable",
+          "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+        },
+        "learningObjectives": {
+          "state": "available",
+          "value": "learning-context-v1:1"
+        },
+        "releasedResults": {
+          "state": "not-applicable",
+          "reason": "Released quiz results do not apply to this session."
+        },
+        "feedback": {
+          "state": "not-applicable",
+          "reason": "Quick feedback is disabled for this session."
+        }
+      }
+    },
+    "scope": {
+      "channels": [
+        "qa"
+      ],
+      "sessionPhase": "LOBBY",
+      "questionFilter": {
+        "state": "available",
+        "statuses": [
+          "PENDING",
+          "ACTIVE",
+          "PINNED"
+        ],
+        "timeWindow": {
+          "kind": "entire-session"
+        }
+      },
+      "activeWeighting": {
+        "kind": "qa-ranking",
+        "version": "qa-ranking-v1",
+        "sortMode": "BEST"
+      },
+      "selectionLimits": {
+        "questions": 200,
+        "topics": 30,
+        "compassSignals": 30,
+        "learningObjectives": 100,
+        "resultAggregates": 100,
+        "feedbackAggregates": 100
+      }
+    },
+    "questions": {
+      "state": "available",
+      "participantBasis": {
+        "state": "available",
+        "kind": "session-participant-record-count",
+        "value": 50,
+        "calculationVersion": "qa-ranking-v1"
+      },
+      "corpus": {
+        "total": 6,
+        "eligible": 6,
+        "analyzed": 6,
+        "deduplicated": 6,
+        "represented": 6
+      },
+      "items": [
+        {
+          "sourceId": "qa-question:5c83bfc5-8ea5-4546-8919-0721a02518e7",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 12,
+            "negative": 0,
+            "net": 12,
+            "total": 12,
+            "bestScore": {
+              "state": "available",
+              "value": 0.7574992425007574
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:b071e59f-bcda-4d95-a29b-ff30ce5a68a5",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 32,
+            "negative": 12,
+            "net": 20,
+            "total": 44,
+            "bestScore": {
+              "state": "available",
+              "value": 0.581508453144907
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0.4897959183673469
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:c9512c57-15fe-4c3c-acfc-777734116d97",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 5,
+            "negative": 0,
+            "net": 5,
+            "total": 5,
+            "bestScore": {
+              "state": "available",
+              "value": 0.565508505247919
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:48057259-e73c-43c0-baaa-cb6bd91c5428",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 4,
+            "negative": 0,
+            "net": 4,
+            "total": 4,
+            "bestScore": {
+              "state": "available",
+              "value": 0.5100999795960008
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 16,
+            "negative": 16,
+            "net": 0,
+            "total": 32,
+            "bestScore": {
+              "state": "available",
+              "value": 0.33630614316859386
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0.8648648648648649
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        },
+        {
+          "sourceId": "qa-question:ff9e49be-f6dd-43e0-92d5-8f8d81adf1df",
+          "status": "ACTIVE",
+          "answerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "votes": {
+            "state": "available",
+            "positive": 8,
+            "negative": 8,
+            "net": 0,
+            "total": 16,
+            "bestScore": {
+              "state": "available",
+              "value": 0.2799923761135083
+            },
+            "controversyScore": {
+              "state": "available",
+              "value": 0.7619047619047619
+            }
+          },
+          "nlp": {
+            "state": "disabled",
+            "reason": "Optional Q&A classification is disabled or was not collected for this question."
+          },
+          "topicSourceIds": []
+        }
+      ]
+    },
+    "topics": {
+      "state": "disabled",
+      "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+    },
+    "compass": {
+      "state": "available",
+      "rulesVersion": "moderation-compass-rules-v1",
+      "signals": [
+        {
+          "sourceId": "compass-signal:friction.0e7ab29630bb263b687bd1678ed004e1a011f0f9eee0c506bf59780376935813",
+          "signal": "high-controversy",
+          "basis": "controversy-score",
+          "cardKind": "friction",
+          "questionSourceIds": [
+            "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841",
+            "qa-question:ff9e49be-f6dd-43e0-92d5-8f8d81adf1df"
+          ],
+          "value": 0.8648648648648649,
+          "reason": "The selected authoritative Q&A controversy scores exceed the visible-label threshold.",
+          "evidence": [
+            {
+              "sourceId": "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841",
+              "detail": "Authoritative Q&A controversy evidence."
+            },
+            {
+              "sourceId": "qa-question:ff9e49be-f6dd-43e0-92d5-8f8d81adf1df",
+              "detail": "Authoritative Q&A controversy evidence."
+            }
+          ],
+          "suggestedNextStep": {
+            "action": "open-discussion",
+            "rationale": "Invite clarification around the contested questions."
+          }
+        }
+      ],
+      "primarySignalSourceId": "compass-signal:friction.0e7ab29630bb263b687bd1678ed004e1a011f0f9eee0c506bf59780376935813"
+    },
+    "learningContext": {
+      "state": "available",
+      "objectives": [
+        {
+          "sourceId": "learning-objective:88dfb97e-bb38-4b40-9d01-8484f1ddaa20",
+          "scope": {
+            "kind": "session"
+          },
+          "origin": {
+            "kind": "manual"
+          },
+          "confirmation": {
+            "state": "confirmed",
+            "confirmedAt": "2026-11-20T15:02:09.684Z",
+            "revision": "learning-objective-revision-v1:0"
+          }
+        }
+      ]
+    },
+    "releasedResults": {
+      "state": "not-applicable",
+      "reason": "Released quiz results do not apply to this session."
+    },
+    "feedback": {
+      "state": "disabled",
+      "reason": "Quick feedback is disabled for this session."
+    },
+    "sources": [
+      {
+        "id": "compass-signal:friction.0e7ab29630bb263b687bd1678ed004e1a011f0f9eee0c506bf59780376935813",
+        "kind": "compass-signal",
+        "label": "Q&A controversy"
+      },
+      {
+        "id": "learning-objective:88dfb97e-bb38-4b40-9d01-8484f1ddaa20",
+        "kind": "learning-objective",
+        "text": "Die Studierenden können lineare Regressionsmodelle anwenden."
+      },
+      {
+        "id": "qa-question:243a6001-abf8-46c3-953f-0e2e84b18841",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Soll die Anwesenheit verpflichtend sein?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:48057259-e73c-43c0-baaa-cb6bd91c5428",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Gibt es ein weiteres Beispiel zur linearen Regression?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:5c83bfc5-8ea5-4546-8919-0721a02518e7",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Ist Kapitel 4 klausurrelevant?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:b071e59f-bcda-4d95-a29b-ff30ce5a68a5",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Können wir mehr Beispiele zur linearen Regression bearbeiten?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:c9512c57-15fe-4c3c-acfc-777734116d97",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Müssen wir den vierten Abschnitt für die Prüfung lernen?",
+          "truncated": false
+        }
+      },
+      {
+        "id": "qa-question:ff9e49be-f6dd-43e0-92d5-8f8d81adf1df",
+        "kind": "qa-question",
+        "content": {
+          "state": "included",
+          "text": "Sollten wir eine Anwesenheitspflicht einführen?",
+          "truncated": false
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "code": "module-disabled",
+        "section": "feedback",
+        "detail": "Quick feedback is disabled for this session."
+      },
+      {
+        "code": "module-disabled",
+        "section": "topics",
+        "detail": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+baseline a-P200 voll {'Z80 doppelter Lead EN': 5}
+baseline b-P200-lernziel voll {'Z68 ohne Lead (4/4)': 1, 'Z68 ohne Lead (3/3)': 4}
+baseline c-P50skaliert-lernziel voll {'Z68 ohne Lead (3/4)': 1, 'Z68 ohne Lead (4/4)': 4}
+baseline d-456-teilmenge voll {'Z68 ohne Lead (4/4)': 5}
+ablation a-P200 nur-texte {'ok': 5}
+ablation a-P200 texte-metadaten {'ok': 5}
+ablation b-P200-lernziel nur-texte {'ok': 5}
+ablation b-P200-lernziel texte-metadaten {'Z68 ohne Lead (3/3)': 5}
+ablation c-P50skaliert-lernziel nur-texte {'Z68 ohne Lead (3/3)': 5}
+ablation c-P50skaliert-lernziel texte-metadaten {'Z68 ohne Lead (3/3)': 5}
+ablation d-456-teilmenge nur-texte {'Z68 ohne Lead (4/4)': 5}
+ablation d-456-teilmenge texte-metadaten {'Z68 ohne Lead (4/4)': 1, 'ungültig': 4}
+ablation-wiederholung-nach-oom d-456-teilmenge texte-metadaten {'Z68 ohne Lead (4/4)': 5}

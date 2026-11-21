@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "qa-summary-context-preview-v1",
+  "promptContext": {
+    "schemaVersion": 1,
+    "contractVersion": "moderation-prompt-context-v1",
+    "packedAt": "2026-11-20T14:47:17.181Z",
+    "hashAlgorithm": "sha-256",
+    "hashMaterialVersion": "moderation-prompt-hash-material-v1",
+    "snapshotHash": "0cc08f09d3dd8be03a1208d328b63a80d9dee65c9d77c60d5478a4a00b5910fa",
+    "context": {
+      "contractVersion": "moderation-domain-context-v1",
+      "representation": "prompt-selection",
+      "definitionsVersion": "moderation-prompt-definitions-v1",
+      "locale": "de",
+      "meta": {
+        "sourceRevision": "moderation-source-revision-v1:1b694417a0ec069b156c6d7dca8914173947cf94e3259be4db36bacb4bba0499",
+        "analysisVersion": "moderation-analysis-builder-v1",
+        "selectionVersion": "moderation-prompt-selection-v1",
+        "revisions": {
+          "questionText": {
+            "state": "available",
+            "value": "qa-ranking-v1:4568"
+          },
+          "questionVotes": {
+            "state": "available",
+            "value": "qa-ranking-v1:4568:participants:30:30"
+          },
+          "questionStatus": {
+            "state": "available",
+            "value": "qa-ranking-v1:4568"
+          },
+          "questionAnswerState": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "questionNlp": {
+            "state": "available",
+            "value": "qa-nlp:26a71fd9bb16b201623a8218312d272a391da312481ca575d0e7196ef96c5ce4"
+          },
+          "topics": {
+            "state": "not-applicable",
+            "reason": "Semantische Q&A-Themen sind serverseitig deaktiviert."
+          },
+          "learningObjectives": {
+            "state": "unavailable",
+            "reason": "not-collected"
+          },
+          "releasedResults": {
+            "state": "not-applicable",
+            "reason": "Released quiz results do not apply to this session."
+          },
+          "feedback": {
+            "state": "not-applicable",
+            "reason": "Quick feedback is disabled for this session."
+          }
+        }
+      },
+      "scope": {
+        "channels": [
+          "qa"
+        ],
+        "sessionPhase": "LOBBY",
+        "questionFilter": {
+          "state": "available",
+          "statuses": [
+            "PENDING",
+            "ACTIVE",
+            "PINNED"
+          ],
+          "timeWindow": {
+            "kind": "entire-session"
+          }
+        },
+        "activeWeighting": {
+          "kind": "qa-ranking",
+          "version": "qa-ranking-v1",
+          "sortMode": "BEST"
+        },
+        "selectionLimits": {
+          "questions": 16,
+          "topics": 0,
+          "compassSignals": 0,
+          "learningObjectives": 0,
+          "resultAggregates": 0,
+          "feedbackAggregates": 0
+        }
+      },
+      "questions": {
+        "state": "available",
+        "participantBasis": {
+          "state": "available",
+          "kind": "session-participant-record-count",
+          "value": 30,
+          "calculationVersion": "qa-ranking-v1"
+        },
+        "corpus": {
+          "total": 300,
+          "eligible": 300,
+          "analyzed": 200,
+          "deduplicated": 15,
+          "represented": 8
+        },
+        "items": [
+          {
+            "sourceId": "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          },
+          {
+            "sourceId": "qa-question:8182c299-330d-480d-a80d-39d76afb8531",
+            "status": "ACTIVE",
+            "answerState": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "votes": {
+              "state": "unavailable",
+              "reason": "not-collected"
+            },
+            "nlp": {
+              "state": "disabled",
+              "reason": "qa-baseline"
+            },
+            "topicSourceIds": []
+          }
+        ]
+      },
+      "topics": {
+        "state": "disabled",
+        "reason": "qa-baseline"
+      },
+      "compass": {
+        "state": "unavailable",
+        "reason": "outside-scope"
+      },
+      "learningContext": {
+        "state": "unavailable",
+        "reason": "outside-scope"
+      },
+      "releasedResults": {
+        "state": "not-released",
+        "reason": "qa-baseline"
+      },
+      "feedback": {
+        "state": "not-applicable",
+        "reason": "qa-baseline"
+      },
+      "sources": [
+        {
+          "id": "qa-question:1272c91b-7525-4999-b8d6-81da01e347d2",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Welche Lernstrategien aus der Wortwolke eignen sich besonders für eine gemeinsame Nachbesprechung?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:29b98a7b-e239-4402-a967-40394631f94a",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Warum folgt bei der Genexpression die RNA-Prozessierung auf die Transkription?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:2e74735b-af8f-41f3-a4d4-761a4bbf260d",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Warum ist bei der Live-Check-Frage eine Mehrfachauswahl fachlich sinnvoll?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:39da27cb-4e69-4cc5-968b-80088d4f9f38",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Wie unterscheiden sich Freitext, Kurztext und Wortwolke im didaktischen Einsatz des Demo-Quiz?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:54db2b5b-a05d-42e5-a55e-57a17111812b",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Welche Rückmeldungen erhalten Teilnehmende, wenn ihr persönliches Fragenkontingent erreicht ist?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:5b4e535a-74e5-4b7a-b652-36d07612b10f",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Wie schützt arsnova.eu die Sitzung, wenn viele Teilnehmende dieselbe Campus-IP-Adresse verwenden?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:79041df6-3efd-48fe-b1d7-ea96b4342618",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Welche Gemeinsamkeit haben Zuordnung, Sortierung und Kategorisierung als Lernaktivitäten?",
+            "truncated": false
+          }
+        },
+        {
+          "id": "qa-question:8182c299-330d-480d-a80d-39d76afb8531",
+          "kind": "qa-question",
+          "content": {
+            "state": "included",
+            "text": "Wie können Lehrende Q&A-Fragen anheften, archivieren oder für die Präsentation auswählen?",
+            "truncated": false
+          }
+        }
+      ],
+      "limitations": [
+        {
+          "code": "budget-truncated",
+          "section": "topics",
+          "detail": "qa-baseline"
+        },
+        {
+          "code": "budget-truncated",
+          "section": "questions",
+          "detail": "7 item(s) were omitted by deterministic prompt packing."
+        }
+      ]
+    },
+    "budget": {
+      "version": "moderation-prompt-budget-v1",
+      "tokenizer": {
+        "method": "conservative-estimate",
+        "id": "utf8-byte-upper-bound",
+        "version": "1"
+      },
+      "modelProfile": "qwen3-4b-instruct-2507-q4_k_m:ctx-8192:summary-v2",
+      "contextWindowTokens": 8192,
+      "instructionTokens": 650,
+      "definitionTokens": 203,
+      "dataTokens": 6351,
+      "packedInputTokens": 7204,
+      "reservedOutputTokens": 640,
+      "safetyMarginTokens": 128,
+      "truncations": [
+        {
+          "section": "questions",
+          "omittedItems": 185,
+          "reason": "deduplication"
+        },
+        {
+          "section": "questions",
+          "omittedItems": 7,
+          "reason": "token-budget"
+        }
+      ]
+    }
+  },
+  "instructionVersion": "qa-summary-technical-handoff-v5",
+  "definitionVersion": "moderation-prompt-definitions-v1",
+  "capabilities": {
+    "contractVersion": "qa-summary-adapter-capabilities-v1",
+    "adapterId": "arsnova-summary-adapter-v2",
+    "modes": [
+      {
+        "kind": "full-context",
+        "requestContract": "qa-summary-context-v2",
+        "outputContract": "qa-summary-model-output-v3",
+        "promptContextContract": "moderation-prompt-context-v1",
+        "definitionVersion": "moderation-prompt-definitions-v1"
+      },
+      {
+        "kind": "legacy-text"
+      }
+    ]
+  },
+  "selectedMode": "full-context",
+  "fallback": null,
+  "cache": "miss"
+}
