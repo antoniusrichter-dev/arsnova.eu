@@ -1,6 +1,6 @@
 # KI-Offenlegung – Referat Thema 2 (Gruppe 8)
 
-> Stand 2026-11-21 · Branch `referat/thema2-gruppe8` · Produktcode 1.3.0 (`efd71b44`).
+> Stand 2026-11-22 · Branch `referat/thema2-gruppe8` · Produktcode 1.3.0 (`efd71b44`).
 > Grundlage: Runbook `runbook-claude-code-thema2.md` (ein Prompt pro Schritt), `referat/evidenz/protokoll.md` und die Git-Historie des Branches.
 > Die Spalte **„Von uns geprüft/korrigiert“** füllen die Gruppenmitglieder selbst aus. Sie ist absichtlich leer.
 
@@ -9,7 +9,7 @@
 - **Werkzeug:** Claude Code (Anthropic), CLI in WSL2 (Ubuntu) auf dem Rechner von Antonius Richter. Version dieser Sitzung: 2.1.330.
 - **Modell:** Claude Opus 5.5 (`claude-opus-5-5`) in der Sitzung vom 2026-11-21 (Nachträge 4.2, Schritte 6.1 und 6.2). Für frühere Sitzungen (2026-11-17 bis 2026-11-21) wurde das Modell nicht protokolliert. *Bitte ergänzen.*
 - **Arbeitsweise:** Je Runbook-Schritt ein Prompt. Claude Code hat Code und Skripte geschrieben, Befehle nur gegen Loopback-Ziele ausgeführt und Ergebnisse protokolliert. Regeln für alle Sitzungen stehen in `CLAUDE.md`: Produktcode nicht ändern, keine Secrets, keine SaaS-LLMs als Versuchsmodell, Commits je Auftrag mit dem jeweiligen Autor.
-- **Nicht durch KI:** Hypothesen und Entscheidungsschwellen, Labels der Referenzmenge (2B), Interpretation, Handout. Ausnahmen, in denen die KI Bewertungs- oder Interpretationstexte **entworfen** hat, stehen unten gesondert.
+- **Nicht durch KI:** Hypothesen und Entscheidungsschwellen, Labels der Referenzmenge (2B), Interpretation. Das Handout 2C ist ein Entwurf von Claude Code, von Antonius Richter geprüft und überarbeitet (siehe unten). Ausnahmen, in denen die KI Bewertungs- oder Interpretationstexte **entworfen** hat, stehen unten gesondert.
 - **Prompts:** Die Prompt-Texte stehen im Runbook. Es wurden keine Secrets, `.env`-Inhalte oder Tokens in Prompts übergeben.
 
 ## Schritte
@@ -43,6 +43,7 @@
 | 5.4 (Rubrik 2C) | 2C | **Rubrik K1–K5 auf LLM-Ausgaben, Fall P = 200**, Vergleich mit 2A | `referat/evidenz/2c/rubrik-2c.md` | **KI-Entwurf (Claude), von Antonius Richter geprüft und freigegeben**; Zeilenbezüge und 2A-Werte von der KI gegen CSV und `rubrik.md` geprüft | |
 | 6.1 | 2A/2B/2C | Abbildungen (PNG 300 dpi, SVG, `index.md`) | `referat/abbildungen/svg.ts`, `referat/{2a,2b,2c}/abbildungen.ts`, `referat/evidenz/abbildungen/{2a,2b,2c}/` | Skripte geschrieben, Abbildungen erzeugt und auf Überlappungen geprüft | |
 | 6.2 | gemeinsam | Diese Offenlegung | `referat/evidenz/ki-offenlegung.md` | Entwurf aus Protokoll und Git-Historie | |
+| 7 (Handout 2C) | 2C | **Handout 2C** (Text, Abbildungen, Belegliste) | außerhalb des Repos: `Cloud_Computing/handout-2c/`; Skripte `referat/2c/handout/` | **Entwurf von Claude Code (Claude Opus 5.5), von Antonius Richter geprüft und überarbeitet** | |
 
 ## Von der KI entworfene Bewertungs- und Interpretationstexte
 
@@ -58,3 +59,4 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Rubrikbewertung 2C (3 LLM-Ausgaben × 5 Kriterien, Bemerkungen) | `referat/evidenz/2c/rubrik-2c.md` | Antonius Richter | freigegeben |
 | Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | | |
 | Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | | |
+| Handout 2C (gesamter Text, Entscheidung, Gruppensynthese, Abbildungen) | `Cloud_Computing/handout-2c/handout-2c.{md,docx,pdf}` (außerhalb des Repos) | Antonius Richter | geprüft und überarbeitet |
