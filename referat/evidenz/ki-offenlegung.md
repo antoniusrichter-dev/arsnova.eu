@@ -27,13 +27,13 @@
 | 3.4 | 2A | Aufwand (Microbenchmark) | `referat/2a/bench/aufwand.bench.ts`, `referat/evidenz/2a/aufwand*` | Benchmark geschrieben und ausgeführt | ✓ |
 | 3.5 | 2A | Rubrikbogen (Kriterien, Anker) | `referat/evidenz/rubrik.md` | Bogen entworfen, ohne Bewertung | ✓ |
 | 3.5 (Bewertung) | 2A | **Beispielbewertungen** der Rubrik für Regelkern, Extraktion und ungefilterte Fragenliste (P = 200) | `referat/evidenz/rubrik.md`, Abschnitt „Bewertungsbogen“ | **KI-Entwurf (Claude), von Florian Meyer geprüft** (Angabe der Gruppe, im Protokoll nicht vermerkt) | ✓ |
-| 4.1 | 2B | Referenzmenge (80 Fragen) und Labelregeln | `referat/2b/{referenz.csv,referenz_erzeugen.py,labelregeln.md}` | Fragen und Regeln vorgeschlagen; **Labels nicht von der KI** (`label_person1` von Jeremy Richter) | |
-| 4.2 | 2B | Evaluation Kaskade gegen Keyword-Baseline bei drei Schwellen, Referenzlauf `eval:qa-nlp` | `referat/2b/eval.ts`, `referat/evidenz/2b/eval/` | Auswertungsskript geschrieben und ausgeführt | |
-| 4.2 (Nachtrag) | 2B | **Fehlerbegründungen**, Fehlermuster, Einordnung der 10 Sensitivitäts-IDs, Sensitivität 2 (ohne 5 Konfliktfälle) | `referat/evidenz/2b/eval/ergebnis.md`, `ergebnis.json`, `referat/2b/eval.ts` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben**; Sensitivität 2 von der KI gerechnet | |
-| 4.2 (Korrektur) | 2B | Seed-Belege in den Begründungen korrigiert (Seed-Größe, Z. 423, Train-/Eval-Split) | `referat/evidenz/2b/eval/ergebnis.md` | Fehler im eigenen KI-Entwurf (Trainings- vs. Eval-Split nicht beachtet), von der KI bei der Prüfung gefunden und korrigiert; **von Jeremy Richter geprüft und freigegeben** | |
-| 4.2 (Entscheidung) | 2B | **Entscheidung**, Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben** | |
-| 4.3 | 2B | Laufzeit und Burst (200 `qa.submit`, Queue-Limit 100/20) | `referat/2b/{burst.ts,burst-alle.sh,burst-auswertung.ts,start-backend.sh}`, `referat/evidenz/2b/last/` | Skripte geschrieben, Läufe ausgeführt | |
-| 4.4 | 2B | Kontextschnittstelle (#456 nur mit persistierten Kategorien) | `referat/2b/kontext-pruefung.ts`, `referat/evidenz/2b/kontext.md`, `referat/evidenz/2b/kontext/` | Prüfskript geschrieben, Live-Prüfung und Produkttests ausgeführt | |
+| 4.1 | 2B | Referenzmenge (80 Fragen) und Labelregeln | `referat/2b/{referenz.csv,referenz_erzeugen.py,labelregeln.md}` | Fragen und Regeln vorgeschlagen; **Labels nicht von der KI** (`label_person1` von Jeremy Richter) | ✓ |
+| 4.2 | 2B | Evaluation Kaskade gegen Keyword-Baseline bei drei Schwellen, Referenzlauf `eval:qa-nlp` | `referat/2b/eval.ts`, `referat/evidenz/2b/eval/` | Auswertungsskript geschrieben und ausgeführt | ✓ |
+| 4.2 (Nachtrag) | 2B | **Fehlerbegründungen**, Fehlermuster, Einordnung der 10 Sensitivitäts-IDs, Sensitivität 2 (ohne 5 Konfliktfälle) | `referat/evidenz/2b/eval/ergebnis.md`, `ergebnis.json`, `referat/2b/eval.ts` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben**; Sensitivität 2 von der KI gerechnet | ✓ |
+| 4.2 (Korrektur) | 2B | Seed-Belege in den Begründungen korrigiert (Seed-Größe, Z. 423, Train-/Eval-Split) | `referat/evidenz/2b/eval/ergebnis.md` | Fehler im eigenen KI-Entwurf (Trainings- vs. Eval-Split nicht beachtet), von der KI bei der Prüfung gefunden und korrigiert; **von Jeremy Richter geprüft und freigegeben** | ✓ |
+| 4.2 (Entscheidung) | 2B | **Entscheidung**, Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben** | ✓ |
+| 4.3 | 2B | Laufzeit und Burst (200 `qa.submit`, Queue-Limit 100/20) | `referat/2b/{burst.ts,burst-alle.sh,burst-auswertung.ts,start-backend.sh}`, `referat/evidenz/2b/last/` | Skripte geschrieben, Läufe ausgeführt | ✓ |
+| 4.4 | 2B | Kontextschnittstelle (#456 nur mit persistierten Kategorien) | `referat/2b/kontext-pruefung.ts`, `referat/evidenz/2b/kontext.md`, `referat/evidenz/2b/kontext/` | Prüfskript geschrieben, Live-Prüfung und Produkttests ausgeführt | ✓ |
 | 5.1 | 2C | Private Runtime (GGUF revisionsgebunden, SHA-256, Health-Probe) | `referat/2c/runtime/`, `referat/evidenz/2c/runtime/`, Manifest | Befehle ausgeführt und protokolliert | |
 | 5.2 | 2C | Baseline full-context, Fälle a–d × 5 Läufe | `referat/2c/{baseline-lauf.mjs,baseline-alle.sh,fall.sh,llm-proxy.mjs,start-backend.sh,seed-issue456-teilmenge.ts}`, `referat/evidenz/2c/{baseline,seed}/` | Skripte geschrieben, Läufe ausgeführt | |
 | 5.3 | 2C | Ablationen „nur Texte“ und „Texte + Metadaten“, Wiederholung nach OOM | `referat/2c/{ablation-harness.ts,ablation-alle.sh,start-harness.sh}`, `referat/evidenz/2c/ablation*/` | Harness geschrieben (Versuchscode), Läufe ausgeführt, OOM dokumentiert | |
@@ -52,9 +52,9 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Inhalt | Datei | Geprüft von | Stand |
 | ------ | ----- | ----------- | ----- |
 | Beispielbewertungen der Rubrik (3 Varianten × 5 Kriterien, Bemerkungen) | `referat/evidenz/rubrik.md` | Florian Meyer | ✓ |
-| Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben, einschließlich der Korrektur zur Train-/Eval-Aufteilung des Seeds |
-| Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben |
-| Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | freigegeben |
+| Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | ✓ |
+| Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | ✓ |
+| Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | ✓ |
 | Bewertung des Quellentreue-Bogens (Fehlerklassen, `anliegen_fehlt` je Ausgabe, Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | Antonius Richter | geprüft |
 | Rubrikbewertung 2C (3 LLM-Ausgaben × 5 Kriterien, Bemerkungen) | `referat/evidenz/2c/rubrik-2c.md` | Antonius Richter | freigegeben |
 | Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | | |
