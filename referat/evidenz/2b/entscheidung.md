@@ -9,7 +9,7 @@
 
 | Kriterium (Plan) | Schwelle | Gemessen (Kaskade @0,55) | Erfüllt? |
 |---|---|---|---|
-| Precision auf classified | ≥ 0,85 | 0,68 | nein |
+| Accuracy auf klassifizierten Fragen | ≥ 0,85 | 0,678 (67,8 %) | nein |
 | Abdeckung | ≥ 60 % | 74 % | ja |
 | Vorsprung Macro-F1 vor Keyword | ≥ 10 pp | +27 pp (0,571 vs. 0,300) | ja |
 
@@ -21,7 +21,7 @@
 - Kontext #456: Nur gespeicherte Kategorien gehen ein, keine Neuanalyse beim Abruf (live geprüft).
 
 **Entscheidungsvorschlag:**
-> 8.9b in Release 1.3 **nicht als automatische Sortierhilfe aktivieren**. Die Kaskade ist zwar deutlich besser als Keywords, verfehlt aber die Präzisionsschwelle. Ihre Fehler treten mit höchster Konfidenz auf und werden daher nicht als „unsicher“ markiert. Höchstens als ausdrücklich unsicheres Zusatzsignal neben dem Regelkern denkbar, nicht als Grundlage für die Lehrperson.
+> 8.9b in Release 1.3 **nicht als automatische Sortierhilfe aktivieren**. Die Kaskade ist zwar deutlich besser als Keywords, verfehlt aber die Schwelle für die Accuracy auf klassifizierten Fragen. Ihre Fehler treten mit höchster Konfidenz auf und werden daher nicht als „unsicher“ markiert. Höchstens als ausdrücklich unsicheres Zusatzsignal neben dem Regelkern denkbar, nicht als Grundlage für die Lehrperson.
 > **Voraussetzungen für eine spätere Aktivierung:** (1) einheitliche Konvention für Prüfungsrelevanz im Repo, (2) Seed um Aufzeichnung/Werkzeuge/FR-ES erweitern, (3) Kalibrierung der Konfidenz, (4) Skip-Verhalten bei Bursts sichtbar machen (Metrik korrigieren, Nachklassifikation).
 > **Betriebsfolge:** Deaktiviert kostet nichts. Aktiviert ist der Rechenaufwand vernachlässigbar (p50 2 ms), das Risiko liegt in falsch-sicheren Kategorien und stillen Lücken unter Last.
 
