@@ -497,3 +497,15 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - Keine der sechs Konfigurationen (`libs/shared-types/tsconfig.test.json`, `libs/session-export-report/tsconfig.test.json`, `apps/backend/tsconfig.json`, `apps/backend/tsconfig.scripts-test.json`, `apps/frontend/tsconfig.app.json`, `apps/frontend/tsconfig.spec.json`) nimmt `referat/` in `include`/`files` auf. Produktcode importiert nichts aus `referat/`.
   - Beleg mit `tsc --listFilesOnly` je Konfiguration: 378 / 598 / 905 / 345 / 1 382 / 1 609 Dateien, davon jeweils **0** aus `referat/`. Insgesamt gibt es 19 `.ts`-Dateien unter `referat/`.
 - **Folge:** Der übersprungene Hook hätte für die gepushten Commits nichts geprüft, weil diese nur `referat/` und `CLAUDE.md` berühren. Der Versuchscode unter `referat/` wurde nur durch Ausführen mit `tsx` geprüft. `tsx` prüft keine Typen.
+
+## Phase 5 / Nachtrag 5.4 – 2C Quellentreue-Bogen bewertet und ausgewertet (2026-11-22)
+
+- **Bewertung:** `2c/quellentreue-bogen-kompakt.csv` ist ausgefüllt. **KI-Entwurf (Claude), von Antonius Richter geprüft.** Die Langfassung `quellentreue-bogen.csv` bleibt unbewertet.
+- **Aufräumen:** `2c/sedoEBHci` (temporäre Datei, vermutlich Rest eines `sed -i`) gelöscht. Sie war nicht leer, sondern byte-identisch mit der ausgefüllten CSV (34 908 Bytes, `cmp`); es ging nichts verloren. Nie versioniert.
+- **Prüfung des Bogens** (Claude Code, auch als Vorabprüfung im Skript):
+  - LF-Zeilenenden (0 CR), 93 Datenzeilen mit 16 Feldern.
+  - `erfunden`, `kennzahl_verwechselt`, `lernstandsbehauptung`, `pending_als_lernstand`: in allen 93 Zeilen `ja`/`nein`.
+  - `anliegen_fehlt`: 20 Zeilen mit `ja`/`nein`/`n/a`, 73 leer. Leer ist gewollt, weil die Klasse je Ausgabe gilt und nur bei `statement` Nr. 1 steht; jede der 61 Ausgaben hat genau einen Wert.
+  - `bemerkung` in allen Zeilen gefüllt. Summe `vorkommen` = 271 = Zeilen der Langfassung. Die übrigen Spalten sind gegenüber der leeren Fassung (`HEAD`) unverändert.
+- **Auswertung:** `npx tsx referat/2c/quellentreue.ts` → `2c/quellentreue-auswertung.md`, `abbildungen/2c/quellentreue-fehler.{png,svg}`; Befund 6 in `2c/auswertung.md`; `abbildungen/2c/index.md` und die Vorlage in `referat/2c/abbildungen.ts` um die Abbildung ergänzt (nicht neu erzeugt).
+- **Ergebnis:** 89/271 Einträge (33 %) mit mindestens einem Fehler, fast nur `erfunden` (78; `kennzahl_verwechselt` 16; Lernstand/pending 0). Die 15 vom Gate durchgelassenen Ausgaben enthalten 0/45 fehlerhafte Aussagen, aber 5 erfundene nächste Schritte (a/nur Texte); in a fehlt dort in 10/10 Ausgaben ein Anliegen. `anliegen_fehlt` = ja in 35 von 45 bewertbaren Ausgaben.
