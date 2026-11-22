@@ -2,7 +2,7 @@
  * ============================================================================
  * VERSUCHSCODE – KEIN PRODUKTPFAD (Referat Thema 2, Auftrag 2B, Schritt 6.1)
  * ============================================================================
- * Abbildungen aus Schritt 4.2: (1) Abdeckung vs. Precision (Accuracy auf classified) je Schwelle,
+ * Abbildungen aus Schritt 4.2: (1) Abdeckung vs. Accuracy auf klassifizierten Fragen je Schwelle,
  * (2) Reliability-Diagramm Kaskade und Keyword bei der Default-Schwelle 0,55.
  * Eingabe: referat/evidenz/2b/eval/ergebnis.json
  * Ausgabe: referat/evidenz/abbildungen/2b/ (PNG 300 dpi, SVG, index.md)
@@ -60,7 +60,7 @@ function abbildungSchwellen(): string {
   const t: string[] = [];
   t.push(rechteck(x(ZIEL_ABD), y(1), x(1) - x(ZIEL_ABD), y(ZIEL_PREC) - y(1), '#e6f2e6'));
   t.push(text(x(ZIEL_ABD) + 4, y(1) + 10, 'Zielbereich laut Plan', { groesse: 6.5, farbe: FARBE.text2 }));
-  t.push(text(x(ZIEL_ABD) + 4, y(1) + 19, 'Precision ≥ 0,85', { groesse: 6.5, farbe: FARBE.text2 }));
+  t.push(text(x(ZIEL_ABD) + 4, y(1) + 19, 'Accuracy ≥ 0,85', { groesse: 6.5, farbe: FARBE.text2 }));
   t.push(text(x(ZIEL_ABD) + 4, y(1) + 28, 'bei Abdeckung ≥ 60 %', { groesse: 6.5, farbe: FARBE.text2 }));
   for (let k = 0; k <= 10; k += 2) {
     t.push(linie(L, y(k / 10), R, y(k / 10), FARBE.gitter, 0.5));
@@ -70,7 +70,7 @@ function abbildungSchwellen(): string {
   }
   t.push(linie(L, U, R, U, FARBE.achse, 1));
   t.push(text(L + (R - L) / 2, U + 28, `Abdeckung (Anteil classified an n = ${daten.n})`, { groesse: 7.5, anker: 'middle', farbe: FARBE.text2 }));
-  t.push(text(18, O + (U - O) / 2, 'Precision = Accuracy auf classified', { groesse: 7.5, anker: 'middle', farbe: FARBE.text2, drehen: -90 }));
+  t.push(text(18, O + (U - O) / 2, 'Accuracy auf klassifizierten Fragen', { groesse: 7.5, anker: 'middle', farbe: FARBE.text2, drehen: -90 }));
 
   for (const m of METHODEN) {
     const pkt = SCHWELLEN.map((s) => ({ s, w: v(m.key, s) }));
@@ -121,7 +121,7 @@ function abbildungSchwellen(): string {
   return rahmen(
     B,
     H,
-    '2B · Abdeckung und Precision je Konfidenzschwelle',
+    '2B · Abdeckung und Accuracy auf klassifizierten Fragen je Konfidenzschwelle',
     'Keine Variante erreicht den Zielbereich; die Schwelle verschiebt die Kaskade kaum.',
     `Quelle: ${QUELLE} (Schritt 4.2, n = ${daten.n}, Gold = label_person1) · Produktcode efd71b44 · erzeugt auf ${head}`,
     t.join('\n'),
@@ -240,10 +240,10 @@ Datenquelle beider Abbildungen: \`${QUELLE}\` (Schritt 4.2, \`npx tsx referat/2b
 
 ## ${d1}
 
-![Abdeckung und Precision je Schwelle](${d1})
+![Abdeckung und Accuracy auf klassifizierten Fragen je Schwelle](${d1})
 
-- x = Abdeckung (Anteil classified), y = Accuracy auf classified (im Plan „Precision auf classified“). Je Methode drei Punkte für \`QA_NLP_MIN_CONFIDENCE\` = 0,45 / 0,55 / 0,65, in dieser Reihenfolge verbunden.
-- Grün hinterlegt: Zielbereich aus dem Plan (Precision ≥ 0,85 bei Abdeckung ≥ 60 %).
+- x = Abdeckung (Anteil classified), y = Accuracy auf klassifizierten Fragen (im Plan ursprünglich „Precision auf classified“ genannt). Je Methode drei Punkte für \`QA_NLP_MIN_CONFIDENCE\` = 0,45 / 0,55 / 0,65, in dieser Reihenfolge verbunden.
+- Grün hinterlegt: Zielbereich aus dem Plan (Accuracy auf klassifizierten Fragen ≥ 0,85 bei Abdeckung ≥ 60 %).
 - Keyword @0,55 und @0,65 sind identisch und als ein Punkt beschriftet. Die Kaskade wird von 0,45 auf 0,55 *abdeckender* (nicht monoton, siehe \`ergebnis.md\` Beobachtung 4).
 
 | Variante | classified | Abdeckung | Accuracy (classified) |

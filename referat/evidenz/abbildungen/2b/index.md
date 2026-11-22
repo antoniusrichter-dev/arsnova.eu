@@ -1,14 +1,14 @@
 # Abbildungen 2B
 
-Erzeugt mit `npx tsx referat/2b/abbildungen.ts` · Arbeitsstand `0ca910f1` · Produktcode 1.3.0 `efd71b44` · PNG 300 dpi, SVG daneben als Quelle.
+Erzeugt mit `npx tsx referat/2b/abbildungen.ts` · Arbeitsstand `3316d5c4` · Produktcode 1.3.0 `efd71b44` · PNG 300 dpi, SVG daneben als Quelle.
 Datenquelle beider Abbildungen: `referat/evidenz/2b/eval/ergebnis.json` (Schritt 4.2, `npx tsx referat/2b/eval.ts`), Referenzmenge `referat/2b/referenz.csv` mit n = 80, Gold = `label_person1` (eine labelnde Person).
 
 ## abdeckung-precision-schwellen.png
 
-![Abdeckung und Precision je Schwelle](abdeckung-precision-schwellen.png)
+![Abdeckung und Accuracy auf klassifizierten Fragen je Schwelle](abdeckung-precision-schwellen.png)
 
-- x = Abdeckung (Anteil classified), y = Accuracy auf classified (im Plan „Precision auf classified“). Je Methode drei Punkte für `QA_NLP_MIN_CONFIDENCE` = 0,45 / 0,55 / 0,65, in dieser Reihenfolge verbunden.
-- Grün hinterlegt: Zielbereich aus dem Plan (Precision ≥ 0,85 bei Abdeckung ≥ 60 %).
+- x = Abdeckung (Anteil classified), y = Accuracy auf klassifizierten Fragen (im Plan ursprünglich „Precision auf classified“ genannt). Je Methode drei Punkte für `QA_NLP_MIN_CONFIDENCE` = 0,45 / 0,55 / 0,65, in dieser Reihenfolge verbunden.
+- Grün hinterlegt: Zielbereich aus dem Plan (Accuracy auf klassifizierten Fragen ≥ 0,85 bei Abdeckung ≥ 60 %).
 - Keyword @0,55 und @0,65 sind identisch und als ein Punkt beschriftet. Die Kaskade wird von 0,45 auf 0,55 *abdeckender* (nicht monoton, siehe `ergebnis.md` Beobachtung 4).
 
 | Variante | classified | Abdeckung | Accuracy (classified) |
