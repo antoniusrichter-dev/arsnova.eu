@@ -40,6 +40,7 @@
 | 5.4 | 2C | Auswertung, Gate-Gründe, Quellentreue-Bogen (leer) | `referat/2c/{auswertung.ts,gate-gruende.py,bogen-kompakt.py}`, `referat/evidenz/2c/{auswertung*,gate-gruende.txt,quellentreue-bogen*.csv}` | Auswertung geschrieben; Bogen **ohne Bewertung** | |
 | 5.4 (Bewertung) | 2C | **Bewertung des Quellentreue-Bogens** (Kompaktfassung, 93 Zeilen, Fehlerklassen und Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | **KI-Entwurf (Claude), von Antonius Richter geprüft** | |
 | 5.4 (Auswertung Bogen) | 2C | Prüfung des Bogens, Fehlerklassen je Fall und Variante, Befund 6, Abbildung | `referat/2c/quellentreue.ts`, `referat/evidenz/2c/{quellentreue-auswertung.md,auswertung.md}`, `referat/evidenz/abbildungen/2c/quellentreue-fehler.*`, `index.md` | Skript geschrieben und ausgeführt; Befundtext entworfen | |
+| 5.4 (Rubrik 2C) | 2C | **Rubrik K1–K5 auf LLM-Ausgaben, Fall P = 200**, Vergleich mit 2A | `referat/evidenz/2c/rubrik-2c.md` | **KI-Entwurf (Claude), von Antonius Richter geprüft und freigegeben**; Zeilenbezüge und 2A-Werte von der KI gegen CSV und `rubrik.md` geprüft | |
 | 6.1 | 2A/2B/2C | Abbildungen (PNG 300 dpi, SVG, `index.md`) | `referat/abbildungen/svg.ts`, `referat/{2a,2b,2c}/abbildungen.ts`, `referat/evidenz/abbildungen/{2a,2b,2c}/` | Skripte geschrieben, Abbildungen erzeugt und auf Überlappungen geprüft | |
 | 6.2 | gemeinsam | Diese Offenlegung | `referat/evidenz/ki-offenlegung.md` | Entwurf aus Protokoll und Git-Historie | |
 
@@ -54,5 +55,6 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben |
 | Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | freigegeben |
 | Bewertung des Quellentreue-Bogens (Fehlerklassen, `anliegen_fehlt` je Ausgabe, Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | Antonius Richter | geprüft |
+| Rubrikbewertung 2C (3 LLM-Ausgaben × 5 Kriterien, Bemerkungen) | `referat/evidenz/2c/rubrik-2c.md` | Antonius Richter | freigegeben |
 | Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | | |
 | Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | | |
