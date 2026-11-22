@@ -517,3 +517,10 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - Zeilenbezüge (Dateizeile inkl. Kopf) stimmen: Z. 2–7 = baseline/a-P200/voll (enthält „authoritative evidence“ Z. 2, C „neutral“ Z. 4); Z. 13–16 = baseline/b-P200-lernziel/voll, Läufe 2–5 (C „beantwortet“ Z. 14, Lernziel Z. 15); Z. 43–48 = ablation/b-P200-lernziel/nur-texte (alle drei Anliegen A/E/C, Z. 43). Summen 4/5/7 nachgerechnet.
   - Hinweis: Lauf 1 von b/voll ist eine andere Ausgabe (Z. 8–12) und ist nicht Teil der Rubrikbewertung.
   - **Abweichung bei den 2A-Werten:** Vorgabe Regelkern 4 · Extraktion 5; laut `rubrik.md` Regelkern **5** · Extraktion **4** (Ungefilterte Liste 5 stimmt). Auf Entscheidung von Antonius Richter wurden die Werte aus `rubrik.md` übernommen.
+
+## Phase 5 / Nachtrag 5.4 – 2C Cache-Anteil der kalten Ablationsläufe, KI-Offenlegung Handout (2026-11-22)
+
+- **Befund bei der Handout-Prüfung (Claude Code):** Die „kalten“ Ablationsläufe übernehmen 215–630 Tokens aus dem Prompt-Cache (`cache_n`), bei „Texte + Metadaten“ ≈ 42 % des Prompts. Sie sind damit nicht rein kalt; ihre Prefill-Zeiten sind nicht direkt mit der Baseline vergleichbar.
+- **Korrigierte Prefill-Schätzung:** `prefill_ms / prompt_n` in den 12 kalten Läufen vor dem OOM = 1,15–1,37 s je 100 neu verarbeitete Tokens (≈ 1,2–1,4 s), Wiederholung nach OOM 1,48 s. Eine frühere Handout-Fassung hatte 0,7–1,4 s angegeben, weil sie fälschlich durch die Prompt-Tokens statt durch `prompt_n` geteilt hatte. Nachtrag mit Tabelle in `2c/auswertung.md` (Befund 5).
+- Messwerte und Rohdaten unverändert, keine neue Messung.
+- `ki-offenlegung.md`: Das Handout 2C ist als Entwurf von Claude Code ausgewiesen, von Antonius Richter geprüft und überarbeitet (Commit `723e5d7c`).

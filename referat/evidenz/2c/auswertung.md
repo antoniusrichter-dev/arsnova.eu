@@ -137,7 +137,31 @@ Quellenbindung: In keinem gültigen Lauf hat `bindQaSummaryModelOutputV2` eine s
   - Fall d (≈ 2 200 Tokens): 24,1–24,3 s, 11,1–11,2 Tokens/s.
   - Ein Einbruch der Generierungsrate durch Swap ist nicht erkennbar: Die Modellgewichte liegen als Datei-Mapping im Page Cache und nicht im Swap. Die Werte bleiben trotzdem getrennt ausgewiesen.
 - **Cache-Treffer** (Läufe 2–5): Rest-Prefill 74–103 ms, also nur ein Token, kein echtes Prefill.
+- **Einschränkung (Nachtrag 2026-11-22):** Die „kalten“ Ablationsläufe übernehmen 215–630 Tokens aus dem Prompt-Cache und sind nicht rein kalt; siehe Nachtrag unten.
 - **Auffälligkeit:** Die swapfreie Wiederholung von d ist langsamer als die Läufe vor dem OOM (Prefill kalt 32,1 s statt 24,3 s, 9,1 statt 11,2 Tokens/s). Bei gleicher Runtime-Konfiguration wurde die Ursache nicht untersucht; Möglich ist Host-Last zum Wiederholungszeitpunkt (19:33 MEZ), etwa durch den Restart-Loop von `arsnova-v3-app`. Der Container lief während aller 2C-Messungen im Loop und wurde am 2026-11-21 gestoppt; seine CPU-Last wurde nicht gemessen, die Erklärung ist also nicht belegt.
+
+### Nachtrag 2026-11-22 – „kalte“ Ablationsläufe nutzen den Prompt-Cache teilweise
+
+- Die Regel „kalt = `cache_n` < 50 % der Prompt-Tokens“ (Lesehilfe) stuft auch Läufe als kalt ein, die einen Teil des Prompts aus dem Cache übernehmen. Der gemeinsame Präfix (technischer Prompt, Definitionen, Kontextkopf) ist bereits im Cache.
+- In den kalten Ablationsläufen sind das 215–630 Tokens, bei „Texte + Metadaten“ 624–630 von 1 464–1 485 Tokens (≈ 42 %). Diese Läufe sind daher **nicht rein kalt**. Ihre Prefill-Zeiten (10,2–12,7 s) sind nicht direkt mit der Baseline (23,5–27,4 s, `cache_n` 3–189) vergleichbar. Der Zeitvorteil der Ablationen beruht nur zum Teil auf dem kürzeren Prompt.
+- **Korrigierte Prefill-Schätzung:** Rechenweg `prefill_ms / prompt_n` (`prompt_n` = tatsächlich neu verarbeitete Tokens, also ohne `cache_n`), umgerechnet auf 100 Tokens. In den 12 kalten Läufen vor dem OOM ergibt das 1,15–1,37 s, also **≈ 1,2–1,4 s je 100 neu verarbeitete Prompt-Tokens**. Die Messbedingung (swapfrei bzw. unter Swap) ändert daran nichts erkennbar. Ausreißer ist die Wiederholung nach dem OOM mit 1,48 s (siehe Befund 5, Auffälligkeit).
+- Quelle: `auswertung.csv`, Zeilen mit `prefill_art = kalt`, Felder `prompt_tokens`, `cache_n`, `prompt_n`, `prefill_ms`, `unter_swap`.
+
+| Fall | Variante | Prompt-Tokens | davon aus Cache (`cache_n`) | neu verarbeitet (`prompt_n`) | Prefill (ms) | s je 100 neu verarbeitete Tokens | Messbedingung |
+| ---- | -------- | ----: | ----: | ----: | ----: | ----: | ---- |
+| baseline a-P200 | voll | 2005 | 3 | 2002 | 27391 | 1,37 | swapfrei |
+| baseline b-P200-lernziel | voll | 2141 | 189 | 1952 | 23540 | 1,21 | swapfrei |
+| baseline c-P50skaliert-lernziel | voll | 2162 | 189 | 1973 | 24012 | 1,22 | swapfrei |
+| baseline d-456-teilmenge | voll | 2207 | 178 | 2029 | 25017 | 1,23 | unter Swap |
+| ablation a-P200 | nur-texte | 1310 | 215 | 1095 | 12654 | 1,16 | unter Swap |
+| ablation a-P200 | texte-metadaten | 1485 | 629 | 856 | 10337 | 1,21 | unter Swap |
+| ablation b-P200-lernziel | nur-texte | 1292 | 304 | 988 | 11457 | 1,16 | unter Swap |
+| ablation b-P200-lernziel | texte-metadaten | 1464 | 624 | 840 | 10212 | 1,22 | unter Swap |
+| ablation c-P50skaliert-lernziel | nur-texte | 1305 | 345 | 960 | 10998 | 1,15 | unter Swap |
+| ablation c-P50skaliert-lernziel | texte-metadaten | 1492 | 630 | 862 | 10311 | 1,20 | unter Swap |
+| ablation d-456-teilmenge | nur-texte | 2190 | 215 | 1975 | 24128 | 1,22 | unter Swap |
+| ablation d-456-teilmenge | texte-metadaten | 2227 | 265 | 1962 | 24347 | 1,24 | unter Swap |
+| ablation-wiederholung-nach-oom d-456-teilmenge | texte-metadaten, Wdh. nach OOM | 2173 | 0 | 2173 | 32139 | 1,48 | swapfrei |
 
 ## Vergleich mit der 2A-Extraktion (`referat/evidenz/2a/fallback/`)
 
