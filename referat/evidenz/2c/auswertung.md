@@ -93,7 +93,7 @@ Gemeinsam ist allen Fällen, dass das Gate inhaltlich brauchbare, quellengebunde
 
 Das Gate bestehen nur a/nur-texte (5/5; Modellstatus `uncertain`, aber 3 Aussagen mit Lead), a/texte-metadaten (5/5 `ready`) und b/nur-texte (5/5 `ready`). Alle anderen Ablationen scheitern an Z. 68 (kein Lead).
 
-Die Aussagen, die das Gate bestehen, sind meist wörtlich wiedergegebene Fragen mit vorangestelltem Thema („Klausurrelevanz: Ist Kapitel 4 klausurrelevant?“). Bei a/texte-metadaten fehlt darin die Anwesenheitskontroverse, weil E/F nicht im Kontext waren. Ob das inhaltlich trägt, klärt erst der Quellentreue-Bogen (Fehlerklasse `anliegen_fehlt`).
+Die Aussagen, die das Gate bestehen, sind meist wörtlich wiedergegebene Fragen mit vorangestelltem Thema („Klausurrelevanz: Ist Kapitel 4 klausurrelevant?“). Bei a/texte-metadaten fehlt darin die Anwesenheitskontroverse, weil E/F nicht im Kontext waren. Ob das inhaltlich trägt, klärt erst der Quellentreue-Bogen (Fehlerklasse `anliegen_fehlt`). Ergebnis: Befund 6 – bei a fehlt das Anliegen in allen durchgelassenen Ausgaben.
 
 Quellenbindung: In keinem gültigen Lauf hat `bindQaSummaryModelOutputV2` eine sourceId entfernt. Das Modell zitiert nur erlaubte Quellen.
 
@@ -160,5 +160,22 @@ Ergebnis des Vergleichs: Mit der privaten Runtime zeigt 1.3.0 in den Fällen a u
 - Spalten: `modus`, `fall`, `variante`, `lauf`, `art`, `nr`, `gate_ok` (true = im Produkt angezeigt), `aussagetext`, `sourceIds` (A–F bzw. sourceId).
 - Leere Fehlerklassen: `erfunden`, `kennzahl_verwechselt`, `anliegen_fehlt`, `lernstandsbehauptung`, `pending_als_lernstand`, `bemerkung`.
 - Da die Läufe 2–5 je Fall/Variante bei `temperature: 0` meist textgleich sind, genügt es, Lauf 1 voll zu bewerten und für die übrigen Läufe die Abweichungen zu markieren.
-- Kompaktfassung `quellentreue-bogen-kompakt.csv` (`referat/2c/bogen-kompakt.py`): 93 Zeilen. Identische Aussagen sind zusammengefasst, mit den Spalten `vorkommen` und `lauf_ids`; die Fehlerklassen sind leer.
-- Die Bewertung ist noch offen.
+- Kompaktfassung `quellentreue-bogen-kompakt.csv` (`referat/2c/bogen-kompakt.py`): 93 Zeilen. Identische Aussagen sind zusammengefasst, mit den Spalten `vorkommen` und `lauf_ids`.
+- **Bewertung (Nachtrag 2026-11-22):** Die Kompaktfassung ist ausgefüllt. **KI-Entwurf (Claude), von Antonius Richter geprüft.** Die Langfassung `quellentreue-bogen.csv` bleibt unbewertet; die Kompaktfassung deckt über `vorkommen`/`lauf_ids` alle 271 Zeilen ab.
+- `anliegen_fehlt` ist je Ausgabe bewertet (eingetragen bei `statement` Nr. 1, sonst leer), alle anderen Fehlerklassen je Zeile.
+
+## Befund 6 – Quellentreue (manuelle Bewertung)
+
+Auswertung: `quellentreue-auswertung.md` (alle Tabellen, Prüfung des Bogens, Zählweise), erzeugt mit `npx tsx referat/2c/quellentreue.ts`. Abbildung: `../abbildungen/2c/quellentreue-fehler.png`. Gezählt wird gewichtet mit `vorkommen`; ein Eintrag ist eine Aussage oder ein nächster Schritt. „≥ 1 Fehler“ = `erfunden`, `kennzahl_verwechselt`, `lernstandsbehauptung` oder `pending_als_lernstand`.
+
+| Menge | Ausgaben | Einträge mit ≥ 1 Fehler | Aussagen mit Fehler | nächste Schritte mit Fehler | erfunden | Kennzahl verwechselt | Anliegen fehlt (ja / nein / n/a) |
+| ----- | -------: | ----------------------: | ------------------: | --------------------------: | -------: | -------------------: | -------------------------------- |
+| alle | 61 | 89/271 (33 %) | 84/210 (40 %) | 5/61 (8 %) | 78 | 16 | 35 / 10 / 16 |
+| Gate bestanden (Modelltext angezeigt) | 15 | 5/60 (8 %) | 0/45 | 5/15 | 5 | 0 | 10 / 5 / 0 |
+| Gate abgelehnt (Extraktion angezeigt) | 46 | 84/211 (40 %) | 84/165 (51 %) | 0/46 | 73 | 16 | 25 / 5 / 16 |
+
+- **Fehlerart:** Fast alle Fehler sind erfundene Details (78 Einträge), dazu 16 verwechselte Kennzahlen, davon 9 in c/voll. `lernstandsbehauptung` und `pending_als_lernstand` kommen nicht vor (0/271).
+- **Je Fall und Variante** (Anteil Einträge mit ≥ 1 Fehler): a 40 / 25 / 0 %, b 33 / 0 / 75 %, c 52 / 40 / 45 %, d 4 / 76 / 40 % (n = 1 Ausgabe) / 0 % (Wdh.) – jeweils voll / nur Texte / Texte + Metadaten. Weniger Kontext senkt die Fehlerquote nicht systematisch.
+- **Gate und Quellentreue:** Die 15 Ausgaben, die das Gate durchlässt (a nur Texte, a Texte + Metadaten, b nur Texte), enthalten keine fehlerhafte Aussage. Bei a nur Texte sind aber alle 5 nächsten Schritte erfunden, und bei a fehlt in allen 10 durchgelassenen Ausgaben ein Anliegen: bei nur Texte die Klausurfrage C/D, bei Texte + Metadaten die Anwesenheitskontroverse E/F (laut `bemerkung`). Das bestätigt Befund 3: Das Gate prüft die Form; ob die Kurzfassung das Anliegen trifft, prüft es nicht.
+- **Anliegen fehlt** in 35 von 45 bewertbaren Ausgaben (Fälle a–c). Nur b/nur Texte und c/nur Texte treffen es (je 5/5); Fall d ist n/a.
+- **Grenze:** eine bewertende Person (KI-Entwurf, geprüft von Antonius Richter), keine Zweitbewertung, daher keine Übereinstimmungsmaße. Die Läufe je Gruppe sind bei `temperature: 0` weitgehend textgleich; die gewichteten Zahlen sind daher keine 5 unabhängigen Stichproben.

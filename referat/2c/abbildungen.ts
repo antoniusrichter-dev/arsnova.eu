@@ -452,7 +452,7 @@ Erzeugt mit \`npx tsx referat/2c/abbildungen.ts\` · Arbeitsstand \`${head}\` ·
 ![Qualität und TTFT](${d1})
 
 - **Datenquelle:** \`${EV}/auswertung.csv\` (5.4). Je Fall/Variante der erste, kalte Lauf (\`kalt = true\`, \`prefill_art = kalt\`); \`prefill_ms\` als Näherung für TTFT (Zeit bis zum ersten Token ≈ Prefill). Gate-Anteil über alle gültigen Läufe der Gruppe.
-- **Qualität** ist hier nur das automatische Produkt-Gate (\`gate_ok\`). Die Quellentreue wird manuell bewertet (\`quellentreue-bogen*.csv\`, Fehlerklassen leer) und ist nicht Teil der Abbildung.
+- **Qualität** ist hier nur das automatische Produkt-Gate (\`gate_ok\`). Die Quellentreue ist manuell bewertet (\`quellentreue-bogen-kompakt.csv\`) und nicht Teil dieser Abbildung; Auswertung in \`quellentreue-fehler.png\` (unten).
 - Hohl = erster Lauf unter Swap gemessen (\`unter_swap\`); diese Zeiten sind nicht mit swapfreien vergleichbar. d* = Wiederholung nach OOM-Neustart (swapfrei, aber langsamer; Ursache nicht belegt, siehe \`auswertung.md\`).
 
 | Fall | Variante | Prefill kalt (s) | Gate bestanden | Messbedingung Lauf 1 |
@@ -491,6 +491,13 @@ ${ga.zeilen.join('\n')}
 | Abschnitt | Datei | Zeit (MEZ) | RssAnon max (MiB) | Swap max (MiB) | RssFile max (MiB) |
 | --------- | ----- | ---------- | ----------------: | -------------: | ----------------: |
 ${sp.zeilen.join('\n')}
+
+## quellentreue-fehler.png
+
+![Quellentreue je Fall und Variante](quellentreue-fehler.png)
+
+- Erzeugt mit \`npx tsx referat/2c/quellentreue.ts\` (eigenes Skript, nicht Teil von \`referat/2c/abbildungen.ts\`); Tabellen und Zählweise in \`referat/evidenz/2c/quellentreue-auswertung.md\`.
+- **Datenquelle:** \`referat/evidenz/2c/quellentreue-bogen-kompakt.csv\` (Bewertung: KI-Entwurf von Claude, von Antonius Richter geprüft).
 
 Pixelmaße: ${d1} ${g1.breite} × ${g1.hoehe}, ${d2} ${g2.breite} × ${g2.hoehe}, ${d3} ${g3.breite} × ${g3.hoehe}, ${d4} ${g4.breite} × ${g4.hoehe}.
 `,

@@ -9,7 +9,7 @@
 - **Werkzeug:** Claude Code (Anthropic), CLI in WSL2 (Ubuntu) auf dem Rechner von Antonius Richter. Version dieser Sitzung: 2.1.330.
 - **Modell:** Claude Opus 5.5 (`claude-opus-5-5`) in der Sitzung vom 2026-11-21 (Nachträge 4.2, Schritte 6.1 und 6.2). Für frühere Sitzungen (2026-11-17 bis 2026-11-21) wurde das Modell nicht protokolliert. *Bitte ergänzen.*
 - **Arbeitsweise:** Je Runbook-Schritt ein Prompt. Claude Code hat Code und Skripte geschrieben, Befehle nur gegen Loopback-Ziele ausgeführt und Ergebnisse protokolliert. Regeln für alle Sitzungen stehen in `CLAUDE.md`: Produktcode nicht ändern, keine Secrets, keine SaaS-LLMs als Versuchsmodell, Commits je Auftrag mit dem jeweiligen Autor.
-- **Nicht durch KI:** Hypothesen und Entscheidungsschwellen, Labels der Referenzmenge (2B), Quellentreue-Bewertung (2C), Interpretation, Handout. Ausnahmen, in denen die KI Bewertungs- oder Interpretationstexte **entworfen** hat, stehen unten gesondert.
+- **Nicht durch KI:** Hypothesen und Entscheidungsschwellen, Labels der Referenzmenge (2B), Interpretation, Handout. Ausnahmen, in denen die KI Bewertungs- oder Interpretationstexte **entworfen** hat, stehen unten gesondert.
 - **Prompts:** Die Prompt-Texte stehen im Runbook. Es wurden keine Secrets, `.env`-Inhalte oder Tokens in Prompts übergeben.
 
 ## Schritte
@@ -38,6 +38,8 @@
 | 5.2 | 2C | Baseline full-context, Fälle a–d × 5 Läufe | `referat/2c/{baseline-lauf.mjs,baseline-alle.sh,fall.sh,llm-proxy.mjs,start-backend.sh,seed-issue456-teilmenge.ts}`, `referat/evidenz/2c/{baseline,seed}/` | Skripte geschrieben, Läufe ausgeführt | |
 | 5.3 | 2C | Ablationen „nur Texte“ und „Texte + Metadaten“, Wiederholung nach OOM | `referat/2c/{ablation-harness.ts,ablation-alle.sh,start-harness.sh}`, `referat/evidenz/2c/ablation*/` | Harness geschrieben (Versuchscode), Läufe ausgeführt, OOM dokumentiert | |
 | 5.4 | 2C | Auswertung, Gate-Gründe, Quellentreue-Bogen (leer) | `referat/2c/{auswertung.ts,gate-gruende.py,bogen-kompakt.py}`, `referat/evidenz/2c/{auswertung*,gate-gruende.txt,quellentreue-bogen*.csv}` | Auswertung geschrieben; Bogen **ohne Bewertung** | |
+| 5.4 (Bewertung) | 2C | **Bewertung des Quellentreue-Bogens** (Kompaktfassung, 93 Zeilen, Fehlerklassen und Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | **KI-Entwurf (Claude), von Antonius Richter geprüft** | |
+| 5.4 (Auswertung Bogen) | 2C | Prüfung des Bogens, Fehlerklassen je Fall und Variante, Befund 6, Abbildung | `referat/2c/quellentreue.ts`, `referat/evidenz/2c/{quellentreue-auswertung.md,auswertung.md}`, `referat/evidenz/abbildungen/2c/quellentreue-fehler.*`, `index.md` | Skript geschrieben und ausgeführt; Befundtext entworfen | |
 | 6.1 | 2A/2B/2C | Abbildungen (PNG 300 dpi, SVG, `index.md`) | `referat/abbildungen/svg.ts`, `referat/{2a,2b,2c}/abbildungen.ts`, `referat/evidenz/abbildungen/{2a,2b,2c}/` | Skripte geschrieben, Abbildungen erzeugt und auf Überlappungen geprüft | |
 | 6.2 | gemeinsam | Diese Offenlegung | `referat/evidenz/ki-offenlegung.md` | Entwurf aus Protokoll und Git-Historie | |
 
@@ -51,4 +53,6 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben, einschließlich der Korrektur zur Train-/Eval-Aufteilung des Seeds |
 | Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben |
 | Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | freigegeben |
+| Bewertung des Quellentreue-Bogens (Fehlerklassen, `anliegen_fehlt` je Ausgabe, Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | Antonius Richter | geprüft |
+| Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | | |
 | Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | | |
