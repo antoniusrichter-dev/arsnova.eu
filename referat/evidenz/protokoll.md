@@ -509,3 +509,11 @@ WSL-RAM 19,5 GiB nach Anpassung). Produktcode = Referenz-Commit `efd71b44`.
   - `bemerkung` in allen Zeilen gefüllt. Summe `vorkommen` = 271 = Zeilen der Langfassung. Die übrigen Spalten sind gegenüber der leeren Fassung (`HEAD`) unverändert.
 - **Auswertung:** `npx tsx referat/2c/quellentreue.ts` → `2c/quellentreue-auswertung.md`, `abbildungen/2c/quellentreue-fehler.{png,svg}`; Befund 6 in `2c/auswertung.md`; `abbildungen/2c/index.md` und die Vorlage in `referat/2c/abbildungen.ts` um die Abbildung ergänzt (nicht neu erzeugt).
 - **Ergebnis:** 89/271 Einträge (33 %) mit mindestens einem Fehler, fast nur `erfunden` (78; `kennzahl_verwechselt` 16; Lernstand/pending 0). Die 15 vom Gate durchgelassenen Ausgaben enthalten 0/45 fehlerhafte Aussagen, aber 5 erfundene nächste Schritte (a/nur Texte); in a fehlt dort in 10/10 Ausgaben ein Anliegen. `anliegen_fehlt` = ja in 35 von 45 bewertbaren Ausgaben.
+
+## Phase 5 / Nachtrag 5.4 – 2C Rubrik auf LLM-Ausgaben (2026-11-22)
+
+- **Neu:** `2c/rubrik-2c.md` – Rubrik aus `rubrik.md` (K1–K5) auf drei LLM-Ausgaben, Fall P = 200 (a voll, b voll, b nur Texte), mit Vergleich der Summen gegen 2A. **KI-Entwurf (Claude), von Antonius Richter geprüft und freigegeben.** Eine bewertende Person, keine Inter-Rater-Übereinstimmung.
+- **Vorabprüfung durch Claude Code:**
+  - Zeilenbezüge (Dateizeile inkl. Kopf) stimmen: Z. 2–7 = baseline/a-P200/voll (enthält „authoritative evidence“ Z. 2, C „neutral“ Z. 4); Z. 13–16 = baseline/b-P200-lernziel/voll, Läufe 2–5 (C „beantwortet“ Z. 14, Lernziel Z. 15); Z. 43–48 = ablation/b-P200-lernziel/nur-texte (alle drei Anliegen A/E/C, Z. 43). Summen 4/5/7 nachgerechnet.
+  - Hinweis: Lauf 1 von b/voll ist eine andere Ausgabe (Z. 8–12) und ist nicht Teil der Rubrikbewertung.
+  - **Abweichung bei den 2A-Werten:** Vorgabe Regelkern 4 · Extraktion 5; laut `rubrik.md` Regelkern **5** · Extraktion **4** (Ungefilterte Liste 5 stimmt). Auf Entscheidung von Antonius Richter wurden die Werte aus `rubrik.md` übernommen.
