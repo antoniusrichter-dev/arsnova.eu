@@ -20,13 +20,13 @@
 | 1.2 | gemeinsam | Referenzmanifest (Hardware, Versionen, Flags mit Fundstelle) | `referat/evidenz/manifest.md` | Daten erhoben, Flags aus den Dokus zusammengestellt | |
 | 2.1 | gemeinsam | Basis-Stack lokal starten, Smoke-Test | `referat/evidenz/labor/`, `referat/evidenz/protokoll.md` | Befehle ausgeführt, Ergebnisse protokolliert | |
 | 2.2 | gemeinsam | Fixture „Sechs-Fragen-Szenario“ (Issue #456 §12) und Seed mit Raumgröße P | `referat/fixtures/{sechs-fragen-szenario.json,seed-sechs-fragen.ts,README.md}`, `referat/evidenz/seed/` | Code geschrieben, Seed ausgeführt | |
-| 3.1 | 2A | Regelkern über P = 50/200/500/1000 | `referat/2a/{regelkern-raumgroessen.test.ts,lib/regelkern.ts,vitest.config.ts}`, `referat/evidenz/2a/baseline-raumgroessen.*` | Testharness geschrieben, Abgleich mit Plan §0.2 | |
-| 3.1 (Nachtrag) | 2A | Fall „P50-skaliert“ (P = 50 nicht realisierbar) | `referat/2a/p50-skaliert.test.ts`, `referat/evidenz/2a/p50-skaliert.*` | Befund und Testfall vorgeschlagen und umgesetzt | |
-| 3.2 | 2A | Gegenfälle | `referat/2a/gegenfaelle.test.ts`, `referat/evidenz/2a/gegenfaelle.*` | Erwartungen vorab notiert, Tests geschrieben | |
-| 3.3 | 2A | Extraktiver Fallback im Releasepfad, Störungen `queue_full` und `source_changed` | `referat/2a/fallback/fallback-lauf.ts`, `referat/evidenz/2a/fallback/` | Skript geschrieben, Backend-Läufe ausgeführt | |
-| 3.4 | 2A | Aufwand (Microbenchmark) | `referat/2a/bench/aufwand.bench.ts`, `referat/evidenz/2a/aufwand*` | Benchmark geschrieben und ausgeführt | |
-| 3.5 | 2A | Rubrikbogen (Kriterien, Anker) | `referat/evidenz/rubrik.md` | Bogen entworfen, ohne Bewertung | |
-| 3.5 (Bewertung) | 2A | **Beispielbewertungen** der Rubrik für Regelkern, Extraktion und ungefilterte Fragenliste (P = 200) | `referat/evidenz/rubrik.md`, Abschnitt „Bewertungsbogen“ | **KI-Entwurf (Claude), von Florian Meyer geprüft** (Angabe der Gruppe, im Protokoll nicht vermerkt) | |
+| 3.1 | 2A | Regelkern über P = 50/200/500/1000 | `referat/2a/{regelkern-raumgroessen.test.ts,lib/regelkern.ts,vitest.config.ts}`, `referat/evidenz/2a/baseline-raumgroessen.*` | Testharness geschrieben, Abgleich mit Plan §0.2 | ✓ |
+| 3.1 (Nachtrag) | 2A | Fall „P50-skaliert“ (P = 50 nicht realisierbar) | `referat/2a/p50-skaliert.test.ts`, `referat/evidenz/2a/p50-skaliert.*` | Befund und Testfall vorgeschlagen und umgesetzt | ✓ |
+| 3.2 | 2A | Gegenfälle | `referat/2a/gegenfaelle.test.ts`, `referat/evidenz/2a/gegenfaelle.*` | Erwartungen vorab notiert, Tests geschrieben | ✓ |
+| 3.3 | 2A | Extraktiver Fallback im Releasepfad, Störungen `queue_full` und `source_changed` | `referat/2a/fallback/fallback-lauf.ts`, `referat/evidenz/2a/fallback/` | Skript geschrieben, Backend-Läufe ausgeführt | ✓ |
+| 3.4 | 2A | Aufwand (Microbenchmark) | `referat/2a/bench/aufwand.bench.ts`, `referat/evidenz/2a/aufwand*` | Benchmark geschrieben und ausgeführt | ✓ |
+| 3.5 | 2A | Rubrikbogen (Kriterien, Anker) | `referat/evidenz/rubrik.md` | Bogen entworfen, ohne Bewertung | ✓ |
+| 3.5 (Bewertung) | 2A | **Beispielbewertungen** der Rubrik für Regelkern, Extraktion und ungefilterte Fragenliste (P = 200) | `referat/evidenz/rubrik.md`, Abschnitt „Bewertungsbogen“ | **KI-Entwurf (Claude), von Florian Meyer geprüft** (Angabe der Gruppe, im Protokoll nicht vermerkt) | ✓ |
 | 4.1 | 2B | Referenzmenge (80 Fragen) und Labelregeln | `referat/2b/{referenz.csv,referenz_erzeugen.py,labelregeln.md}` | Fragen und Regeln vorgeschlagen; **Labels nicht von der KI** (`label_person1` von Jeremy Richter) | |
 | 4.2 | 2B | Evaluation Kaskade gegen Keyword-Baseline bei drei Schwellen, Referenzlauf `eval:qa-nlp` | `referat/2b/eval.ts`, `referat/evidenz/2b/eval/` | Auswertungsskript geschrieben und ausgeführt | |
 | 4.2 (Nachtrag) | 2B | **Fehlerbegründungen**, Fehlermuster, Einordnung der 10 Sensitivitäts-IDs, Sensitivität 2 (ohne 5 Konfliktfälle) | `referat/evidenz/2b/eval/ergebnis.md`, `ergebnis.json`, `referat/2b/eval.ts` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben**; Sensitivität 2 von der KI gerechnet | |
@@ -51,7 +51,7 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 
 | Inhalt | Datei | Geprüft von | Stand |
 | ------ | ----- | ----------- | ----- |
-| Beispielbewertungen der Rubrik (3 Varianten × 5 Kriterien, Bemerkungen) | `referat/evidenz/rubrik.md` | Florian Meyer | geprüft (Angabe der Gruppe) |
+| Beispielbewertungen der Rubrik (3 Varianten × 5 Kriterien, Bemerkungen) | `referat/evidenz/rubrik.md` | Florian Meyer | ✓ |
 | Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben, einschließlich der Korrektur zur Train-/Eval-Aufteilung des Seeds |
 | Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | freigegeben |
 | Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | freigegeben |
