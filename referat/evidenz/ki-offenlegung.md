@@ -16,10 +16,10 @@
 
 | Schritt | Auftrag | Zweck | Erzeugte bzw. geänderte Dateien | Art des KI-Beitrags | Von uns geprüft/korrigiert |
 | ------- | ------- | ----- | ------------------------------- | ------------------- | -------------------------- |
-| 1.1 | gemeinsam | Leitplanken, Branch | `CLAUDE.md` (später Commit-Regeln, `028cff50`) | Datei nach wörtlicher Vorgabe angelegt | |
-| 1.2 | gemeinsam | Referenzmanifest (Hardware, Versionen, Flags mit Fundstelle) | `referat/evidenz/manifest.md` | Daten erhoben, Flags aus den Dokus zusammengestellt | |
-| 2.1 | gemeinsam | Basis-Stack lokal starten, Smoke-Test | `referat/evidenz/labor/`, `referat/evidenz/protokoll.md` | Befehle ausgeführt, Ergebnisse protokolliert | |
-| 2.2 | gemeinsam | Fixture „Sechs-Fragen-Szenario“ (Issue #456 §12) und Seed mit Raumgröße P | `referat/fixtures/{sechs-fragen-szenario.json,seed-sechs-fragen.ts,README.md}`, `referat/evidenz/seed/` | Code geschrieben, Seed ausgeführt | |
+| 1.1 | gemeinsam | Leitplanken, Branch | `CLAUDE.md` (später Commit-Regeln, `028cff50`) | Datei nach wörtlicher Vorgabe angelegt | ✓ |
+| 1.2 | gemeinsam | Referenzmanifest (Hardware, Versionen, Flags mit Fundstelle) | `referat/evidenz/manifest.md` | Daten erhoben, Flags aus den Dokus zusammengestellt | ✓ |
+| 2.1 | gemeinsam | Basis-Stack lokal starten, Smoke-Test | `referat/evidenz/labor/`, `referat/evidenz/protokoll.md` | Befehle ausgeführt, Ergebnisse protokolliert | ✓ |
+| 2.2 | gemeinsam | Fixture „Sechs-Fragen-Szenario“ (Issue #456 §12) und Seed mit Raumgröße P | `referat/fixtures/{sechs-fragen-szenario.json,seed-sechs-fragen.ts,README.md}`, `referat/evidenz/seed/` | Code geschrieben, Seed ausgeführt | ✓ |
 | 3.1 | 2A | Regelkern über P = 50/200/500/1000 | `referat/2a/{regelkern-raumgroessen.test.ts,lib/regelkern.ts,vitest.config.ts}`, `referat/evidenz/2a/baseline-raumgroessen.*` | Testharness geschrieben, Abgleich mit Plan §0.2 | ✓ |
 | 3.1 (Nachtrag) | 2A | Fall „P50-skaliert“ (P = 50 nicht realisierbar) | `referat/2a/p50-skaliert.test.ts`, `referat/evidenz/2a/p50-skaliert.*` | Befund und Testfall vorgeschlagen und umgesetzt | ✓ |
 | 3.2 | 2A | Gegenfälle | `referat/2a/gegenfaelle.test.ts`, `referat/evidenz/2a/gegenfaelle.*` | Erwartungen vorab notiert, Tests geschrieben | ✓ |
@@ -34,16 +34,16 @@
 | 4.2 (Entscheidung) | 2B | **Entscheidung**, Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | **KI-Entwurf (Claude), von Jeremy Richter geprüft und freigegeben** | ✓ |
 | 4.3 | 2B | Laufzeit und Burst (200 `qa.submit`, Queue-Limit 100/20) | `referat/2b/{burst.ts,burst-alle.sh,burst-auswertung.ts,start-backend.sh}`, `referat/evidenz/2b/last/` | Skripte geschrieben, Läufe ausgeführt | ✓ |
 | 4.4 | 2B | Kontextschnittstelle (#456 nur mit persistierten Kategorien) | `referat/2b/kontext-pruefung.ts`, `referat/evidenz/2b/kontext.md`, `referat/evidenz/2b/kontext/` | Prüfskript geschrieben, Live-Prüfung und Produkttests ausgeführt | ✓ |
-| 5.1 | 2C | Private Runtime (GGUF revisionsgebunden, SHA-256, Health-Probe) | `referat/2c/runtime/`, `referat/evidenz/2c/runtime/`, Manifest | Befehle ausgeführt und protokolliert | |
-| 5.2 | 2C | Baseline full-context, Fälle a–d × 5 Läufe | `referat/2c/{baseline-lauf.mjs,baseline-alle.sh,fall.sh,llm-proxy.mjs,start-backend.sh,seed-issue456-teilmenge.ts}`, `referat/evidenz/2c/{baseline,seed}/` | Skripte geschrieben, Läufe ausgeführt | |
-| 5.3 | 2C | Ablationen „nur Texte“ und „Texte + Metadaten“, Wiederholung nach OOM | `referat/2c/{ablation-harness.ts,ablation-alle.sh,start-harness.sh}`, `referat/evidenz/2c/ablation*/` | Harness geschrieben (Versuchscode), Läufe ausgeführt, OOM dokumentiert | |
-| 5.4 | 2C | Auswertung, Gate-Gründe, Quellentreue-Bogen (leer) | `referat/2c/{auswertung.ts,gate-gruende.py,bogen-kompakt.py}`, `referat/evidenz/2c/{auswertung*,gate-gruende.txt,quellentreue-bogen*.csv}` | Auswertung geschrieben; Bogen **ohne Bewertung** | |
-| 5.4 (Bewertung) | 2C | **Bewertung des Quellentreue-Bogens** (Kompaktfassung, 93 Zeilen, Fehlerklassen und Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | **KI-Entwurf (Claude), von Antonius Richter geprüft** | |
-| 5.4 (Auswertung Bogen) | 2C | Prüfung des Bogens, Fehlerklassen je Fall und Variante, Befund 6, Abbildung | `referat/2c/quellentreue.ts`, `referat/evidenz/2c/{quellentreue-auswertung.md,auswertung.md}`, `referat/evidenz/abbildungen/2c/quellentreue-fehler.*`, `index.md` | Skript geschrieben und ausgeführt; Befundtext entworfen | |
-| 5.4 (Rubrik 2C) | 2C | **Rubrik K1–K5 auf LLM-Ausgaben, Fall P = 200**, Vergleich mit 2A | `referat/evidenz/2c/rubrik-2c.md` | **KI-Entwurf (Claude), von Antonius Richter geprüft und freigegeben**; Zeilenbezüge und 2A-Werte von der KI gegen CSV und `rubrik.md` geprüft | |
-| 6.1 | 2A/2B/2C | Abbildungen (PNG 300 dpi, SVG, `index.md`) | `referat/abbildungen/svg.ts`, `referat/{2a,2b,2c}/abbildungen.ts`, `referat/evidenz/abbildungen/{2a,2b,2c}/` | Skripte geschrieben, Abbildungen erzeugt und auf Überlappungen geprüft | |
-| 6.2 | gemeinsam | Diese Offenlegung | `referat/evidenz/ki-offenlegung.md` | Entwurf aus Protokoll und Git-Historie | |
-| 7 (Handout 2C) | 2C | **Handout 2C** (Text, Abbildungen, Belegliste) | außerhalb des Repos: `Cloud_Computing/handout-2c/`; Skripte `referat/2c/handout/` | **Entwurf von Claude Code (Claude Opus 5.5), von Antonius Richter geprüft und überarbeitet** | |
+| 5.1 | 2C | Private Runtime (GGUF revisionsgebunden, SHA-256, Health-Probe) | `referat/2c/runtime/`, `referat/evidenz/2c/runtime/`, Manifest | Befehle ausgeführt und protokolliert | ✓ |
+| 5.2 | 2C | Baseline full-context, Fälle a–d × 5 Läufe | `referat/2c/{baseline-lauf.mjs,baseline-alle.sh,fall.sh,llm-proxy.mjs,start-backend.sh,seed-issue456-teilmenge.ts}`, `referat/evidenz/2c/{baseline,seed}/` | Skripte geschrieben, Läufe ausgeführt | ✓ |
+| 5.3 | 2C | Ablationen „nur Texte“ und „Texte + Metadaten“, Wiederholung nach OOM | `referat/2c/{ablation-harness.ts,ablation-alle.sh,start-harness.sh}`, `referat/evidenz/2c/ablation*/` | Harness geschrieben (Versuchscode), Läufe ausgeführt, OOM dokumentiert | ✓ |
+| 5.4 | 2C | Auswertung, Gate-Gründe, Quellentreue-Bogen (leer) | `referat/2c/{auswertung.ts,gate-gruende.py,bogen-kompakt.py}`, `referat/evidenz/2c/{auswertung*,gate-gruende.txt,quellentreue-bogen*.csv}` | Auswertung geschrieben; Bogen **ohne Bewertung** | ✓ |
+| 5.4 (Bewertung) | 2C | **Bewertung des Quellentreue-Bogens** (Kompaktfassung, 93 Zeilen, Fehlerklassen und Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | **KI-Entwurf (Claude), von Antonius Richter geprüft** | ✓ |
+| 5.4 (Auswertung Bogen) | 2C | Prüfung des Bogens, Fehlerklassen je Fall und Variante, Befund 6, Abbildung | `referat/2c/quellentreue.ts`, `referat/evidenz/2c/{quellentreue-auswertung.md,auswertung.md}`, `referat/evidenz/abbildungen/2c/quellentreue-fehler.*`, `index.md` | Skript geschrieben und ausgeführt; Befundtext entworfen | ✓ |
+| 5.4 (Rubrik 2C) | 2C | **Rubrik K1–K5 auf LLM-Ausgaben, Fall P = 200**, Vergleich mit 2A | `referat/evidenz/2c/rubrik-2c.md` | **KI-Entwurf (Claude), von Antonius Richter geprüft und freigegeben**; Zeilenbezüge und 2A-Werte von der KI gegen CSV und `rubrik.md` geprüft | ✓ |
+| 6.1 | 2A/2B/2C | Abbildungen (PNG 300 dpi, SVG, `index.md`) | `referat/abbildungen/svg.ts`, `referat/{2a,2b,2c}/abbildungen.ts`, `referat/evidenz/abbildungen/{2a,2b,2c}/` | Skripte geschrieben, Abbildungen erzeugt und auf Überlappungen geprüft | ✓ |
+| 6.2 | gemeinsam | Diese Offenlegung | `referat/evidenz/ki-offenlegung.md` | Entwurf aus Protokoll und Git-Historie | ✓ |
+| 7 (Handout 2C) | 2C | **Handout 2C** (Text, Abbildungen, Belegliste) | außerhalb des Repos: `Cloud_Computing/handout-2c/`; Skripte `referat/2c/handout/` | **Entwurf von Claude Code (Claude Opus 5.5), von Antonius Richter geprüft und überarbeitet** | ✓ |
 
 ## Von der KI entworfene Bewertungs- und Interpretationstexte
 
@@ -55,8 +55,8 @@ Diese Texte gehen über Code und Messung hinaus und sind in der Prüfung als KI-
 | Begründungen der 10 auffälligsten Kaskaden-Fehler, drei Fehlermuster | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | ✓ |
 | Einordnung der 10 Sensitivitäts-IDs (Termin, Hilfsmittel, Prüfungsrelevanz, Grenzfall) | `referat/evidenz/2b/eval/ergebnis.md` | Jeremy Richter | ✓ |
 | Entscheidung 8.9b mit Voraussetzungen, Betriebsfolge, Grenzen | `referat/evidenz/2b/entscheidung.md` | Jeremy Richter | ✓ |
-| Bewertung des Quellentreue-Bogens (Fehlerklassen, `anliegen_fehlt` je Ausgabe, Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | Antonius Richter | geprüft |
-| Rubrikbewertung 2C (3 LLM-Ausgaben × 5 Kriterien, Bemerkungen) | `referat/evidenz/2c/rubrik-2c.md` | Antonius Richter | freigegeben |
-| Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | | |
-| Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | | |
-| Handout 2C (gesamter Text, Entscheidung, Gruppensynthese, Abbildungen) | `Cloud_Computing/handout-2c/handout-2c.{md,docx,pdf}` (außerhalb des Repos) | Antonius Richter | geprüft und überarbeitet |
+| Bewertung des Quellentreue-Bogens (Fehlerklassen, `anliegen_fehlt` je Ausgabe, Bemerkungen) | `referat/evidenz/2c/quellentreue-bogen-kompakt.csv` | Antonius Richter | ✓ |
+| Rubrikbewertung 2C (3 LLM-Ausgaben × 5 Kriterien, Bemerkungen) | `referat/evidenz/2c/rubrik-2c.md` | Antonius Richter | ✓ |
+| Befund 6 (Quellentreue) | `referat/evidenz/2c/auswertung.md` | Antonius Richter | ✓ |
+| Titel und Untertitel der Abbildungen (Kernaussage je Abbildung) | `referat/evidenz/abbildungen/*/` (SVG/PNG) | Antonius Richter | ✓ |
+| Handout 2C (gesamter Text, Entscheidung, Gruppensynthese, Abbildungen) | `Cloud_Computing/handout-2c/handout-2c.{md,docx,pdf}` (außerhalb des Repos) | Antonius Richter | ✓ |
